@@ -148,7 +148,25 @@ footer { padding:10px 16px; font-size:11px; color:#6b7280; }
         const m = L.marker([it.latitude, it.longitude], { icon: iconFor(it) }).bindPopup(html).addTo(map);
         markers.push(m);
       });
-      if (markers.length) { try { const grp = L.featureGroup(markers); map.fitBounds(grp.getBounds().pad(0.3)); } catch(e) {} }
+      function isMetro(lat, lon) {
+        return lat >= 41.0 && lat <= 51.5 && lon >= -5.5 && lon <= 10.5;
+      }
+      
+      const metroMarkers = markers.filter(m => {
+        const ll = m.getLatLng();
+        return isMetro(ll.lat, ll.lng);
+      });
+      
+      if (metroMarkers.length) {
+        const grp = L.featureGroup(metroMarkers);
+        map.fitBounds(grp.getBounds().pad(0.2));
+      } else if (markers.length) {
+        const grp = L.featureGroup(markers);
+        map.fitBounds(grp.getBounds().pad(0.2));
+      }
+      map.setMinZoom(5);
+      map.setMaxZoom(12);
+
       const listEl = document.getElementById('list'), qEl=document.getElementById('q'), clearBtn=document.getElementById('clearBtn');
       function render(rows){
         listEl.innerHTML=''; rows.forEach(it => {
