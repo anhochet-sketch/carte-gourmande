@@ -112,7 +112,7 @@ footer { padding:10px 16px; font-size:11px; color:#6b7280; }
     function makeMap(DATA){
       const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap contributors' });
       const esri = L.tileLayer('https://{s}.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { subdomains:['server','services'], attribution:'Tiles © Esri' });
-      const map = L.map('map', { zoomControl:true, tap:true, layers:[osm] }).setView([46.6, 2.2], 6);
+      const map = L.map('map', { zoomControl:true, tap:true, layers:[esri] }).setView([46.6, 2.2], 6);
       L.control.layers({ 'Classique': osm, 'Satellite': esri }, null, { collapsed:true }).addTo(map);
       function makeSVG(color){ return 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"44\" height=\"54\" viewBox=\"0 0 44 54\"><path d=\"M22 1C10.4 1 1 10.4 1 22c0 14.2 17 29.6 20.1 31.9.6.5 1.2.5 1.8 0C26 51.6 43 36.2 43 22 43 10.4 33.6 1 22 1z\" fill=\"'+color+'\"/></svg>'); }
       const defaultIcon = L.icon({
