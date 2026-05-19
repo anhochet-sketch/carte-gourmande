@@ -130,9 +130,9 @@ body{
   width:38px;height:38px;
   border-radius:50% 50% 50% 0;
   background:var(--terre);
-  border:2px solid var(--blanc);
+  border:3px solid var(--blanc);
   transform:rotate(-45deg);
-  box-shadow:0 3px 12px rgba(92,36,25,0.35);
+  box-shadow:0 4px 16px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.1);
   cursor:pointer;
   transition:all 0.2s;
 }
@@ -362,11 +362,21 @@ const map = L.map('map', {
   preferCanvas: true
 }).setView([46.7, 2.3], 6);
 
-// Carte stylisée claire et lisible
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© OpenStreetMap, © CARTO',
-  maxZoom: 18,
-  subdomains: 'abcd'
+// Fond aquarelle Stadia Stamen Watercolor (style éditorial, tons sépia)
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
+  attribution: '© Stadia Maps © Stamen Design © OpenStreetMap',
+  maxZoom: 14,
+  minZoom: 5,
+  ext: 'jpg'
+}).addTo(map);
+
+// Calque de labels (villes, régions) par-dessus, semi-transparent, en français
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_labels/{z}/{x}/{y}{r}.{ext}', {
+  attribution: '',
+  maxZoom: 14,
+  minZoom: 5,
+  ext: 'png',
+  pane: 'shadowPane'
 }).addTo(map);
 
 // Force le z-index correct
