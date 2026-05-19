@@ -362,21 +362,11 @@ const map = L.map('map', {
   preferCanvas: true
 }).setView([46.7, 2.3], 6);
 
-// Fond aquarelle Stadia Stamen Watercolor (style éditorial, tons sépia)
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
-  attribution: '© Stadia Maps © Stamen Design © OpenStreetMap',
-  maxZoom: 14,
-  minZoom: 5,
-  ext: 'jpg'
-}).addTo(map);
-
-// Calque de labels (villes, régions) par-dessus, semi-transparent, en français
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_labels/{z}/{x}/{y}{r}.{ext}', {
-  attribution: '',
-  maxZoom: 14,
-  minZoom: 5,
-  ext: 'png',
-  pane: 'shadowPane'
+// Fond Stadia Alidade Smooth — clean, beige clair, labels en français
+L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?lang=fr', {
+  attribution: '© Stadia Maps © OpenStreetMap',
+  maxZoom: 18,
+  minZoom: 5
 }).addTo(map);
 
 // Force le z-index correct
