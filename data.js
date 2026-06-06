@@ -795,6 +795,21 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Fuet catalan",
+    "region": "Occitanie",
+    "type": "salé",
+    "latitude": 42.485800,
+    "longitude": 2.750600,
+    "image": "fuet-catalan.jpg",
+    "description": "Saucisse sèche fine d'origine catalane, traditionnellement fabriquée dans les Pyrénées-Orientales et le Vallespir, autour de Céret. Pur porc, hachage fin, séchage à l'air libre pendant plusieurs semaines. Pâte serrée, fleur blanche en surface, parfum doux de porc et de poivre. Le mot 'fuet' veut dire 'fouet' en catalan, en référence à sa forme allongée. Se déguste en fines tranches à l'apéritif, accompagné d'un verre de Banyuls ou d'un rouge des Côtes du Roussillon.",
+    "links": [
+      {
+        "text": "Maison Lascours",
+        "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fcharcuteries-seches%2Fproducts%2Ffouet-seche"
+      }
+    ]
+  },
+  {
     "name": "Massepain de Saint-Léonard-de-Noblat",
     "region": "Nouvelle-Aquitaine",
     "type": "sucré",
