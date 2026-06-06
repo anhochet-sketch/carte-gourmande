@@ -202,7 +202,12 @@ window.FULL_DATA = [
     "longitude": 0.181111,
     "image": "camembert-de-normandie.jpg",
     "description": "Né vers 1791 à Camembert (Orne) sous les mains de Marie Harel, fermière instruite par un prêtre réfractaire venu de Brie. Pâte molle à croûte fleurie, lait cru de vache normande, moulé à la louche en cinq couches successives. AOP depuis 1983. Goût franc de noisette et de sous-bois, croûte blanche duveteuse. Servir à température ambiante avec un cidre brut ou un calvados.",
-    "links": []
+    "links": [
+      {
+        "text": "Maison Xavier",
+        "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fepicerie-et-accessoires%2Fproducts%2Fcamembert-normand-xavier"
+      }
+    ]
   },
   {
     "name": "Neufchâtel",
