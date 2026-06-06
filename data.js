@@ -660,17 +660,17 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Foie gras du Gers",
+    "name": "Foie gras du Sud Ouest",
     "region": "Nouvelle-Aquitaine",
     "type": "salé",
     "latitude": 43.491409,
     "longitude": 0.92993,
-    "image": "foie-gras-du-gers.jpg",
+    "image": "foie-gras-du-sud-ouest.jpg",
     "description": "Le foie gras se produit dans 13 départements du Sud-Ouest. De l'élevage à la transformation, tout est fait par 2 250 fermiers locaux. La production s'est développée dans le Sud-Ouest quand Christophe Colomb a ramené le maïs des Antilles au XVᵉ siècle : aliment idéal pour le gavage, il est encore utilisé aujourd'hui.",
     "links": [
       {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nSVcL6"
+        "text": "Maison Lascours",
+        "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fproducts%2Ffoie-gras-de-canard-bocal-du-sud-ouest-120g"
       }
     ]
   },
