@@ -1557,7 +1557,12 @@ window.FULL_DATA = [
     "longitude": 2.661667,
     "image": "cantal.jpg",
     "description": "L'un des plus anciens fromages français, déjà décrit par Pline l'Ancien il y a 2000 ans. Pâte pressée non cuite, lait cru de vache Salers ou Aubrac, meules de 35 à 45 kg. AOP depuis 1956. Trois affinages : jeune (1 mois), entre-deux (3 mois), vieux (6 mois et plus). Goût fruité jeune, puissant et long quand vieux.",
-    "links": []
+    "links": [
+      {
+        "text": "Maison Xavier",
+        "url": "https://lk.gt/arBUF"
+      }
+    ]
   },
   {
     "name": "Salers",
@@ -1978,6 +1983,11 @@ window.FULL_DATA = [
     "longitude": -1.022778,
     "image": "ossau-iraty.jpg",
     "description": "Fromage de brebis des montagnes basques et béarnaises, fabriqué dans les estives de la vallée d'Ossau et de la forêt d'Iraty depuis l'Antiquité. Pâte pressée non cuite, lait cru de brebis Manech ou Basco-Béarnaise, affinage 80 jours minimum. AOP depuis 1980. Goût ample, doux, légèrement noisetté. Servir avec de la confiture de cerise noire d'Itxassou.",
-    "links": []
+    "links": [
+       {
+        "text": "Maison Xavier",
+        "url": "https://lk.gt/acwZ5"
+      }
+    ]
   }
 ];
