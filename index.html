@@ -36,6 +36,10 @@
   --cat-vins:#722f37;
   --cat-epicerie:#4a5a3a;
   --cat-mer:#2c5a8b;
+  --cat-viande:#a14536;
+  --cat-legume:#6b8e3d;
+  --cat-pain:#d6a85c;
+  --cat-plat:#9c6b3f;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -126,6 +130,10 @@ body{
 .chip[data-filter="vins"].active{background:var(--cat-vins);color:var(--blanc);border-color:var(--cat-vins);}
 .chip[data-filter="épicerie"].active{background:var(--cat-epicerie);color:var(--blanc);border-color:var(--cat-epicerie);}
 .chip[data-filter="mer"].active{background:var(--cat-mer);color:var(--blanc);border-color:var(--cat-mer);}
+.chip[data-filter="viande"].active{background:var(--cat-viande);color:var(--blanc);border-color:var(--cat-viande);}
+.chip[data-filter="legume"].active{background:var(--cat-legume);color:var(--blanc);border-color:var(--cat-legume);}
+.chip[data-filter="pain"].active{background:var(--cat-pain);color:var(--encre);border-color:var(--cat-pain);}
+.chip[data-filter="plat"].active{background:var(--cat-plat);color:var(--blanc);border-color:var(--cat-plat);}
 
 .chip-geo{
   background:var(--ocre);
@@ -239,6 +247,10 @@ body{
 .tag-vins{background:var(--cat-vins);}
 .tag-épicerie{background:var(--cat-epicerie);}
 .tag-mer{background:var(--cat-mer);}
+.tag-viande{background:var(--cat-viande);}
+.tag-legume{background:var(--cat-legume);}
+.tag-pain{background:var(--cat-pain);color:var(--encre);}
+.tag-plat{background:var(--cat-plat);}
 
 .sheet-description{
   font-size:0.95rem;
@@ -358,6 +370,10 @@ body{
   <button class="chip" data-filter="vins">🍷 Vins</button>
   <button class="chip" data-filter="épicerie">🍯 Épicerie</button>
   <button class="chip" data-filter="mer">🐟 Mer</button>
+  <button class="chip" data-filter="viande">🍖 Viandes</button>
+  <button class="chip" data-filter="legume">🥬 Légumes</button>
+  <button class="chip" data-filter="pain">🥐 Pains</button>
+  <button class="chip" data-filter="plat">🍲 Plats</button>
 </div>
 
 <div id="map"></div>
@@ -390,6 +406,10 @@ const CATEGORIES = {
   'vins':        { emoji: '🍷', label: 'Vins & spiritueux' },
   'épicerie':    { emoji: '🍯', label: 'Épicerie' },
   'mer':         { emoji: '🐟', label: 'Mer & poisson' },
+  'viande':      { emoji: '🍖', label: 'Viandes & volailles' },
+  'legume':      { emoji: '🥬', label: 'Légumes & fruits' },
+  'pain':        { emoji: '🥐', label: 'Pains & brioches' },
+  'plat':        { emoji: '🍲', label: 'Plats & recettes' },
 };
 
 // ─── INIT MAP ───
