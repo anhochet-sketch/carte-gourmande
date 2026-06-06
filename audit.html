@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audit visuel — Carte Gourmande</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --terre:#8b3a2c;
+  --terre-fonce:#5c2419;
+  --ocre:#c89651;
+  --olive:#4a5a3a;
+  --creme:#f7f1e3;
+  --encre:#1f1a14;
+  --gris:#6e6557;
+  --blanc:#fdfaf3;
+  --rouge:#c8362a;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--blanc);
+  color:var(--encre);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+
+/* ─── HEADER ─── */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:var(--blanc);
+  border-bottom:1px solid rgba(31,26,20,.1);
+  padding:1.2rem 1.5rem;
+}
+.header-inner{
+  max-width:1400px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  flex-wrap:wrap;
+}
+.title{
+  font-family:'Fraunces',serif;
+  font-weight:700;
+  font-style:italic;
+  font-size:1.5rem;
+  color:var(--terre-fonce);
+  letter-spacing:-0.02em;
+}
+.subtitle{
+  font-size:0.78rem;
+  color:var(--gris);
+  margin-top:0.15rem;
+}
+.stats{
+  display:flex;gap:1.2rem;
+  font-size:0.85rem;
+  align-items:center;
+}
+.stat{display:flex;align-items:center;gap:0.4rem;}
+.stat-num{font-weight:600;font-size:1.1rem;}
+.stat-marked{color:var(--rouge);}
+.btn-export{
+  background:var(--encre);
+  color:var(--creme);
+  border:none;
+  padding:0.7rem 1.2rem;
+  border-radius:8px;
+  font-family:'Inter',sans-serif;
+  font-weight:600;
+  font-size:0.85rem;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-export:hover{background:var(--terre-fonce);}
+.btn-export:disabled{
+  background:var(--gris);
+  cursor:not-allowed;
+  opacity:0.5;
+}
+
+/* ─── INSTRUCTIONS ─── */
+.instructions{
+  background:var(--creme);
+  padding:1rem 1.5rem;
+  border-bottom:1px solid rgba(31,26,20,.06);
+}
+.instructions-inner{
+  max-width:1400px;margin:0 auto;
+  font-size:0.88rem;
+  color:var(--encre);
+  line-height:1.5;
+}
+.instructions strong{color:var(--terre-fonce);}
+
+/* ─── GRID ─── */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:1rem;
+  padding:1.5rem;
+  max-width:1400px;
+  margin:0 auto;
+}
+
+.card{
+  position:relative;
+  background:var(--blanc);
+  border:2px solid transparent;
+  border-radius:14px;
+  overflow:hidden;
+  cursor:pointer;
+  transition:all 0.2s ease;
+  user-select:none;
+}
+.card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 24px rgba(31,26,20,0.12);
+}
+.card.marked{
+  border-color:var(--rouge);
+  background:#fff5f4;
+}
+.card.marked .card-image{
+  filter:grayscale(0.7) brightness(0.85);
+}
+.card.marked::after{
+  content:"❌ Image fausse";
+  position:absolute;
+  top:8px;right:8px;
+  background:var(--rouge);
+  color:white;
+  padding:4px 10px;
+  border-radius:6px;
+  font-size:0.7rem;
+  font-weight:600;
+  letter-spacing:0.02em;
+  z-index:5;
+}
+
+.card-image{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  background:var(--creme);
+  display:block;
+  transition:filter 0.2s ease;
+}
+.card-image-missing{
+  width:100%;
+  height:180px;
+  background:repeating-linear-gradient(45deg,var(--creme),var(--creme) 8px,#ede2c4 8px,#ede2c4 16px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--gris);
+  font-size:0.75rem;
+  font-style:italic;
+}
+
+.card-body{
+  padding:0.8rem 0.9rem;
+}
+.card-region{
+  font-size:0.65rem;
+  font-weight:600;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--terre);
+  margin-bottom:0.2rem;
+}
+.card-name{
+  font-family:'Fraunces',serif;
+  font-weight:600;
+  font-size:0.95rem;
+  line-height:1.2;
+  color:var(--encre);
+}
+
+/* ─── EXPORT MODAL ─── */
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(31,26,20,0.7);
+  z-index:200;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:1rem;
+  backdrop-filter:blur(4px);
+}
+.modal.show{display:flex;}
+.modal-content{
+  background:var(--blanc);
+  border-radius:16px;
+  max-width:560px;
+  width:100%;
+  max-height:80vh;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+.modal-header{
+  padding:1.2rem 1.4rem;
+  border-bottom:1px solid rgba(31,26,20,.08);
+}
+.modal-title{
+  font-family:'Fraunces',serif;
+  font-weight:700;
+  font-size:1.3rem;
+  color:var(--encre);
+}
+.modal-subtitle{
+  font-size:0.85rem;
+  color:var(--gris);
+  margin-top:0.3rem;
+}
+.modal-body{
+  padding:1.2rem 1.4rem;
+  overflow-y:auto;
+  flex:1;
+}
+.export-textarea{
+  width:100%;
+  min-height:260px;
+  padding:1rem;
+  border:1px solid rgba(31,26,20,.15);
+  border-radius:8px;
+  font-family:'SF Mono',Menlo,monospace;
+  font-size:0.85rem;
+  line-height:1.6;
+  background:var(--creme);
+  color:var(--encre);
+  resize:vertical;
+}
+.modal-actions{
+  padding:1rem 1.4rem;
+  border-top:1px solid rgba(31,26,20,.08);
+  display:flex;
+  gap:0.6rem;
+  justify-content:flex-end;
+}
+.btn{
+  border:none;
+  padding:0.7rem 1.2rem;
+  border-radius:8px;
+  font-family:'Inter',sans-serif;
+  font-weight:600;
+  font-size:0.85rem;
+  cursor:pointer;
+  transition:all 0.2s;
+}
+.btn-secondary{background:var(--creme);color:var(--encre);}
+.btn-primary{background:var(--encre);color:var(--creme);}
+.btn-primary:hover{background:var(--terre-fonce);}
+
+/* ─── EMPTY ─── */
+.empty{
+  text-align:center;
+  padding:3rem 1rem;
+  color:var(--gris);
+}
+
+@media(max-width:600px){
+  .header-inner{flex-direction:column;align-items:flex-start;}
+  .stats{font-size:0.78rem;}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.6rem;padding:0.8rem;}
+  .card-image{height:140px;}
+  .card-name{font-size:0.82rem;}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div>
+      <div class="title">Audit des images</div>
+      <div class="subtitle">Carte Gourmande — repérage des incohérences</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="stat-num" id="totalCount">0</span> fiches</div>
+      <div class="stat stat-marked">❌ <span class="stat-num" id="markedCount">0</span> à corriger</div>
+      <button class="btn-export" id="exportBtn" disabled>Exporter la liste</button>
+    </div>
+  </div>
+</header>
+
+<div class="instructions">
+  <div class="instructions-inner">
+    <strong>Mode d'emploi :</strong> clique sur chaque vignette dont <strong>l'image ne correspond pas au produit</strong> (ex : photo du village au lieu du fromage). 
+    Tu peux re-cliquer pour décocher. Quand tu as fini, clique sur <strong>"Exporter la liste"</strong> pour récupérer les noms à m'envoyer.
+  </div>
+</div>
+
+<main id="grid" class="grid">
+  <div class="empty">Chargement des fiches…</div>
+</main>
+
+<!-- Modal d'export -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="modal-title">Voilà ta liste 🎯</div>
+      <div class="modal-subtitle" id="modalSubtitle">Copie ce contenu et colle-le dans Claude</div>
+    </div>
+    <div class="modal-body">
+      <textarea class="export-textarea" id="exportText" readonly></textarea>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="closeBtn">Fermer</button>
+      <button class="btn btn-primary" id="copyBtn">📋 Copier</button>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const data = window.FULL_DATA || [];
+const grid = document.getElementById('grid');
+const totalCount = document.getElementById('totalCount');
+const markedCount = document.getElementById('markedCount');
+const exportBtn = document.getElementById('exportBtn');
+const modal = document.getElementById('modal');
+const exportText = document.getElementById('exportText');
+
+// State : ensemble des noms marqués comme problématiques
+const marked = new Set();
+
+// Restore depuis localStorage si déjà fait
+try {
+  const saved = localStorage.getItem('cg_audit_marked');
+  if(saved) JSON.parse(saved).forEach(n => marked.add(n));
+} catch(e){}
+
+function save(){
+  try { localStorage.setItem('cg_audit_marked', JSON.stringify([...marked])); } catch(e){}
+}
+
+function updateStats(){
+  totalCount.textContent = data.length;
+  markedCount.textContent = marked.size;
+  exportBtn.disabled = marked.size === 0;
+}
+
+function render(){
+  grid.innerHTML = '';
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    if(marked.has(item.name)) card.classList.add('marked');
+
+    const imgSrc = item.image || '';
+    const imgHtml = imgSrc 
+      ? `<img class="card-image" src="${imgSrc}" alt="${item.name}" loading="lazy" onerror="this.outerHTML='<div class=&quot;card-image-missing&quot;>Image introuvable</div>'">`
+      : `<div class="card-image-missing">Pas d'image</div>`;
+
+    card.innerHTML = `
+      ${imgHtml}
+      <div class="card-body">
+        <div class="card-region">${item.region || ''}</div>
+        <div class="card-name">${item.name}</div>
+      </div>
+    `;
+
+    card.addEventListener('click', () => {
+      if(marked.has(item.name)){
+        marked.delete(item.name);
+        card.classList.remove('marked');
+      } else {
+        marked.add(item.name);
+        card.classList.add('marked');
+      }
+      save();
+      updateStats();
+    });
+
+    grid.appendChild(card);
+  });
+  updateStats();
+}
+
+exportBtn.addEventListener('click', () => {
+  const list = [...marked].sort().map(n => `- ${n}`).join('\n');
+  exportText.value = list;
+  document.getElementById('modalSubtitle').textContent = 
+    `${marked.size} fiche${marked.size > 1 ? 's' : ''} marquée${marked.size > 1 ? 's' : ''} à corriger`;
+  modal.classList.add('show');
+});
+
+document.getElementById('closeBtn').addEventListener('click', () => {
+  modal.classList.remove('show');
+});
+
+document.getElementById('copyBtn').addEventListener('click', async () => {
+  exportText.select();
+  try {
+    await navigator.clipboard.writeText(exportText.value);
+    document.getElementById('copyBtn').textContent = '✅ Copié !';
+    setTimeout(() => {
+      document.getElementById('copyBtn').textContent = '📋 Copier';
+    }, 1500);
+  } catch(e) {
+    document.execCommand('copy');
+  }
+});
+
+modal.addEventListener('click', (e) => {
+  if(e.target === modal) modal.classList.remove('show');
+});
+
+render();
+</script>
+</body>
+</html>
