@@ -7,7 +7,7 @@
 <meta name="description" content="Découvrez les spécialités gastronomiques de France géolocalisées. Calisson d'Aix, nougat de Montélimar, kouign-amann breton, cannelé bordelais et 140+ autres trésors du terroir français. Où les acheter, leur histoire, leur recette.">
 <meta name="keywords" content="spécialités gastronomiques France, terroir français, carte gourmande, produits régionaux, où acheter">
 <meta property="og:title" content="Carte Gourmande — Les spécialités gastronomiques de France">
-<meta property="og:description" content="148 trésors du terroir français géolocalisés. Histoire, producteurs authentiques, conseils de dégustation.">
+<meta property="og:description" content="Les trésors du terroir français géolocalisés. Histoire, producteurs authentiques, conseils de dégustation.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,15 @@
   --encre:#1f1a14;
   --gris:#6e6557;
   --blanc:#fdfaf3;
+  /* Couleurs par catégorie */
+  --cat-fromage:#e8b95a;
+  --cat-charcuterie:#8b3a2c;
+  --cat-patisserie:#d88a9e;
+  --cat-confiserie:#c89651;
+  --cat-biscuiterie:#b88a52;
+  --cat-vins:#722f37;
+  --cat-epicerie:#4a5a3a;
+  --cat-mer:#2c5a8b;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -107,8 +116,16 @@ body{
   color:var(--creme);
   border-color:var(--encre);
 }
-.chip-sale.active{background:var(--olive);border-color:var(--olive);}
-.chip-sucre.active{background:var(--terre);border-color:var(--terre);}
+
+/* Chips colorés par catégorie quand actifs */
+.chip[data-filter="fromage"].active{background:var(--cat-fromage);color:var(--encre);border-color:var(--cat-fromage);}
+.chip[data-filter="charcuterie"].active{background:var(--cat-charcuterie);color:var(--blanc);border-color:var(--cat-charcuterie);}
+.chip[data-filter="pâtisserie"].active{background:var(--cat-patisserie);color:var(--encre);border-color:var(--cat-patisserie);}
+.chip[data-filter="confiserie"].active{background:var(--cat-confiserie);color:var(--blanc);border-color:var(--cat-confiserie);}
+.chip[data-filter="biscuiterie"].active{background:var(--cat-biscuiterie);color:var(--blanc);border-color:var(--cat-biscuiterie);}
+.chip[data-filter="vins"].active{background:var(--cat-vins);color:var(--blanc);border-color:var(--cat-vins);}
+.chip[data-filter="épicerie"].active{background:var(--cat-epicerie);color:var(--blanc);border-color:var(--cat-epicerie);}
+.chip[data-filter="mer"].active{background:var(--cat-mer);color:var(--blanc);border-color:var(--cat-mer);}
 
 .chip-geo{
   background:var(--ocre);
@@ -124,15 +141,14 @@ body{
   top:108px;bottom:0;left:0;right:0;
 }
 
-/* Pin custom */
+/* Pin custom : cercle avec émoji centré */
 .pin{
   display:flex;align-items:center;justify-content:center;
-  width:38px;height:38px;
+  width:36px;height:36px;
   border-radius:50% 50% 50% 0;
-  background:var(--terre);
   border:3px solid var(--blanc);
   transform:rotate(-45deg);
-  box-shadow:0 4px 16px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.1);
+  box-shadow:0 4px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(0,0,0,0.1);
   cursor:pointer;
   transition:all 0.2s;
 }
@@ -141,9 +157,17 @@ body{
   font-size:18px;
   line-height:1;
 }
-.pin-sucre{background:var(--terre);}
-.pin-sale{background:var(--olive);}
 .pin:hover{transform:rotate(-45deg) scale(1.15);}
+
+/* Couleurs des pins par catégorie */
+.pin-fromage{background:var(--cat-fromage);}
+.pin-charcuterie{background:var(--cat-charcuterie);}
+.pin-pâtisserie{background:var(--cat-patisserie);}
+.pin-confiserie{background:var(--cat-confiserie);}
+.pin-biscuiterie{background:var(--cat-biscuiterie);}
+.pin-vins{background:var(--cat-vins);}
+.pin-épicerie{background:var(--cat-epicerie);}
+.pin-mer{background:var(--cat-mer);}
 
 /* ─── BOTTOM SHEET ─── */
 .sheet{
@@ -209,18 +233,25 @@ body{
   margin-bottom:0.8rem;
 }
 
-.sheet-type-tag{
+.sheet-cat-tag{
   display:inline-block;
   font-size:0.7rem;
   font-weight:600;
   letter-spacing:0.08em;
   text-transform:uppercase;
-  padding:0.2rem 0.6rem;
+  padding:0.25rem 0.7rem;
   border-radius:4px;
   margin-bottom:1rem;
+  color:var(--blanc);
 }
-.tag-sucre{background:#fde9d6;color:var(--terre-fonce);}
-.tag-sale{background:#e3e8d8;color:#2c3823;}
+.tag-fromage{background:var(--cat-fromage);color:var(--encre);}
+.tag-charcuterie{background:var(--cat-charcuterie);}
+.tag-pâtisserie{background:var(--cat-patisserie);color:var(--encre);}
+.tag-confiserie{background:var(--cat-confiserie);}
+.tag-biscuiterie{background:var(--cat-biscuiterie);}
+.tag-vins{background:var(--cat-vins);}
+.tag-épicerie{background:var(--cat-epicerie);}
+.tag-mer{background:var(--cat-mer);}
 
 .sheet-description{
   font-size:0.95rem;
@@ -332,13 +363,19 @@ body{
 <div class="filters" id="filters">
   <button class="chip chip-geo" id="geoBtn">📍 Autour de moi</button>
   <button class="chip active" data-filter="all">Tout</button>
-  <button class="chip chip-sucre" data-filter="sucré">🍯 Sucré</button>
-  <button class="chip chip-sale" data-filter="salé">🥨 Salé</button>
+  <button class="chip" data-filter="fromage">🧀 Fromage</button>
+  <button class="chip" data-filter="charcuterie">🥩 Charcuterie</button>
+  <button class="chip" data-filter="pâtisserie">🍰 Pâtisserie</button>
+  <button class="chip" data-filter="confiserie">🍬 Confiserie</button>
+  <button class="chip" data-filter="biscuiterie">🥖 Biscuiterie</button>
+  <button class="chip" data-filter="vins">🍷 Vins</button>
+  <button class="chip" data-filter="épicerie">🍯 Épicerie</button>
+  <button class="chip" data-filter="mer">🐟 Mer</button>
 </div>
 
 <div id="map"></div>
 
-<div class="disclaimer">Liens d'affiliation Amazon — En tant que Partenaire Amazon, je perçois un revenu sur les achats éligibles.</div>
+<div class="disclaimer">Liens d'affiliation — Je perçois une commission sur certains achats éligibles, sans surcoût pour vous.</div>
 
 <!-- BOTTOM SHEET -->
 <div class="sheet" id="sheet" role="dialog" aria-modal="true">
@@ -348,7 +385,7 @@ body{
   <div class="sheet-body">
     <div class="sheet-region" id="sheetRegion"></div>
     <h2 class="sheet-title" id="sheetTitle"></h2>
-    <span class="sheet-type-tag" id="sheetTypeTag"></span>
+    <span class="sheet-cat-tag" id="sheetCatTag"></span>
     <p class="sheet-description" id="sheetDesc"></p>
     <div class="sheet-actions" id="sheetActions"></div>
   </div>
@@ -356,6 +393,18 @@ body{
 
 <script src="data.js"></script>
 <script>
+// ─── CATÉGORIES : émoji + libellé ───
+const CATEGORIES = {
+  'fromage':     { emoji: '🧀', label: 'Fromage' },
+  'charcuterie': { emoji: '🥩', label: 'Charcuterie' },
+  'pâtisserie':  { emoji: '🍰', label: 'Pâtisserie' },
+  'confiserie':  { emoji: '🍬', label: 'Confiserie' },
+  'biscuiterie': { emoji: '🥖', label: 'Biscuiterie' },
+  'vins':        { emoji: '🍷', label: 'Vins & spiritueux' },
+  'épicerie':    { emoji: '🍯', label: 'Épicerie' },
+  'mer':         { emoji: '🐟', label: 'Mer & poisson' },
+};
+
 // ─── INIT MAP ───
 const map = L.map('map', {
   zoomControl: true,
@@ -385,17 +434,18 @@ function buildMarkers(){
 
   const filtered = currentFilter === 'all'
     ? data
-    : data.filter(d => d.type === currentFilter);
+    : data.filter(d => d.category === currentFilter);
 
   filtered.forEach(item => {
-    const emoji = item.type === 'sucré' ? '🍯' : item.type === 'salé' ? '🥨' : '🍴';
-    const klass = item.type === 'sucré' ? 'pin-sucre' : 'pin-sale';
+    const cat = CATEGORIES[item.category] || { emoji: '🍴', label: 'Autre' };
+    const emoji = cat.emoji;
+    const klass = `pin-${item.category || 'épicerie'}`;
 
     const icon = L.divIcon({
       className: '',
       html: `<div class="pin ${klass}"><span>${emoji}</span></div>`,
-      iconSize: [38, 38],
-      iconAnchor: [19, 38],
+      iconSize: [36, 36],
+      iconAnchor: [18, 36],
       popupAnchor: [0, -34]
     });
 
@@ -423,15 +473,15 @@ function openSheet(item){
   document.getElementById('sheetRegion').textContent = item.region || '';
   document.getElementById('sheetTitle').textContent = item.name;
 
-  const typeTag = document.getElementById('sheetTypeTag');
-  if(item.type === 'sucré'){
-    typeTag.textContent = '🍯 Sucré';
-    typeTag.className = 'sheet-type-tag tag-sucre';
-  } else if(item.type === 'salé'){
-    typeTag.textContent = '🥨 Salé';
-    typeTag.className = 'sheet-type-tag tag-sale';
+  // Tag catégorie
+  const catTag = document.getElementById('sheetCatTag');
+  const cat = CATEGORIES[item.category];
+  if(cat){
+    catTag.textContent = `${cat.emoji} ${cat.label}`;
+    catTag.className = `sheet-cat-tag tag-${item.category}`;
+    catTag.style.display = 'inline-block';
   } else {
-    typeTag.style.display = 'none';
+    catTag.style.display = 'none';
   }
 
   document.getElementById('sheetDesc').textContent = item.description;
@@ -444,9 +494,7 @@ function openSheet(item){
     a.target = '_blank';
     a.rel = 'sponsored noopener';
     a.className = 'btn btn-primary';
-    a.innerHTML = link.text === 'Amazon'
-      ? `🛒 Commander sur ${link.text}`
-      : `🛒 ${link.text}`;
+    a.innerHTML = `🛒 ${link.text}`;
     actions.appendChild(a);
   });
 
