@@ -120,21 +120,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Pâté rennais (galette-saucisse)",
-    "region": "Bretagne",
-    "type": "salé",
-    "latitude": 48.113624,
-    "longitude": -1.680034,
-    "image": "pate-rennais-galette-saucisse.jpg",
-    "description": "Saucisse de porc grillée roulée dans une galette de sarrasin froide. Spécialité de Haute-Bretagne, surtout en Ille-et-Vilaine. Le 'hot-dog breton', emblème du Stade Rennais, qu'on mange debout au marché ou en sortie de stade.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://www.recettes-et-terroirs.com/terrine-de-pate-rennais-2829/"
-      }
-    ]
-  },
-  {
     "name": "Sel de Guérande",
     "region": "Bretagne",
     "type": "salé",
@@ -390,21 +375,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Melon de Cavaillon",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "type": "salé",
-    "latitude": 43.839741,
-    "longitude": 5.042557,
-    "image": "melon-de-cavaillon.jpg",
-    "description": "Cantaloup originaire d'Arménie, arrivé en Italie via l'Afrique. Cavaillon en est la capitale française incontestée depuis le XIXᵉ siècle. Alexandre Dumas, qui adorait ce melon, négocia avec la ville une livraison à vie de 12 melons par an en échange de tous ses livres pour la bibliothèque municipale.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4mP12MU"
-      }
-    ]
-  },
-  {
     "name": "Miel de lavande de Provence",
     "region": "Provence-Alpes-Côte d'Azur",
     "type": "sucré",
@@ -645,66 +615,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Pélardon",
-    "region": "Occitanie",
-    "type": "salé",
-    "latitude": 44.180452,
-    "longitude": 4.332919,
-    "image": "pelardon.jpg",
-    "description": "Tout petit fromage au lait cru de chèvre du Languedoc. AOC depuis 2000. Forme de palet rond d'environ 60 g. Goût caprin franc, mais doux quand il est jeune. Affine de quelques jours à plusieurs semaines selon le goût recherché.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Roquefort",
-    "region": "Occitanie",
-    "type": "salé",
-    "latitude": 43.975711,
-    "longitude": 2.990679,
-    "image": "roquefort.jpg",
-    "description": "Le 'roi des fromages' (et fromage des rois). Bleu fabriqué exclusivement avec du lait cru de brebis Lacaune, affiné dans les caves naturelles de Roquefort-sur-Soulzon, dans le sud de la France. Le pénicillium roqueforti, qui crée son persillage caractéristique, se développe naturellement dans ces caves. Première AOC française (1925).",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Laguiole (fromage)",
-    "region": "Occitanie",
-    "type": "salé",
-    "latitude": 44.684026,
-    "longitude": 2.846168,
-    "image": "laguiole-fromage.jpg",
-    "description": "Aussi appelé Fourme de Laguiole. Fromage au lait cru de vache de la race Aubrac ou Simmental. AOC depuis 1961. Pâte pressée non cuite, en grande fourme cylindrique. Saveur de noisette qui s'intensifie avec l'affinage. À ne pas confondre avec le couteau du même nom — la légende dit pourtant que les bergers d'Aubrac mangeaient l'un avec l'autre.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Rocamadour",
-    "region": "Occitanie",
-    "type": "salé",
-    "latitude": 44.804232,
-    "longitude": 1.627007,
-    "image": "rocamadour.jpg",
-    "description": "Petit cabécou au lait cru entier de chèvre, du Quercy. AOC depuis 1996. Forme de palet de 35 g environ. Très crémeux jeune, plus ferme et corsé avec l'âge. Le faire griller sur une tranche de pain de campagne, c'est un classique.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Cannelé bordelais",
     "region": "Nouvelle-Aquitaine",
     "type": "sucré",
@@ -900,21 +810,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Chabichou du Poitou",
-    "region": "Nouvelle-Aquitaine",
-    "type": "salé",
-    "latitude": 46.412397,
-    "longitude": -0.205316,
-    "image": "chabichou-du-poitou.jpg",
-    "description": "Fromage de chèvre blanc à pâte molle et croûte naturelle. AOC depuis 1990. Forme caractéristique de petit bonde tronconique, environ 120 g. Étiquette typique avec macaron et bretelles.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Tourteau fromagé",
     "region": "Nouvelle-Aquitaine",
     "type": "sucré",
@@ -960,21 +855,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Melon du Haut-Poitou",
-    "region": "Nouvelle-Aquitaine",
-    "type": "salé",
-    "latitude": 46.784684,
-    "longitude": 0.17937,
-    "image": "melon-du-haut-poitou.jpg",
-    "description": "Melon Charentais cultivé exclusivement sur les sols argilo-calcaires du Haut-Poitou. IGP depuis 2014. Chair orangée, sucrée, parfumée. Saison de mi-juillet à mi-septembre.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://www.qualigeo.eu/prodotto-qualigeo/melon-du-haut-poitou-igp/"
-      }
-    ]
-  },
-  {
     "name": "Broyé du Poitou",
     "region": "Nouvelle-Aquitaine",
     "type": "sucré",
@@ -986,21 +866,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://amzn.to/4pLqSUs"
-      }
-    ]
-  },
-  {
-    "name": "Ossau-Iraty",
-    "region": "Nouvelle-Aquitaine",
-    "type": "salé",
-    "latitude": 43.014792,
-    "longitude": -1.074058,
-    "image": "ossau-iraty.jpg",
-    "description": "Fromage à pâte pressée non cuite au lait de brebis, du Pays basque et du Béarn. AOC depuis 1980. Saveur de noisette typique, qui s'accorde merveilleusement avec la confiture de cerise noire d'Itxassou. Affinage de 3 à 10 mois.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
@@ -1046,21 +911,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://amzn.to/4mI4IzZ"
-      }
-    ]
-  },
-  {
-    "name": "Maroilles",
-    "region": "Hauts-de-France",
-    "type": "salé",
-    "latitude": 50.134149,
-    "longitude": 3.758523,
-    "image": "maroilles.jpg",
-    "description": "Fromage à pâte molle et croûte lavée, originaire de Thiérache. AOC depuis 1976. Inventé au VIIᵉ siècle par les moines de l'abbaye de Maroilles, qui achetaient les fromages des fermiers locaux pour les affiner. Odeur puissante (très puissante), goût plus doux et savoureux. Indispensable à la flamiche au maroilles.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
@@ -1185,21 +1035,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Mirabelle de Lorraine",
-    "region": "Grand Est",
-    "type": "sucré",
-    "latitude": 49.114888,
-    "longitude": 6.178769,
-    "image": "mirabelle-de-lorraine.jpg",
-    "description": "Petite prune dorée à peau fine, IGP et Label Rouge. La Lorraine concentre 90 % de la production mondiale de mirabelles. Saison très courte (août-septembre). À déguster fraîche, en tarte, en confiture, ou distillée en eau-de-vie.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nyLjCQ"
-      }
-    ]
-  },
-  {
     "name": "Cramaillotte (miel de pissenlit)",
     "region": "Grand Est",
     "type": "sucré",
@@ -1211,51 +1046,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://lesdelicesorsatus.com/produit/confiture-de-pissenlit/"
-      }
-    ]
-  },
-  {
-    "name": "Munster",
-    "region": "Grand Est",
-    "type": "salé",
-    "latitude": 48.041207,
-    "longitude": 7.136211,
-    "image": "munster.jpg",
-    "description": "Aussi appelé Munster-Géromé (ou Minschterkäs en patois lorrain, Minschterkaas en alsacien). Fromage à pâte molle au lait de vache, AOC depuis 1969. Croûte orangée lavée à l'eau salée. Odeur très marquée, goût plus doux. Saupoudré de cumin selon la tradition alsacienne.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Chaource",
-    "region": "Grand Est",
-    "type": "salé",
-    "latitude": 48.058138,
-    "longitude": 4.137349,
-    "image": "chaource.jpg",
-    "description": "Pâte molle à croûte fleurie, lait de vache entier. AOC depuis 1970, AOP depuis 1996. Originaire du village de Chaource (Aube). Très crémeux, presque fondant à cœur. Petit cylindre blanc à la croûte duveteuse.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Langres",
-    "region": "Grand Est",
-    "type": "salé",
-    "latitude": 47.862729,
-    "longitude": 5.334014,
-    "image": "langres.jpg",
-    "description": "Pâte molle à croûte lavée, lait de vache. AOC depuis 1991, AOP depuis 2009. Du plateau de Langres. Reconnaissable à sa 'fontaine' au sommet (creux qui se forme à l'affinage). Tradition : y verser un peu de marc de Champagne avant dégustation.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
@@ -1380,66 +1170,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Comté",
-    "region": "Bourgogne-Franche-Comté",
-    "type": "salé",
-    "latitude": 47.507641,
-    "longitude": 6.797743,
-    "image": "comte.jpg",
-    "description": "Pâte pressée cuite au lait cru de vache, AOC depuis 1958, AOP depuis 1996. Roues de 32 à 45 kg, 55 à 75 cm de diamètre. Il faut environ 450 litres de lait cru pour faire une roue. Affinage de 4 mois à plusieurs années. Saveurs très variables selon le terroir et la durée d'affinage. Le fromage français le plus vendu.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Mont d'Or",
-    "region": "Bourgogne-Franche-Comté",
-    "type": "salé",
-    "latitude": 46.927547,
-    "longitude": 6.356376,
-    "image": "mont-dor.jpg",
-    "description": "Aussi appelé Vacherin du Haut-Doubs. Pâte molle à croûte lavée, lait de vache. Production saisonnière (15 août au 15 mars). Présenté dans une boîte en épicéa qui lui donne son arôme boisé. Se mange à la cuillère, parfois chauffé au four avec un peu de vin blanc et d'ail — le 'mont d'or chaud'.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Morbier",
-    "region": "Bourgogne-Franche-Comté",
-    "type": "salé",
-    "latitude": 46.540548,
-    "longitude": 6.01548,
-    "image": "morbier.jpg",
-    "description": "Pâte pressée non cuite, lait cru de vache. Reconnaissable à sa raie noire horizontale au milieu — autrefois cendre de bois utilisée pour protéger une demi-meule en attendant la traite du soir. AOP depuis 2002. Saveur fruitée et légèrement aigrelette.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Époisses",
-    "region": "Bourgogne-Franche-Comté",
-    "type": "salé",
-    "latitude": 47.50699,
-    "longitude": 4.173677,
-    "image": "epoisses.jpg",
-    "description": "Pâte molle à croûte lavée au marc de Bourgogne. AOC depuis 1991, AOP depuis 1996. Le 'roi des fromages' selon Brillat-Savarin. Croûte orangée brillante, pâte coulante. Odeur très marquée, goût finalement plus doux et fondant.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Corniotte de Louhans",
     "region": "Bourgogne-Franche-Comté",
     "type": "sucré",
@@ -1451,21 +1181,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://atelierdebrigitte.over-blog.com/2018/10/corniottes.html"
-      }
-    ]
-  },
-  {
-    "name": "Mâconnais",
-    "region": "Bourgogne-Franche-Comté",
-    "type": "salé",
-    "latitude": 46.304929,
-    "longitude": 4.833291,
-    "image": "maconnais.jpg",
-    "description": "Petit fromage au lait cru entier de chèvre, originaire de Mâcon. Aussi appelé Chèvreton de Mâcon. Forme de petit bonde, AOP depuis 2010. Fond délicieusement sur une salade tiède.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
@@ -1545,126 +1260,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Cantal",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.046956,
-    "longitude": 2.749579,
-    "image": "cantal.jpg",
-    "description": "Aussi appelé Fourme de Cantal. Pâte pressée non cuite, lait cru ou pasteurisé de vache, du Massif Central. AOC, AOP. Il faut 400 litres de lait pour une fourme de 40 kg. Trois affinages : jeune (1-2 mois), entre-deux, vieux (plus de 6 mois). De plus en plus puissant et complexe avec le temps.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/3QWyhkN"
-      }
-    ]
-  },
-  {
-    "name": "Salers",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.138827,
-    "longitude": 2.495674,
-    "image": "salers.jpg",
-    "description": "Pâte pressée non cuite, lait cru de vache (idéalement de race Salers). Du Cantal. AOC depuis 1961. Fabriqué exclusivement de mai à octobre, quand les vaches sont à l'herbe. La mention 'Tradition Salers' garantit l'utilisation de la race salers uniquement.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Bleu d'Auvergne",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.650648,
-    "longitude": 2.732866,
-    "image": "bleu-dauvergne.jpg",
-    "description": "Bleu au lait de vache du Massif Central. Persillage bleu à bleu-noir bien réparti. AOP depuis 1975. Plus accessible que le Roquefort, plus crémeux, idéal pour découvrir les bleus. Excellent fondu dans une sauce ou émietté sur une salade.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Fourme d'Ambert",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.549319,
-    "longitude": 3.739597,
-    "image": "fourme-dambert.jpg",
-    "description": "Bleu au lait de vache d'Auvergne. AOC depuis 1972, AOP depuis 2002. Forme caractéristique de cylindre haut et étroit (19 cm de haut, 13 cm de diamètre). Pâte assez ferme, persillage bleu-vert. Doux pour un bleu, à essayer en version 'fourme à l'eau de vie' chez les bons fromagers.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Saint-Nectaire",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.587667,
-    "longitude": 2.991215,
-    "image": "saint-nectaire.jpg",
-    "description": "Pâte pressée non cuite, lait de vache du massif des Monts Dore (Cantal et Puy-de-Dôme). AOP. Affinage sur paille de seigle qui lui donne un parfum particulier. Le savoir-faire est inscrit à l'inventaire du patrimoine culturel immatériel en France depuis 2019.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Reblochon",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.881966,
-    "longitude": 6.323822,
-    "image": "reblochon.jpg",
-    "description": "Pâte molle à croûte lavée, lait cru de vache, des Bornes et Aravis (Haute-Savoie). AOC depuis 1958. Le nom vient de 'reblocher' (traire une seconde fois) : pour échapper à l'impôt sur le lait au XIVᵉ siècle, les fermiers retenaient une partie de la traite. Le second lait, très gras, donnait un fromage exceptionnel. Indispensable à la tartiflette.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Picodon",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 44.9347,
-    "longitude": 5.003568,
-    "image": "picodon.jpg",
-    "description": "Petit fromage de chèvre à pâte molle et croûte naturelle, des Cévennes ardéchoises et de la Drôme. AOP depuis 1996. Forme de palet d'environ 60 g. Frais et crémeux jeune, plus sec et corsé en vieillissant.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Rigotte de Condrieu",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.461687,
-    "longitude": 4.768171,
-    "image": "rigotte-de-condrieu.jpg",
-    "description": "Petit fromage rond au lait cru de chèvre, du massif du Pilat. Croûte naturelle, couleur ivoire à bleutée selon l'affinage. AOP depuis 2009.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Lunettes de Romans",
     "region": "Auvergne-Rhône-Alpes",
     "type": "sucré",
@@ -1725,51 +1320,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Beaufort",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.718765,
-    "longitude": 6.574088,
-    "image": "beaufort.jpg",
-    "description": "Pâte pressée cuite au lait cru de vache de Savoie. AOP. Talon concave caractéristique. Affinage minimum 5 mois, jusqu'à plus de 18 pour le 'Beaufort d'alpage'. Le 'prince des gruyères' selon Brillat-Savarin. Fond magnifiquement dans une fondue savoyarde.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Chevrotin",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 44.626341,
-    "longitude": 6.082613,
-    "image": "chevrotin.jpg",
-    "description": "Fromage fermier au lait cru de chèvre, Savoie et Haute-Savoie. AOC depuis 2002, AOP depuis 2005. Petit format, croûte rosée. Beaucoup plus doux que sa réputation chèvre ne le laisse imaginer.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Tomme des Bauges",
-    "region": "Auvergne-Rhône-Alpes",
-    "type": "salé",
-    "latitude": 45.647146,
-    "longitude": 6.153467,
-    "image": "tomme-des-bauges.jpg",
-    "description": "Lait cru de vache, du massif des Bauges. Pâte pressée non cuite, croûte fleurie grise typique. AOP. 18-20 cm de diamètre, 1,1 à 1,4 kg. Saveur fruitée, longue en bouche.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Gâteau de Savoie",
     "region": "Auvergne-Rhône-Alpes",
     "type": "sucré",
@@ -1815,51 +1365,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Brie de Meaux",
-    "region": "Île-de-France",
-    "type": "salé",
-    "latitude": 48.95984,
-    "longitude": 2.879275,
-    "image": "brie-de-meaux.jpg",
-    "description": "Pâte molle à croûte fleurie, lait cru de vache. AOC depuis 1980. Aire de production s'étendant de la Brie à la Meuse. Grand disque blanc, croûte duveteuse. Couronné 'roi des fromages' au Congrès de Vienne en 1814 par Talleyrand.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Baguette",
-    "region": "Île-de-France",
-    "type": "salé",
-    "latitude": 48.853616,
-    "longitude": 2.370679,
-    "image": "baguette.jpg",
-    "description": "Pain allongé emblématique de la France. Inscrite à l'inventaire du patrimoine culturel immatériel français depuis 2018, au patrimoine mondial UNESCO depuis 2022 (savoir-faire artisanal de la baguette). À reconnaître : croûte croustillante, mie alvéolée irrégulière, parfum prononcé.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/46phAGc"
-      }
-    ]
-  },
-  {
-    "name": "Pain au chocolat / Chocolatine",
-    "region": "Île-de-France",
-    "type": "sucré",
-    "latitude": 48.854433,
-    "longitude": 2.347633,
-    "image": "pain-au-chocolat-chocolatine.jpg",
-    "description": "Viennoiserie en pâte feuilletée identique à celle du croissant, rectangulaire et roulée autour d'une ou deux barres de chocolat. Version chocolatée du croissant des origines viennoises (Paris, 1837-1839). 'Pain au chocolat' au nord, 'chocolatine' au sud-ouest — l'une des querelles préférées des Français.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4gOUfRR"
-      }
-    ]
-  },
-  {
     "name": "Financier",
     "region": "Île-de-France",
     "type": "sucré",
@@ -1871,66 +1376,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://amzn.to/42gBoZR"
-      }
-    ]
-  },
-  {
-    "name": "Neufchâtel",
-    "region": "Normandie",
-    "type": "salé",
-    "latitude": 49.731242,
-    "longitude": 1.441419,
-    "image": "neufchatel.jpg",
-    "description": "Fromage de la région du Pays de Bray, autour de Neufchâtel-en-Bray. AOC depuis 1969. Forme de cœur emblématique (offert par les paysannes normandes aux soldats britanniques durant la guerre de Cent Ans). Pâte molle à croûte fleurie, lait cru de vache.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Camembert de Normandie",
-    "region": "Normandie",
-    "type": "salé",
-    "latitude": 48.891037,
-    "longitude": 0.179083,
-    "image": "camembert-de-normandie.jpg",
-    "description": "Le 'vrai' camembert : pâte molle à croûte fleurie, lait cru de vache, normand de Normandie. AOC depuis 1983, AOP depuis 1996. À distinguer absolument du 'camembert fabriqué en Normandie' (industriel, lait pasteurisé). Inventé selon la légende par Marie Harel en 1791. Le moulage à la louche est obligatoire.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/3OQB8sY"
-      }
-    ]
-  },
-  {
-    "name": "Livarot",
-    "region": "Normandie",
-    "type": "salé",
-    "latitude": 49.006527,
-    "longitude": 0.15237,
-    "image": "livarot.jpg",
-    "description": "Pâte molle à croûte lavée, lait de vache du Pays d'Auge. AOC depuis 1975, AOP depuis 1996. Surnommé 'le colonel' à cause des 5 brins de laîche (sorte de roseau) qui le ceinturent comme des galons. Croûte orangée brillante, pâte ferme et savoureuse.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Pont-l'Évêque",
-    "region": "Normandie",
-    "type": "salé",
-    "latitude": 49.286516,
-    "longitude": 0.187403,
-    "image": "pont-leveque.jpg",
-    "description": "Pâte molle à croûte lavée, lait de vache, originaire du Pays d'Auge. AOC. L'un des plus anciens fromages normands, attesté dès le XIIᵉ siècle. Forme carrée, croûte orangée. Saveur de noisette et de crème.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
@@ -2070,96 +1515,6 @@ window.FULL_DATA = [
     ]
   },
   {
-    "name": "Saint-Maure-de-Touraine",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.101898,
-    "longitude": 0.612026,
-    "image": "saint-maure-de-touraine.jpg",
-    "description": "Fromage de chèvre en forme de bûche cendrée, traversé par une paille de seigle qui le maintient pendant l'affinage et empêche la pâte de s'effondrer. AOC depuis 1990. Paille gravée du nom du producteur.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Selles-sur-Cher",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.276533,
-    "longitude": 1.554584,
-    "image": "selles-sur-cher.jpg",
-    "description": "Fromage de chèvre en palet cendré, du Loir-et-Cher. AOC depuis 1975, AOP depuis 1996. Cendre de charbon de bois sur la croûte. Saveur de noisette, légèrement saline.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Valençay",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.158463,
-    "longitude": 1.565141,
-    "image": "valencay.jpg",
-    "description": "Fromage de chèvre du Berry. Forme caractéristique de pyramide tronquée. La légende dit que Napoléon, vexé d'avoir échoué en Égypte, ordonna qu'on coupe le sommet du fromage qui avait une forme de pyramide complète. Cendré, AOP depuis 2004.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Pouligny-Saint-Pierre",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 46.681329,
-    "longitude": 1.039785,
-    "image": "pouligny-saint-pierre.jpg",
-    "description": "Fromage de chèvre du Berry (Indre). Forme de pyramide haute et fine (surnommé 'la Tour Eiffel'). AOC depuis 1972, l'un des premiers fromages de chèvre à recevoir l'appellation.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
-    "name": "Fromage d'Olivet",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.857087,
-    "longitude": 1.890588,
-    "image": "fromage-dolivet.jpg",
-    "description": "Fromage à pâte molle au lait de vache, de la région d'Olivet (Loiret). Trois versions : au foin, cendré, ou au poivre. Très petit producteur, vraie pépite.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/3KqGw7A"
-      }
-    ]
-  },
-  {
-    "name": "Trèfle du Perche",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.949202,
-    "longitude": 1.039553,
-    "image": "trefle-du-perche.jpg",
-    "description": "Petit fromage de chèvre au lait cru, en forme de trèfle à quatre feuilles. Création artisanale du Perche. Originalité visuelle qui en fait un fromage très photogénique sur un plateau.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
-      }
-    ]
-  },
-  {
     "name": "Canistrelli corse",
     "region": "Corse",
     "type": "sucré",
@@ -2171,21 +1526,6 @@ window.FULL_DATA = [
       {
         "text": "Amazon",
         "url": "https://cosedelposto.com/fr/products/canestrelli-tipici-la-sassellese-in-sacchetto-100g"
-      }
-    ]
-  },
-  {
-    "name": "Brocciu",
-    "region": "Corse",
-    "type": "salé",
-    "latitude": 42.817756,
-    "longitude": 9.346641,
-    "image": "brocciu.jpg",
-    "description": "Fromage de petit-lait corse, AOC depuis 1998, AOP depuis 2003. Petit-lait de brebis ou de chèvre corse, chauffé et salé. Texture souple et crémeuse. Fait pendant la lactation (octobre à juin). Indispensable à des recettes corses : sturzapreti, fiadone, omelette à la menthe et au brocciu.",
-    "links": [
-      {
-        "text": "Amazon",
-        "url": "https://amzn.to/4nT0oic"
       }
     ]
   },
