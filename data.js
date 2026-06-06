@@ -12,7 +12,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nV1YAe"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Caramel au beurre salé",
@@ -27,7 +28,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nnLjFj"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Palet breton de Pont-Aven",
@@ -42,7 +44,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VEJ8RK"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Galette sablée bretonne",
@@ -57,7 +60,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42fkhHW"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Far breton",
@@ -72,7 +76,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pLeXWE"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Sardines en boîte de Douarnenez",
@@ -87,7 +92,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nV1xpA"
       }
-    ]
+    ],
+    "category": "mer"
   },
   {
     "name": "Crêpe bretonne",
@@ -102,7 +108,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/48nW8Tx"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Cocos de Paimpol",
@@ -117,7 +124,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mAqrtz"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Sel de Guérande",
@@ -132,7 +140,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VHc23H"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Andouille de Vire",
@@ -147,7 +156,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mHlRK1"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Tripes à la mode de Caen",
@@ -162,7 +172,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3Wd1byA"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Caramels d'Isigny",
@@ -177,7 +188,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mOWl5K"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Confiture de lait de Rouen",
@@ -192,7 +204,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42UPCjg"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Camembert de Normandie",
@@ -207,7 +220,8 @@ window.FULL_DATA = [
         "text": "Maison Xavier",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fepicerie-et-accessoires%2Fproducts%2Fcamembert-normand-xavier"
       }
-    ]
+    ],
+    "category": "fromage"
   },
   {
     "name": "Neufchâtel",
@@ -217,7 +231,8 @@ window.FULL_DATA = [
     "longitude": 1.443611,
     "image": "neufchatel.jpg",
     "description": "Le plus ancien fromage normand, mentionné dès 1035 dans les archives de l'abbaye de Sigy. Pâte molle à croûte fleurie blanche, lait de vache, forme cylindrique, carrée, ou — symbole — en cœur. La légende veut que pendant la guerre de Cent Ans, les fermières du Pays de Bray le moulaient en cœur pour les soldats anglais. AOP depuis 1969. Goût léger et salé, plus prononcé en vieillissant.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Livarot",
@@ -227,7 +242,8 @@ window.FULL_DATA = [
     "longitude": 0.146389,
     "image": "livarot.jpg",
     "description": "Surnommé 'le colonel' à cause des cinq bandes de laîche (jonc) qui le ceinturent, rappelant les galons militaires. Fromage à pâte molle et croûte lavée orangée, lait de vache, originaire du pays d'Auge. AOP depuis 1975. Odeur puissante, goût ample et corsé. À déguster avec un cidre fermier ou un poiré du Domfrontais.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Pont-l'Évêque",
@@ -237,7 +253,8 @@ window.FULL_DATA = [
     "longitude": 0.193333,
     "image": "pont-l-eveque.jpg",
     "description": "Mentionné dès le XIIᵉ siècle sous le nom d'angelot, il prend le nom de la ville de Pont-l'Évêque au XVIIᵉ. Pâte molle à croûte lavée, lait de vache, forme carrée caractéristique. AOP depuis 1976. Goût doux mais persistant, arômes de crème et de noisette. Accompagner d'un cidre du pays d'Auge.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Calisson d'Aix",
@@ -252,7 +269,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3KtVNV8"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Navettes de Marseille",
@@ -267,7 +285,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nnLjFj"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Tapenade marseillaise",
@@ -282,7 +301,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4ntQe7U"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Papaline d'Avignon",
@@ -297,7 +317,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://lebonbonaupalais.com/products/papaline-davignon"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Fruits confits d'Apt",
@@ -312,7 +333,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nWNnnL"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Berlingot de Carpentras",
@@ -327,7 +349,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mCzJVC"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Pâte de fruits de Saint-Didier",
@@ -342,7 +365,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VF55QM"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Fleur de sel d'Aigues-Mortes",
@@ -357,7 +381,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nn9zrd"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Huile d'olive de Nice",
@@ -372,7 +397,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VFTXmG"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Tourtons de Champsaur",
@@ -387,7 +413,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://tourtons.com"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Fougasse provençale",
@@ -402,7 +429,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46HVcXA"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Gibassié de Provence",
@@ -417,7 +445,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3IM3G7U"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Miel de lavande de Provence",
@@ -432,7 +461,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gOZTn1"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Riz de Camargue",
@@ -447,7 +477,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46DRCO0"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Thym de Provence",
@@ -462,7 +493,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42d5NIG"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Ratatouille niçoise",
@@ -477,7 +509,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/470qTfO"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Banon",
@@ -487,7 +520,8 @@ window.FULL_DATA = [
     "longitude": 5.628611,
     "image": "banon.jpg",
     "description": "Fromage de chèvre du plateau d'Albion, enveloppé dans des feuilles de châtaignier brunies, brun-vert, liées d'un brin de raphia. La feuille protège et parfume la pâte. Pâte molle, lait cru, fabrication artisanale héritée des bergers de Haute-Provence. AOP depuis 2003. Goût boisé, lacté, légèrement piquant en fin de bouche.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Violette de Toulouse",
@@ -502,7 +536,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42eNpPs"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Cachou Lajaunie",
@@ -517,7 +552,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VCeNTZ"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Cassoulet de Castelnaudary",
@@ -532,7 +568,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gLGcMF"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Cassoulet de Toulouse",
@@ -547,7 +584,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gHBPCq"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Cassoulet de Carcassonne",
@@ -562,7 +600,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gHBPCq"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Mongetada de Saint-Gaudens",
@@ -577,7 +616,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VCekBd"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Saucisse de Toulouse",
@@ -592,7 +632,8 @@ window.FULL_DATA = [
         "text": "Maison Lascours",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fcharcuteries-et-saucisses%2Fproducts%2Fsaucisse-de-toulouse"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Ail rose de Lautrec",
@@ -607,7 +648,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4h53lu1"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Échaudé de Carmaux",
@@ -622,7 +664,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.legourmeur.fr/portfolio-items/echaudes-de-carmaux-de-occitanie/"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Anchois de Collioure",
@@ -637,7 +680,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.anchois-roque.com"
       }
-    ]
+    ],
+    "category": "mer"
   },
   {
     "name": "Zézette de Sète",
@@ -652,7 +696,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://leszezettesdesete.fr/produit/la-zezette-de-sete-sachet-degustation-150-grs"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Rousquilles du Roussillon",
@@ -667,7 +712,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VEW5Lj"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Cannelé bordelais",
@@ -682,7 +728,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gOTdFt"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Piment d'Espelette",
@@ -697,7 +744,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46pjrLc"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Truffe du Périgord",
@@ -712,7 +760,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46s4Fn1"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Foie gras du Sud Ouest",
@@ -727,7 +776,8 @@ window.FULL_DATA = [
         "text": "Maison Lascours",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fproducts%2Ffoie-gras-de-canard-bocal-du-sud-ouest-120g"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Pruneaux d'Agen",
@@ -742,7 +792,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mHqkwh"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Touron Basque",
@@ -757,7 +808,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.paries.fr/46-tourons"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Pastis landais",
@@ -772,7 +824,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.arosteguy.com/biscuits-et-desserts/839-960-pastis-landais-mitchut.html"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Piperade basque",
@@ -787,7 +840,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46FgsNw"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Sauce béarnaise",
@@ -802,7 +856,8 @@ window.FULL_DATA = [
         "text": "Maison Lascours",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fepicerie-et-accessoires%2Fproducts%2Fsauce-bearnaise"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Noisettines du Médoc",
@@ -817,7 +872,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.noisettines.fr"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Sarments du Médoc",
@@ -832,7 +888,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/48nSLMn"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Noix du Périgord",
@@ -847,7 +904,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3KnNCtG"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Fuet catalan",
@@ -862,7 +920,8 @@ window.FULL_DATA = [
         "text": "Maison Lascours",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fcharcuteries-seches%2Fproducts%2Ffouet-seche"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Pélardon",
@@ -872,7 +931,8 @@ window.FULL_DATA = [
     "longitude": 3.595833,
     "image": "pelardon.jpg",
     "description": "Petit fromage de chèvre des Cévennes, déjà mentionné par Pline l'Ancien sous le nom 'péraldou'. Pâte molle à croûte naturelle, lait cru de chèvre, affiné 11 jours minimum. AOP depuis 2000. Goût caprin franc, notes de noisette, devient piquant à mesure qu'il sèche. Un classique avec un côtes-du-rhône blanc.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Roquefort",
@@ -882,7 +942,8 @@ window.FULL_DATA = [
     "longitude": 2.989444,
     "image": "roquefort.jpg",
     "description": "Le 'roi des fromages, fromage des rois'. Pâte persillée au lait cru de brebis Lacaune, affiné dans les caves naturelles du Combalou à Roquefort-sur-Soulzon, où le Penicillium roqueforti se développe dans les fleurines (failles d'aération). Charles VI accorde le monopole en 1411. Première AOC française en 1925. Goût puissant, salé, persistant. Servir avec un Sauternes ou un Banyuls.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Laguiole",
@@ -892,7 +953,8 @@ window.FULL_DATA = [
     "longitude": 2.846667,
     "image": "laguiole.jpg",
     "description": "Fromage des hauts plateaux de l'Aubrac, fabriqué dans les burons depuis le Moyen Âge. Pâte pressée non cuite, lait cru de vache Aubrac ou Simmental, affinage 4 mois minimum. AOP depuis 1961. Goût fruité et long, notes herbacées de l'estive. Base de l'aligot avec la tome fraîche.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Rocamadour",
@@ -902,7 +964,8 @@ window.FULL_DATA = [
     "longitude": 1.617778,
     "image": "rocamadour.jpg",
     "description": "Petit palet de fromage de chèvre du causse de Gramat, autrefois appelé 'cabécou'. Cité dès le XVᵉ siècle dans les redevances seigneuriales. Pâte molle à croûte fine, lait cru, 35 g, affiné 6 jours. AOP depuis 1996. Goût doux et lacté quand jeune, plus typé en vieillissant. Un classique avec un Cahors.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Massepain de Saint-Léonard-de-Noblat",
@@ -917,7 +980,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gLH1Ff"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Tourteau fromagé",
@@ -932,7 +996,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3KqGw7A"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Farci poitevin",
@@ -947,7 +1012,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/44rz4NN"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Macaron de Montmorillon",
@@ -962,7 +1028,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.victorine-chocolatier.fr/boutique/article/macarons-de-montmorillon-en-caissette"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Broyé du Poitou",
@@ -977,7 +1044,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pLqSUs"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Bêtise de Cambrai",
@@ -992,7 +1060,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mKA2Op"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Gaufre fourrée lilloise",
@@ -1007,7 +1076,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nYaXAK"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Pastille du mineur",
@@ -1022,7 +1092,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mI4IzZ"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Macaron d'Amiens",
@@ -1037,7 +1108,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nM3fJM"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Maroilles",
@@ -1047,7 +1119,8 @@ window.FULL_DATA = [
     "longitude": 3.808056,
     "image": "maroilles.jpg",
     "description": "Né au VIIᵉ siècle dans l'abbaye de Maroilles, en Thiérache, où les moines mettaient au point sa fabrication. Pâte molle à croûte lavée orangée, lait cru de vache, affinage en cave humide pendant 5 semaines. AOP depuis 1976. Odeur très puissante mais goût plus doux et fruité qu'on ne croit. Cœur de la flamiche picarde.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Madeleine de Commercy",
@@ -1062,7 +1135,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mAnWXZ"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Biscuit rose de Reims",
@@ -1077,7 +1151,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/48JEsS6"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Nonnette de Reims",
@@ -1092,7 +1167,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.famillemary.fr/nonnettes-de-reims-au-miel-bio-des-fleurs-de-la-marne.html"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Pain d'épice d'Alsace",
@@ -1107,7 +1183,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gHFL68"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Bretzel alsacien",
@@ -1122,7 +1199,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46JTq8i"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Saucisse de Strasbourg (knack)",
@@ -1137,7 +1215,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mOUPR6"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Pâtes Spätzle",
@@ -1152,7 +1231,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4njYaZe"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Cramaillotte (miel de pissenlit)",
@@ -1167,7 +1247,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://lesdelicesorsatus.com/produit/confiture-de-pissenlit/"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Andouillette de Troyes",
@@ -1182,7 +1263,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42eOMhd"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Munster",
@@ -1192,7 +1274,8 @@ window.FULL_DATA = [
     "longitude": 7.140833,
     "image": "munster.jpg",
     "description": "Fromage des vallées vosgiennes, créé par les moines irlandais de l'abbaye de Munster au VIIᵉ siècle. Pâte molle à croûte lavée orangée, lait cru de vache vosgienne. AOP depuis 1969. Goût puissant et corsé, croûte brillante d'un orange profond. Traditionnellement servi avec des pommes de terre vapeur, du cumin et un Gewurztraminer.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Chaource",
@@ -1202,7 +1285,8 @@ window.FULL_DATA = [
     "longitude": 4.135278,
     "image": "chaource.jpg",
     "description": "Fromage de l'Aube et de l'Yonne, mentionné dès le XIVᵉ siècle, déjà offert au gouverneur de Langres en 1551. Pâte molle à croûte fleurie blanche, lait de vache, forme cylindrique. AOP depuis 1970. Goût lacté, légèrement salé, notes de champignon. Servir avec un champagne brut nature.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Langres",
@@ -1212,7 +1296,8 @@ window.FULL_DATA = [
     "longitude": 5.333611,
     "image": "langres.jpg",
     "description": "Fromage du plateau de Langres, reconnaissable à sa 'fontaine', cuvette au sommet qu'on remplit traditionnellement de marc ou de champagne. Pâte molle à croûte lavée orangée, lait de vache, retourné une seule fois pour creuser la cuvette. AOP depuis 1991. Goût corsé, légèrement piquant.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Moutarde de Dijon",
@@ -1227,7 +1312,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VCaLej"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Escargots de Bourgogne",
@@ -1242,7 +1328,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nssjpq"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Anis de Flavigny",
@@ -1257,7 +1344,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mBUIIg"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Gougère bourguignonne",
@@ -1272,7 +1360,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nJImiV"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Saucisse de Morteau",
@@ -1287,7 +1376,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/48FAcmL"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Coussin de Lyon",
@@ -1302,7 +1392,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nMaAc4"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Quenelle lyonnaise",
@@ -1317,7 +1408,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pKGasx"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Corniotte de Louhans",
@@ -1332,7 +1424,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://atelierdebrigitte.over-blog.com/2018/10/corniottes.html"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Comté",
@@ -1342,7 +1435,8 @@ window.FULL_DATA = [
     "longitude": 6.15,
     "image": "comte.jpg",
     "description": "Le plus produit des fromages AOP français, fabriqué dans les fruitières du massif du Jura depuis le XIIIᵉ siècle. Pâte pressée cuite, lait cru de vache Montbéliarde, meules de 40 kg, affinage minimum 4 mois mais souvent 12 à 24 mois. AOP depuis 1958. Goût complexe variant selon l'affinage : fruité jeune, noisette ou caramel quand vieux.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Mont d'Or",
@@ -1352,7 +1446,8 @@ window.FULL_DATA = [
     "longitude": 6.3,
     "image": "mont-d-or.jpg",
     "description": "Fromage d'hiver des Hauts du Doubs, fabriqué uniquement du 15 août au 15 mars avec le lait des vaches Montbéliardes redescendues des alpages. Pâte molle à croûte lavée, ceinturé d'une sangle d'épicéa qui le parfume, présenté dans une boîte de bois. AOP depuis 1981. Goût boisé et résineux. Se déguste à la cuillère, ou chauffé au four avec du vin blanc et de l'ail.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Morbier",
@@ -1362,7 +1457,8 @@ window.FULL_DATA = [
     "longitude": 6.025278,
     "image": "morbier.jpg",
     "description": "Reconnaissable à sa raie de cendre noire en son milieu : à l'origine, le fromager du soir protégeait avec de la suie le caillé qui attendait celui du matin. Pâte pressée non cuite, lait cru de vache, fabriqué dans le Jura. AOP depuis 2000. Goût doux et crémeux, légèrement fruité.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Époisses",
@@ -1372,7 +1468,8 @@ window.FULL_DATA = [
     "longitude": 4.171944,
     "image": "epoisses.jpg",
     "description": "Créé au XVIᵉ siècle par les moines cisterciens de l'abbaye d'Époisses en Bourgogne. Pâte molle à croûte lavée orangée, lait cru de vache, lavé au marc de Bourgogne pendant l'affinage. AOP depuis 1991. Odeur puissante, goût ample et long, notes alcoolisées. Le fromage préféré de Brillat-Savarin.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Mâconnais",
@@ -1382,7 +1479,8 @@ window.FULL_DATA = [
     "longitude": 4.831389,
     "image": "maconnais.jpg",
     "description": "Petit fromage de chèvre des coteaux du Mâconnais, autrefois appelé 'chevreton'. Pâte molle, croûte naturelle fine, lait cru de chèvre, forme tronconique caractéristique. AOP depuis 2006. Goût caprin franc, notes de noisette et de châtaigne. Servir avec un Mâcon-Villages blanc.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Nougat de Montélimar",
@@ -1397,7 +1495,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pF6O69"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Lentille verte du Puy",
@@ -1412,7 +1511,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4gKZzp6"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Pastilles de Vichy",
@@ -1427,7 +1527,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mD7VRe"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Marrons glacés de Privas",
@@ -1442,7 +1543,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nmRpWx"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Crème de marrons d'Ardèche",
@@ -1457,7 +1559,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3IImFQO"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Lunettes de Romans",
@@ -1472,7 +1575,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/48FE4Ej"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Pompes aux grattons",
@@ -1487,7 +1591,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.bobosse.fr/recettes/pompe-aux-gratons"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Râpée stéphanoise",
@@ -1502,7 +1607,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.laitduforez.com/recette/recettes-salees/recette-de-rapees-stephanoises-avec-son-sarasson/"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Noix de Grenoble",
@@ -1517,7 +1623,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3KiSgct"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Gâteau de Savoie",
@@ -1532,7 +1639,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.latalemelerie.com/tag-produit/gateau-de-savoie/"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Crozets de Savoie",
@@ -1547,7 +1655,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4nnjDjZ"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Cantal",
@@ -1562,7 +1671,8 @@ window.FULL_DATA = [
         "text": "Maison Xavier",
         "url": "https://lk.gt/arBUF"
       }
-    ]
+    ],
+    "category": "fromage"
   },
   {
     "name": "Salers",
@@ -1572,7 +1682,8 @@ window.FULL_DATA = [
     "longitude": 2.493333,
     "image": "salers.jpg",
     "description": "Fromage d'estive, fabriqué uniquement entre le 15 avril et le 15 novembre dans les burons d'altitude du Cantal, avec le lait cru de vaches Salers. Pâte pressée non cuite, meules de 35 à 50 kg, fabriqué dans une 'gerle' en bois traditionnelle. AOP depuis 1961. Goût intensément herbacé et fruité, marqué par la flore des pâturages.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Bleu d'Auvergne",
@@ -1582,7 +1693,8 @@ window.FULL_DATA = [
     "longitude": 3.090278,
     "image": "bleu-d-auvergne.jpg",
     "description": "Né au milieu du XIXᵉ siècle, dans le Cantal, quand un paysan eut l'idée d'inoculer du Penicillium au lait de vache, à la manière du Roquefort. Pâte persillée, lait de vache, affinage minimum 4 semaines. AOP depuis 1975. Goût franc et corsé, moins salé que le Roquefort. Excellent en sauce sur une côte de bœuf.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Fourme d'Ambert",
@@ -1597,8 +1709,8 @@ window.FULL_DATA = [
         "text": "Maison Xavier",
         "url": "https://lk.gt/aWnyr"
       }
-      
-    ]
+    ],
+    "category": "fromage"
   },
   {
     "name": "Saint-Nectaire",
@@ -1613,7 +1725,8 @@ window.FULL_DATA = [
         "text": "Maison Xavier",
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fepicerie-et-accessoires%2Fproducts%2Fst-nectaire-fermier-aop-xavier"
       }
-    ]
+    ],
+    "category": "fromage"
   },
   {
     "name": "Reblochon",
@@ -1623,7 +1736,8 @@ window.FULL_DATA = [
     "longitude": 6.378611,
     "image": "reblochon.jpg",
     "description": "Né d'une ruse fiscale au XIIIᵉ siècle : les fermiers de Thônes faisaient une 'rebloche' (deuxième traite) après le passage du percepteur. Pâte pressée non cuite, lait cru de vache Abondance, Tarine ou Montbéliarde. AOP depuis 1958. Goût crémeux et fruité, base de la tartiflette.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Picodon",
@@ -1633,7 +1747,8 @@ window.FULL_DATA = [
     "longitude": 4.747778,
     "image": "picodon.jpg",
     "description": "Petit fromage de chèvre de la Drôme et de l'Ardèche, 'piquant' en occitan, allusion à son caractère. Pâte molle, lait cru de chèvre, séchage 12 jours minimum. AOP depuis 1983. Devient sec et piquant en vieillissant. Excellent grillé sur une salade de saison.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Rigotte de Condrieu",
@@ -1643,7 +1758,8 @@ window.FULL_DATA = [
     "longitude": 4.769722,
     "image": "rigotte-de-condrieu.jpg",
     "description": "Petit fromage de chèvre du Pilat rhodanien, mentionné dès le XVᵉ siècle. Pâte molle à croûte naturelle ivoire, lait cru, 30 g, affiné 8 jours minimum. AOP depuis 2009. Goût lacté et caprin, notes de fleurs. À déguster avec un Condrieu blanc, c'est l'accord du terroir.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Beaufort",
@@ -1653,7 +1769,8 @@ window.FULL_DATA = [
     "longitude": 6.5725,
     "image": "beaufort.jpg",
     "description": "Le 'prince des gruyères' selon Brillat-Savarin, fabriqué dans les hauts alpages de Savoie. Pâte pressée cuite, lait cru de vache Tarine ou Abondance, meule à talon concave, affinage 5 mois minimum. AOP depuis 1968. Trois variétés : laitier, été, chalet d'alpage. Goût fruité et long, base de la fondue savoyarde.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Chevrotin",
@@ -1663,7 +1780,8 @@ window.FULL_DATA = [
     "longitude": 6.493611,
     "image": "chevrotin.jpg",
     "description": "Le cousin chèvre du Reblochon, fabriqué dans les Aravis et le Beaufortain. Pâte pressée non cuite, lait cru de chèvre des Savoie, forme de petite meule. AOP depuis 2002. Production confidentielle (moins de 50 tonnes par an). Goût doux et crémeux, plus délicat que le caprin attendu.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Tomme des Bauges",
@@ -1673,7 +1791,8 @@ window.FULL_DATA = [
     "longitude": 6.241944,
     "image": "tomme-des-bauges.jpg",
     "description": "Fromage du massif des Bauges, autrefois appelé 'tomme grise' à cause de sa croûte naturelle cendrée. Pâte pressée non cuite, lait cru de vache, affinage 5 semaines minimum. AOP depuis 2002. Goût rustique, légèrement noisetté, notes herbacées.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Coquelicot de Nemours",
@@ -1688,7 +1807,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mHWaca"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Financier",
@@ -1703,7 +1823,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/42gBoZR"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Brie de Meaux",
@@ -1713,7 +1834,8 @@ window.FULL_DATA = [
     "longitude": 2.878611,
     "image": "brie-de-meaux.jpg",
     "description": "Sacré 'roi des fromages' au Congrès de Vienne en 1815 par Talleyrand, qui en avait fait amener pour le servir aux diplomates européens. Pâte molle à croûte fleurie blanche, lait cru de vache, grande roue de 36 cm. AOP depuis 1980. Goût fruité, notes de noisette et de champignon. Servir avec un champagne brut.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Rigolette nantaise",
@@ -1728,7 +1850,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://lebonbonaupalais.com/products/rigolette-aux-fruits-dete-1"
       }
-    ]
+    ],
+    "category": "confiserie"
   },
   {
     "name": "Gâche vendéenne",
@@ -1743,7 +1866,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pKAlvl"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Mogette de Vendée",
@@ -1758,7 +1882,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3IKWnNN"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Rillettes du Mans",
@@ -1773,7 +1898,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4866dnN"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Rillettes de Tours",
@@ -1788,7 +1914,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3KqGw7A"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Tarte tatin",
@@ -1803,7 +1930,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VETUY9"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Vinaigre d'Orléans",
@@ -1818,7 +1946,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4mP1ef6"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Safran du Gâtinais",
@@ -1833,7 +1962,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://www.lacuisinedesepices.fr/epices/95-safran-du-gatinais.html"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Lentilles vertes du Berry",
@@ -1848,7 +1978,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/3VEXnpD"
       }
-    ]
+    ],
+    "category": "épicerie"
   },
   {
     "name": "Sainte-Maure de Touraine",
@@ -1858,7 +1989,8 @@ window.FULL_DATA = [
     "longitude": 0.6175,
     "image": "sainte-maure-de-touraine.jpg",
     "description": "Bûche de chèvre cendrée, traversée d'une paille de seigle qui porte gravé son nom (signe d'authenticité). Origine sarrasine au VIIIᵉ siècle. Pâte molle, lait cru, croûte cendrée bleutée. AOP depuis 1990. Goût caprin franc, plus prononcé en vieillissant. À déguster avec un Vouvray sec ou un Chinon blanc.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Selles-sur-Cher",
@@ -1868,7 +2000,8 @@ window.FULL_DATA = [
     "longitude": 1.547222,
     "image": "selles-sur-cher.jpg",
     "description": "Fromage de chèvre du Berry, cendré à la poudre de charbon de bois. Pâte molle, lait cru de chèvre, croûte fine cendrée bleu-gris, forme de tronc de cône aplati. AOP depuis 1975. Goût lacté et frais quand jeune, plus typé en vieillissant. Servir avec un Sancerre.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Valençay",
@@ -1878,7 +2011,8 @@ window.FULL_DATA = [
     "longitude": 1.561944,
     "image": "valencay.jpg",
     "description": "Pyramide tronquée à la croûte cendrée, dont la légende attribue la forme à Talleyrand : Napoléon, mécontent à son retour d'Égypte, aurait coupé d'un coup d'épée la pointe de la pyramide originelle pour effacer le souvenir. Lait cru de chèvre. AOP depuis 1998. Goût caprin doux, notes de noisette.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Pouligny-Saint-Pierre",
@@ -1888,7 +2022,8 @@ window.FULL_DATA = [
     "longitude": 1.103611,
     "image": "pouligny-saint-pierre.jpg",
     "description": "Pyramide pointue de fromage de chèvre du Berry, surnommée 'tour Eiffel' ou 'pyramide'. Lait cru, pâte molle, croûte naturelle ivoire bleutée. AOP depuis 1972. Goût lacté quand jeune, caprin franc à maturité. À découper en biais pour avoir un morceau de pointe et de base.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Fromage d'Olivet",
@@ -1898,7 +2033,8 @@ window.FULL_DATA = [
     "longitude": 1.901389,
     "image": "fromage-d-olivet.jpg",
     "description": "Petit fromage du Loiret, déclinaison du brie local. Plusieurs versions : au foin (affiné sous le foin), cendré (à la cendre de bois), au poivre. Pâte molle, lait de vache. Goût doux et crémeux, parfumé selon l'affinage. Spécialité locale qui mérite d'être (re)découverte.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Trèfle du Perche",
@@ -1908,7 +2044,8 @@ window.FULL_DATA = [
     "longitude": 0.901111,
     "image": "trefle-du-perche.jpg",
     "description": "Fromage de chèvre du Perche en forme de trèfle à trois feuilles, créé en 2002 par un éleveur local pour valoriser sa production. Pâte molle à croûte fleurie, lait cru de chèvre. Goût lacté et doux, fabrication confidentielle artisanale. Une curiosité régionale à découvrir.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Canistrelli corse",
@@ -1923,7 +2060,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://cosedelposto.com/fr/products/canestrelli-tipici-la-sassellese-in-sacchetto-100g"
       }
-    ]
+    ],
+    "category": "biscuiterie"
   },
   {
     "name": "Figatellu",
@@ -1938,7 +2076,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/46EhLfx"
       }
-    ]
+    ],
+    "category": "charcuterie"
   },
   {
     "name": "Brocciu",
@@ -1948,7 +2087,8 @@ window.FULL_DATA = [
     "longitude": 9.15,
     "image": "brocciu.jpg",
     "description": "Le fromage emblématique de la Corse, fabriqué uniquement à partir du petit-lait de brebis ou de chèvre, additionné de lait entier. Pâte fraîche, blanche, légèrement granuleuse. AOP depuis 1998. Production de novembre à juin uniquement. Se déguste frais avec du sucre et de l'eau-de-vie, ou en cuisine : cannelloni au brocciu, fiadone.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Gâteau creusois",
@@ -1963,7 +2103,8 @@ window.FULL_DATA = [
         "text": "Amazon",
         "url": "https://amzn.to/4pJG4l1"
       }
-    ]
+    ],
+    "category": "pâtisserie"
   },
   {
     "name": "Chabichou du Poitou",
@@ -1973,7 +2114,8 @@ window.FULL_DATA = [
     "longitude": 0.341667,
     "image": "chabichou-du-poitou.jpg",
     "description": "Petit fromage de chèvre du Haut-Poitou, hérité de l'invasion sarrasine du VIIIᵉ siècle (le mot 'chabichou' vient de l'arabe 'chebli', chèvre). Forme caractéristique de bonde, pâte molle, croûte fleurie, lait cru. AOP depuis 1990. Goût caprin franc, notes de noisette et de foin. Excellent avec un Haut-Poitou blanc ou un sauvignon.",
-    "links": []
+    "links": [],
+    "category": "fromage"
   },
   {
     "name": "Ossau-Iraty",
@@ -1984,10 +2126,11 @@ window.FULL_DATA = [
     "image": "ossau-iraty.jpg",
     "description": "Fromage de brebis des montagnes basques et béarnaises, fabriqué dans les estives de la vallée d'Ossau et de la forêt d'Iraty depuis l'Antiquité. Pâte pressée non cuite, lait cru de brebis Manech ou Basco-Béarnaise, affinage 80 jours minimum. AOP depuis 1980. Goût ample, doux, légèrement noisetté. Servir avec de la confiture de cerise noire d'Itxassou.",
     "links": [
-       {
+      {
         "text": "Maison Xavier",
         "url": "https://lk.gt/acwZ5"
       }
-    ]
+    ],
+    "category": "fromage"
   }
 ];
