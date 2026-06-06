@@ -87,6 +87,9 @@ main{padding:1rem;}
 .card-link a{color:var(--terre);font-weight:600;word-break:break-all;text-decoration:none;}
 .card-link a:hover{text-decoration:underline;}
 .card-nolink{font-size:.72rem;margin-top:.2rem;color:var(--gris);font-style:italic;opacity:.8;}
+.card-gps{font-size:.7rem;margin-top:.15rem;}
+.card-gps a{color:var(--olive);font-weight:600;text-decoration:none;}
+.card-gps a:hover{text-decoration:underline;}
 
 .actions{display:flex;gap:.4rem;margin-top:auto;padding-top:.5rem;}
 .act{flex:1;padding:.4rem;border:1px solid rgba(31,26,20,.15);border-radius:8px;background:var(--blanc);
@@ -208,6 +211,7 @@ function render(){
     const body=document.createElement('div'); body.className='card-body';
     body.innerHTML=`<div class="card-name">${d.name}</div>
       <div class="card-region">📍 ${d.region||'—'}</div>
+      <div class="card-gps"><a href="https://www.google.com/maps?q=${d.latitude},${d.longitude}" target="_blank" rel="noopener">🗺️ ${(+d.latitude).toFixed(4)}, ${(+d.longitude).toFixed(4)} — voir sur la carte</a></div>
       <div class="card-file">${d.image}</div>`;
     if(hasLink(d)){
       d.links.forEach(l=>{
