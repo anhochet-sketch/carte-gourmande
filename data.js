@@ -534,8 +534,8 @@ window.FULL_DATA = [
     "description": "Chair rose, diamètre de 26 à 28 mm, en portions de 12 à 15 cm ou en brasse (sans coupe du boyau). Pur porc, gros hachage. Indispensable au cassoulet, mais aussi grillée, en daube, ou dans la garbure. Label Rouge depuis 2007.",
     "links": [
       {
-        "text": "Amazon",
-        "url": "https://amzn.to/42b82fy"
+        "text": "Maison Lascours",
+        "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fcharcuteries-et-saucisses%2Fproducts%2Fsaucisse-de-toulouse"
       }
     ]
   },
