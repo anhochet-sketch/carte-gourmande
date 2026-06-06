@@ -17,6 +17,7 @@
   --cat-fromage:#e8b95a; --cat-charcuterie:#8b3a2c; --cat-patisserie:#d88a9e;
   --cat-confiserie:#c89651; --cat-biscuiterie:#b88a52; --cat-vins:#722f37;
   --cat-epicerie:#4a5a3a; --cat-mer:#2c5a8b;
+  --cat-viande:#a14536; --cat-legume:#6b8e3d; --cat-pain:#d6a85c; --cat-plat:#9c6b3f;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Inter',sans-serif;background:var(--creme);color:var(--encre);-webkit-font-smoothing:antialiased;}
@@ -82,6 +83,10 @@ main{padding:1rem;}
 .card-name{font-family:'Fraunces',serif;font-weight:600;font-size:1rem;line-height:1.15;}
 .card-region{font-size:.72rem;color:var(--gris);}
 .card-file{font-size:.62rem;color:var(--gris);font-family:monospace;opacity:.7;word-break:break-all;}
+.card-link{font-size:.72rem;margin-top:.2rem;display:flex;align-items:flex-start;gap:.3rem;}
+.card-link a{color:var(--terre);font-weight:600;word-break:break-all;text-decoration:none;}
+.card-link a:hover{text-decoration:underline;}
+.card-nolink{font-size:.72rem;margin-top:.2rem;color:var(--gris);font-style:italic;opacity:.8;}
 
 .actions{display:flex;gap:.4rem;margin-top:auto;padding-top:.5rem;}
 .act{flex:1;padding:.4rem;border:1px solid rgba(31,26,20,.15);border-radius:8px;background:var(--blanc);
@@ -102,9 +107,11 @@ main{padding:1rem;}
     <div class="stat manquante">Photos manquantes : <b id="s-missing">0</b></div>
     <div class="stat probleme">Problèmes signalés : <b id="s-prob">0</b></div>
     <div class="stat ok">Validées : <b id="s-ok">0</b></div>
+    <div class="stat" style="color:var(--terre)">Avec lien : <b id="s-links">0</b></div>
   </div>
   <div class="toolbar">
     <input id="search" type="search" placeholder="Rechercher une spécialité…">
+    <button class="btn-copy" id="noLinkBtn" style="background:var(--olive)">Sans lien seulement</button>
     <button class="btn-copy" id="copyBtn">Copier la liste des problèmes</button>
   </div>
   <div class="chips" id="chips"></div>
@@ -119,10 +126,12 @@ main{padding:1rem;}
 <script>
 const data = (window.FULL_DATA || []).slice();
 const CAT_LABELS = {fromage:'Fromage',charcuterie:'Charcuterie',pâtisserie:'Pâtisserie',
-  confiserie:'Confiserie',biscuiterie:'Biscuiterie',vins:'Vins',épicerie:'Épicerie',mer:'Mer'};
+  confiserie:'Confiserie',biscuiterie:'Biscuiterie',vins:'Vins',épicerie:'Épicerie',mer:'Mer',
+  viande:'Viandes',legume:'Légumes',pain:'Pains',plat:'Plats'};
 const CAT_COLORS = {fromage:'var(--cat-fromage)',charcuterie:'var(--cat-charcuterie)',
   'pâtisserie':'var(--cat-patisserie)',confiserie:'var(--cat-confiserie)',
-  biscuiterie:'var(--cat-biscuiterie)',vins:'var(--cat-vins)','épicerie':'var(--cat-epicerie)',mer:'var(--cat-mer)'};
+  biscuiterie:'var(--cat-biscuiterie)',vins:'var(--cat-vins)','épicerie':'var(--cat-epicerie)',mer:'var(--cat-mer)',
+  viande:'var(--cat-viande)',legume:'var(--cat-legume)',pain:'var(--cat-pain)',plat:'var(--cat-plat)'};
 
 // État (persiste pendant la revue, dégrade proprement si stockage indispo)
 let flags = {};      // name -> 'ok' | 'probleme'
@@ -132,6 +141,8 @@ function saveFlags(){ try{ localStorage.setItem('cg_flags', JSON.stringify(flags
 
 let curCat = 'all';
 let query = '';
+let onlyNoLink = false;
+const hasLink = d => Array.isArray(d.links) && d.links.length>0;
 
 const grid = document.getElementById('grid');
 const empty = document.getElementById('empty');
@@ -147,12 +158,19 @@ const chips = document.getElementById('chips');
 });
 
 document.getElementById('search').addEventListener('input', e=>{ query=e.target.value.toLowerCase().trim(); render(); });
+document.getElementById('noLinkBtn').addEventListener('click', e=>{
+  onlyNoLink=!onlyNoLink;
+  e.target.textContent = onlyNoLink ? '↩︎ Tout afficher' : 'Sans lien seulement';
+  e.target.style.background = onlyNoLink ? 'var(--terre-fonce)' : 'var(--olive)';
+  render();
+});
 
 function updateStats(){
   document.getElementById('s-total').textContent = data.length;
   document.getElementById('s-missing').textContent = Object.keys(missing).length;
   document.getElementById('s-prob').textContent = Object.values(flags).filter(v=>v==='probleme').length;
   document.getElementById('s-ok').textContent = Object.values(flags).filter(v=>v==='ok').length;
+  document.getElementById('s-links').textContent = data.filter(hasLink).length;
 }
 
 function render(){
@@ -160,6 +178,7 @@ function render(){
   const items = data.filter(d=>{
     if(curCat!=='all' && d.category!==curCat) return false;
     if(query && !d.name.toLowerCase().includes(query) && !(d.region||'').toLowerCase().includes(query)) return false;
+    if(onlyNoLink && hasLink(d)) return false;
     return true;
   });
   empty.style.display = items.length? 'none':'block';
@@ -190,6 +209,18 @@ function render(){
     body.innerHTML=`<div class="card-name">${d.name}</div>
       <div class="card-region">📍 ${d.region||'—'}</div>
       <div class="card-file">${d.image}</div>`;
+    if(hasLink(d)){
+      d.links.forEach(l=>{
+        const row=document.createElement('div'); row.className='card-link';
+        const a=document.createElement('a'); a.href=l.url; a.target='_blank'; a.rel='noopener';
+        a.textContent='🔗 '+(l.text||'lien')+' — '+l.url;
+        row.appendChild(a); body.appendChild(row);
+      });
+    } else {
+      const nl=document.createElement('div'); nl.className='card-nolink';
+      nl.textContent='— pas de lien d’affiliation —';
+      body.appendChild(nl);
+    }
     const actions=document.createElement('div'); actions.className='actions';
     const bOk=document.createElement('button'); bOk.className='act'+(state==='ok'?' sel-ok':''); bOk.textContent='✓ OK';
     const bPr=document.createElement('button'); bPr.className='act'+(state==='probleme'?' sel-probleme':''); bPr.textContent='✗ Problème';
