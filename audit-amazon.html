@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audit Amazon — Carte Gourmande</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --terre:#8b3a2c;
+  --terre-fonce:#5c2419;
+  --ocre:#c89651;
+  --olive:#4a5a3a;
+  --creme:#f7f1e3;
+  --encre:#1f1a14;
+  --gris:#6e6557;
+  --blanc:#fdfaf3;
+  --vert:#4a7c3a;
+  --rouge:#c8362a;
+  --orange:#d97706;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--blanc);
+  color:var(--encre);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+
+/* ─── HEADER ─── */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:var(--blanc);
+  border-bottom:1px solid rgba(31,26,20,.1);
+  padding:1.1rem 1.5rem;
+  box-shadow:0 2px 10px rgba(0,0,0,0.04);
+}
+.header-inner{
+  max-width:1500px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  flex-wrap:wrap;
+}
+.title{
+  font-family:'Fraunces',serif;
+  font-weight:700;
+  font-style:italic;
+  font-size:1.5rem;
+  color:var(--terre-fonce);
+  letter-spacing:-0.02em;
+}
+.subtitle{
+  font-size:0.78rem;
+  color:var(--gris);
+  margin-top:0.15rem;
+}
+.stats{
+  display:flex;gap:1rem;
+  font-size:0.82rem;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.stat{display:flex;align-items:center;gap:0.35rem;}
+.stat-num{font-weight:700;font-size:1.1rem;}
+.stat-ok{color:var(--vert);}
+.stat-mort{color:var(--rouge);}
+.stat-mid{color:var(--orange);}
+.stat-todo{color:var(--gris);}
+
+.btn-export{
+  background:var(--encre);
+  color:var(--creme);
+  border:none;
+  padding:0.7rem 1.2rem;
+  border-radius:8px;
+  font-family:'Inter',sans-serif;
+  font-weight:600;
+  font-size:0.85rem;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-export:hover{background:var(--terre-fonce);}
+
+/* ─── FILTRES ─── */
+.filters{
+  background:var(--creme);
+  padding:0.8rem 1.5rem;
+  border-bottom:1px solid rgba(31,26,20,.06);
+  display:flex;
+  align-items:center;
+  gap:0.6rem;
+  flex-wrap:wrap;
+}
+.filter-label{
+  font-size:0.78rem;
+  font-weight:600;
+  color:var(--gris);
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  margin-right:0.4rem;
+}
+.chip{
+  padding:0.4rem 0.85rem;
+  background:var(--blanc);
+  border:1px solid rgba(31,26,20,.12);
+  border-radius:999px;
+  font-size:0.78rem;
+  font-weight:500;
+  color:var(--encre);
+  cursor:pointer;
+  transition:all 0.15s;
+  white-space:nowrap;
+}
+.chip:hover{border-color:var(--encre);}
+.chip.active{
+  background:var(--encre);
+  color:var(--creme);
+  border-color:var(--encre);
+}
+
+/* ─── GRID ─── */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:1rem;
+  padding:1.2rem 1.5rem;
+  max-width:1500px;
+  margin:0 auto;
+}
+
+.card{
+  background:var(--blanc);
+  border:2px solid transparent;
+  border-radius:14px;
+  overflow:hidden;
+  transition:all 0.2s ease;
+  display:flex;
+  flex-direction:column;
+}
+.card.status-ok{border-color:var(--vert);background:#f4f9f1;}
+.card.status-mort{border-color:var(--rouge);background:#fdf3f2;}
+.card.status-mid{border-color:var(--orange);background:#fef7e8;}
+
+.card-top{
+  position:relative;
+  height:140px;
+  background:var(--creme);
+  overflow:hidden;
+}
+.card-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.card-image-missing{
+  width:100%;height:100%;
+  background:repeating-linear-gradient(45deg,var(--creme),var(--creme) 8px,#ede2c4 8px,#ede2c4 16px);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--gris);font-size:0.75rem;font-style:italic;
+}
+.card-status-badge{
+  position:absolute;
+  top:8px;right:8px;
+  padding:4px 10px;
+  border-radius:6px;
+  font-size:0.7rem;
+  font-weight:700;
+  letter-spacing:0.02em;
+  color:white;
+}
+.card-status-badge.ok{background:var(--vert);}
+.card-status-badge.mort{background:var(--rouge);}
+.card-status-badge.mid{background:var(--orange);}
+
+.card-body{
+  padding:0.85rem 1rem;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:0.6rem;
+}
+.card-region{
+  font-size:0.65rem;
+  font-weight:600;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--terre);
+}
+.card-name{
+  font-family:'Fraunces',serif;
+  font-weight:600;
+  font-size:1.05rem;
+  line-height:1.2;
+  color:var(--encre);
+}
+
+.btn-open{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.4rem;
+  padding:0.55rem 0.9rem;
+  background:var(--encre);
+  color:var(--creme);
+  border:none;
+  border-radius:8px;
+  font-family:'Inter',sans-serif;
+  font-size:0.8rem;
+  font-weight:600;
+  text-decoration:none;
+  cursor:pointer;
+  transition:background 0.15s;
+}
+.btn-open:hover{background:var(--terre-fonce);}
+
+.card-actions{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:0.3rem;
+  margin-top:0.3rem;
+}
+.btn-status{
+  padding:0.5rem 0.4rem;
+  border:1.5px solid rgba(31,26,20,.15);
+  background:var(--blanc);
+  border-radius:6px;
+  font-family:'Inter',sans-serif;
+  font-size:0.72rem;
+  font-weight:600;
+  cursor:pointer;
+  transition:all 0.15s;
+}
+.btn-status:hover{transform:translateY(-1px);}
+.btn-status.ok-btn.active{background:var(--vert);color:white;border-color:var(--vert);}
+.btn-status.mort-btn.active{background:var(--rouge);color:white;border-color:var(--rouge);}
+.btn-status.mid-btn.active{background:var(--orange);color:white;border-color:var(--orange);}
+
+.new-link-input{
+  width:100%;
+  padding:0.5rem 0.7rem;
+  border:1px solid rgba(31,26,20,.15);
+  border-radius:6px;
+  font-family:'SF Mono',Menlo,monospace;
+  font-size:0.75rem;
+  background:var(--blanc);
+  color:var(--encre);
+  display:none;
+}
+.new-link-input.show{display:block;}
+.new-link-input:focus{
+  outline:none;
+  border-color:var(--terre);
+}
+
+.note-input{
+  width:100%;
+  padding:0.5rem 0.7rem;
+  border:1px solid rgba(31,26,20,.15);
+  border-radius:6px;
+  font-family:'Inter',sans-serif;
+  font-size:0.78rem;
+  background:var(--blanc);
+  color:var(--encre);
+  display:none;
+  resize:vertical;
+  min-height:50px;
+}
+.note-input.show{display:block;}
+.note-input:focus{outline:none;border-color:var(--terre);}
+
+/* ─── MODAL EXPORT ─── */
+.modal{
+  position:fixed;inset:0;
+  background:rgba(31,26,20,0.7);
+  z-index:200;
+  display:none;
+  align-items:center;justify-content:center;
+  padding:1rem;
+  backdrop-filter:blur(4px);
+}
+.modal.show{display:flex;}
+.modal-content{
+  background:var(--blanc);
+  border-radius:16px;
+  max-width:720px;
+  width:100%;
+  max-height:85vh;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+.modal-header{
+  padding:1.2rem 1.4rem;
+  border-bottom:1px solid rgba(31,26,20,.08);
+}
+.modal-title{
+  font-family:'Fraunces',serif;
+  font-weight:700;
+  font-size:1.3rem;
+  color:var(--encre);
+}
+.modal-subtitle{
+  font-size:0.85rem;
+  color:var(--gris);
+  margin-top:0.3rem;
+}
+.modal-body{
+  padding:1.2rem 1.4rem;
+  overflow-y:auto;
+  flex:1;
+}
+.export-textarea{
+  width:100%;
+  min-height:340px;
+  padding:1rem;
+  border:1px solid rgba(31,26,20,.15);
+  border-radius:8px;
+  font-family:'SF Mono',Menlo,monospace;
+  font-size:0.8rem;
+  line-height:1.5;
+  background:var(--creme);
+  color:var(--encre);
+  resize:vertical;
+}
+.modal-actions{
+  padding:1rem 1.4rem;
+  border-top:1px solid rgba(31,26,20,.08);
+  display:flex;
+  gap:0.6rem;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+}
+.btn{
+  border:none;
+  padding:0.7rem 1.2rem;
+  border-radius:8px;
+  font-family:'Inter',sans-serif;
+  font-weight:600;
+  font-size:0.85rem;
+  cursor:pointer;
+  transition:all 0.2s;
+}
+.btn-secondary{background:var(--creme);color:var(--encre);}
+.btn-primary{background:var(--encre);color:var(--creme);}
+.btn-primary:hover{background:var(--terre-fonce);}
+.btn-danger{background:var(--rouge);color:white;}
+
+.empty{
+  text-align:center;
+  padding:3rem 1rem;
+  color:var(--gris);
+}
+
+@media(max-width:600px){
+  .header-inner{flex-direction:column;align-items:flex-start;}
+  .grid{grid-template-columns:1fr;padding:0.8rem;}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div>
+      <div class="title">Audit liens Amazon</div>
+      <div class="subtitle">Carte Gourmande — vérification produit par produit</div>
+    </div>
+    <div class="stats">
+      <div class="stat stat-ok">✅ <span class="stat-num" id="okCount">0</span></div>
+      <div class="stat stat-mort">❌ <span class="stat-num" id="mortCount">0</span></div>
+      <div class="stat stat-mid">⚠️ <span class="stat-num" id="midCount">0</span></div>
+      <div class="stat stat-todo">⏳ <span class="stat-num" id="todoCount">0</span></div>
+      <button class="btn-export" id="exportBtn">Exporter le rapport</button>
+    </div>
+  </div>
+</header>
+
+<div class="filters">
+  <span class="filter-label">Filtre :</span>
+  <button class="chip active" data-filter="all">Tout</button>
+  <button class="chip" data-filter="todo">⏳ À vérifier</button>
+  <button class="chip" data-filter="ok">✅ OK</button>
+  <button class="chip" data-filter="mort">❌ Morts</button>
+  <button class="chip" data-filter="mid">⚠️ Médiocres</button>
+</div>
+
+<main id="grid" class="grid">
+  <div class="empty">Chargement…</div>
+</main>
+
+<!-- Modal export -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="modal-title">Rapport d'audit 📊</div>
+      <div class="modal-subtitle" id="modalSubtitle"></div>
+    </div>
+    <div class="modal-body">
+      <textarea class="export-textarea" id="exportText" readonly></textarea>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-danger" id="resetBtn">🗑️ Réinitialiser audit</button>
+      <button class="btn btn-secondary" id="closeBtn">Fermer</button>
+      <button class="btn btn-primary" id="copyBtn">📋 Copier le rapport</button>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const data = window.FULL_DATA || [];
+const grid = document.getElementById('grid');
+
+// State : nom → { status: 'ok'|'mort'|'mid', newLink: '', note: '' }
+let state = {};
+try {
+  const saved = localStorage.getItem('cg_amazon_audit');
+  if(saved) state = JSON.parse(saved);
+} catch(e){}
+
+let currentFilter = 'all';
+
+function save(){
+  try { localStorage.setItem('cg_amazon_audit', JSON.stringify(state)); } catch(e){}
+}
+
+function updateStats(){
+  let ok=0, mort=0, mid=0;
+  Object.values(state).forEach(s => {
+    if(s.status === 'ok') ok++;
+    else if(s.status === 'mort') mort++;
+    else if(s.status === 'mid') mid++;
+  });
+  const todo = data.length - ok - mort - mid;
+  document.getElementById('okCount').textContent = ok;
+  document.getElementById('mortCount').textContent = mort;
+  document.getElementById('midCount').textContent = mid;
+  document.getElementById('todoCount').textContent = todo;
+}
+
+function getAmazonLink(item){
+  const links = item.links || [];
+  const amazon = links.find(l => l.text === 'Amazon' || (l.url && l.url.includes('amzn')) || (l.url && l.url.includes('amazon')));
+  return amazon ? amazon.url : null;
+}
+
+function render(){
+  grid.innerHTML = '';
+  
+  const filtered = data.filter(item => {
+    const s = state[item.name];
+    if(currentFilter === 'all') return true;
+    if(currentFilter === 'todo') return !s || !s.status;
+    return s && s.status === currentFilter;
+  });
+  
+  if(filtered.length === 0){
+    grid.innerHTML = '<div class="empty">Aucune fiche dans ce filtre.</div>';
+    return;
+  }
+  
+  filtered.forEach(item => {
+    const s = state[item.name] || {};
+    const card = document.createElement('div');
+    card.className = 'card';
+    if(s.status) card.classList.add(`status-${s.status}`);
+    
+    const amazonUrl = getAmazonLink(item);
+    
+    const badgeMap = { ok: '✅ OK', mort: '❌ MORT', mid: '⚠️ MÉDIOCRE' };
+    const badge = s.status ? `<div class="card-status-badge ${s.status}">${badgeMap[s.status]}</div>` : '';
+    
+    const imgHtml = item.image 
+      ? `<img class="card-image" src="${item.image}" alt="${item.name}" loading="lazy" onerror="this.outerHTML='<div class=&quot;card-image-missing&quot;>Pas d&apos;image</div>'">`
+      : `<div class="card-image-missing">Pas d'image</div>`;
+    
+    card.innerHTML = `
+      <div class="card-top">
+        ${imgHtml}
+        ${badge}
+      </div>
+      <div class="card-body">
+        <div>
+          <div class="card-region">${item.region || ''}</div>
+          <div class="card-name">${item.name}</div>
+        </div>
+        <a class="btn-open" href="${amazonUrl || '#'}" target="_blank" rel="noopener">
+          🔗 Ouvrir Amazon
+        </a>
+        <div class="card-actions">
+          <button class="btn-status ok-btn ${s.status==='ok'?'active':''}" data-status="ok">✅ OK</button>
+          <button class="btn-status mort-btn ${s.status==='mort'?'active':''}" data-status="mort">❌ Mort</button>
+          <button class="btn-status mid-btn ${s.status==='mid'?'active':''}" data-status="mid">⚠️ Médiocre</button>
+        </div>
+        <input class="new-link-input ${(s.status==='mort'||s.status==='mid')?'show':''}" 
+               type="text" 
+               placeholder="Nouveau lien Amazon (optionnel)" 
+               value="${s.newLink || ''}">
+        <textarea class="note-input ${(s.status==='mort'||s.status==='mid')?'show':''}" 
+                  placeholder="Note (optionnel)">${s.note || ''}</textarea>
+      </div>
+    `;
+    
+    // Listeners
+    card.querySelectorAll('.btn-status').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const newStatus = btn.dataset.status;
+        if(!state[item.name]) state[item.name] = {};
+        state[item.name].status = state[item.name].status === newStatus ? null : newStatus;
+        save();
+        render();
+        updateStats();
+      });
+    });
+    
+    const linkInput = card.querySelector('.new-link-input');
+    if(linkInput){
+      linkInput.addEventListener('input', (e) => {
+        if(!state[item.name]) state[item.name] = {};
+        state[item.name].newLink = e.target.value;
+        save();
+      });
+    }
+    
+    const noteInput = card.querySelector('.note-input');
+    if(noteInput){
+      noteInput.addEventListener('input', (e) => {
+        if(!state[item.name]) state[item.name] = {};
+        state[item.name].note = e.target.value;
+        save();
+      });
+    }
+    
+    grid.appendChild(card);
+  });
+}
+
+// Filtres
+document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip[data-filter]').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    currentFilter = chip.dataset.filter;
+    render();
+  });
+});
+
+// Export
+document.getElementById('exportBtn').addEventListener('click', () => {
+  const morts = [];
+  const mids = [];
+  const oks = [];
+  
+  data.forEach(item => {
+    const s = state[item.name];
+    if(!s || !s.status) return;
+    const oldLink = getAmazonLink(item) || '';
+    if(s.status === 'mort'){
+      morts.push({ name: item.name, oldLink, newLink: s.newLink || '', note: s.note || '' });
+    } else if(s.status === 'mid'){
+      mids.push({ name: item.name, oldLink, newLink: s.newLink || '', note: s.note || '' });
+    } else if(s.status === 'ok'){
+      oks.push(item.name);
+    }
+  });
+  
+  let txt = `RAPPORT AUDIT AMAZON — Carte Gourmande
+========================================
+Date : ${new Date().toLocaleString('fr-FR')}
+
+📊 BILAN
+✅ Liens OK : ${oks.length}
+❌ Liens morts : ${morts.length}
+⚠️ Liens médiocres : ${mids.length}
+⏳ Non vérifiés : ${data.length - oks.length - morts.length - mids.length}
+
+`;
+  
+  if(morts.length){
+    txt += `\n❌ LIENS MORTS (${morts.length})\n${'='.repeat(50)}\n`;
+    morts.forEach((m,i) => {
+      txt += `\n${i+1}. ${m.name}\n`;
+      txt += `   Ancien : ${m.oldLink}\n`;
+      if(m.newLink) txt += `   Nouveau : ${m.newLink}\n`;
+      if(m.note) txt += `   Note : ${m.note}\n`;
+    });
+  }
+  
+  if(mids.length){
+    txt += `\n\n⚠️ LIENS MÉDIOCRES (${mids.length})\n${'='.repeat(50)}\n`;
+    mids.forEach((m,i) => {
+      txt += `\n${i+1}. ${m.name}\n`;
+      txt += `   Ancien : ${m.oldLink}\n`;
+      if(m.newLink) txt += `   Nouveau : ${m.newLink}\n`;
+      if(m.note) txt += `   Note : ${m.note}\n`;
+    });
+  }
+  
+  document.getElementById('exportText').value = txt;
+  document.getElementById('modalSubtitle').textContent = 
+    `${oks.length} OK · ${morts.length} morts · ${mids.length} médiocres · ${data.length - oks.length - morts.length - mids.length} restants`;
+  document.getElementById('modal').classList.add('show');
+});
+
+document.getElementById('closeBtn').addEventListener('click', () => {
+  document.getElementById('modal').classList.remove('show');
+});
+
+document.getElementById('copyBtn').addEventListener('click', async () => {
+  const txt = document.getElementById('exportText').value;
+  try {
+    await navigator.clipboard.writeText(txt);
+    document.getElementById('copyBtn').textContent = '✅ Copié !';
+    setTimeout(() => { document.getElementById('copyBtn').textContent = '📋 Copier le rapport'; }, 1500);
+  } catch(e) {
+    document.getElementById('exportText').select();
+    document.execCommand('copy');
+  }
+});
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if(confirm('Supprimer toutes les annotations et recommencer à zéro ?')){
+    state = {};
+    save();
+    render();
+    updateStats();
+    document.getElementById('modal').classList.remove('show');
+  }
+});
+
+document.getElementById('modal').addEventListener('click', (e) => {
+  if(e.target.id === 'modal') document.getElementById('modal').classList.remove('show');
+});
+
+render();
+updateStats();
+</script>
+</body>
+</html>
