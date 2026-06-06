@@ -141,33 +141,20 @@ body{
   top:108px;bottom:0;left:0;right:0;
 }
 
-/* Pin custom : cercle avec émoji centré */
+/* Pin : icône seule, sans bulle */
 .pin{
   display:flex;align-items:center;justify-content:center;
-  width:36px;height:36px;
-  border-radius:50% 50% 50% 0;
-  border:3px solid var(--blanc);
-  transform:rotate(-45deg);
-  box-shadow:0 4px 12px rgba(0,0,0,0.35), 0 0 0 1px rgba(0,0,0,0.1);
+  width:34px;height:34px;
   cursor:pointer;
-  transition:all 0.2s;
+  transition:transform 0.2s ease;
 }
 .pin span{
-  transform:rotate(45deg);
-  font-size:18px;
+  font-size:27px;
   line-height:1;
+  /* halo discret pour détacher l'émoji du fond clair de la carte */
+  filter:drop-shadow(0 1px 1.5px rgba(0,0,0,0.45)) drop-shadow(0 0 2px rgba(255,255,255,0.95));
 }
-.pin:hover{transform:rotate(-45deg) scale(1.15);}
-
-/* Couleurs des pins par catégorie */
-.pin-fromage{background:var(--cat-fromage);}
-.pin-charcuterie{background:var(--cat-charcuterie);}
-.pin-pâtisserie{background:var(--cat-patisserie);}
-.pin-confiserie{background:var(--cat-confiserie);}
-.pin-biscuiterie{background:var(--cat-biscuiterie);}
-.pin-vins{background:var(--cat-vins);}
-.pin-épicerie{background:var(--cat-epicerie);}
-.pin-mer{background:var(--cat-mer);}
+.pin:hover{transform:scale(1.2);}
 
 /* ─── BOTTOM SHEET ─── */
 .sheet{
@@ -439,14 +426,13 @@ function buildMarkers(){
   filtered.forEach(item => {
     const cat = CATEGORIES[item.category] || { emoji: '🍴', label: 'Autre' };
     const emoji = cat.emoji;
-    const klass = `pin-${item.category || 'épicerie'}`;
 
     const icon = L.divIcon({
       className: '',
-      html: `<div class="pin ${klass}"><span>${emoji}</span></div>`,
-      iconSize: [36, 36],
-      iconAnchor: [18, 36],
-      popupAnchor: [0, -34]
+      html: `<div class="pin"><span>${emoji}</span></div>`,
+      iconSize: [34, 34],
+      iconAnchor: [17, 17],
+      popupAnchor: [0, -16]
     });
 
     const marker = L.marker([item.latitude, item.longitude], { icon })
