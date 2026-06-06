@@ -195,6 +195,46 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Camembert de Normandie",
+    "region": "Normandie",
+    "type": "salé",
+    "latitude": 48.881389,
+    "longitude": 0.181111,
+    "image": "camembert-de-normandie.jpg",
+    "description": "Né vers 1791 à Camembert (Orne) sous les mains de Marie Harel, fermière instruite par un prêtre réfractaire venu de Brie. Pâte molle à croûte fleurie, lait cru de vache normande, moulé à la louche en cinq couches successives. AOP depuis 1983. Goût franc de noisette et de sous-bois, croûte blanche duveteuse. Servir à température ambiante avec un cidre brut ou un calvados.",
+    "links": []
+  },
+  {
+    "name": "Neufchâtel",
+    "region": "Normandie",
+    "type": "salé",
+    "latitude": 49.728056,
+    "longitude": 1.443611,
+    "image": "neufchatel.jpg",
+    "description": "Le plus ancien fromage normand, mentionné dès 1035 dans les archives de l'abbaye de Sigy. Pâte molle à croûte fleurie blanche, lait de vache, forme cylindrique, carrée, ou — symbole — en cœur. La légende veut que pendant la guerre de Cent Ans, les fermières du Pays de Bray le moulaient en cœur pour les soldats anglais. AOP depuis 1969. Goût léger et salé, plus prononcé en vieillissant.",
+    "links": []
+  },
+  {
+    "name": "Livarot",
+    "region": "Normandie",
+    "type": "salé",
+    "latitude": 48.974167,
+    "longitude": 0.146389,
+    "image": "livarot.jpg",
+    "description": "Surnommé 'le colonel' à cause des cinq bandes de laîche (jonc) qui le ceinturent, rappelant les galons militaires. Fromage à pâte molle et croûte lavée orangée, lait de vache, originaire du pays d'Auge. AOP depuis 1975. Odeur puissante, goût ample et corsé. À déguster avec un cidre fermier ou un poiré du Domfrontais.",
+    "links": []
+  },
+  {
+    "name": "Pont-l'Évêque",
+    "region": "Normandie",
+    "type": "salé",
+    "latitude": 49.29,
+    "longitude": 0.193333,
+    "image": "pont-l-eveque.jpg",
+    "description": "Mentionné dès le XIIᵉ siècle sous le nom d'angelot, il prend le nom de la ville de Pont-l'Évêque au XVIIᵉ. Pâte molle à croûte lavée, lait de vache, forme carrée caractéristique. AOP depuis 1976. Goût doux mais persistant, arômes de crème et de noisette. Accompagner d'un cidre du pays d'Auge.",
+    "links": []
+  },
+  {
     "name": "Calisson d'Aix",
     "region": "Provence-Alpes-Côte d'Azur",
     "type": "sucré",
@@ -433,6 +473,16 @@ window.FULL_DATA = [
         "url": "https://amzn.to/470qTfO"
       }
     ]
+  },
+  {
+    "name": "Banon",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "type": "salé",
+    "latitude": 44.038889,
+    "longitude": 5.628611,
+    "image": "banon.jpg",
+    "description": "Fromage de chèvre du plateau d'Albion, enveloppé dans des feuilles de châtaignier brunies, brun-vert, liées d'un brin de raphia. La feuille protège et parfume la pâte. Pâte molle, lait cru, fabrication artisanale héritée des bergers de Haute-Provence. AOP depuis 2003. Goût boisé, lacté, légèrement piquant en fin de bouche.",
+    "links": []
   },
   {
     "name": "Violette de Toulouse",
@@ -798,8 +848,8 @@ window.FULL_DATA = [
     "name": "Fuet catalan",
     "region": "Occitanie",
     "type": "salé",
-    "latitude": 42.485800,
-    "longitude": 2.750600,
+    "latitude": 42.4858,
+    "longitude": 2.7506,
     "image": "fuet-catalan.jpg",
     "description": "Saucisse sèche fine d'origine catalane, traditionnellement fabriquée dans les Pyrénées-Orientales et le Vallespir, autour de Céret. Pur porc, hachage fin, séchage à l'air libre pendant plusieurs semaines. Pâte serrée, fleur blanche en surface, parfum doux de porc et de poivre. Le mot 'fuet' veut dire 'fouet' en catalan, en référence à sa forme allongée. Se déguste en fines tranches à l'apéritif, accompagné d'un verre de Banyuls ou d'un rouge des Côtes du Roussillon.",
     "links": [
@@ -808,6 +858,46 @@ window.FULL_DATA = [
         "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fcharcuteries-seches%2Fproducts%2Ffouet-seche"
       }
     ]
+  },
+  {
+    "name": "Pélardon",
+    "region": "Occitanie",
+    "type": "salé",
+    "latitude": 44.318056,
+    "longitude": 3.595833,
+    "image": "pelardon.jpg",
+    "description": "Petit fromage de chèvre des Cévennes, déjà mentionné par Pline l'Ancien sous le nom 'péraldou'. Pâte molle à croûte naturelle, lait cru de chèvre, affiné 11 jours minimum. AOP depuis 2000. Goût caprin franc, notes de noisette, devient piquant à mesure qu'il sèche. Un classique avec un côtes-du-rhône blanc.",
+    "links": []
+  },
+  {
+    "name": "Roquefort",
+    "region": "Occitanie",
+    "type": "salé",
+    "latitude": 43.978611,
+    "longitude": 2.989444,
+    "image": "roquefort.jpg",
+    "description": "Le 'roi des fromages, fromage des rois'. Pâte persillée au lait cru de brebis Lacaune, affiné dans les caves naturelles du Combalou à Roquefort-sur-Soulzon, où le Penicillium roqueforti se développe dans les fleurines (failles d'aération). Charles VI accorde le monopole en 1411. Première AOC française en 1925. Goût puissant, salé, persistant. Servir avec un Sauternes ou un Banyuls.",
+    "links": []
+  },
+  {
+    "name": "Laguiole",
+    "region": "Occitanie",
+    "type": "salé",
+    "latitude": 44.6825,
+    "longitude": 2.846667,
+    "image": "laguiole.jpg",
+    "description": "Fromage des hauts plateaux de l'Aubrac, fabriqué dans les burons depuis le Moyen Âge. Pâte pressée non cuite, lait cru de vache Aubrac ou Simmental, affinage 4 mois minimum. AOP depuis 1961. Goût fruité et long, notes herbacées de l'estive. Base de l'aligot avec la tome fraîche.",
+    "links": []
+  },
+  {
+    "name": "Rocamadour",
+    "region": "Occitanie",
+    "type": "salé",
+    "latitude": 44.799722,
+    "longitude": 1.617778,
+    "image": "rocamadour.jpg",
+    "description": "Petit palet de fromage de chèvre du causse de Gramat, autrefois appelé 'cabécou'. Cité dès le XVᵉ siècle dans les redevances seigneuriales. Pâte molle à croûte fine, lait cru, 35 g, affiné 6 jours. AOP depuis 1996. Goût doux et lacté quand jeune, plus typé en vieillissant. Un classique avec un Cahors.",
+    "links": []
   },
   {
     "name": "Massepain de Saint-Léonard-de-Noblat",
@@ -945,6 +1035,16 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Maroilles",
+    "region": "Hauts-de-France",
+    "type": "salé",
+    "latitude": 50.131667,
+    "longitude": 3.808056,
+    "image": "maroilles.jpg",
+    "description": "Né au VIIᵉ siècle dans l'abbaye de Maroilles, en Thiérache, où les moines mettaient au point sa fabrication. Pâte molle à croûte lavée orangée, lait cru de vache, affinage en cave humide pendant 5 semaines. AOP depuis 1976. Odeur très puissante mais goût plus doux et fruité qu'on ne croit. Cœur de la flamiche picarde.",
+    "links": []
+  },
+  {
     "name": "Madeleine de Commercy",
     "region": "Grand Est",
     "type": "sucré",
@@ -1080,6 +1180,36 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Munster",
+    "region": "Grand Est",
+    "type": "salé",
+    "latitude": 48.040278,
+    "longitude": 7.140833,
+    "image": "munster.jpg",
+    "description": "Fromage des vallées vosgiennes, créé par les moines irlandais de l'abbaye de Munster au VIIᵉ siècle. Pâte molle à croûte lavée orangée, lait cru de vache vosgienne. AOP depuis 1969. Goût puissant et corsé, croûte brillante d'un orange profond. Traditionnellement servi avec des pommes de terre vapeur, du cumin et un Gewurztraminer.",
+    "links": []
+  },
+  {
+    "name": "Chaource",
+    "region": "Grand Est",
+    "type": "salé",
+    "latitude": 48.061111,
+    "longitude": 4.135278,
+    "image": "chaource.jpg",
+    "description": "Fromage de l'Aube et de l'Yonne, mentionné dès le XIVᵉ siècle, déjà offert au gouverneur de Langres en 1551. Pâte molle à croûte fleurie blanche, lait de vache, forme cylindrique. AOP depuis 1970. Goût lacté, légèrement salé, notes de champignon. Servir avec un champagne brut nature.",
+    "links": []
+  },
+  {
+    "name": "Langres",
+    "region": "Grand Est",
+    "type": "salé",
+    "latitude": 47.860833,
+    "longitude": 5.333611,
+    "image": "langres.jpg",
+    "description": "Fromage du plateau de Langres, reconnaissable à sa 'fontaine', cuvette au sommet qu'on remplit traditionnellement de marc ou de champagne. Pâte molle à croûte lavée orangée, lait de vache, retourné une seule fois pour creuser la cuvette. AOP depuis 1991. Goût corsé, légèrement piquant.",
+    "links": []
+  },
+  {
     "name": "Moutarde de Dijon",
     "region": "Bourgogne-Franche-Comté",
     "type": "salé",
@@ -1198,6 +1328,56 @@ window.FULL_DATA = [
         "url": "https://atelierdebrigitte.over-blog.com/2018/10/corniottes.html"
       }
     ]
+  },
+  {
+    "name": "Comté",
+    "region": "Bourgogne-Franche-Comté",
+    "type": "salé",
+    "latitude": 46.766667,
+    "longitude": 6.15,
+    "image": "comte.jpg",
+    "description": "Le plus produit des fromages AOP français, fabriqué dans les fruitières du massif du Jura depuis le XIIIᵉ siècle. Pâte pressée cuite, lait cru de vache Montbéliarde, meules de 40 kg, affinage minimum 4 mois mais souvent 12 à 24 mois. AOP depuis 1958. Goût complexe variant selon l'affinage : fruité jeune, noisette ou caramel quand vieux.",
+    "links": []
+  },
+  {
+    "name": "Mont d'Or",
+    "region": "Bourgogne-Franche-Comté",
+    "type": "salé",
+    "latitude": 46.616667,
+    "longitude": 6.3,
+    "image": "mont-d-or.jpg",
+    "description": "Fromage d'hiver des Hauts du Doubs, fabriqué uniquement du 15 août au 15 mars avec le lait des vaches Montbéliardes redescendues des alpages. Pâte molle à croûte lavée, ceinturé d'une sangle d'épicéa qui le parfume, présenté dans une boîte de bois. AOP depuis 1981. Goût boisé et résineux. Se déguste à la cuillère, ou chauffé au four avec du vin blanc et de l'ail.",
+    "links": []
+  },
+  {
+    "name": "Morbier",
+    "region": "Bourgogne-Franche-Comté",
+    "type": "salé",
+    "latitude": 46.535556,
+    "longitude": 6.025278,
+    "image": "morbier.jpg",
+    "description": "Reconnaissable à sa raie de cendre noire en son milieu : à l'origine, le fromager du soir protégeait avec de la suie le caillé qui attendait celui du matin. Pâte pressée non cuite, lait cru de vache, fabriqué dans le Jura. AOP depuis 2000. Goût doux et crémeux, légèrement fruité.",
+    "links": []
+  },
+  {
+    "name": "Époisses",
+    "region": "Bourgogne-Franche-Comté",
+    "type": "salé",
+    "latitude": 47.51,
+    "longitude": 4.171944,
+    "image": "epoisses.jpg",
+    "description": "Créé au XVIᵉ siècle par les moines cisterciens de l'abbaye d'Époisses en Bourgogne. Pâte molle à croûte lavée orangée, lait cru de vache, lavé au marc de Bourgogne pendant l'affinage. AOP depuis 1991. Odeur puissante, goût ample et long, notes alcoolisées. Le fromage préféré de Brillat-Savarin.",
+    "links": []
+  },
+  {
+    "name": "Mâconnais",
+    "region": "Bourgogne-Franche-Comté",
+    "type": "salé",
+    "latitude": 46.305556,
+    "longitude": 4.831389,
+    "image": "maconnais.jpg",
+    "description": "Petit fromage de chèvre des coteaux du Mâconnais, autrefois appelé 'chevreton'. Pâte molle, croûte naturelle fine, lait cru de chèvre, forme tronconique caractéristique. AOP depuis 2006. Goût caprin franc, notes de noisette et de châtaigne. Servir avec un Mâcon-Villages blanc.",
+    "links": []
   },
   {
     "name": "Nougat de Montélimar",
@@ -1365,6 +1545,116 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Cantal",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.046667,
+    "longitude": 2.661667,
+    "image": "cantal.jpg",
+    "description": "L'un des plus anciens fromages français, déjà décrit par Pline l'Ancien il y a 2000 ans. Pâte pressée non cuite, lait cru de vache Salers ou Aubrac, meules de 35 à 45 kg. AOP depuis 1956. Trois affinages : jeune (1 mois), entre-deux (3 mois), vieux (6 mois et plus). Goût fruité jeune, puissant et long quand vieux.",
+    "links": []
+  },
+  {
+    "name": "Salers",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.140278,
+    "longitude": 2.493333,
+    "image": "salers.jpg",
+    "description": "Fromage d'estive, fabriqué uniquement entre le 15 avril et le 15 novembre dans les burons d'altitude du Cantal, avec le lait cru de vaches Salers. Pâte pressée non cuite, meules de 35 à 50 kg, fabriqué dans une 'gerle' en bois traditionnelle. AOP depuis 1961. Goût intensément herbacé et fruité, marqué par la flore des pâturages.",
+    "links": []
+  },
+  {
+    "name": "Bleu d'Auvergne",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.345556,
+    "longitude": 3.090278,
+    "image": "bleu-d-auvergne.jpg",
+    "description": "Né au milieu du XIXᵉ siècle, dans le Cantal, quand un paysan eut l'idée d'inoculer du Penicillium au lait de vache, à la manière du Roquefort. Pâte persillée, lait de vache, affinage minimum 4 semaines. AOP depuis 1975. Goût franc et corsé, moins salé que le Roquefort. Excellent en sauce sur une côte de bœuf.",
+    "links": []
+  },
+  {
+    "name": "Fourme d'Ambert",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.5475,
+    "longitude": 3.745278,
+    "image": "fourme-d-ambert.jpg",
+    "description": "L'un des plus vieux fromages de France, déjà fabriqué au temps des Arvernes. Pâte persillée, lait de vache, forme cylindrique haute caractéristique. AOP depuis 1972. Goût doux et fondant, le plus accessible des bleus français. Servir tel quel avec du pain de campagne, ou en sauce avec une viande blanche.",
+    "links": []
+  },
+  {
+    "name": "Saint-Nectaire",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.586944,
+    "longitude": 2.996944,
+    "image": "saint-nectaire.jpg",
+    "description": "Fromage du massif du Sancy, servi à la table de Louis XIV par le maréchal de Saint-Nectaire. Pâte pressée non cuite, lait de vache Salers ou Montbéliarde, croûte fleurie marbrée. AOP depuis 1955. Goût de noisette et de sous-bois, caractéristique des prairies volcaniques.",
+    "links": []
+  },
+  {
+    "name": "Reblochon",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.913056,
+    "longitude": 6.378611,
+    "image": "reblochon.jpg",
+    "description": "Né d'une ruse fiscale au XIIIᵉ siècle : les fermiers de Thônes faisaient une 'rebloche' (deuxième traite) après le passage du percepteur. Pâte pressée non cuite, lait cru de vache Abondance, Tarine ou Montbéliarde. AOP depuis 1958. Goût crémeux et fruité, base de la tartiflette.",
+    "links": []
+  },
+  {
+    "name": "Picodon",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 44.535556,
+    "longitude": 4.747778,
+    "image": "picodon.jpg",
+    "description": "Petit fromage de chèvre de la Drôme et de l'Ardèche, 'piquant' en occitan, allusion à son caractère. Pâte molle, lait cru de chèvre, séchage 12 jours minimum. AOP depuis 1983. Devient sec et piquant en vieillissant. Excellent grillé sur une salade de saison.",
+    "links": []
+  },
+  {
+    "name": "Rigotte de Condrieu",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.466389,
+    "longitude": 4.769722,
+    "image": "rigotte-de-condrieu.jpg",
+    "description": "Petit fromage de chèvre du Pilat rhodanien, mentionné dès le XVᵉ siècle. Pâte molle à croûte naturelle ivoire, lait cru, 30 g, affiné 8 jours minimum. AOP depuis 2009. Goût lacté et caprin, notes de fleurs. À déguster avec un Condrieu blanc, c'est l'accord du terroir.",
+    "links": []
+  },
+  {
+    "name": "Beaufort",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.721944,
+    "longitude": 6.5725,
+    "image": "beaufort.jpg",
+    "description": "Le 'prince des gruyères' selon Brillat-Savarin, fabriqué dans les hauts alpages de Savoie. Pâte pressée cuite, lait cru de vache Tarine ou Abondance, meule à talon concave, affinage 5 mois minimum. AOP depuis 1968. Trois variétés : laitier, été, chalet d'alpage. Goût fruité et long, base de la fondue savoyarde.",
+    "links": []
+  },
+  {
+    "name": "Chevrotin",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.943056,
+    "longitude": 6.493611,
+    "image": "chevrotin.jpg",
+    "description": "Le cousin chèvre du Reblochon, fabriqué dans les Aravis et le Beaufortain. Pâte pressée non cuite, lait cru de chèvre des Savoie, forme de petite meule. AOP depuis 2002. Production confidentielle (moins de 50 tonnes par an). Goût doux et crémeux, plus délicat que le caprin attendu.",
+    "links": []
+  },
+  {
+    "name": "Tomme des Bauges",
+    "region": "Auvergne-Rhône-Alpes",
+    "type": "salé",
+    "latitude": 45.671389,
+    "longitude": 6.241944,
+    "image": "tomme-des-bauges.jpg",
+    "description": "Fromage du massif des Bauges, autrefois appelé 'tomme grise' à cause de sa croûte naturelle cendrée. Pâte pressée non cuite, lait cru de vache, affinage 5 semaines minimum. AOP depuis 2002. Goût rustique, légèrement noisetté, notes herbacées.",
+    "links": []
+  },
+  {
     "name": "Coquelicot de Nemours",
     "region": "Île-de-France",
     "type": "sucré",
@@ -1393,6 +1683,16 @@ window.FULL_DATA = [
         "url": "https://amzn.to/42gBoZR"
       }
     ]
+  },
+  {
+    "name": "Brie de Meaux",
+    "region": "Île-de-France",
+    "type": "salé",
+    "latitude": 48.960278,
+    "longitude": 2.878611,
+    "image": "brie-de-meaux.jpg",
+    "description": "Sacré 'roi des fromages' au Congrès de Vienne en 1815 par Talleyrand, qui en avait fait amener pour le servir aux diplomates européens. Pâte molle à croûte fleurie blanche, lait cru de vache, grande roue de 36 cm. AOP depuis 1980. Goût fruité, notes de noisette et de champignon. Servir avec un champagne brut.",
+    "links": []
   },
   {
     "name": "Rigolette nantaise",
@@ -1530,6 +1830,66 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Sainte-Maure de Touraine",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 47.116111,
+    "longitude": 0.6175,
+    "image": "sainte-maure-de-touraine.jpg",
+    "description": "Bûche de chèvre cendrée, traversée d'une paille de seigle qui porte gravé son nom (signe d'authenticité). Origine sarrasine au VIIIᵉ siècle. Pâte molle, lait cru, croûte cendrée bleutée. AOP depuis 1990. Goût caprin franc, plus prononcé en vieillissant. À déguster avec un Vouvray sec ou un Chinon blanc.",
+    "links": []
+  },
+  {
+    "name": "Selles-sur-Cher",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 47.351111,
+    "longitude": 1.547222,
+    "image": "selles-sur-cher.jpg",
+    "description": "Fromage de chèvre du Berry, cendré à la poudre de charbon de bois. Pâte molle, lait cru de chèvre, croûte fine cendrée bleu-gris, forme de tronc de cône aplati. AOP depuis 1975. Goût lacté et frais quand jeune, plus typé en vieillissant. Servir avec un Sancerre.",
+    "links": []
+  },
+  {
+    "name": "Valençay",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 47.158056,
+    "longitude": 1.561944,
+    "image": "valencay.jpg",
+    "description": "Pyramide tronquée à la croûte cendrée, dont la légende attribue la forme à Talleyrand : Napoléon, mécontent à son retour d'Égypte, aurait coupé d'un coup d'épée la pointe de la pyramide originelle pour effacer le souvenir. Lait cru de chèvre. AOP depuis 1998. Goût caprin doux, notes de noisette.",
+    "links": []
+  },
+  {
+    "name": "Pouligny-Saint-Pierre",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 46.722222,
+    "longitude": 1.103611,
+    "image": "pouligny-saint-pierre.jpg",
+    "description": "Pyramide pointue de fromage de chèvre du Berry, surnommée 'tour Eiffel' ou 'pyramide'. Lait cru, pâte molle, croûte naturelle ivoire bleutée. AOP depuis 1972. Goût lacté quand jeune, caprin franc à maturité. À découper en biais pour avoir un morceau de pointe et de base.",
+    "links": []
+  },
+  {
+    "name": "Fromage d'Olivet",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 47.872222,
+    "longitude": 1.901389,
+    "image": "fromage-d-olivet.jpg",
+    "description": "Petit fromage du Loiret, déclinaison du brie local. Plusieurs versions : au foin (affiné sous le foin), cendré (à la cendre de bois), au poivre. Pâte molle, lait de vache. Goût doux et crémeux, parfumé selon l'affinage. Spécialité locale qui mérite d'être (re)découverte.",
+    "links": []
+  },
+  {
+    "name": "Trèfle du Perche",
+    "region": "Centre-Val de Loire",
+    "type": "salé",
+    "latitude": 48.394444,
+    "longitude": 0.901111,
+    "image": "trefle-du-perche.jpg",
+    "description": "Fromage de chèvre du Perche en forme de trèfle à trois feuilles, créé en 2002 par un éleveur local pour valoriser sa production. Pâte molle à croûte fleurie, lait cru de chèvre. Goût lacté et doux, fabrication confidentielle artisanale. Une curiosité régionale à découvrir.",
+    "links": []
+  },
+  {
     "name": "Canistrelli corse",
     "region": "Corse",
     "type": "sucré",
@@ -1560,6 +1920,16 @@ window.FULL_DATA = [
     ]
   },
   {
+    "name": "Brocciu",
+    "region": "Corse",
+    "type": "salé",
+    "latitude": 42.15,
+    "longitude": 9.15,
+    "image": "brocciu.jpg",
+    "description": "Le fromage emblématique de la Corse, fabriqué uniquement à partir du petit-lait de brebis ou de chèvre, additionné de lait entier. Pâte fraîche, blanche, légèrement granuleuse. AOP depuis 1998. Production de novembre à juin uniquement. Se déguste frais avec du sucre et de l'eau-de-vie, ou en cuisine : cannelloni au brocciu, fiadone.",
+    "links": []
+  },
+  {
     "name": "Gâteau creusois",
     "region": "Nouvelle-Aquitaine",
     "type": "sucré",
@@ -1573,5 +1943,25 @@ window.FULL_DATA = [
         "url": "https://amzn.to/4pJG4l1"
       }
     ]
+  },
+  {
+    "name": "Chabichou du Poitou",
+    "region": "Nouvelle-Aquitaine",
+    "type": "salé",
+    "latitude": 46.582222,
+    "longitude": 0.341667,
+    "image": "chabichou-du-poitou.jpg",
+    "description": "Petit fromage de chèvre du Haut-Poitou, hérité de l'invasion sarrasine du VIIIᵉ siècle (le mot 'chabichou' vient de l'arabe 'chebli', chèvre). Forme caractéristique de bonde, pâte molle, croûte fleurie, lait cru. AOP depuis 1990. Goût caprin franc, notes de noisette et de foin. Excellent avec un Haut-Poitou blanc ou un sauvignon.",
+    "links": []
+  },
+  {
+    "name": "Ossau-Iraty",
+    "region": "Nouvelle-Aquitaine",
+    "type": "salé",
+    "latitude": 43.0925,
+    "longitude": -1.022778,
+    "image": "ossau-iraty.jpg",
+    "description": "Fromage de brebis des montagnes basques et béarnaises, fabriqué dans les estives de la vallée d'Ossau et de la forêt d'Iraty depuis l'Antiquité. Pâte pressée non cuite, lait cru de brebis Manech ou Basco-Béarnaise, affinage 80 jours minimum. AOP depuis 1980. Goût ample, doux, légèrement noisetté. Servir avec de la confiture de cerise noire d'Itxassou.",
+    "links": []
   }
 ];
