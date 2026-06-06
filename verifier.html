@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte Gourmande — Vérification des fiches</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --terre:#8b3a2c; --terre-fonce:#5c2419; --ocre:#c89651; --ocre-clair:#e9c585;
+  --olive:#4a5a3a; --creme:#f7f1e3; --creme-fonce:#ede4cc; --encre:#1f1a14;
+  --gris:#6e6557; --blanc:#fdfaf3;
+  --ok:#4a5a3a; --probleme:#b5402f; --manquante:#b88a52;
+  --cat-fromage:#e8b95a; --cat-charcuterie:#8b3a2c; --cat-patisserie:#d88a9e;
+  --cat-confiserie:#c89651; --cat-biscuiterie:#b88a52; --cat-vins:#722f37;
+  --cat-epicerie:#4a5a3a; --cat-mer:#2c5a8b;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;background:var(--creme);color:var(--encre);-webkit-font-smoothing:antialiased;}
+
+header{
+  position:sticky;top:0;z-index:50;background:var(--blanc);
+  border-bottom:1px solid rgba(31,26,20,.1);
+  padding:0.9rem 1.1rem 0.7rem;
+}
+.title{font-family:'Fraunces',serif;font-weight:700;font-style:italic;font-size:1.3rem;color:var(--terre-fonce);}
+.subtitle{font-size:.78rem;color:var(--gris);margin-top:.15rem;}
+
+.stats{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.7rem;}
+.stat{font-size:.72rem;font-weight:600;padding:.3rem .65rem;border-radius:999px;background:var(--creme);border:1px solid rgba(31,26,20,.1);}
+.stat b{font-family:'Fraunces',serif;}
+.stat.manquante{color:var(--manquante);} .stat.probleme{color:var(--probleme);} .stat.ok{color:var(--ok);}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:.7rem;}
+#search{
+  flex:1;min-width:160px;padding:.5rem .8rem;border:1px solid rgba(31,26,20,.15);
+  border-radius:10px;font-size:.85rem;font-family:'Inter';background:var(--blanc);
+}
+.btn-copy{
+  padding:.5rem .8rem;border:none;border-radius:10px;background:var(--terre);color:var(--blanc);
+  font-weight:600;font-size:.8rem;cursor:pointer;white-space:nowrap;
+}
+.btn-copy:active{transform:scale(.97);}
+
+.chips{display:flex;gap:.35rem;overflow-x:auto;padding:.6rem 0 .2rem;scrollbar-width:none;}
+.chips::-webkit-scrollbar{display:none;}
+.chip{
+  flex-shrink:0;padding:.35rem .7rem;border:1px solid rgba(31,26,20,.15);border-radius:999px;
+  background:var(--blanc);font-size:.75rem;font-weight:500;cursor:pointer;white-space:nowrap;
+}
+.chip.active{background:var(--encre);color:var(--creme);border-color:var(--encre);}
+
+main{padding:1rem;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.9rem;}
+
+.card{
+  background:var(--blanc);border-radius:14px;overflow:hidden;
+  border:2px solid transparent;box-shadow:0 2px 10px rgba(0,0,0,.06);
+  display:flex;flex-direction:column;
+}
+.card.flag-ok{border-color:var(--ok);}
+.card.flag-probleme{border-color:var(--probleme);}
+
+.thumb-wrap{position:relative;height:150px;background:var(--creme-fonce);}
+.thumb{width:100%;height:100%;object-fit:cover;display:block;}
+.thumb-missing{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:.2rem;color:var(--manquante);
+  background:repeating-linear-gradient(45deg,var(--creme),var(--creme) 10px,var(--creme-fonce) 10px,var(--creme-fonce) 20px);
+}
+.thumb-missing span:first-child{font-size:1.4rem;}
+.thumb-missing span:last-child{font-size:.66rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;}
+.cat-badge{
+  position:absolute;top:.5rem;left:.5rem;font-size:.62rem;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase;color:#fff;padding:.2rem .5rem;border-radius:5px;
+}
+
+.card-body{padding:.7rem .8rem .8rem;display:flex;flex-direction:column;gap:.3rem;flex:1;}
+.card-name{font-family:'Fraunces',serif;font-weight:600;font-size:1rem;line-height:1.15;}
+.card-region{font-size:.72rem;color:var(--gris);}
+.card-file{font-size:.62rem;color:var(--gris);font-family:monospace;opacity:.7;word-break:break-all;}
+
+.actions{display:flex;gap:.4rem;margin-top:auto;padding-top:.5rem;}
+.act{flex:1;padding:.4rem;border:1px solid rgba(31,26,20,.15);border-radius:8px;background:var(--blanc);
+  font-size:.74rem;font-weight:600;cursor:pointer;}
+.act.sel-ok{background:var(--ok);color:#fff;border-color:var(--ok);}
+.act.sel-probleme{background:var(--probleme);color:#fff;border-color:var(--probleme);}
+
+.empty{text-align:center;color:var(--gris);padding:3rem 1rem;font-style:italic;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title">Carte Gourmande — vérification</div>
+  <div class="subtitle">Passe les fiches en revue, signale celles dont la photo ne colle pas, puis copie la liste.</div>
+  <div class="stats">
+    <div class="stat">Total : <b id="s-total">0</b></div>
+    <div class="stat manquante">Photos manquantes : <b id="s-missing">0</b></div>
+    <div class="stat probleme">Problèmes signalés : <b id="s-prob">0</b></div>
+    <div class="stat ok">Validées : <b id="s-ok">0</b></div>
+  </div>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Rechercher une spécialité…">
+    <button class="btn-copy" id="copyBtn">Copier la liste des problèmes</button>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">Aucune fiche ne correspond.</div>
+</main>
+
+<script src="data.js"></script>
+<script>
+const data = (window.FULL_DATA || []).slice();
+const CAT_LABELS = {fromage:'Fromage',charcuterie:'Charcuterie',pâtisserie:'Pâtisserie',
+  confiserie:'Confiserie',biscuiterie:'Biscuiterie',vins:'Vins',épicerie:'Épicerie',mer:'Mer'};
+const CAT_COLORS = {fromage:'var(--cat-fromage)',charcuterie:'var(--cat-charcuterie)',
+  'pâtisserie':'var(--cat-patisserie)',confiserie:'var(--cat-confiserie)',
+  biscuiterie:'var(--cat-biscuiterie)',vins:'var(--cat-vins)','épicerie':'var(--cat-epicerie)',mer:'var(--cat-mer)'};
+
+// État (persiste pendant la revue, dégrade proprement si stockage indispo)
+let flags = {};      // name -> 'ok' | 'probleme'
+let missing = {};    // name -> true si la photo ne charge pas
+try { flags = JSON.parse(localStorage.getItem('cg_flags')||'{}'); } catch(e){}
+function saveFlags(){ try{ localStorage.setItem('cg_flags', JSON.stringify(flags)); }catch(e){} }
+
+let curCat = 'all';
+let query = '';
+
+const grid = document.getElementById('grid');
+const empty = document.getElementById('empty');
+
+// Chips de catégorie
+const chips = document.getElementById('chips');
+['all',...Object.keys(CAT_LABELS)].forEach(c=>{
+  const b=document.createElement('button');
+  b.className='chip'+(c==='all'?' active':'');
+  b.textContent = c==='all' ? 'Toutes' : CAT_LABELS[c];
+  b.onclick=()=>{ curCat=c; document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active')); b.classList.add('active'); render(); };
+  chips.appendChild(b);
+});
+
+document.getElementById('search').addEventListener('input', e=>{ query=e.target.value.toLowerCase().trim(); render(); });
+
+function updateStats(){
+  document.getElementById('s-total').textContent = data.length;
+  document.getElementById('s-missing').textContent = Object.keys(missing).length;
+  document.getElementById('s-prob').textContent = Object.values(flags).filter(v=>v==='probleme').length;
+  document.getElementById('s-ok').textContent = Object.values(flags).filter(v=>v==='ok').length;
+}
+
+function render(){
+  grid.innerHTML='';
+  const items = data.filter(d=>{
+    if(curCat!=='all' && d.category!==curCat) return false;
+    if(query && !d.name.toLowerCase().includes(query) && !(d.region||'').toLowerCase().includes(query)) return false;
+    return true;
+  });
+  empty.style.display = items.length? 'none':'block';
+
+  items.forEach(d=>{
+    const card=document.createElement('div');
+    const state = flags[d.name];
+    card.className='card'+(state==='ok'?' flag-ok':state==='probleme'?' flag-probleme':'');
+
+    const wrap=document.createElement('div'); wrap.className='thumb-wrap';
+    const badge=document.createElement('div'); badge.className='cat-badge';
+    badge.style.background=CAT_COLORS[d.category]||'var(--gris)';
+    badge.textContent=CAT_LABELS[d.category]||d.category||'';
+    wrap.appendChild(badge);
+
+    const img=document.createElement('img'); img.className='thumb'; img.loading='lazy';
+    img.alt=d.name; img.src=d.image;
+    img.onerror=()=>{
+      missing[d.name]=true; updateStats();
+      const ph=document.createElement('div'); ph.className='thumb-missing';
+      ph.innerHTML='<span>📷</span><span>Photo manquante</span>';
+      img.replaceWith(ph);
+    };
+    wrap.appendChild(img);
+    card.appendChild(wrap);
+
+    const body=document.createElement('div'); body.className='card-body';
+    body.innerHTML=`<div class="card-name">${d.name}</div>
+      <div class="card-region">📍 ${d.region||'—'}</div>
+      <div class="card-file">${d.image}</div>`;
+    const actions=document.createElement('div'); actions.className='actions';
+    const bOk=document.createElement('button'); bOk.className='act'+(state==='ok'?' sel-ok':''); bOk.textContent='✓ OK';
+    const bPr=document.createElement('button'); bPr.className='act'+(state==='probleme'?' sel-probleme':''); bPr.textContent='✗ Problème';
+    bOk.onclick=()=>{ flags[d.name]= state==='ok'?undefined:'ok'; if(!flags[d.name])delete flags[d.name]; saveFlags(); render(); updateStats(); };
+    bPr.onclick=()=>{ flags[d.name]= state==='probleme'?undefined:'probleme'; if(!flags[d.name])delete flags[d.name]; saveFlags(); render(); updateStats(); };
+    actions.appendChild(bOk); actions.appendChild(bPr);
+    body.appendChild(actions);
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+  updateStats();
+}
+
+// Copier la liste des problèmes (signalés + photos manquantes)
+document.getElementById('copyBtn').addEventListener('click', ()=>{
+  const probs = Object.keys(flags).filter(n=>flags[n]==='probleme');
+  const miss  = Object.keys(missing);
+  let txt = '';
+  if(probs.length){ txt += 'PHOTOS À CORRIGER (mauvais sujet) :\n' + probs.map(n=>'- '+n).join('\n') + '\n\n'; }
+  if(miss.length){ txt += 'PHOTOS MANQUANTES :\n' + miss.map(n=>'- '+n).join('\n'); }
+  if(!txt) txt = 'Aucun problème signalé pour l’instant.';
+  navigator.clipboard.writeText(txt.trim()).then(
+    ()=>{ const b=document.getElementById('copyBtn'); const old=b.textContent; b.textContent='✓ Copié !'; setTimeout(()=>b.textContent=old,1500); },
+    ()=>{ alert(txt); }
+  );
+});
+
+render();
+</script>
+</body>
+</html>
