@@ -744,8 +744,8 @@ window.FULL_DATA = [
     "description": "Sauce émulsionnée chaude à base de beurre clarifié, jaune d'œuf, échalote, estragon et cerfeuil. Inventée vers 1830 par le chef Collinet au Pavillon Henri IV de Saint-Germain-en-Laye, en hommage à Henri IV (le Béarnais), bien qu'elle n'ait aucun lien avec le Béarn. Variante de la hollandaise. Accompagne traditionnellement le filet de bœuf.",
     "links": [
       {
-        "text": "Amazon",
-        "url": "https://amzn.to/3KJ6gMw"
+        "text": "Maison Lascours",
+        "url": "https://kcl.maison-lascours.fr/?P51390B588CBB1F1&redir=https%3A%2F%2Fmaison-lascours.fr%2Fcollections%2Fepicerie-et-accessoires%2Fproducts%2Fsauce-bearnaise"
       }
     ]
   },
