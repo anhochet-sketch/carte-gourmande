@@ -3450,7 +3450,12 @@ window.FULL_DATA = [
     "longitude": 5.274,
     "image": "olives-de-nyons.jpg",
     "description": "Olives noires Tanche cueillies à maturité, ridées et fondantes, premières olives de table classées AOP en France.",
-    "links": [],
+    "links": [
+    {
+        "text": "La Vernède",
+        "url": "https://lk.gt/a11sy"
+      }
+    ],
     "category": "épicerie",
     "detail": "L'olive de Nyons est une olive noire de variété Tanche, cueillie à pleine maturité dans la Drôme provençale. Ridée, charnue et douce, au goût de fruits secs, elle fut la première olive de table française reconnue par une AOC. On la déguste à l'apéritif, en tapenade, ou on en tire une huile renommée.",
     "video": "",
