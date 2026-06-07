@@ -266,7 +266,7 @@ window.FULL_DATA = [
     "description": "La marseillaise authentique ! Petit biscuit sec en forme de navette (bateau), parfumé à la fleur d'oranger. Inventée en 1781 au Four des Navettes, rue Sainte à Marseille, encore en activité aujourd'hui. Faite de farine, sucre, beurre, œufs et zeste de citron. Symbolise la barque qui aurait amené les Saintes-Maries en Provence.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La navette est un petit biscuit sec et dur, en forme de barquette, parfumé à la fleur d'oranger. Spécialité de Marseille, elle est traditionnellement associée à la Chandeleur, sa forme évoquant la barque qui, selon la légende, aurait amené les saintes de Provence sur les côtes. Une vieille maison du quartier de Saint-Victor en perpétue la fabrication. On la trempe volontiers dans un café ou un thé.",
     "video": "",
     "id": "navettes-de-marseille"
   },
@@ -299,7 +299,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La papaline d'Avignon est une fine confiserie en forme de petit chardon rose, faite d'une coque de chocolat renfermant une liqueur d'origan du Comtat. Créée au XXe siècle en clin d'œil à la papauté d'Avignon, elle marie le fondant du chocolat à la note herbacée de la liqueur. C'est une douceur raffinée et typiquement avignonnaise.",
     "video": "",
     "id": "papaline-d-avignon"
   },
@@ -313,7 +313,7 @@ window.FULL_DATA = [
     "description": "Confiserie qui doit son essor à la papauté d'Avignon au XIVᵉ siècle. Cerises, melons, abricots, figues, poires, prunes, clémentines, angélique, écorces d'orange et de citron, cédrat, ananas. Apt est la capitale mondiale du fruit confit : dans les années 1960, le secteur employait près de 50 % de la population active de la ville.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Apt est considérée comme la capitale mondiale du fruit confit, un savoir-faire développé grâce à la papauté d'Avignon et à l'abondance des fruits du Comtat. Le fruit (cerise, abricot, melon, figue…) est lentement imprégné de sirops de sucre de plus en plus concentrés, jusqu'à devenir translucide et se conserver longtemps. Brillants et colorés, ces fruits ornent pâtisseries et tables de fête.",
     "video": "",
     "id": "fruits-confits-d-apt"
   },
@@ -327,7 +327,7 @@ window.FULL_DATA = [
     "description": "Bonbon dur translucide, en forme de petite pyramide colorée toujours rayée de blanc. Fabriqué depuis le XIXᵉ siècle à partir du sirop des fruits confits d'Apt (rien ne se perd). Parfums variés : menthe, anis, citron, orange, café.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le berlingot de Carpentras est un bonbon dur translucide, en forme de tétraèdre, strié de fines rayures blanches. Né au XIXe siècle de la récupération des sirops de fruits confits, il se décline en parfums fruités. Sa forme caractéristique et ses rayures en font une confiserie emblématique du Comtat Venaissin.",
     "video": "",
     "id": "berlingot-de-carpentras"
   },
@@ -341,7 +341,7 @@ window.FULL_DATA = [
     "description": "Pulpe de fruit cuite avec du sucre et de la pectine, moulée en carrés ou rectangles. À l'origine, une méthode de conservation de la chair des fruits, d'où son ancien nom de 'confiture sèche'. Saint-Didier (Vaucluse) en est devenu un haut lieu artisanal.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La pâte de fruits est une confiserie obtenue en cuisant la pulpe de fruit avec du sucre et de la pectine, jusqu'à une texture ferme et fondante. Saint-Didier, dans le Vaucluse, en a fait une spécialité réputée, mettant à profit les fruits du Comtat. Intensément parfumée, elle se déguste roulée dans le sucre, à la fin d'un repas ou au goûter.",
     "video": "",
     "id": "pate-de-fruits-de-saint-didier"
   },
@@ -355,7 +355,7 @@ window.FULL_DATA = [
     "description": "Naturellement blanche, récoltée au Salin d'Aigues-Mortes selon des méthodes ancestrales. Au cœur d'une nature sauvage et d'une biodiversité rare — le marais salant est aussi un refuge pour de nombreuses espèces, au point de rencontre de la Méditerranée et de la Camargue. Les cristaux les plus fins, en surface, forment la 'fleur'.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La fleur de sel d'Aigues-Mortes est récoltée à la surface des salins de Camargue, là où le sel cristallise en fines pellicules sous l'effet du soleil et du vent. Naturellement blanche, fine et fragile, elle se récolte à la main et conserve une saveur délicate. On l'utilise en touche finale, juste avant de servir, pour relever un plat.",
     "video": "",
     "id": "fleur-de-sel-d-aigues-mortes"
   },
@@ -369,7 +369,7 @@ window.FULL_DATA = [
     "description": "AOC depuis 2001. Seule variété autorisée : la Cailletier (appelée localement 'caillette' ou 'olive de Nice'). Pollinisateurs minoritaires tolérés (Arabanier, Blanquetier...) jusqu'à 5 %. Huile douce, ronde, peu d'amertume, parfaite pour les salades niçoises.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de Nice est issue d'une seule variété, la cailletier (l'« olive de Nice »), cultivée sur les restanques de l'arrière-pays niçois. Douce, peu ardente, aux arômes d'amande et de fruits mûrs, elle bénéficie d'une AOP. Elle accompagne idéalement les crudités, les poissons et la cuisine niçoise, et la même olive donne aussi une olive de table réputée.",
     "video": "",
     "id": "huile-d-olive-de-nice"
   },
@@ -388,7 +388,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Les tourtons sont de petits beignets carrés du Champsaur, dans les Hautes-Alpes, faits d'une fine pâte enfermant une farce salée (pomme de terre, fromage, épinards) ou sucrée (pruneaux, pomme, confiture), puis frits. Croustillants et fondants, ils se dégustent en entrée, en plat ou en dessert, et témoignent de la cuisine montagnarde des Alpes du Sud.",
     "video": "",
     "id": "tourtons-de-champsaur"
   },
@@ -402,7 +402,7 @@ window.FULL_DATA = [
     "description": "Pain plat provençal à croûte tendre et mie épaisse, à base de farine de blé, levure et huile d'olive. Souvent garnie d'olives, oignons, anchois, lardons, fromage ou herbes de Provence. Il existe aussi une version sucrée briochée dans les Alpes du Sud, qui fait partie des treize desserts de Noël.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La fougasse est un pain plat provençal, à la croûte tendre et à la mie épaisse, façonné avec des entailles qui évoquent un épi ou une feuille. Pétrie à l'huile d'olive, elle se décline en versions salées (olives, lardons, anchois, herbes) comme sucrées. Elle accompagne l'apéritif ou un repas, et reste un emblème de la boulangerie du Midi.",
     "video": "",
     "id": "fougasse-provencale"
   },
@@ -416,7 +416,7 @@ window.FULL_DATA = [
     "description": "Focaccia sucrée à l'huile d'olive, traditionnellement faite de farine, huile d'olive et sucre. Variations modernes avec anis, écorces d'orange confites, fleur d'oranger ou sucre saupoudré. Avec la pompe à l'huile, c'est l'un des treize desserts de Noël provençaux.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le gibassié est une galette sucrée à l'huile d'olive, parfumée à la fleur d'oranger et à l'anis, traditionnellement entaillée. Proche de la pompe à l'huile, il fait partie des treize desserts de Noël provençaux. Plus sec et croquant, il se conserve bien et se déguste rompu à la main, accompagné d'un vin cuit.",
     "video": "",
     "id": "gibassie-de-provence"
   },
@@ -430,7 +430,7 @@ window.FULL_DATA = [
     "description": "Récolté quand la lavande fleurit, entre fin printemps et début d'été. Miel aromatique très clair, fin en bouche, aux notes florales reconnaissables. IGP 'Miel de Provence' depuis 2005. À utiliser sur une tartine, dans un yaourt, ou pour parfumer une vinaigrette légèrement sucrée.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le miel de lavande est récolté lorsque les champs de lavande et de lavandin fleurissent, à la fin du printemps et au début de l'été. De couleur claire, il cristallise finement et offre un parfum floral doux et caractéristique. Emblématique de la Provence, il bénéficie d'un label de qualité et se déguste sur du pain, dans une tisane ou en pâtisserie.",
     "video": "",
     "id": "miel-de-lavande-de-provence"
   },
@@ -444,7 +444,7 @@ window.FULL_DATA = [
     "description": "IGP depuis 2000. Cultivé dans le delta du Rhône depuis le XVIᵉ siècle, son essor remonte à l'après-guerre comme moyen de dessaler les sols. Décliné en blanc, rouge (variété complète) et noir. Texture légère et moelleuse, parfait pour les paellas, salades et plats mijotés.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le riz de Camargue est cultivé dans le delta du Rhône, où l'irrigation par l'eau douce permet aussi de dessaler les terres. On y produit des riz blancs, complets, rouges et noirs, aux grains plus ou moins longs. Protégé par une IGP, il accompagne les plats du Sud et reste une production singulière, façonnée par un paysage unique de marais et de rizières.",
     "video": "",
     "id": "riz-de-camargue"
   },
@@ -458,7 +458,7 @@ window.FULL_DATA = [
     "description": "IGP depuis février 2018. Variété de thym sauvage qui pousse dans les garrigues provençales, plus aromatique que les thyms cultivés ailleurs. Indispensable au bouquet garni, à la ratatouille, aux grillades. Séché, il se conserve un an sans perdre ses arômes.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le thym de Provence est un thym sauvage qui pousse spontanément dans la garrigue, sous le soleil et au milieu des cailloux. Très parfumé, riche en huiles essentielles, il est l'une des herbes de Provence par excellence. Protégé par une IGP, il relève grillades, daubes, sauces et marinades, et embaume la cuisine méditerranéenne.",
     "video": "",
     "id": "thym-de-provence"
   },
@@ -472,7 +472,7 @@ window.FULL_DATA = [
     "description": "Spécialité niçoise et provençale : ragoût de légumes méditerranéens (aubergine, courgette, poivron, tomate, oignon) à l'huile d'olive et aux herbes. Secret de la version niçoise : chaque légume est cuit séparément avant d'être assemblé, pour préserver les textures. Se mange chaude ou froide.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La ratatouille est le grand plat de légumes du soleil de Nice et de Provence : courgettes, aubergines, poivrons, tomates et oignons cuits doucement à l'huile d'olive, parfumés d'ail et d'herbes. Les puristes cuisent chaque légume séparément avant de les réunir, pour préserver les saveurs. Servie chaude ou froide, en plat ou en accompagnement, elle résume toute la cuisine méditerranéenne.",
     "video": "",
     "id": "ratatouille-nicoise"
   },
@@ -486,7 +486,7 @@ window.FULL_DATA = [
     "description": "Fromage de chèvre du plateau d'Albion, enveloppé dans des feuilles de châtaignier brunies, brun-vert, liées d'un brin de raphia. La feuille protège et parfume la pâte. Pâte molle, lait cru, fabrication artisanale héritée des bergers de Haute-Provence. AOP depuis 2003. Goût boisé, lacté, légèrement piquant en fin de bouche.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le banon est un fromage de chèvre du plateau d'Albion, en Haute-Provence, enveloppé dans des feuilles de châtaignier liées par un brin de raphia. Cet emballage, hérité d'une méthode de conservation, affine le fromage et le parfume. Au lait cru, sa pâte devient crémeuse et son goût caprin s'affirme. Il bénéficie d'une AOP.",
     "video": "",
     "id": "banon"
   },
@@ -500,7 +500,7 @@ window.FULL_DATA = [
     "description": "Fleurs de violette fraîches cristallisées dans le sucre, créées par la confiserie Candiflor en 1818. Production très délicate : presque entièrement manuelle, à partir de fleurs fraîches cueillies à maturité en mars. Les fleurs sont enrobées de sucre puis le mélange est cristallisé. Pour décorer pâtisseries, glaces ou cocktails.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La violette de Toulouse est une fleur de violette fraîche cristallisée dans le sucre, qui garde sa forme et sa couleur mauve. Symbole floral de la ville depuis le XIXe siècle, elle se déguste telle quelle, décore les pâtisseries ou parfume bonbons, sirops et liqueurs. Délicate et joliment colorée, elle incarne le raffinement sucré toulousain.",
     "video": "",
     "id": "violette-de-toulouse"
   },
@@ -514,7 +514,7 @@ window.FULL_DATA = [
     "description": "Petite pastille noire carrée à la réglisse et à la poudre de cachou, vendue dans une mythique boîte ronde jaune. Créée en 1880 à Toulouse par le pharmacien Léon Lajaunie pour rafraîchir l'haleine. La boîte ronde tournante avec son couvercle à crans est devenue iconique.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le cachou Lajaunie est une minuscule pastille noire à la réglisse, créée à Toulouse à la fin du XIXe siècle par le pharmacien Léon Lajaunie. Présentée dans une petite boîte ronde jaune emblématique, elle rafraîchit l'haleine et fond lentement en bouche. C'est une confiserie populaire devenue un véritable objet culte.",
     "video": "",
     "id": "cachou-lajaunie"
   },
@@ -528,7 +528,7 @@ window.FULL_DATA = [
     "description": "Le 'Père' du cassoulet, selon le mot de Prosper Montagné : 'Le cassoulet est le dieu de la cuisine occitane. Un Dieu en trois personnes : Dieu le Père qui est celui de Castelnaudary, Dieu le Fils celui de Carcassonne, et le Saint-Esprit celui de Toulouse.' Haricots blancs du Lauragais, confit d'oie, jarret ou épaule de porc, saucisse et couennes. Cuisson finale au four à gorse de la Montagne Noire.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le cassoulet de Castelnaudary est, selon le mot de Prosper Montagné, le « père » du cassoulet. Ce plat mijoté associe des haricots blancs (lingots) à des viandes — confit d'oie ou de canard, saucisse, couenne, parfois porc — longuement cuits au four dans une cassole en terre, jusqu'à former une croûte dorée. Castelnaudary en revendique l'origine et la version la plus traditionnelle.",
     "video": "",
     "id": "cassoulet-de-castelnaudary"
   },
@@ -542,7 +542,7 @@ window.FULL_DATA = [
     "description": "Le 'Saint-Esprit' du cassoulet. Spécificité toulousaine : confit de canard et saucisse de Toulouse, carotte et oignon piqué de clous de girofle. Parfois saupoudré de chapelure avant le four. Le nombre de fois où l'on doit casser la croûte qui se forme à la cuisson est l'objet de débats sans fin (entre six et huit, selon les écoles).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le cassoulet de Toulouse est le « Saint-Esprit » du cassoulet, selon la fameuse trilogie de Prosper Montagné. Sa particularité est d'intégrer la saucisse de Toulouse, aux côtés des haricots et du confit. Mijoté longuement et gratiné, c'est un plat généreux et réconfortant, fierté de la cuisine toulousaine.",
     "video": "",
     "id": "cassoulet-de-toulouse"
   },
@@ -556,7 +556,7 @@ window.FULL_DATA = [
     "description": "Le 'Fils' du cassoulet selon Prosper Montagné. La version carcassonnaise se distingue par la présence éventuelle de perdrix rouge (en saison de chasse) et d'un morceau de mouton, en plus du confit. Les défenseurs de Carcassonne soutiennent que c'est la plus authentique des trois versions.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le cassoulet de Carcassonne est le « fils » du cassoulet dans la trilogie de Prosper Montagné. Sa version se distingue par l'ajout, en saison, de morceaux de gibier ou de perdrix aux haricots et aux viandes. Mijoté dans la cassole et gratiné, il illustre les variations locales de ce grand plat du Lauragais.",
     "video": "",
     "id": "cassoulet-de-carcassonne"
   },
@@ -570,7 +570,7 @@ window.FULL_DATA = [
     "description": "Variante du cassoulet (de l'occitan 'mongeta', le haricot) consommée dans plusieurs départements du Sud-Ouest. À l'origine plat de haricots cuits avec les restes de viande, c'est aujourd'hui un plat festif avec porc et canard gras. Plat-roi des fêtes votives villageoises.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La mongetada est une variante du cassoulet, dont le nom vient de l'occitan « mongeta », le haricot. Spécialité du Comminges, autour de Saint-Gaudens, elle met à l'honneur les haricots blancs mijotés avec des viandes confites et de la charcuterie. C'est un plat de tradition, généreux et convivial, des Pyrénées centrales.",
     "video": "",
     "id": "mongetada-de-saint-gaudens"
   },
@@ -589,7 +589,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La saucisse de Toulouse est une saucisse fraîche de pur porc, hachée gros, à la chair rose, embossée en un long boyau souvent enroulé en spirale. Simplement assaisonnée de sel et de poivre, elle se grille, se poêle ou entre dans le cassoulet de Toulouse. C'est l'une des charcuteries les plus emblématiques de la ville.",
     "video": "",
     "id": "saucisse-de-toulouse"
   },
@@ -603,7 +603,7 @@ window.FULL_DATA = [
     "description": "Ail rose traditionnel du Tarn, autour du village de Lautrec. IGP et Label Rouge. Robe rose pâle caractéristique. Saveur douce et sucrée, sans agressivité. Conservation exceptionnelle (jusqu'à un an). Souvent vendu en 'manouilles' (tresses) ou 'gerbes' confectionnées à la main.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'ail rose de Lautrec est un ail à la pelure rosée, cultivé autour de ce village du Tarn. Réputé pour sa finesse, son parfum et sa longue conservation, il se vend tressé en « manouilles ». Distingué par un Label Rouge puis une IGP, il fait l'objet d'une fête annuelle et reste une fierté du terroir tarnais.",
     "video": "",
     "id": "ail-rose-de-lautrec"
   },
@@ -622,7 +622,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "L'échaudé est un petit biscuit sec et très ferme, dont le nom vient de sa fabrication : la pâte, souvent parfumée à l'anis, est d'abord pochée dans l'eau bouillante (échaudée) avant d'être cuite au four. Spécialité du Tarn, autour de Carmaux, il se conserve longtemps et se déguste avec un café ou un vin doux.",
     "video": "",
     "id": "echaude-de-carmaux"
   },
@@ -641,7 +641,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "mer",
-    "detail": "",
+    "detail": "L'anchois de Collioure est préparé selon une tradition séculaire dans ce port catalan : le poisson est étêté puis salé en saumure et mûri plusieurs mois, avant d'être conditionné au sel, à l'huile ou en filets. Sa chair fondante et son goût franc en font une référence. Protégé par une IGP, il relève salades, tapenades et pan-bagnat.",
     "video": "",
     "id": "anchois-de-collioure"
   },
@@ -660,7 +660,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La zézette de Sète est un petit biscuit sablé allongé, à la vanille, fait d'une pâte simple roulée dans le sucre. Croquante et légère, elle est devenue, avec son nom espiègle, une spécialité emblématique de la ville portuaire. Elle se grignote à toute heure, avec un café ou un vin doux.",
     "video": "",
     "id": "zezette-de-sete"
   },
@@ -674,7 +674,7 @@ window.FULL_DATA = [
     "description": "Petit biscuit catalan en forme de couronne, entièrement recouvert d'un glaçage royal au citron. Spécialité du Vallespir et des Pyrénées-Orientales. Tendre à l'intérieur, fondant en bouche grâce au glaçage qui craque doucement.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La rousquille est un petit biscuit catalan en forme de couronne, recouvert d'un glaçage blanc, moelleux et délicatement parfumé au citron et à l'anis. Spécialité du Roussillon, notamment d'Amélie-les-Bains et du Vallespir, elle fond en bouche et accompagne le café. C'est une douceur très présente lors des fêtes catalanes.",
     "video": "",
     "id": "rousquilles-du-roussillon"
   },
@@ -716,7 +716,7 @@ window.FULL_DATA = [
     "description": "Tuber melanosporum, le 'diamant noir'. Récoltée de décembre à mars sous des chênes truffiers ('brûlés' où rien ne pousse). Pour la trouver, on utilise des chiens dressés qui sentent la truffe jusqu'à 30 cm de profondeur, ou parfois la mouche à truffe : quand elle se pose et repart au même endroit, c'est qu'il y a quelque chose à creuser.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La truffe noire du Périgord (Tuber melanosporum), surnommée le « diamant noir », est un champignon souterrain qui se développe en symbiose avec les racines des chênes et des noisetiers. Récoltée en hiver à l'aide de chiens ou de truies, elle dégage un parfum intense et inimitable. Rare et précieuse, elle parfume œufs, volailles, sauces et foie gras, et se négocie sur des marchés réputés du Périgord et du Quercy.",
     "video": "",
     "id": "truffe-du-perigord"
   },
@@ -749,7 +749,7 @@ window.FULL_DATA = [
     "description": "Prunes séchées de la variété 'prunier d'Ente', cultivée surtout en Lot-et-Garonne. Se mange seul, en accompagnement de plats salés (lapin, canard, magret), ou en dessert. Propriétés laxatives bien connues. IGP depuis 2002.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le pruneau d'Agen est une prune de la variété « prune d'Ente » séchée, à la chair moelleuse, sombre et sucrée. Cultivée dans les vallées de la Garonne et du Lot, la prune aurait été introduite par des moines au Moyen Âge. Le séchage concentre ses sucres et ses arômes. Protégé par une IGP, le pruneau se déguste nature, en pâtisserie, ou cuisiné avec des viandes comme le lapin ou le porc.",
     "video": "",
     "id": "pruneaux-d-agen"
   },
@@ -768,7 +768,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le touron est une confiserie à base de pâte d'amandes et de sucre, souvent enrichie de fruits secs (pistaches, noisettes) ou de fruits confits, héritée de la tradition ibérique. On le trouve en version tendre ou dure. Coloré et parfumé, il est emblématique du Pays basque et des fêtes, notamment de Noël.",
     "video": "",
     "id": "touron-basque"
   },
@@ -787,7 +787,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le pastis landais, ou pastis gascon, est une petite brioche moelleuse parfumée à la fleur d'oranger, à la vanille et parfois à l'armagnac, reconnaissable à sa forme bombée et à son chapeau doré. Riche et aérée, elle se déguste au petit-déjeuner, au goûter ou lors des fêtes de village dans les Landes et en Gascogne.",
     "video": "",
     "id": "pastis-landais"
   },
@@ -801,7 +801,7 @@ window.FULL_DATA = [
     "description": "Spécialité basque et gasconne à base de tomates, poivrons verts (idéalement piments doux du pays), oignons et piment d'Espelette. Souvent servie avec des œufs brouillés, du jambon de Bayonne ou un poisson. Les couleurs rouge-vert-blanc évoquent le drapeau basque.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La piperade est une préparation basque et gasconne à base de tomates, de poivrons et d'oignons mijotés à l'huile, relevés de piment d'Espelette. Souvent liée d'œufs battus, elle accompagne le jambon de Bayonne ou se sert en plat. Colorée — elle reprend les couleurs du drapeau basque —, elle illustre la cuisine ensoleillée du Sud-Ouest.",
     "video": "",
     "id": "piperade-basque"
   },
@@ -820,7 +820,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La sauce béarnaise est une sauce chaude émulsionnée, à base de jaunes d'œufs et de beurre clarifié montés sur une réduction d'échalote, de vinaigre et d'estragon. Onctueuse et parfumée, elle accompagne classiquement les grillades de bœuf et les poissons. Malgré son nom, elle aurait été créée près de Paris au XIXe siècle, en hommage au Béarn d'Henri IV.",
     "video": "",
     "id": "sauce-bearnaise"
   },
@@ -839,7 +839,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Les noisettines du Médoc sont de petites noisettes grillées enrobées d'une fine couche de sucre caramélisé, croquantes et parfumées. Fabriquées à Blaignan, dans le Médoc, selon une recette artisanale, elles se grignotent à l'apéritif sucré ou en gourmandise, et sont devenues une spécialité réputée de la région bordelaise.",
     "video": "",
     "id": "noisettines-du-medoc"
   },
@@ -853,7 +853,7 @@ window.FULL_DATA = [
     "description": "Fins bâtonnets de chocolat torsadés, créés en 1969 dans une chocolaterie de Margaux suite à un incident sur la buse d'une machine. Le parallèle est immédiatement fait avec les sarments de vigne du Médoc voisin. Existent dans plusieurs parfums (thé, framboise, café).",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Les sarments du Médoc sont de fins bâtonnets de chocolat torsadés, évoquant les sarments de vigne taillés dans le vignoble bordelais. Créés à la fin des années 1960, ils se déclinent en plusieurs parfums. Fins et fondants, ils sont un clin d'œil chocolaté au pays du vin.",
     "video": "",
     "id": "sarments-du-medoc"
   },
@@ -867,7 +867,7 @@ window.FULL_DATA = [
     "description": "AOP pour les noix fraîches ou de primeur, sèches et cerneaux produits dans plusieurs communes d'Aveyron, Charente, Corrèze, Dordogne, Lot et Lot-et-Garonne. Quatre variétés autorisées : Corne, Marbot, Grandjean et Franquette.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La noix du Périgord, protégée par une AOP, est cultivée dans les vallées de la Dordogne et de ses affluents, à partir de variétés locales (Marbot, Franquette, Corne, Grandjean). Charnue et savoureuse, elle se consomme fraîche, sèche, en huile ou en pâtisserie. Le noyer est un arbre emblématique du paysage périgourdin.",
     "video": "",
     "id": "noix-du-perigord"
   },
@@ -886,7 +886,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le fuet est une saucisse sèche fine d'origine catalane, à base de porc, recouverte d'une fine fleur blanche naturelle. Séché lentement, il offre une chair maigre et un goût délicat, légèrement poivré. On le tranche en fines rondelles à l'apéritif. C'est un incontournable de la charcuterie du Roussillon et de la Catalogne.",
     "video": "",
     "id": "fuet-catalan"
   },
@@ -900,7 +900,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre des Cévennes, déjà mentionné par Pline l'Ancien sous le nom 'péraldou'. Pâte molle à croûte naturelle, lait cru de chèvre, affiné 11 jours minimum. AOP depuis 2000. Goût caprin franc, notes de noisette, devient piquant à mesure qu'il sèche. Un classique avec un côtes-du-rhône blanc.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le pélardon est un petit fromage de chèvre des Cévennes, déjà connu dans l'Antiquité. Au lait cru, en petit palet, il se déguste frais et lactique ou plus sec et corsé selon l'affinage, avec des notes caprines et de noisette. Protégé par une AOP, il reflète le pastoralisme caprin des garrigues et des montagnes languedociennes.",
     "video": "",
     "id": "pelardon"
   },
@@ -928,7 +928,7 @@ window.FULL_DATA = [
     "description": "Fromage des hauts plateaux de l'Aubrac, fabriqué dans les burons depuis le Moyen Âge. Pâte pressée non cuite, lait cru de vache Aubrac ou Simmental, affinage 4 mois minimum. AOP depuis 1961. Goût fruité et long, notes herbacées de l'estive. Base de l'aligot avec la tome fraîche.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le laguiole est un grand fromage à pâte pressée non cuite, fabriqué au lait cru de vache sur les hauts plateaux de l'Aubrac. Affiné plusieurs mois, il développe une pâte ferme et un goût puissant, légèrement acidulé. Sa pâte fraîche, la « tome », entre dans la fabrication de l'aligot. Protégé par une AOP, il est un emblème de l'Aubrac.",
     "video": "",
     "id": "laguiole"
   },
@@ -942,7 +942,7 @@ window.FULL_DATA = [
     "description": "Petit palet de fromage de chèvre du causse de Gramat, autrefois appelé 'cabécou'. Cité dès le XVᵉ siècle dans les redevances seigneuriales. Pâte molle à croûte fine, lait cru, 35 g, affiné 6 jours. AOP depuis 1996. Goût doux et lacté quand jeune, plus typé en vieillissant. Un classique avec un Cahors.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le rocamadour est un petit palet de fromage de chèvre du causse de Gramat, dans le Quercy, au lait cru. Crémeux et fondant, il développe un goût caprin doux qui se renforce avec l'affinage, sous une fine peau veloutée. Protégé par une AOP, il se déguste nature, légèrement chaud sur une salade ou sur du pain.",
     "video": "",
     "id": "rocamadour"
   },
@@ -956,7 +956,7 @@ window.FULL_DATA = [
     "description": "Pâte d'amandes traditionnelle (du latin 'martius panis' — pain de mars), spécialité de Saint-Léonard-de-Noblat dans le Limousin. ⅔ d'amandes blanchies finement broyées, ⅓ de sucre et blanc d'œuf. Présentée sous forme de biscuit dans cette ville.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le massepain de Saint-Léonard-de-Noblat est une confiserie à base de pâte d'amandes, moelleuse et délicatement parfumée. Spécialité ancienne de cette ville du Limousin, il se présente en petits gâteaux dorés. Tendre et fondant, il accompagne le café ou se déguste tel quel.",
     "video": "",
     "id": "massepain-de-saint-leonard-de-noblat"
   },
@@ -970,7 +970,7 @@ window.FULL_DATA = [
     "description": "Gâteau au fromage frais de chèvre, spécialité poitevine. Reconnaissable à sa coupole noire (volontairement très cuite) qui surmonte une garniture moelleuse jaune pâle. Servi à toutes les fêtes du Poitou.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le tourteau fromagé est un gâteau reconnaissable à son dôme noir : un appareil de fromage frais de chèvre cuit à four très chaud, qui caramélise et noircit en surface tandis que l'intérieur reste moelleux et soufflé. Spécialité du Poitou, il se déguste en dessert ou au goûter.",
     "video": "",
     "id": "tourteau-fromage"
   },
@@ -984,7 +984,7 @@ window.FULL_DATA = [
     "description": "Spécialité de Vienne, Deux-Sèvres et Vendée. Servi froid en entrée ou chaud en plat. Mélange compact de légumes verts (oseille, blettes, choux, persil, oignon) liés aux œufs et au lard, enveloppé dans des feuilles de chou et cuit longuement au bouillon.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le farci poitevin est une préparation de légumes verts (épinards, oseille, chou, herbes) hachés et liés aux œufs et à la viande, enveloppée dans des feuilles de chou puis cuite. Servi froid en tranches, comme une terrine végétale, il est traditionnel dans la Vienne, les Deux-Sèvres et la Vendée, notamment au printemps.",
     "video": "",
     "id": "farci-poitevin"
   },
@@ -1003,7 +1003,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le macaron de Montmorillon est un macaron moelleux fait exclusivement d'amandes, de sucre et de blancs d'œufs, présenté en couronne sur une feuille de papier. Spécialité ancienne de cette ville de la Vienne, il offre une croûte légère et un cœur fondant, sans coque lisse ni garniture. Il se conserve bien et accompagne un café ou un thé.",
     "video": "",
     "id": "macaron-de-montmorillon"
   },
@@ -1017,7 +1017,7 @@ window.FULL_DATA = [
     "description": "Gros gâteau plat sablé au beurre, à briser d'un coup de poing en son centre selon la tradition. Sucre, farine, beurre et œufs. Spécialité conviviale du Poitou, à partager.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le broyé du Poitou est un grand gâteau plat et sablé, riche en beurre, à la texture friable. La tradition veut qu'on ne le coupe pas mais qu'on le brise d'un coup de poing au centre, pour le partager. Doré et croquant, il se déguste au goûter ou en dessert, avec un café ou un vin doux.",
     "video": "",
     "id": "broye-du-poitou"
   },
@@ -1045,7 +1045,7 @@ window.FULL_DATA = [
     "description": "Gaufre fine fourrée à la cassonade ou à la vanille, créée par la Maison Méert en 1849 rue Esquermoise à Lille. En 1864, Méert devient 'Fournisseur officiel de Sa Majesté le Roi Léopold Iᵉʳ' des Belges. À l'origine du lacquemant belge. Une bouchée pour tester, deux pour être conquis.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La gaufre fourrée lilloise est une gaufre fine et ovale, garnie d'une crème parfumée à la cassonade ou à la vanille. Rendue célèbre par une maison historique de Lille, elle est moelleuse et fondante, bien différente de la gaufre croustillante. On la déguste au goûter, avec un café ou un thé.",
     "video": "",
     "id": "gaufre-fourree-lilloise"
   },
@@ -1059,7 +1059,7 @@ window.FULL_DATA = [
     "description": "Bonbon créé en 1957 par Georges Verquin (Verquin Confiseur), à destination des mineurs du Nord-Pas-de-Calais. Le tabac étant interdit dans les mines (à cause du grisou), il fallait un bonbon qui compense le manque de cigarette et donne une sensation de fraîcheur. Eucalyptus, menthe, anis étoilé. Forme ovoïde noire qui rappelle une boule de charbon.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La pastille du mineur est un bonbon créé en 1957 dans le Nord, à l'origine destiné aux mineurs pour adoucir la gorge irritée par la poussière de charbon. Fraîche et mentholée, parfois à l'eucalyptus, elle est devenue un petit emblème du bassin minier et un clin d'œil à son histoire industrielle.",
     "video": "",
     "id": "pastille-du-mineur"
   },
@@ -1073,7 +1073,7 @@ window.FULL_DATA = [
     "description": "Spécialité picarde célèbre depuis le XVIᵉ siècle. Pâte d'amande, œufs, miel — parfois avec confiture d'abricot ou extrait de vanille. Dense et moelleux, rien à voir avec le macaron parisien à coque. C'était paraît-il le dessert préféré de Catherine de Médicis.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le macaron d'Amiens est un biscuit dense et moelleux à base de pâte d'amande, de miel et de blancs d'œufs, réputé depuis plusieurs siècles en Picardie. Plus rond et plus compact que le macaron parisien, sans garniture, il offre un cœur fondant et un parfum d'amande prononcé. Il se conserve bien et accompagne le café.",
     "video": "",
     "id": "macaron-d-amiens"
   },
@@ -1087,7 +1087,7 @@ window.FULL_DATA = [
     "description": "Né au VIIᵉ siècle dans l'abbaye de Maroilles, en Thiérache, où les moines mettaient au point sa fabrication. Pâte molle à croûte lavée orangée, lait cru de vache, affinage en cave humide pendant 5 semaines. AOP depuis 1976. Odeur très puissante mais goût plus doux et fruité qu'on ne croit. Cœur de la flamiche picarde.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le maroilles est un fromage à pâte molle et croûte lavée orangée, né dans l'abbaye du même nom, en Thiérache, où les moines l'auraient mis au point. Régulièrement frotté et affiné en cave humide, il développe une odeur puissante mais un goût étonnamment franc et savoureux. Protégé par une AOP, il est l'âme de nombreuses recettes du Nord, dont la tarte au maroilles.",
     "video": "",
     "id": "maroilles"
   },
@@ -1115,7 +1115,7 @@ window.FULL_DATA = [
     "description": "Spécialité champenoise du XVIIᵉ siècle, proche du boudoir. Sa couleur rose vient à l'origine d'une coloration à la cochenille destinée à masquer les grains de vanille. Maison Fossier (1756) en est le producteur historique. À tremper dans le champagne — d'où le mythe — ou utilisé dans les charlottes.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le biscuit rose de Reims est un biscuit léger et sec, de couleur rose pâle, parfumé à la vanille et saupoudré de sucre glace. Créé au XVIIe siècle, il a la particularité de pouvoir être trempé dans le champagne sans se désagréger. Sa texture qui fond doucement et sa jolie couleur en ont fait l'emblème sucré de Reims, indissociable de la dégustation des vins de Champagne.",
     "video": "",
     "id": "biscuit-rose-de-reims"
   },
@@ -1134,7 +1134,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La nonnette est un petit pain d'épices rond et moelleux, fourré d'une marmelade — souvent à l'orange — et délicatement glacé. Son nom rappelle les religieuses qui en confectionnaient autrefois dans les couvents. Tendre et parfumée au miel et aux épices, elle se déguste au goûter et compte parmi les douceurs traditionnelles de la région.",
     "video": "",
     "id": "nonnette-de-reims"
   },
@@ -1148,7 +1148,7 @@ window.FULL_DATA = [
     "description": "Gâteau au miel et aux épices (cannelle, coriandre, gingembre, anis étoilé). Diffusé comme pâtisserie de Noël par les réseaux monastiques en Europe du Nord, puis dans le nord-est de la France — Dijon, Reims et Alsace principalement. Indispensable aux marchés de Noël alsaciens.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le pain d'épices d'Alsace est un gâteau au miel et aux épices (cannelle, gingembre, anis, girofle…), à la mie dense et parfumée. Introduit par les influences germaniques, il est particulièrement présent à Noël, où il se décline en petits sujets décorés. On le déguste nature, en tranches beurrées, ou en accompagnement d'un foie gras.",
     "video": "",
     "id": "pain-d-epice-d-alsace"
   },
@@ -1162,7 +1162,7 @@ window.FULL_DATA = [
     "description": "Viennoiserie salée traditionnelle à base de pâte briochée, pochée dans une solution alcaline (ce qui lui donne sa couleur brun-rouge), en forme de nœud, saupoudrée de gros sel. Symbole emblématique de l'Alsace. Se mange tel quel à l'apéritif ou avec une bière.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le bretzel est une viennoiserie salée en forme de nœud, à la pâte échaudée puis dorée et parsemée de gros sel. Issu de la tradition germanique, il est emblématique de l'Alsace, où on le trouve moelleux comme une viennoiserie ou en version sèche et croquante pour l'apéritif. On le déguste tel quel, volontiers avec une bière.",
     "video": "",
     "id": "bretzel-alsacien"
   },
@@ -1176,7 +1176,7 @@ window.FULL_DATA = [
     "description": "Spécialité alsacienne du XVIᵉ siècle. Saucisse fine, longue, légèrement courbée, à base de bœuf et de porc, légèrement fumée au bois de hêtre. Son nom vient du verbe allemand 'knacken' qui décrit le bruit que fait la peau qui craque sous la dent. Indispensable à la choucroute.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La knack de Strasbourg est une saucisse fine, longue et fumée, à la peau croquante qui « claque » sous la dent — d'où son nom. À base de porc et de bœuf, elle se réchauffe délicatement dans l'eau frémissante. Pilier de la choucroute garnie, elle se sert aussi simplement avec de la moutarde et du pain, et fait partie du quotidien gourmand alsacien.",
     "video": "",
     "id": "saucisse-de-strasbourg-knack"
   },
@@ -1190,7 +1190,7 @@ window.FULL_DATA = [
     "description": "Petites pâtes alsaciennes (et germaniques) à base de farine, œufs, sel et eau. Pâte plus molle que la pâte à nouilles classique, qu'on fait tomber dans l'eau bouillante à travers une grille pour former les Spätzle. Délicieuses sautées au beurre, en accompagnement d'un baeckeoffe.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Les spätzle sont de petites pâtes irrégulières à base de farine, d'œufs et de lait, poussées dans l'eau bouillante puis souvent revenues au beurre. Tendres et moelleuses, communes à l'Alsace et au monde germanique, elles accompagnent les viandes en sauce comme le coq au Riesling ou le baeckeoffe. On les sert aussi gratinées au fromage.",
     "video": "",
     "id": "pates-spatzle"
   },
@@ -1209,7 +1209,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La cramaillotte, dite « miel de pissenlit », n'est pas un miel mais une gelée obtenue en faisant infuser des fleurs de pissenlit avec du sucre et du citron, jusqu'à une consistance proche du miel. Dorée et florale, c'est une préparation artisanale traditionnelle de l'est de la France, à tartiner sur du pain ou des crêpes.",
     "video": "",
     "id": "cramaillotte-miel-de-pissenlit"
   },
@@ -1223,7 +1223,7 @@ window.FULL_DATA = [
     "description": "Charcuterie en forme de petit cylindre, à base de chaudins de porc (parfois de veau). À distinguer absolument de l'andouille ! Label AAAAA (Association Amicale des Amateurs d'Andouillette Authentique) — graal de la qualité. À griller, servir avec de la moutarde de Meaux et des frites.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "L'andouillette de Troyes est une charcuterie en forme de cylindre, faite de chaudins de porc coupés en lanières dans le sens de la longueur, assaisonnés puis embossés. Réputée pour sa qualité, elle se reconnaît à sa texture et à son goût typé. On la déguste grillée ou poêlée, souvent avec de la moutarde et des frites.",
     "video": "",
     "id": "andouillette-de-troyes"
   },
@@ -1251,7 +1251,7 @@ window.FULL_DATA = [
     "description": "Fromage de l'Aube et de l'Yonne, mentionné dès le XIVᵉ siècle, déjà offert au gouverneur de Langres en 1551. Pâte molle à croûte fleurie blanche, lait de vache, forme cylindrique. AOP depuis 1970. Goût lacté, légèrement salé, notes de champignon. Servir avec un champagne brut nature.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le chaource est un fromage à pâte molle et croûte fleurie, originaire de l'Aube et mentionné dès le Moyen Âge. Au lait de vache, il offre une pâte blanche, fine et légèrement friable au cœur quand il est jeune, puis plus crémeuse en mûrissant, avec une pointe d'acidité et de champignon. Il bénéficie d'une AOP et accompagne très bien un champagne.",
     "video": "",
     "id": "chaource"
   },
@@ -1265,7 +1265,7 @@ window.FULL_DATA = [
     "description": "Fromage du plateau de Langres, reconnaissable à sa 'fontaine', cuvette au sommet qu'on remplit traditionnellement de marc ou de champagne. Pâte molle à croûte lavée orangée, lait de vache, retourné une seule fois pour creuser la cuvette. AOP depuis 1991. Goût corsé, légèrement piquant.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le langres est un fromage à pâte molle et croûte lavée du plateau de Langres, reconnaissable à la cuvette creusée sur son dessus — la « fontaine » — où l'on verse parfois un peu de marc. Au lait de vache, il développe une croûte orangée et un goût puissant. Protégé par une AOP, il se déguste à maturité, idéalement avec un vin de la région.",
     "video": "",
     "id": "langres"
   },
@@ -1279,7 +1279,7 @@ window.FULL_DATA = [
     "description": "Moutarde forte à base de graines de moutarde brune (Brassica juncea), vinaigre, sel et acide citrique. Maille a la Maison Maille à Dijon, ouverte en 1747. Accompagne toutes les viandes, sert de base à la mayonnaise. Curiosité : la quasi-totalité des graines de moutarde 'de Dijon' est aujourd'hui importée du Canada.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La moutarde de Dijon est une moutarde forte et lisse, élaborée à partir de graines de moutarde brune broyées et délayées dans du verjus ou du vin blanc, qui lui donnent son piquant caractéristique. « Dijon » désigne aujourd'hui une recette plus qu'une origine géographique protégée, mais la ville en reste le berceau historique. Elle relève sauces, vinaigrettes et viandes.",
     "video": "",
     "id": "moutarde-de-dijon"
   },
@@ -1307,7 +1307,7 @@ window.FULL_DATA = [
     "description": "Petits bonbons ronds blancs à base d'une graine d'anis vert enrobée de couches successives de sirop de sucre. Fabriqués depuis le IXᵉ siècle à l'abbaye de Flavigny-sur-Ozerain (Côte-d'Or). Boîtes en métal ovales devenues iconiques. Quinze jours de fabrication par boîte.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "L'anis de Flavigny est un petit bonbon blanc et rond, formé autour d'une graine d'anis vert patiemment enrobée de sirop de sucre pendant plusieurs jours. Fabriqué dans une ancienne abbaye de Flavigny, en Côte-d'Or, selon une tradition séculaire, il se décline en divers parfums (anis, réglisse, fleur d'oranger…) et se présente dans de jolies boîtes ovales.",
     "video": "",
     "id": "anis-de-flavigny"
   },
@@ -1321,7 +1321,7 @@ window.FULL_DATA = [
     "description": "Spécialité de l'Yonne, autour d'Auxerre. Pâte à choux mélangée à du comté ou du gruyère râpé, ajouté à chaud avant cuisson. Servie tiède à l'apéritif, accompagne traditionnellement une dégustation de vins de Bourgogne.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La gougère est une pâte à choux salée enrichie de fromage (comté ou gruyère), cuite en petites boules dorées et soufflées. Spécialité de l'Yonne, notamment autour d'Auxerre, elle se sert tiède à l'apéritif, où elle accompagne traditionnellement la dégustation des vins de Bourgogne. Croustillante dehors, moelleuse dedans, c'est un grand classique convivial.",
     "video": "",
     "id": "gougere-bourguignonne"
   },
@@ -1335,7 +1335,7 @@ window.FULL_DATA = [
     "description": "'Belle de Morteau', fabriquée en Franche-Comté depuis plus de cinq siècles. Saucisse fumée dans des cheminées traditionnelles (tuyés) au bois de résineux des montagnes du Doubs. IGP depuis 2010. Reconnaissable à sa cheville de bois à l'extrémité.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La saucisse de Morteau, ou « belle de Morteau », est une grosse saucisse de porc fumée lentement dans les « tuyés », ces hautes cheminées des fermes du Haut-Doubs, au bois de résineux. Reconnaissable à la cheville de bois qui ferme son extrémité, elle offre une chair ferme et un goût fumé prononcé. Protégée par une IGP, elle se déguste pochée, avec des lentilles ou une potée.",
     "video": "",
     "id": "saucisse-de-morteau"
   },
@@ -1349,7 +1349,7 @@ window.FULL_DATA = [
     "description": "Spécialité créée par le maître chocolatier Voisin. Ganache de chocolat délicatement enveloppée d'une fine couche de pâte d'amande garnie de bonbons. Coloration bleu pâle. Devenue un ambassadeur officiel de la gastronomie lyonnaise, capitale mondiale de la table.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le coussin de Lyon est une confiserie créée au XXe siècle par un maître chocolatier lyonnais : un petit coussin de pâte d'amande vert tendre, parfumé au curaçao, renfermant une ganache au chocolat. Sa forme et sa couleur évoquent le coussin de soie offert, selon la légende, à la Vierge par les échevins de la ville. C'est une douceur emblématique de Lyon.",
     "video": "",
     "id": "coussin-de-lyon"
   },
@@ -1363,7 +1363,7 @@ window.FULL_DATA = [
     "description": "Préparation à base de semoule ou farine de blé dur, beurre, œufs, lait — éventuellement enrichie de brochet ou de volaille. La pâte ('panade') gonfle à la cuisson. Souvent servie avec une sauce Nantua aux écrevisses. Quenelle de brochet sauce Nantua = bistrot lyonnais étoilé.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La quenelle lyonnaise est une préparation légère à base de semoule ou de farine, d'œufs et de beurre, façonnée en forme de quenelle, souvent enrichie de brochet. Pochée puis gratinée, elle gonfle et devient moelleuse, traditionnellement nappée d'une sauce Nantua aux écrevisses. C'est un grand classique des bouchons et des tables lyonnaises.",
     "video": "",
     "id": "quenelle-lyonnaise"
   },
@@ -1382,7 +1382,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La corniotte est une pâtisserie de la Bresse louhannaise : une base de pâte garnie d'un appareil au fromage blanc, relevée de trois pointes caractéristiques formant un tricorne. Légère et dorée, elle se déguste tiède ou froide, en version salée comme sucrée. C'est une douceur traditionnelle des marchés de Louhans.",
     "video": "",
     "id": "corniotte-de-louhans"
   },
@@ -1410,7 +1410,7 @@ window.FULL_DATA = [
     "description": "Fromage d'hiver des Hauts du Doubs, fabriqué uniquement du 15 août au 15 mars avec le lait des vaches Montbéliardes redescendues des alpages. Pâte molle à croûte lavée, ceinturé d'une sangle d'épicéa qui le parfume, présenté dans une boîte de bois. AOP depuis 1981. Goût boisé et résineux. Se déguste à la cuillère, ou chauffé au four avec du vin blanc et de l'ail.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le mont d'or, ou vacherin du Haut-Doubs, est un fromage saisonnier fabriqué uniquement l'hiver, cerclé d'une sangle d'épicéa qui le parfume. Au lait cru de vache, sa pâte est si coulante qu'on la déguste à la cuillère, parfois après l'avoir passé au four (la « boîte chaude »). Protégé par une AOP, c'est un incontournable des tablées hivernales.",
     "video": "",
     "id": "mont-d-or"
   },
@@ -1424,7 +1424,7 @@ window.FULL_DATA = [
     "description": "Reconnaissable à sa raie de cendre noire en son milieu : à l'origine, le fromager du soir protégeait avec de la suie le caillé qui attendait celui du matin. Pâte pressée non cuite, lait cru de vache, fabriqué dans le Jura. AOP depuis 2000. Goût doux et crémeux, légèrement fruité.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le morbier est un fromage de Franche-Comté reconnaissable à la fine raie de cendre noire qui le traverse en son milieu. À l'origine, cette couche protégeait le caillé du soir avant l'ajout de celui du matin. Au lait cru de vache, à pâte souple et fondante, il offre un goût doux et fruité. Il bénéficie d'une AOP.",
     "video": "",
     "id": "morbier"
   },
@@ -1438,7 +1438,7 @@ window.FULL_DATA = [
     "description": "Créé au XVIᵉ siècle par les moines cisterciens de l'abbaye d'Époisses en Bourgogne. Pâte molle à croûte lavée orangée, lait cru de vache, lavé au marc de Bourgogne pendant l'affinage. AOP depuis 1991. Odeur puissante, goût ample et long, notes alcoolisées. Le fromage préféré de Brillat-Savarin.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "L'époisses est un fromage à pâte molle et croûte lavée, dont la fabrication serait née au XVIe siècle dans un monastère de Côte-d'Or. Régulièrement frotté au marc de Bourgogne pendant l'affinage, il prend une croûte orangée brillante et développe une odeur puissante et un goût intense. Protégé par une AOP, il se déguste à pleine maturité, presque à la cuillère.",
     "video": "",
     "id": "epoisses"
   },
@@ -1452,7 +1452,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre des coteaux du Mâconnais, autrefois appelé 'chevreton'. Pâte molle, croûte naturelle fine, lait cru de chèvre, forme tronconique caractéristique. AOP depuis 2006. Goût caprin franc, notes de noisette et de châtaigne. Servir avec un Mâcon-Villages blanc.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le mâconnais est un petit fromage de chèvre des coteaux du Mâconnais, en forme de petit bouchon. Frais, il est doux et lactique ; affiné, sa pâte se resserre et son goût se corse, prenant des notes de noisette. Au lait cru, il bénéficie d'une AOP et accompagne idéalement les vins blancs de la région.",
     "video": "",
     "id": "maconnais"
   },
@@ -1480,7 +1480,7 @@ window.FULL_DATA = [
     "description": "Cultivée sur le plateau du Velay (Haute-Loire) depuis l'Antiquité romaine. AOC depuis 1996. Petite, verte marbrée, peau fine, goût légèrement sucré. Tient parfaitement à la cuisson — la lentille du saucisson-lentilles parfait.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La lentille verte du Puy est cultivée sur le plateau volcanique du Velay, en Haute-Loire, dont le sol et le climat lui donnent une peau fine et une saveur de noisette. Elle cuit rapidement sans trempage et garde sa tenue. Première légumineuse à avoir obtenu une AOP, elle se prête aux salades, aux plats mijotés et accompagne saucisses et petit salé.",
     "video": "",
     "id": "lentille-verte-du-puy"
   },
@@ -1494,7 +1494,7 @@ window.FULL_DATA = [
     "description": "Bonbon blanc octogonal aux vertus digestives, à base de l'eau de la station thermale de Vichy. Créé en 1825. Goût mentholé caractéristique. Mythe : Napoléon III en faisait grande consommation pendant ses cures à Vichy.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La pastille de Vichy est un bonbon blanc octogonal, fabriqué à partir des sels minéraux de la célèbre source thermale, ce qui lui vaut une réputation digestive. À la menthe ou au citron, elle fond doucement et rafraîchit. Présentée dans une jolie boîte, elle est indissociable de la ville thermale de Vichy.",
     "video": "",
     "id": "pastilles-de-vichy"
   },
@@ -1508,7 +1508,7 @@ window.FULL_DATA = [
     "description": "Châtaignes confites dans le sirop de sucre et glacées au sucre glace. Préparation très longue (plusieurs jours de bains successifs) et délicate (les châtaignes ne doivent pas se briser). En 1882, Clément Faugier industrialisa la production à Privas. Trois ans plus tard, il créa la crème de marrons en récupérant les brisures.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le marron glacé est une châtaigne de variété « marron » confite lentement dans un sirop de sucre, puis glacée. Privas, en Ardèche, en est l'une des capitales, exploitant la richesse castanéicole de la région. Fondant et délicatement sucré, c'est une confiserie de fête, raffinée et patiente à produire.",
     "video": "",
     "id": "marrons-glaces-de-privas"
   },
@@ -1522,7 +1522,7 @@ window.FULL_DATA = [
     "description": "Inventée en 1885 par Clément Faugier pour utiliser les brisures de marrons glacés. Châtaignes confites + brisures de marrons glacés + vanille. Une 'confiture' aux marrons, à tartiner ou à manger à la cuillère. La boîte rouge et jaune Faugier est iconique.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La crème de marrons est une préparation onctueuse de châtaignes cuites, sucrées et vanillées, mise au point en 1885 par Clément Faugier, à Privas, pour valoriser les brisures de marrons glacés. Douce et parfumée, elle se tartine, garnit crêpes, yaourts et gâteaux, et entre dans le célèbre Mont-Blanc. C'est un produit emblématique de l'Ardèche.",
     "video": "",
     "id": "creme-de-marrons-d-ardeche"
   },
@@ -1536,7 +1536,7 @@ window.FULL_DATA = [
     "description": "Sablé composé de deux couches de biscuit avec une garniture de gelée de fruit (framboise, myrtille, abricot). Deux trous caractéristiques sur le dessus, contour dentelé, saupoudré de sucre glace. Spécialité de Romans-sur-Isère.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Les lunettes de Romans sont des sablés composés de deux couches de biscuit aux amandes, prises en sandwich avec de la confiture (souvent à l'abricot), et percées de deux trous qui leur donnent leur allure de lunettes. Spécialité de Romans-sur-Isère, elles sont saupoudrées de sucre glace et se dégustent au goûter.",
     "video": "",
     "id": "lunettes-de-romans"
   },
@@ -1555,7 +1555,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La pompe aux grattons est une brioche salée du Bourbonnais et de l'Auvergne, enrichie de grattons — de petits morceaux de couenne ou de viande de porc fondus et croustillants. Moelleuse et parfumée, elle se déguste tiède à l'apéritif ou en entrée. C'est une spécialité rustique et conviviale de la région.",
     "video": "",
     "id": "pompes-aux-grattons"
   },
@@ -1574,7 +1574,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La râpée est une galette de pommes de terre crues râpées, liées aux œufs, puis poêlées jusqu'à être dorées et croustillantes. Spécialité populaire de Saint-Étienne et du Forez, simple et réconfortante, elle se déguste chaude, nature ou accompagnée d'une salade et de charcuterie.",
     "video": "",
     "id": "rapee-stephanoise"
   },
@@ -1588,7 +1588,7 @@ window.FULL_DATA = [
     "description": "AOC depuis 1938 (première AOC pour un fruit en France), AOP depuis 1996. Trois variétés autorisées : Franquette, Mayette, Parisienne. Cultivée autour de Grenoble (Isère, Drôme, Savoie). Goût subtil, plus fin que les noix industrielles.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La noix de Grenoble, cultivée dans les vallées de l'Isère et de la Drôme, fut le premier fruit à obtenir une AOC en France, en 1938. Issue de variétés locales (Franquette, Mayette, Parisienne), elle offre une chair savoureuse et bien remplie. On la consomme fraîche ou sèche, en huile, en pâtisserie ou avec un fromage.",
     "video": "",
     "id": "noix-de-grenoble"
   },
@@ -1607,7 +1607,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le gâteau de Savoie est un gâteau très léger et aérien, dont la texture mousseuse tient aux blancs d'œufs montés en neige et à la fécule. Peu gras, il aurait été créé pour un comte de Savoie au Moyen Âge. Délicat et nuageux, il se déguste nature, avec une crème anglaise ou des fruits.",
     "video": "",
     "id": "gateau-de-savoie"
   },
@@ -1621,7 +1621,7 @@ window.FULL_DATA = [
     "description": "Petites pâtes carrées (environ 5 mm de côté) à base de farine de sarrasin ou de blé. Spécialité savoyarde. Servies en gratin de croziflette (avec reblochon, lardons, crème), évolution montagnarde du célèbre plat.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Les crozets sont de petites pâtes carrées d'environ cinq millimètres de côté, faites de farine de blé ou de sarrasin. Spécialité savoyarde, ils se cuisent à l'eau puis se servent en gratin avec du fromage et de la crème, ou en accompagnement de plats de montagne. Leur format singulier les rend reconnaissables.",
     "video": "",
     "id": "crozets-de-savoie"
   },
@@ -1640,7 +1640,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le cantal est l'un des plus anciens fromages français, fabriqué dans les monts du Cantal à partir de lait de vache, à pâte pressée non cuite. Selon l'affinage, on distingue le cantal jeune (doux et lactique), entre-deux et vieux (plus ferme et corsé). Protégé par une AOP, c'est un grand fromage de montagne, très polyvalent en cuisine.",
     "video": "",
     "id": "cantal"
   },
@@ -1654,7 +1654,7 @@ window.FULL_DATA = [
     "description": "Fromage d'estive, fabriqué uniquement entre le 15 avril et le 15 novembre dans les burons d'altitude du Cantal, avec le lait cru de vaches Salers. Pâte pressée non cuite, meules de 35 à 50 kg, fabriqué dans une 'gerle' en bois traditionnelle. AOP depuis 1961. Goût intensément herbacé et fruité, marqué par la flore des pâturages.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le salers est un fromage d'estive, fabriqué uniquement l'été, à la ferme et au lait cru, lorsque les vaches pâturent l'herbe grasse des montagnes. Proche du cantal mais plus rare et plus typé, il développe une pâte ferme et des arômes puissants nourris par la flore d'altitude. Protégé par une AOP, c'est un fromage d'exception.",
     "video": "",
     "id": "salers"
   },
@@ -1668,7 +1668,7 @@ window.FULL_DATA = [
     "description": "Né au milieu du XIXᵉ siècle, dans le Cantal, quand un paysan eut l'idée d'inoculer du Penicillium au lait de vache, à la manière du Roquefort. Pâte persillée, lait de vache, affinage minimum 4 semaines. AOP depuis 1975. Goût franc et corsé, moins salé que le Roquefort. Excellent en sauce sur une côte de bœuf.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bleu d'Auvergne est un fromage de vache à pâte persillée, né au milieu du XIXe siècle dans le Cantal. Crémeux et fondant, son bleu régulier lui donne un goût franc et parfumé, moins salé qu'un roquefort. Protégé par une AOP, il se déguste sur du pain, émietté en salade ou fondu dans une sauce.",
     "video": "",
     "id": "bleu-d-auvergne"
   },
@@ -1687,7 +1687,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "fromage",
-    "detail": "",
+    "detail": "La fourme d'Ambert est l'un des plus anciens fromages de France, reconnaissable à sa haute forme cylindrique. Bleu de vache à pâte persillée, elle est étonnamment douce et crémeuse, au goût délicat. Originaire des monts du Forez, elle bénéficie d'une AOP et se savoure aussi bien sur un plateau qu'en cuisine.",
     "video": "",
     "id": "fourme-d-ambert"
   },
@@ -1706,7 +1706,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le saint-nectaire est un fromage à pâte pressée non cuite du massif du Sancy, en Auvergne, affiné sur paille de seigle. Sa croûte fleurie grise et sa pâte souple développent des arômes de noisette, de champignon et de cave. Servi autrefois à la table de Louis XIV, il bénéficie d'une AOP.",
     "video": "",
     "id": "saint-nectaire"
   },
@@ -1734,7 +1734,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre de la Drôme et de l'Ardèche, 'piquant' en occitan, allusion à son caractère. Pâte molle, lait cru de chèvre, séchage 12 jours minimum. AOP depuis 1983. Devient sec et piquant en vieillissant. Excellent grillé sur une salade de saison.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le picodon est un petit fromage de chèvre de la Drôme et de l'Ardèche, au lait cru. Frais, il est doux ; affiné, il sèche et se corse, prenant un goût piquant qui lui vaut son nom (de l'occitan « picou », piquant). Protégé par une AOP, il se déguste nature, mariné dans l'huile ou chaud sur une salade.",
     "video": "",
     "id": "picodon"
   },
@@ -1748,7 +1748,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre du Pilat rhodanien, mentionné dès le XVᵉ siècle. Pâte molle à croûte naturelle ivoire, lait cru, 30 g, affiné 8 jours minimum. AOP depuis 2009. Goût lacté et caprin, notes de fleurs. À déguster avec un Condrieu blanc, c'est l'accord du terroir.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La rigotte de Condrieu est un tout petit fromage de chèvre du massif du Pilat, au lait cru. Sa fine croûte se couvre de moisissures bleutées et ivoire avec l'affinage, tandis que sa pâte passe du frais au sec et corsé. Protégée par une AOP, elle se déguste à divers stades, avec un vin blanc de la vallée du Rhône.",
     "video": "",
     "id": "rigotte-de-condrieu"
   },
@@ -1762,7 +1762,7 @@ window.FULL_DATA = [
     "description": "Le 'prince des gruyères' selon Brillat-Savarin, fabriqué dans les hauts alpages de Savoie. Pâte pressée cuite, lait cru de vache Tarine ou Abondance, meule à talon concave, affinage 5 mois minimum. AOP depuis 1968. Trois variétés : laitier, été, chalet d'alpage. Goût fruité et long, base de la fondue savoyarde.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le beaufort, surnommé le « prince des gruyères » par Brillat-Savarin, est un grand fromage de montagne à pâte pressée cuite, au lait cru de vaches Tarine et Abondance. Reconnaissable à son talon concave, il développe une pâte fruitée et des arômes complexes, accentués par l'affinage en cave. Protégé par une AOP, il est l'un des fleurons de la Savoie.",
     "video": "",
     "id": "beaufort"
   },
@@ -1776,7 +1776,7 @@ window.FULL_DATA = [
     "description": "Le cousin chèvre du Reblochon, fabriqué dans les Aravis et le Beaufortain. Pâte pressée non cuite, lait cru de chèvre des Savoie, forme de petite meule. AOP depuis 2002. Production confidentielle (moins de 50 tonnes par an). Goût doux et crémeux, plus délicat que le caprin attendu.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le chevrotin est le cousin caprin du reblochon : une tomme de chèvre à pâte pressée et croûte lavée, fabriquée à la ferme dans les Aravis, en Savoie et Haute-Savoie. Au lait cru, il offre une pâte souple et un goût caprin doux. Protégé par une AOP, il est l'un des rares fromages de chèvre fermiers de montagne.",
     "video": "",
     "id": "chevrotin"
   },
@@ -1790,7 +1790,7 @@ window.FULL_DATA = [
     "description": "Fromage du massif des Bauges, autrefois appelé 'tomme grise' à cause de sa croûte naturelle cendrée. Pâte pressée non cuite, lait cru de vache, affinage 5 semaines minimum. AOP depuis 2002. Goût rustique, légèrement noisetté, notes herbacées.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La tomme des Bauges est un fromage de vache à pâte pressée non cuite et croûte grise « tourmentée », fabriqué dans le massif des Bauges, en Savoie. Au lait cru, à la pâte souple et au goût rustique de cave et de sous-bois, elle bénéficie d'une AOP. C'est une tomme de caractère, longtemps fromage des fermes.",
     "video": "",
     "id": "tomme-des-bauges"
   },
@@ -1851,7 +1851,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La rigolette est une confiserie nantaise composée d'une fine coque de sucre cuit translucide renfermant une pâte de fruits fondante. Plus moelleuse que le berlingot, elle se décline en de nombreux parfums fruités aux couleurs vives. Créée à Nantes au début du XXe siècle, elle est restée une douceur artisanale emblématique de la ville.",
     "video": "",
     "id": "rigolette-nantaise"
   },
@@ -1865,7 +1865,7 @@ window.FULL_DATA = [
     "description": "Spécialité vendéenne. IGP depuis 2013. Viennoiserie ovale dorée, proche d'une brioche mais à la mie plus serrée. Farine, œufs, sucre, beurre et crème fraîche. À découper en tranches épaisses pour le petit-déjeuner.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La gâche vendéenne est une brioche ovale, dense et moelleuse, enrichie de beurre et de crème fraîche, souvent parfumée d'un trait d'eau-de-vie. Sa mie serrée et son bon goût lacté la distinguent des brioches aériennes. Traditionnellement préparée pour Pâques, elle bénéficie d'une IGP et se déguste au petit-déjeuner ou au goûter, nature ou légèrement toastée.",
     "video": "",
     "id": "gache-vendeenne"
   },
@@ -1879,7 +1879,7 @@ window.FULL_DATA = [
     "description": "Haricot blanc demi-sec à peau fine et texture fondante après cuisson. IGP et Label Rouge. Traditionnellement consommée avec du beurre et de l'ail, ou en accompagnement du jambon de Vendée.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La mogette est un haricot blanc, sec ou demi-sec, à la peau fine, qui devient fondant et presque crémeux après cuisson. Pilier de la cuisine vendéenne, elle se sert traditionnellement sur une tartine de pain grillé frottée de beurre — la fameuse « tartine de mogettes » — ou en accompagnement d'un jambon. Elle bénéficie d'une IGP.",
     "video": "",
     "id": "mogette-de-vendee"
   },
@@ -1893,7 +1893,7 @@ window.FULL_DATA = [
     "description": "Préparation de porc cuite très longuement dans sa graisse. La chair se défait en filaments. Popularisée par Le Mans au début du XXᵉ siècle, mais d'origine touraine au XVᵉ siècle. La Touraine garde l'IGP avec les Rillettes de Tours. À tartiner sur du pain frais, accompagnée d'un cornichon.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Les rillettes du Mans sont une préparation de porc cuit très longuement dans sa propre graisse, jusqu'à ce que la chair se défasse en filaments fondants. Plus brunes et plus rustiques que les rillettes de Tours, elles se tartinent généreusement sur du pain de campagne. Spécialité sarthoise réputée, elles accompagnent l'apéritif ou une entrée.",
     "video": "",
     "id": "rillettes-du-mans"
   },
@@ -1907,7 +1907,7 @@ window.FULL_DATA = [
     "description": "Spécialité gastronomique de Tours, IGP. Rillettes de porc plus sèches et plus brunes que celles du Mans (cuisson plus longue), à la chair effilochée. Couvre l'Indre-et-Loire et certains cantons limitrophes (sauf la Sarthe).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Les rillettes de Tours sont une préparation de porc cuit longuement dans sa graisse puis effiloché. Plus sèches, plus dorées et plus typées que celles du Mans, elles se distinguent par une cuisson qui laisse la viande légèrement caramélisée. Protégées par une IGP, elles se tartinent sur du pain frais et accompagnent un vin de Loire à l'apéritif ou en entrée.",
     "video": "",
     "id": "rillettes-de-tours"
   },
@@ -1935,7 +1935,7 @@ window.FULL_DATA = [
     "description": "Vinaigre de vin obtenu par la méthode traditionnelle d'Orléans : acescence naturelle en fûts de chêne dans une cave aérée. Après trois semaines, la moitié est transférée dans un fût plus petit, le fût d'origine est rechargé, etc. Affinage minimum d'un an. Méthode similaire à celle du balsamique.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Orléans fut pendant des siècles la capitale française du vinaigre, grâce à sa position sur la Loire où arrivaient les vins. La « méthode orléanaise » repose sur une acétification lente, en tonneaux de chêne, sans chauffe : le vin se transforme doucement en un vinaigre fin et aromatique. Quelques maisons perpétuent encore ce savoir-faire artisanal réputé des grands cuisiniers.",
     "video": "",
     "id": "vinaigre-d-orleans"
   },
@@ -1954,7 +1954,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La France a produit du safran durant plusieurs siècles, et le Gâtinais en fut l'un des grands bassins. L'épice provient des stigmates rouges du crocus, cueillis et émondés à la main — un travail minutieux qui explique son prix. Après une longue éclipse, des producteurs ont relancé cette culture, retrouvant un safran local parfumé, aux notes de miel et de foin.",
     "video": "",
     "id": "safran-du-gatinais"
   },
@@ -1968,7 +1968,7 @@ window.FULL_DATA = [
     "description": "Variété de lentille verte cultivée dans l'Indre et le Cher (Berry). Label Rouge depuis 1996. Confrérie des fins mangeux d'lentilles vertes du Berry. Peau fine, cuisson rapide, goût marqué. Tradition : avec un saucisson cuit ou un petit salé.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La lentille verte du Berry est cultivée dans l'Indre et le Cher, sur des terres qui lui conviennent particulièrement. Sa peau fine permet une cuisson rapide sans trempage, et elle garde une jolie tenue tout en restant fondante. Protégée par une IGP, elle se prête aux salades, aux plats mijotés et aux accompagnements de saucisses ou de petit salé.",
     "video": "",
     "id": "lentilles-vertes-du-berry"
   },
@@ -1982,7 +1982,7 @@ window.FULL_DATA = [
     "description": "Bûche de chèvre cendrée, traversée d'une paille de seigle qui porte gravé son nom (signe d'authenticité). Origine sarrasine au VIIIᵉ siècle. Pâte molle, lait cru, croûte cendrée bleutée. AOP depuis 1990. Goût caprin franc, plus prononcé en vieillissant. À déguster avec un Vouvray sec ou un Chinon blanc.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le sainte-maure de Touraine est une bûche de fromage de chèvre cendrée, traversée sur toute sa longueur par une paille de seigle qui la maintient et porte le nom de l'appellation. Au lait cru, elle évolue du frais et lactique vers une pâte plus sèche et corsée. Protégée par une AOP, elle se déguste à différents stades d'affinage sur un plateau ou en salade.",
     "video": "",
     "id": "sainte-maure-de-touraine"
   },
@@ -1996,7 +1996,7 @@ window.FULL_DATA = [
     "description": "Fromage de chèvre du Berry, cendré à la poudre de charbon de bois. Pâte molle, lait cru de chèvre, croûte fine cendrée bleu-gris, forme de tronc de cône aplati. AOP depuis 1975. Goût lacté et frais quand jeune, plus typé en vieillissant. Servir avec un Sancerre.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le selles-sur-cher est un fromage de chèvre du Berry, recouvert d'une fine couche de charbon de bois qui lui donne sa croûte cendrée bleutée. Sa pâte blanche, fine et fondante, développe un goût doux et noiseté qui s'affirme avec l'affinage. Au lait cru, il bénéficie d'une AOP et figure parmi les grands chèvres de la vallée du Cher.",
     "video": "",
     "id": "selles-sur-cher"
   },
@@ -2010,7 +2010,7 @@ window.FULL_DATA = [
     "description": "Pyramide tronquée à la croûte cendrée, dont la légende attribue la forme à Talleyrand : Napoléon, mécontent à son retour d'Égypte, aurait coupé d'un coup d'épée la pointe de la pyramide originelle pour effacer le souvenir. Lait cru de chèvre. AOP depuis 1998. Goût caprin doux, notes de noisette.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le valençay est un fromage de chèvre du Berry en forme de pyramide tronquée, recouvert de cendre de charbon de bois. La légende veut que sa pointe ait été coupée pour ne pas rappeler à Napoléon sa campagne d'Égypte. Au lait cru, il offre une pâte fine et un goût de noisette. Protégé par une AOP, il est l'un des chèvres les plus reconnaissables de France.",
     "video": "",
     "id": "valencay"
   },
@@ -2024,7 +2024,7 @@ window.FULL_DATA = [
     "description": "Pyramide pointue de fromage de chèvre du Berry, surnommée 'tour Eiffel' ou 'pyramide'. Lait cru, pâte molle, croûte naturelle ivoire bleutée. AOP depuis 1972. Goût lacté quand jeune, caprin franc à maturité. À découper en biais pour avoir un morceau de pointe et de base.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le pouligny-saint-pierre est un fromage de chèvre du Berry en forme de pyramide pointue, ce qui lui a valu le surnom de « tour Eiffel ». Au lait cru, il développe une pâte fine et un goût caprin franc qui se renforce avec l'affinage. Protégé par une AOP, il est l'un des plus anciens chèvres reconnus de la région.",
     "video": "",
     "id": "pouligny-saint-pierre"
   },
@@ -2038,7 +2038,7 @@ window.FULL_DATA = [
     "description": "Petit fromage du Loiret, déclinaison du brie local. Plusieurs versions : au foin (affiné sous le foin), cendré (à la cendre de bois), au poivre. Pâte molle, lait de vache. Goût doux et crémeux, parfumé selon l'affinage. Spécialité locale qui mérite d'être (re)découverte.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le fromage d'Olivet est un petit fromage du Loiret à pâte molle, déclinaison locale du brie. On le trouve affiné au foin, qui le parfume, ou cendré, frotté de charbon de bois. Sa pâte souple et son goût doux en font un fromage de tradition, longtemps fabriqué dans les fermes des bords du Loiret.",
     "video": "",
     "id": "fromage-d-olivet"
   },
@@ -2052,7 +2052,7 @@ window.FULL_DATA = [
     "description": "Fromage de chèvre du Perche en forme de trèfle à trois feuilles, créé en 2002 par un éleveur local pour valoriser sa production. Pâte molle à croûte fleurie, lait cru de chèvre. Goût lacté et doux, fabrication confidentielle artisanale. Une curiosité régionale à découvrir.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le trèfle du Perche est un fromage de chèvre découpé en forme de trèfle à trois feuilles, création contemporaine au design reconnaissable. Sa pâte fraîche et crémeuse, parfois cendrée, offre un goût doux et lactique. Il illustre la vitalité de la production caprine dans le bocage du Perche.",
     "video": "",
     "id": "trefle-du-perche"
   },
@@ -2071,7 +2071,7 @@ window.FULL_DATA = [
       }
     ],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Les canistrelli sont de petits biscuits secs, sucrés et cassants, parfumés selon les versions au vin blanc, à l'anis, au citron, à la châtaigne ou aux amandes. Croquants et peu gras, ils se conservent longtemps et accompagnent volontiers un café ou un vin doux. Présents dans toutes les boulangeries de l'île, ils font partie du quotidien gourmand corse.",
     "video": "",
     "id": "canistrelli-corse"
   },
@@ -2085,7 +2085,7 @@ window.FULL_DATA = [
     "description": "Saucisse corse sèche, à base de viande et de foie de porc. Au sud de l'île, on dit 'figateddu' ; au nord, 'figadellu'. Souvent grillée et servie chaude, parfois sur du pain. L'une des spécialités les plus emblématiques de l'île.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le figatellu est une saucisse corse à base de viande et de foie de porc, assaisonnée d'ail, de vin et d'épices, puis séchée et souvent fumée. On le déguste sec en charcuterie, ou grillé sur des braises l'hiver, où son parfum de foie et de fumée se révèle pleinement. C'est l'une des charcuteries les plus identitaires de l'île, liée à la saison de l'abattage du porc.",
     "video": "",
     "id": "figatellu"
   },
@@ -2099,7 +2099,7 @@ window.FULL_DATA = [
     "description": "Le fromage emblématique de la Corse, fabriqué uniquement à partir du petit-lait de brebis ou de chèvre, additionné de lait entier. Pâte fraîche, blanche, légèrement granuleuse. AOP depuis 1998. Production de novembre à juin uniquement. Se déguste frais avec du sucre et de l'eau-de-vie, ou en cuisine : cannelloni au brocciu, fiadone.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le brocciu est le fromage emblématique de la Corse, fabriqué à partir du petit-lait de brebis ou de chèvre chauffé, à la manière d'une ricotta. Frais, doux et crémeux, il se mange nature avec un peu de sucre ou de miel, en entrée, ou cuisiné dans d'innombrables recettes corses (fiadone, cannellonis, omelette à la menthe). Protégé par une AOP, il se déguste surtout de l'hiver au printemps.",
     "video": "",
     "id": "brocciu"
   },
@@ -2113,7 +2113,7 @@ window.FULL_DATA = [
     "description": "Gâteau aux noisettes, spécialité de la Creuse, du Limousin et des Combrailles. Texture moelleuse et fondante, parfum intense de noisettes torréfiées. Recette protégée par la Confrérie du Gâteau Creusois.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le gâteau creusois est un gâteau moelleux à base de noisettes torréfiées et moulues, de beurre et de blancs d'œufs, à la mie aérée et au bon goût de noisette. Sa recette aurait été retrouvée sur un vieux parchemin de monastère. Spécialité du Limousin, il se savoure au goûter.",
     "video": "",
     "id": "gateau-creusois"
   },
@@ -2127,7 +2127,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre du Haut-Poitou, hérité de l'invasion sarrasine du VIIIᵉ siècle (le mot 'chabichou' vient de l'arabe 'chebli', chèvre). Forme caractéristique de bonde, pâte molle, croûte fleurie, lait cru. AOP depuis 1990. Goût caprin franc, notes de noisette et de foin. Excellent avec un Haut-Poitou blanc ou un sauvignon.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le chabichou du Poitou est un petit fromage de chèvre en forme de petit tronc, la « bonde », au lait cru. Sa pâte blanche, fine et fondante, développe un goût caprin franc qui s'affirme avec l'affinage, sous une croûte légèrement bleutée. Lié, dit la tradition, à l'introduction de la chèvre dans la région, il bénéficie d'une AOP.",
     "video": "",
     "id": "chabichou-du-poitou"
   },
@@ -2174,7 +2174,7 @@ window.FULL_DATA = [
     "description": "Berlingot pyramidal fabriqué dans la station thermale de Cauterets, à partir du sucre cuit aromatisé aux eaux et aux fruits.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le berlingot de Cauterets est un bonbon pyramidal translucide fabriqué dans cette station thermale des Hautes-Pyrénées. À l'origine, on aromatisait le sucre avec les eaux thermales pour en adoucir la prise. Décliné en parfums fruités et joliment rayé, il est devenu un souvenir gourmand traditionnel des Pyrénées.",
     "video": "",
     "id": "berlingot-de-cauterets"
   },
@@ -2188,7 +2188,7 @@ window.FULL_DATA = [
     "description": "Bonbon translucide et rayé de Nantes, décliné en parfums fruités, hérité de la grande tradition confiseuse de la ville.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le berlingot nantais est un bonbon de sucre cuit en forme de petite pyramide, translucide et rayé, décliné en parfums fruités. Héritier d'une longue tradition confiseries de Nantes, autrefois liée au commerce du sucre dans le port, il se reconnaît à ses jolies rayures et à sa texture dure qui fond lentement en bouche.",
     "video": "",
     "id": "berlingot-nantais"
   },
@@ -2202,7 +2202,7 @@ window.FULL_DATA = [
     "description": "La plus ancienne dragée de France : une amande enrobée de sucre dur, mise au point à Verdun dès le XIIIe siècle par un apothicaire.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La dragée de Verdun est la plus ancienne dragée de France : une amande enrobée d'une fine couche de sucre durci, dont la fabrication remonte au XIIIe siècle, lorsqu'un apothicaire de la ville eut l'idée d'enrober les amandes pour mieux les conserver. Lisse et craquante, elle reste indissociable des baptêmes et des mariages.",
     "video": "",
     "id": "dragee-de-verdun"
   },
@@ -2216,7 +2216,7 @@ window.FULL_DATA = [
     "description": "Caramel tendre au chocolat emprisonné dans une coque de sucre cuit, créé à Nevers en 1901 en hommage au négus d'Éthiopie.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le négus est un bonbon de Nevers composé d'un caramel tendre au chocolat enfermé dans une coque de sucre cuit dur et translucide. Créé à la fin du XIXe siècle et baptisé en l'honneur du souverain d'Éthiopie alors en visite officielle, il marie le craquant de la coque au fondant du cœur. C'est la confiserie emblématique de la ville.",
     "video": "",
     "id": "negus-de-nevers"
   },
@@ -2230,7 +2230,7 @@ window.FULL_DATA = [
     "description": "Bonbon nacré à la coque de sucre soufflé renfermant un cœur de praliné fondant, inventé à Bourges en 1879.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La forestine est un bonbon nacré à la coque de sucre soufflé, fine et brillante, qui renferme un cœur de praliné fondant. Créée à Bourges au XIXe siècle, elle fut l'une des premières confiseries fourrées de ce type. Délicate et craquante, elle reste une spécialité emblématique de la ville, présentée dans de jolis coffrets.",
     "video": "",
     "id": "forestine-de-bourges"
   },
@@ -2244,7 +2244,7 @@ window.FULL_DATA = [
     "description": "L'ancêtre de toutes les pralines : amande grillée enrobée de sucre, créée au XVIIe siècle pour le duc de Plessis-Praslin et toujours produite par la maison Mazet.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La praline de Montargis est l'ancêtre de toutes les pralines : une amande grillée enrobée de sucre cuit, croquante et parfumée. Son invention remonte au XVIIe siècle, attribuée à l'office du maréchal du Plessis-Praslin, dont le nom a donné « praline ». Une maison de Montargis en perpétue depuis la fabrication artisanale, selon la recette d'origine.",
     "video": "",
     "id": "praline-de-montargis"
   },
@@ -2258,7 +2258,7 @@ window.FULL_DATA = [
     "description": "Pâte de coing translucide présentée dans une petite boîte ronde en épicéa ; une douceur orléanaise offerte autrefois aux rois de France.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le cotignac est une pâte de coing translucide et ambrée, présentée traditionnellement dans une petite boîte ronde en bois d'épicéa. Confiserie ancienne, elle était autrefois offerte aux hôtes de marque et appréciée à la cour. Son goût délicat de coing et sa jolie présentation en font une douceur patrimoniale d'Orléans.",
     "video": "",
     "id": "cotignac-d-orleans"
   },
@@ -2286,7 +2286,7 @@ window.FULL_DATA = [
     "description": "Bonbon vert vif au parfum de verveine, écho sucré de la célèbre liqueur du Velay, autour du Puy-en-Velay.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le bonbon à la verveine du Velay est une confiserie d'un vert vif, parfumée à la verveine, la plante emblématique du Puy-en-Velay et de sa célèbre liqueur. Rafraîchissant et légèrement herbacé, il prolonge la tradition de la Verveine du Velay. C'est une douceur typique de la Haute-Loire.",
     "video": "",
     "id": "bonbon-a-la-verveine-du-velay"
   },
@@ -2314,7 +2314,7 @@ window.FULL_DATA = [
     "description": "Petite pâte de fruit fourrée d'une goutte de liqueur de cassis, gourmandise emblématique de Dijon.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La cassissine est une petite pâte de fruit au cassis, fourrée d'une goutte de liqueur de cassis qui éclate en bouche. Elle marie la richesse du cassis de Bourgogne, fruit emblématique de la région, à une texture tendre et parfumée. C'est une douceur très représentative de Dijon, capitale du cassis.",
     "video": "",
     "id": "cassissine-de-dijon"
   },
@@ -2328,7 +2328,7 @@ window.FULL_DATA = [
     "description": "Tiges d'angélique cultivées dans le Marais poitevin et confites au sucre, transformées en confiseries et liqueurs depuis le XVIIIe siècle à Niort.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "L'angélique est une plante aromatique aux longues tiges, cultivée de longue date dans le Marais poitevin autour de Niort. Confites au sucre, ses tiges deviennent une confiserie verte, parfumée et légèrement amère, utilisée telle quelle ou pour décorer pâtisseries et entremets. Niort en a fait une spécialité réputée, déclinée aussi en liqueur et en sirop.",
     "video": "",
     "id": "angelique-confite-de-niort"
   },
@@ -2342,7 +2342,7 @@ window.FULL_DATA = [
     "description": "Chocolat moulé en forme de bouchon de liège renfermant un raisin macéré dans l'eau-de-vie, clin d'œil gourmand au vignoble bordelais.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le bouchon de Bordeaux est une confiserie en chocolat moulée en forme de bouchon de liège, renfermant une pâte de raisin ou une ganache parfumée à l'alcool, souvent à la fine bordeaux. Clin d'œil au vignoble, il marie le chocolat à la note vineuse. C'est une douceur emblématique de Bordeaux.",
     "video": "",
     "id": "bouchon-de-bordeaux"
   },
@@ -2356,7 +2356,7 @@ window.FULL_DATA = [
     "description": "Berlingot tendre à la menthe, ambré et fondant, fabriqué à Bavay dans l'Avesnois depuis le XIXe siècle.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La chique de Bavay est un berlingot tendre à la menthe, à la couleur ambrée et à la texture fondante. Fabriquée à Bavay, dans l'Avesnois, elle se distingue des berlingots durs par son moelleux. Rafraîchissante et parfumée, elle est une douceur traditionnelle du Nord.",
     "video": "",
     "id": "chique-de-bavay"
   },
@@ -2370,7 +2370,7 @@ window.FULL_DATA = [
     "description": "Minuscule bille noire au miel et à la réglisse, ancienne confiserie de Montpellier portant le nom des ouvrières du textile.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La grisette de Montpellier est une minuscule bille noire au miel et à la réglisse, parfumée de plantes de la garrigue. Ancienne confiserie de la ville, elle aurait été appréciée des pèlerins et des voyageurs. Discrète et parfumée, elle se grignote par poignées et perpétue une tradition sucrée languedocienne.",
     "video": "",
     "id": "grisette-de-montpellier"
   },
@@ -2384,7 +2384,7 @@ window.FULL_DATA = [
     "description": "Écorce épaisse du cédrat corse confite au sucre, autrefois grande richesse d'exportation de l'île, utilisée en pâtisserie et confiserie.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le cédrat est un agrume à l'écorce très épaisse et parfumée, longtemps une grande richesse agricole de la Corse. Confite au sucre, cette écorce devient une confiserie translucide et aromatique, utilisée telle quelle ou en pâtisserie. Le cédrat corse entre aussi dans des liqueurs et reste un produit identitaire de l'île.",
     "video": "",
     "id": "cedrat-confit-de-corse"
   },
@@ -2398,7 +2398,7 @@ window.FULL_DATA = [
     "description": "Nougat du pays cathare aux amandes et au miel, plus rustique que celui de Montélimar, lié à la tradition sucrière de Limoux.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le nougat de Limoux est un nougat du pays cathare, aux amandes et au miel, plus rustique que celui de Montélimar. Confectionné de façon artisanale, il se décline en versions tendre ou dure. Parfumé et généreux en fruits secs, il s'inscrit dans la tradition confiseries du Languedoc.",
     "video": "",
     "id": "nougat-de-limoux"
   },
@@ -2412,7 +2412,7 @@ window.FULL_DATA = [
     "description": "Pâte d'amandes et de fruits secs, héritée de la confiserie catalane et incontournable sur les tables de Noël du Roussillon.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le touron catalan est une confiserie de pâte d'amandes et de fruits secs, héritée de la tradition ibérique (le turrón). On le trouve dur, garni d'amandes entières, ou tendre et fondant, parfois aux fruits confits. Spécialité des fêtes en Roussillon, il se déguste notamment à Noël.",
     "video": "",
     "id": "touron-catalan"
   },
@@ -2454,7 +2454,7 @@ window.FULL_DATA = [
     "description": "Bonbon ambré au goût résineux, élaboré à partir des bourgeons de sapin cueillis dans le massif vosgien.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Ce bonbon ambré au goût résineux est élaboré à partir des jeunes bourgeons de sapin des Vosges, récoltés au printemps. Sa saveur balsamique, fraîche et légèrement sucrée, évoque la forêt vosgienne et lui prête une réputation adoucissante pour la gorge. C'est une confiserie traditionnelle du massif.",
     "video": "",
     "id": "bonbon-aux-bourgeons-de-sapin-des-vosges"
   },
@@ -2468,7 +2468,7 @@ window.FULL_DATA = [
     "description": "Gros saucisson sec haut de gamme embossé dans le fuseau et affiné lentement : la fierté charcutière de Lyon.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La rosette de Lyon est un gros saucisson sec haut de gamme, embossé dans le « fuseau », la partie la plus noble du boyau de porc, dont elle tire sa forme bombée et sa lente maturation. Séchée longuement, elle offre une chair persillée et un goût fin. C'est l'un des fleurons de la charcuterie lyonnaise.",
     "video": "",
     "id": "rosette-de-lyon"
   },
@@ -2482,7 +2482,7 @@ window.FULL_DATA = [
     "description": "Saucisse fumée au bois de résineux, teintée de cumin, protégée par une IGP et indissociable de la potée comtoise.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La saucisse de Montbéliard est une saucisse de porc fumée au bois de résineux dans les tuyés comtois, et relevée de carvi (cumin des prés) qui lui donne son parfum typique. Plus fine que la Morteau, elle est protégée par une IGP. On la déguste pochée, avec des lentilles, une potée ou une salade tiède de pommes de terre.",
     "video": "",
     "id": "saucisse-de-montbeliard"
   },
@@ -2496,7 +2496,7 @@ window.FULL_DATA = [
     "description": "Bœuf salé, fumé puis séché, tranché très finement façon viande des Grisons, spécialité du Haut-Doubs.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le brési est du bœuf salé, fumé puis longuement séché, que l'on tranche très finement, à la manière d'une viande des Grisons. Spécialité du Haut-Doubs, il offre une chair dense et savoureuse au léger goût fumé. On le déguste en fines lamelles à l'apéritif, et il parfume aussi certains plats comtois.",
     "video": "",
     "id": "bresi-de-franche-comte"
   },
@@ -2510,7 +2510,7 @@ window.FULL_DATA = [
     "description": "Jambon frotté au vin rouge, salé et fumé à la sciure de résineux, réputé depuis l'époque romaine à Luxeuil-les-Bains.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon de Luxeuil a pour particularité d'être frotté au vin rouge avant d'être salé, puis fumé à la sciure de résineux et de genévrier. Spécialité de Luxeuil-les-Bains, en Haute-Saône, il développe une chair parfumée et une jolie couleur. Il se déguste en fines tranches, à l'apéritif ou en entrée.",
     "video": "",
     "id": "jambon-de-luxeuil"
   },
@@ -2524,7 +2524,7 @@ window.FULL_DATA = [
     "description": "Jambon sec salé et fumé lentement au bois de hêtre et de genévrier, protégé par une IGP.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon des Ardennes est un jambon sec salé puis lentement fumé au bois de hêtre et de genévrier, ce qui lui donne son parfum caractéristique. Affiné plusieurs mois dans l'air des Ardennes, il offre une chair fondante et savoureuse. Protégé par une IGP, il se déguste en fines tranches, à l'apéritif ou en entrée.",
     "video": "",
     "id": "jambon-des-ardennes"
   },
@@ -2538,7 +2538,7 @@ window.FULL_DATA = [
     "description": "Jambon de montagne salé au sel sec et séché de longs mois dans l'air pur des monts d'Auvergne.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon sec d'Auvergne est un jambon de montagne salé au sel sec puis séché et affiné de longs mois dans l'air pur des monts d'Auvergne. Sa chair dense et parfumée, au léger goût de noisette, en fait une charcuterie réputée. Protégé par une IGP, il se déguste en fines tranches, à l'apéritif ou en casse-croûte.",
     "video": "",
     "id": "jambon-sec-d-auvergne"
   },
@@ -2552,7 +2552,7 @@ window.FULL_DATA = [
     "description": "Jambon issu du porc noir gascon élevé en plein air, au gras fondant et au goût intense, affiné jusqu'à deux ans.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon noir de Bigorre est issu du porc « Noir de Bigorre », élevé en plein air et nourri d'herbe, de glands et de châtaignes. Salé puis affiné très longuement, parfois plus de vingt mois, il offre une chair persillée, fondante et au goût profond. Protégé par une AOP, il compte parmi les grands jambons secs français.",
     "video": "",
     "id": "jambon-noir-de-bigorre"
   },
@@ -2566,7 +2566,7 @@ window.FULL_DATA = [
     "description": "Petite boule de chair de porc et d'herbes (blettes, épinards) enveloppée de crépine et cuite au four, à déguster chaude ou froide.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La caillette est une petite boule de chair de porc hachée mêlée d'herbes et de légumes verts (blettes, épinards), enveloppée dans de la crépine puis cuite au four. Spécialité de l'Ardèche et de la Drôme, elle se déguste chaude ou froide, en entrée. Parfumée et rustique, elle illustre la cuisine paysanne de la région.",
     "video": "",
     "id": "caillette-ardechoise"
   },
@@ -2580,7 +2580,7 @@ window.FULL_DATA = [
     "description": "Échine de porc corse salée, séchée et affinée plusieurs mois, au parfum de maquis : pièce maîtresse de la charcuterie insulaire (AOP).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La coppa est une charcuterie corse faite d'échine de porc salée, poivrée, puis séchée et affinée plusieurs mois. Tranchée fine, elle révèle un beau persillé et un parfum délicat. Issue idéalement de porcs Nustrale élevés en liberté et nourris de châtaignes et de glands, elle figure parmi les charcuteries AOP de l'île.",
     "video": "",
     "id": "coppa-corse"
   },
@@ -2594,7 +2594,7 @@ window.FULL_DATA = [
     "description": "Filet de porc corse salé et séché, enrobé de poivre, finement tranché à l'apéritif (AOP).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le lonzu est le filet de porc corse, salé, poivré, puis séché et affiné. Maigre et finement persillé, il se tranche très fin et se déguste en apéritif ou en entrée. Comme la coppa et le prisuttu, il tire sa qualité du porc Nustrale élevé en plein air, et bénéficie d'une AOP.",
     "video": "",
     "id": "lonzu-corse"
   },
@@ -2608,7 +2608,7 @@ window.FULL_DATA = [
     "description": "Jambon sec de porc corse Nustrale, affiné jusqu'à deux ans dans les caves de montagne (AOP).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le prisuttu est le jambon sec corse, issu du porc Nustrale et affiné de longs mois, parfois jusqu'à deux ans, dans des caves de montagne. Sa chair dense et parfumée, marquée par l'alimentation à la châtaigne, en fait un produit d'exception. Il se savoure en fines tranches, à l'apéritif (AOP).",
     "video": "",
     "id": "prisuttu-corse"
   },
@@ -2622,7 +2622,7 @@ window.FULL_DATA = [
     "description": "Poitrine de porc corse roulée, poivrée et séchée, équivalent insulaire de la pancetta, parfumée au maquis.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La panzetta est la poitrine de porc corse, roulée, poivrée puis séchée — l'équivalent insulaire de la pancetta italienne. On l'utilise en cuisine pour parfumer soupes, plats de légumes et ragoûts, ou on la déguste tranchée. C'est un pilier de la charcuterie traditionnelle de l'île.",
     "video": "",
     "id": "panzetta-corse"
   },
@@ -2650,7 +2650,7 @@ window.FULL_DATA = [
     "description": "Roulé d'estomac de porc épicé, cuit et tranché froid, dégusté à l'apéritif dans le Médoc viticole.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le grenier médocain est une charcuterie faite d'estomac de porc assaisonné et épicé, roulé puis cuit, et servi froid en fines tranches. Spécialité du Médoc, à la texture ferme et au goût relevé, il accompagne traditionnellement l'apéritif, notamment lors des pauses dans les vignes.",
     "video": "",
     "id": "grenier-medocain"
   },
@@ -2664,7 +2664,7 @@ window.FULL_DATA = [
     "description": "Petite saucisse savoyarde, nature ou aux choux, traditionnellement mijotée au vin blanc de Savoie.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le diot est une petite saucisse savoyarde de porc, nature ou aux choux, que l'on cuisine traditionnellement mijotée au vin blanc de Savoie (les « diots au vin blanc »). Parfumé et réconfortant, il se sert avec des pommes de terre ou de la polenta. C'est un plat de montagne convivial et roboratif.",
     "video": "",
     "id": "diot-de-savoie"
   },
@@ -2678,7 +2678,7 @@ window.FULL_DATA = [
     "description": "Foie gras de canard ou d'oie travaillé en bloc avec des éclats de truffe noire du Périgord, le grand luxe de la conserve périgourdine.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Ce pâté associe le foie gras de canard ou d'oie à la truffe noire du Périgord, dans une préparation travaillée en bloc ou en terrine. Le mariage du foie gras fondant et du parfum puissant de la truffe en fait un mets de fête particulièrement raffiné, fleuron de la gastronomie périgourdine, à déguster sur un pain légèrement toasté.",
     "video": "",
     "id": "pate-de-foie-gras-truffe-du-perigord"
   },
@@ -2692,7 +2692,7 @@ window.FULL_DATA = [
     "description": "Cuisses de canard cuites et conservées dans leur graisse, base de la cuisine du Sud-Ouest et du cassoulet.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le confit est une méthode de conservation ancestrale : les cuisses ou manchons de canard sont salés puis cuits doucement dans leur propre graisse, où ils se conservent. Réchauffés et dorés à la poêle, ils offrent une chair fondante et une peau croustillante. Pilier de la cuisine du Sud-Ouest, le confit accompagne les pommes de terre sarladaises et entre dans le cassoulet.",
     "video": "",
     "id": "confit-de-canard-du-sud-ouest"
   },
@@ -2706,7 +2706,7 @@ window.FULL_DATA = [
     "description": "Tomme de montagne à pâte pressée au lait cru de vache Abondance, au goût fruité et légèrement noiseté (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "L'abondance est une tomme de montagne à pâte pressée mi-cuite, au lait cru de vaches de race Abondance, fabriquée en Haute-Savoie. Reconnaissable à son talon concave, elle développe une pâte souple et fruitée, aux arômes de noisette. Affinée plusieurs mois, elle bénéficie d'une AOP et se déguste sur un plateau ou fondue.",
     "video": "",
     "id": "abondance"
   },
@@ -2720,7 +2720,7 @@ window.FULL_DATA = [
     "description": "Bleu de vache à pâte persillée douce et crémeuse, affiné dans le Haut-Jura, aussi appelé Bleu du Haut-Jura (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bleu de Gex, ou bleu du Haut-Jura, est un fromage de vache à pâte persillée, dont le bleu, doux et discret, parcourt une pâte crémeuse et fondante. Fabriqué dans les fruitières du massif jurassien, il offre un goût équilibré, moins puissant que d'autres bleus. Il bénéficie d'une AOP.",
     "video": "",
     "id": "bleu-de-gex"
   },
@@ -2734,7 +2734,7 @@ window.FULL_DATA = [
     "description": "Bleu de vache affiné dans les caves naturelles ventilées des Causses, cousin du Roquefort mais au lait de vache (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bleu des Causses est un fromage de vache à pâte persillée, affiné dans les caves naturelles et ventilées des Causses, percées de « fleurines » qui apportent un air frais et humide. Plus doux et crémeux qu'un roquefort (de brebis), il développe un goût franc et une jolie persillure. Protégé par une AOP, il se déguste sur du pain ou émietté en salade.",
     "video": "",
     "id": "bleu-des-causses"
   },
@@ -2748,7 +2748,7 @@ window.FULL_DATA = [
     "description": "Bleu doux et fondant du massif du Vercors, au persillé léger, l'un des plus anciens bleus de France (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bleu du Vercors-Sassenage est un fromage de vache à pâte persillée du massif du Vercors, au bleu doux et discret et à la pâte souple et fondante. Plus délicat que d'autres bleus, il offre un goût équilibré, légèrement noiseté. Issu d'une tradition ancienne du plateau, il bénéficie d'une AOP et se déguste sur du pain ou en cuisine.",
     "video": "",
     "id": "bleu-du-vercors-sassenage"
   },
@@ -2762,7 +2762,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de chèvre du Sancerrois, du frais et crémeux jusqu'au sec et corsé selon l'affinage (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le crottin de Chavignol est un petit fromage de chèvre du Sancerrois, qui évolue du frais et crémeux jusqu'au sec, ferme et corsé, voire bleuté avec l'affinage. Au lait cru, il bénéficie d'une AOP. On le déguste à tous les stades, et notamment chaud sur une salade — le fameux « crottin chaud » — accompagné d'un sancerre.",
     "video": "",
     "id": "crottin-de-chavignol"
   },
@@ -2776,7 +2776,7 @@ window.FULL_DATA = [
     "description": "Bleu de vache au persillé fin et au goût doux, affiné sur des chéneaux de bois dans le Forez (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La fourme de Montbrison est un bleu de vache des monts du Forez, en haute forme cylindrique, reconnaissable à sa croûte orangée. Son persillé fin et sa pâte plus sèche lui donnent un goût doux et fruité, moins humide que la fourme d'Ambert, dont elle s'est officiellement distinguée. Protégée par une AOP, elle se savoure sur un plateau.",
     "video": "",
     "id": "fourme-de-montbrison"
   },
@@ -2790,7 +2790,7 @@ window.FULL_DATA = [
     "description": "Petit fromage de vache rond et coulant à cœur, spécialité dauphinoise à déguster bien affiné, à la cuillère.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le saint-marcellin est un petit fromage de vache rond, originaire du Dauphiné. Jeune, sa pâte est ferme et lactique ; affiné, elle devient crémeuse et coulante sous une fine croûte fleurie. Réputé depuis des siècles dans la région de Grenoble, il bénéficie d'une IGP et se déguste à la cuillère à pleine maturité, parfois passé au four.",
     "video": "",
     "id": "saint-marcellin"
   },
@@ -2846,7 +2846,7 @@ window.FULL_DATA = [
     "description": "Tomme de vache à pâte pressée et croûte grise, fromage de montagne rustique et peu gras (IGP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La tomme de Savoie est un fromage de vache à pâte pressée non cuite, reconnaissable à sa croûte grise épaisse et fleurie. Souvent au lait partiellement écrémé, elle est peu grasse et offre une pâte souple au goût doux de cave et de noisette. Fromage de tous les jours en Savoie, elle bénéficie d'une IGP.",
     "video": "",
     "id": "tomme-de-savoie"
   },
@@ -2860,7 +2860,7 @@ window.FULL_DATA = [
     "description": "Fromage coulant à base de metton fondu, dégusté chaud à la cuillère ou nappant les pommes de terre comtoises.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La cancoillotte est un fromage coulant typiquement comtois, obtenu en faisant fondre du metton (un caillé maigre affiné) avec de l'eau, du beurre et parfois de l'ail ou du vin. Onctueuse et peu grasse, elle se déguste chaude, nappée sur des pommes de terre, du pain ou de la viande. C'est un mets familial emblématique de la Franche-Comté.",
     "video": "",
     "id": "cancoillotte"
   },
@@ -2874,7 +2874,7 @@ window.FULL_DATA = [
     "description": "Fromage de vache à croûte lavée, puissant et crémeux, cousin de l'Époisses, du nord de la Bourgogne (IGP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le soumaintrain est un fromage de vache à croûte lavée de l'Yonne, cousin de l'époisses mais un peu plus doux. Régulièrement frotté pendant l'affinage, il prend une croûte orangée et développe une pâte crémeuse et un goût puissant. Protégé par une IGP, il se déguste à pleine maturité.",
     "video": "",
     "id": "soumaintrain"
   },
@@ -2888,7 +2888,7 @@ window.FULL_DATA = [
     "description": "Cône de maroilles malaxé aux épices et au persil, roulé dans le paprika, l'un des fromages les plus typés du Nord.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La boulette d'Avesnes est un fromage fort, fait de maroilles malaxé avec du persil, de l'estragon, du poivre et des épices, façonné en cône puis roulé dans le paprika qui lui donne sa couleur rouge. Surnommée le « suppositoire du diable » pour sa puissance, elle se déguste en petites quantités, sur du pain, avec une bière du Nord.",
     "video": "",
     "id": "boulette-d-avesnes"
   },
@@ -2902,7 +2902,7 @@ window.FULL_DATA = [
     "description": "Maroilles longuement affiné et salé, surnommé « gris de Lille » ou « puant », au goût très corsé.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le vieux-Lille est un maroilles longuement affiné et fortement salé, surnommé « gris de Lille » ou « puant de Lille » en raison de son odeur prononcée. Son affinage prolongé lui donne une pâte onctueuse et un goût intense, très salé. C'est un fromage de caractère, apprécié des amateurs, traditionnellement accompagné d'un genièvre.",
     "video": "",
     "id": "vieux-lille"
   },
@@ -2916,7 +2916,7 @@ window.FULL_DATA = [
     "description": "Tomme de vache des Pyrénées ariégeoises à pâte souple percée de petits trous, au goût rustique de montagne.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bethmale est une tomme de vache des Pyrénées ariégeoises, à pâte souple et croûte lavée, parsemée de petites ouvertures. Au goût doux et fruité, parfois relevé après un long affinage, il vient de la vallée de Bethmale. C'est l'un des fromages emblématiques du pastoralisme pyrénéen ariégeois.",
     "video": "",
     "id": "bethmale"
   },
@@ -2930,7 +2930,7 @@ window.FULL_DATA = [
     "description": "Fromage de vache en forme de dôme, relevé d'ail et de poivre, jadis suspendu aux poutres des fermes auvergnates.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le gaperon est un fromage de vache auvergnat en forme de dôme, relevé d'ail et de poivre malaxés dans la pâte. Autrefois suspendu aux poutres des cuisines pour sécher, il développe un goût caractéristique, à la fois lacté et épicé. C'est un fromage rustique et reconnaissable, typique de la Limagne et du Cantal.",
     "video": "",
     "id": "gaperon"
   },
@@ -2958,7 +2958,7 @@ window.FULL_DATA = [
     "description": "Petit macaron moelleux aux amandes douces et amères, élaboré depuis le XVIIe siècle par les Ursulines de Saint-Émilion.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le macaron de Saint-Émilion est un petit macaron moelleux à base d'amandes douces et amères, de sucre et de blancs d'œufs, dont la recette serait gardée depuis le XVIIe siècle par des religieuses ursulines. Tendre et parfumé, il se déguste avec un café — ou, selon la tradition locale, avec un verre de saint-émilion.",
     "video": "",
     "id": "macaron-de-saint-emilion"
   },
@@ -2972,7 +2972,7 @@ window.FULL_DATA = [
     "description": "Petit pain d'épices rond et moelleux fourré de marmelade d'orange, héritage des couvents bourguignons.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La nonnette de Dijon est un petit pain d'épices rond et moelleux, fourré d'une marmelade d'orange et recouvert d'un fin glaçage. Héritière des douceurs préparées autrefois dans les couvents, elle marie le miel, les épices et l'acidité de l'orange. Tendre et parfumée, c'est une spécialité réputée de la capitale bourguignonne.",
     "video": "",
     "id": "nonnette-de-dijon"
   },
@@ -3000,7 +3000,7 @@ window.FULL_DATA = [
     "description": "Petits gâteaux secs de Noël aux formes variées (sablés, cannelle, anis, amandes), préparés en abondance dans les foyers alsaciens.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Les bredele sont les petits gâteaux secs de Noël d'Alsace, déclinés en formes et parfums variés : sablés, étoiles à la cannelle, biscuits à l'anis, aux amandes ou au beurre. Confectionnés en famille pendant l'Avent, ils se conservent dans des boîtes et s'offrent volontiers. Ils incarnent toute la magie des fêtes alsaciennes.",
     "video": "",
     "id": "bredele-alsacien"
   },
@@ -3014,7 +3014,7 @@ window.FULL_DATA = [
     "description": "Biscuit sec et dur aux amandes, longtemps appelé « pain de guerre », spécialité lorraine de Saint-Mihiel.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le croquet de Saint-Mihiel est un biscuit sec et très dur aux amandes, cuit deux fois pour bien croquer et se conserver longtemps. Spécialité ancienne de cette ville de la Meuse, il se déguste avec un café ou un vin doux, dans lequel on aime le tremper pour l'attendrir.",
     "video": "",
     "id": "croquet-de-saint-mihiel"
   },
@@ -3028,7 +3028,7 @@ window.FULL_DATA = [
     "description": "Petit anneau de pâte aux amandes et au citron, pochée puis séchée, gourmandise albigeoise très ancienne.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La gimblette d'Albi est un petit anneau de pâte aux amandes et au citron, d'abord poché puis cuit, ce qui lui donne sa texture ferme et croquante. Spécialité ancienne de la cité albigeoise, elle se conserve longtemps et se déguste avec un café ou un vin doux. C'est une douceur traditionnelle du Tarn.",
     "video": "",
     "id": "gimblette-d-albi"
   },
@@ -3042,7 +3042,7 @@ window.FULL_DATA = [
     "description": "Biscuit croquant à la cassonade brune et à la cannelle, traditionnellement façonné pour la Saint-Nicolas.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le spéculoos est un biscuit fin et croquant à la cassonade brune et à la cannelle, traditionnellement associé à la Saint-Nicolas dans le Nord et en Belgique. Sa surface est souvent moulée d'un motif. Son goût caramélisé et épicé en fait un compagnon idéal du café, qu'il accompagne dans de nombreux établissements.",
     "video": "",
     "id": "speculoos-du-nord"
   },
@@ -3084,7 +3084,7 @@ window.FULL_DATA = [
     "description": "Brioche moelleuse parfumée à la fleur d'oranger, en forme de couronne, spécialité de Romans-sur-Isère.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La pogne de Romans est une brioche moelleuse en forme de couronne, parfumée à la fleur d'oranger. Traditionnellement préparée pour Pâques, elle est dorée, légère et délicatement aromatique. Spécialité de Romans-sur-Isère, dans la Drôme, elle se déguste au petit-déjeuner ou au goûter, nature ou légèrement toastée.",
     "video": "",
     "id": "pogne-de-romans"
   },
@@ -3126,7 +3126,7 @@ window.FULL_DATA = [
     "description": "Moutarde fabriquée avec de la bière et du vin blanc à Charroux, dans l'Allier, à la saveur ronde et originale.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La moutarde de Charroux est élaborée avec de la bière et du vin blanc, ce qui lui donne une saveur douce et originale. Fabriquée dans ce village du Bourbonnais classé parmi les plus beaux de France, elle accompagne viandes, charcuteries et fromages. C'est une moutarde artisanale au caractère affirmé.",
     "video": "",
     "id": "moutarde-de-charroux"
   },
@@ -3140,7 +3140,7 @@ window.FULL_DATA = [
     "description": "Moutarde douce couleur prune élaborée avec du moût de raisin, dont la recette remonterait au pape Clément VI.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La moutarde violette de Brive est une moutarde douce d'une couleur prune caractéristique, obtenue en l'élaborant avec du moût de raisin. Plus sucrée et moins piquante qu'une moutarde classique, elle aurait figuré sur les tables papales au Moyen Âge. Elle accompagne à merveille les viandes, le boudin, les charcuteries et les fromages du Sud-Ouest.",
     "video": "",
     "id": "moutarde-violette-de-brive"
   },
@@ -3154,7 +3154,7 @@ window.FULL_DATA = [
     "description": "Vinaigre vieilli en fût issu du vin doux de Banyuls, aux arômes de noix et de fruits secs.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le vinaigre de Banyuls est issu du célèbre vin doux naturel de Banyuls, vieilli lentement en fût de chêne selon une méthode proche de celle du vinaigre balsamique. Ambré, rond et parfumé, aux notes de fruits secs et de caramel, il relève vinaigrettes, déglaçages et sauces avec une grande finesse. C'est un condiment recherché du Roussillon.",
     "video": "",
     "id": "vinaigre-de-banyuls"
   },
@@ -3168,7 +3168,7 @@ window.FULL_DATA = [
     "description": "Huile d'olive AOP issue de l'olive Tanche, douce et ronde, aux notes de fruit mûr et de noisette.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de Nyons est issue de l'olive Tanche, cultivée dans la Drôme provençale. Douce, ronde et peu ardente, aux notes de fruits secs et de pomme, elle fut la première huile d'olive française à obtenir une AOC. Elle accompagne crudités, poissons et légumes, et la même olive donne aussi une olive noire de table réputée.",
     "video": "",
     "id": "huile-d-olive-de-nyons"
   },
@@ -3182,7 +3182,7 @@ window.FULL_DATA = [
     "description": "Huile d'olive AOP au fruité subtil et aux notes d'artichaut et d'amande, produite autour de Manosque.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de Haute-Provence, AOP, est issue principalement de la variété aglandau. Au fruité subtil, elle développe des notes végétales d'artichaut cru et d'herbe fraîche, avec une légère ardence. Produite sur les terres sèches et ensoleillées de l'arrière-pays, elle accompagne crudités, poissons et légumes du Midi.",
     "video": "",
     "id": "huile-d-olive-de-haute-provence"
   },
@@ -3196,7 +3196,7 @@ window.FULL_DATA = [
     "description": "Huile d'olive AOP de la vallée des Baux, ample et parfumée, souvent issue d'olives maturées (« à l'ancienne »).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de la vallée des Baux-de-Provence, AOP, est réputée pour son caractère ample et parfumé. Elle se décline en fruité vert (olives récoltées tôt, plus ardent) et en fruité noir (olives maturées, aux notes de cacao et de truffe). Issue d'un terroir prestigieux, elle est l'une des huiles provençales les plus recherchées.",
     "video": "",
     "id": "huile-d-olive-des-baux-de-provence"
   },
@@ -3210,7 +3210,7 @@ window.FULL_DATA = [
     "description": "Huile d'olive AOP douce et peu ardente, issue de variétés corses et d'olives très mûres, au goût d'amande et de maquis.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de Corse est réputée pour sa douceur et son faible piquant, fruit de variétés insulaires et d'une récolte souvent tardive. Aux arômes d'amande et de fruits secs, elle bénéficie d'une AOP. Elle accompagne à merveille crudités, poissons et légumes du soleil.",
     "video": "",
     "id": "huile-d-olive-de-corse"
   },
@@ -3224,7 +3224,7 @@ window.FULL_DATA = [
     "description": "Huile parfumée pressée à partir de noix grillées, intense et boisée, à réserver à l'assaisonnement.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile de noix du Périgord est pressée à partir de noix grillées, ce qui lui donne un parfum intense et torréfié. Ambrée et délicate, elle se déguste crue, en filet sur une salade, des légumes ou un fromage frais — jamais chauffée, pour préserver ses arômes. C'est un produit traditionnel des moulins à huile du Périgord.",
     "video": "",
     "id": "huile-de-noix-du-perigord"
   },
@@ -3238,7 +3238,7 @@ window.FULL_DATA = [
     "description": "Miel de montagne aux saveurs de châtaignier, bruyère et fleurs sauvages, récolté dans les Cévennes (IGP).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le miel des Cévennes décline plusieurs saveurs selon les floraisons du massif : châtaignier puissant et boisé, bruyère, ronce, fleurs de montagne… Récolté dans un environnement préservé, il bénéficie d'une IGP. Tantôt corsé, tantôt doux, il reflète la richesse de la flore cévenole et se déguste sur du pain ou en pâtisserie.",
     "video": "",
     "id": "miel-des-cevennes"
   },
@@ -3252,7 +3252,7 @@ window.FULL_DATA = [
     "description": "Miel de miellat sombre et peu sucré, aux notes balsamiques et maltées, récolté dans les forêts vosgiennes (AOP).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le miel de sapin des Vosges est un miel de miellat sombre, peu sucré, aux notes balsamiques et boisées. Récolté dans les forêts de sapins du massif, il provient non du nectar des fleurs mais du miellat déposé sur les aiguilles. Protégé par une AOP, il est apprécié pour sa saveur originale et sa relative rareté.",
     "video": "",
     "id": "miel-de-sapin-des-vosges"
   },
@@ -3266,7 +3266,7 @@ window.FULL_DATA = [
     "description": "Mele di Corsica : miels variés selon les floraisons du maquis (clémentinier, châtaignier, miellat du maquis), classés AOP.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le miel de Corse — Mele di Corsica — décline plusieurs saveurs au fil des floraisons du maquis et des vergers : printemps, maquis de printemps, miellats du maquis, châtaigneraie, clémentinier… Premier miel à avoir obtenu une AOP en France, il reflète fidèlement la flore sauvage de l'île, des notes les plus douces aux plus corsées et amères.",
     "video": "",
     "id": "miel-de-corse"
   },
@@ -3280,7 +3280,7 @@ window.FULL_DATA = [
     "description": "Or rouge du Sud-Ouest : stigmates de crocus cueillis et émondés à la main, longtemps une grande richesse du Quercy.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le safran du Quercy, surnommé « l'or rouge », provient des stigmates du crocus cueillis et émondés à la main, un travail minutieux qui explique sa valeur. Le Quercy fut un grand bassin safranier avant un long déclin, suivi d'une renaissance. Au parfum puissant et aux notes de miel et de foin, il colore et relève risottos, sauces et desserts.",
     "video": "",
     "id": "safran-du-quercy"
   },
@@ -3294,7 +3294,7 @@ window.FULL_DATA = [
     "description": "Sel récolté à la main dans les marais de l'île de Noirmoutier, dont la délicate fleur de sel très prisée.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le sel de Noirmoutier est récolté à la main dans les marais salants de l'île, selon des gestes transmis de génération en génération. Le saunier prélève le gros sel gris au fond des œillets et, en surface, la fleur de sel, fine et délicate. Non lavé et non raffiné, il conserve ses minéraux et une saveur subtile très recherchée des cuisiniers.",
     "video": "",
     "id": "sel-de-noirmoutier"
   },
@@ -3308,7 +3308,7 @@ window.FULL_DATA = [
     "description": "Sel et fleur de sel récoltés dans les marais salants de l'île de Ré selon des gestes inchangés depuis le Moyen Âge.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le sel de l'île de Ré est récolté à la main dans les marais salants par les sauniers, selon des méthodes ancestrales. On distingue le gros sel gris, prélevé au fond des œillets, et la fleur de sel, fine et blanche, cueillie en surface. Non raffiné, il garde tous ses minéraux et une saveur délicate prisée en cuisine.",
     "video": "",
     "id": "sel-de-re"
   },
@@ -3322,7 +3322,7 @@ window.FULL_DATA = [
     "description": "Sel issu d'une source naturellement saturée au cœur du Béarn ; c'est lui qui sale le jambon de Bayonne.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le sel de Salies-de-Béarn provient d'une source naturellement saturée en sel, exploitée depuis l'Antiquité au cœur du Béarn. L'eau salée est puisée puis évaporée pour en extraire un sel fin et parfumé. C'est ce sel qui sert traditionnellement à saler le jambon de Bayonne. Il bénéficie d'une reconnaissance qui protège ce savoir-faire ancien.",
     "video": "",
     "id": "sel-de-salies-de-bearn"
   },
@@ -3336,7 +3336,7 @@ window.FULL_DATA = [
     "description": "Olives noires Tanche cueillies à maturité, ridées et fondantes, premières olives de table classées AOP en France.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'olive de Nyons est une olive noire de variété Tanche, cueillie à pleine maturité dans la Drôme provençale. Ridée, charnue et douce, au goût de fruits secs, elle fut la première olive de table française reconnue par une AOC. On la déguste à l'apéritif, en tapenade, ou on en tire une huile renommée.",
     "video": "",
     "id": "olives-de-nyons"
   },
@@ -3350,7 +3350,7 @@ window.FULL_DATA = [
     "description": "Petit cornichon croquant cultivé en Bourgogne, alternative artisanale aux cornichons d'importation.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le cornichon d'Appoigny est un petit cornichon croquant cultivé en Bourgogne, qui marque le retour d'une production française de ce légume largement importé. Récolté jeune et préparé au vinaigre, il offre un croquant et une fraîcheur recherchés. C'est une alternative artisanale et locale aux cornichons industriels.",
     "video": "",
     "id": "cornichon-d-appoigny"
   },
@@ -3364,7 +3364,7 @@ window.FULL_DATA = [
     "description": "Gros haricot blanc à peau fine cultivé sur tuteur autour de Tarbes, fondant et incontournable du cassoulet (IGP).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le haricot tarbais est un gros haricot blanc à la peau fine, traditionnellement cultivé sur tuteur — souvent grimpant le long des pieds de maïs. Fondant et savoureux, sans peau coriace, il garde sa tenue à la cuisson. Protégé par un Label Rouge et une IGP, il accompagne le confit, entre dans la garbure et fait des cassoulets réputés.",
     "video": "",
     "id": "haricot-tarbais"
   },
@@ -3378,7 +3378,7 @@ window.FULL_DATA = [
     "description": "Farine douce et sucrée issue des châtaigniers de Castagniccia, base de la cuisine corse traditionnelle (AOP).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La farine de châtaigne, douce et naturellement sucrée, est issue des châtaigniers de la Castagniccia, région qui en tira longtemps sa subsistance. Base d'innombrables préparations corses — pulenta, gâteaux, beignets, bière — elle bénéficie d'une AOP. Son goût rond et boisé est indissociable de la cuisine de l'île.",
     "video": "",
     "id": "farine-de-chataigne-corse"
   },
@@ -3392,7 +3392,7 @@ window.FULL_DATA = [
     "description": "Purée de pommes de terre liée à la tome fraîche de l'Aubrac, filante à souhait, désormais vendue prête à réchauffer.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'aligot est une purée de pommes de terre liée à la tome fraîche de Laguiole (ou de Cantal), à l'ail et à la crème, longuement travaillée jusqu'à filer en de longs rubans élastiques. Né sur les estives de l'Aubrac, où les moines puis les buronniers le préparaient, c'est un plat généreux et spectaculaire, servi avec une saucisse.",
     "video": "",
     "id": "aligot-de-l-aubrac"
   },
@@ -3406,7 +3406,7 @@ window.FULL_DATA = [
     "description": "Chou finement émincé et lacto-fermenté selon la tradition alsacienne, vendu cru ou cuisiné (IGP).",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La choucroute désigne d'abord le chou finement émincé puis lacto-fermenté en saumure, selon une tradition alsacienne ancienne. Cette fermentation lui donne son acidité, sa texture croquante et ses qualités de conservation. Crue, elle est la base de la fameuse choucroute garnie, et bénéficie d'une IGP qui protège son aire de production.",
     "video": "",
     "id": "choucroute-d-alsace"
   },
@@ -3448,7 +3448,7 @@ window.FULL_DATA = [
     "description": "Poche d'œufs de mulet salée, pressée et séchée, surnommée le « caviar provençal », spécialité ancestrale de Martigues.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "La boutargue (ou poutargue) est une poche d'œufs de mulet salée, pressée puis séchée, surnommée le « caviar de Martigues ». De couleur ambrée, au goût marin intense, elle se déguste en fines tranches arrosées d'huile d'olive, ou râpée sur des pâtes. C'est une spécialité rare et raffinée de l'étang de Berre.",
     "video": "",
     "id": "boutargue-de-martigues"
   },
@@ -3462,7 +3462,7 @@ window.FULL_DATA = [
     "description": "Émulsion onctueuse de morue dessalée, d'huile d'olive et de lait, spécialité nîmoise à tartiner ou à gratiner.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "La brandade de Nîmes est une émulsion onctueuse de morue dessalée, montée avec de l'huile d'olive (et, dans la version nîmoise, sans pomme de terre), jusqu'à obtenir une crème fine et parfumée. Servie tiède, tartinée ou gratinée, elle est une spécialité languedocienne née du commerce de la morue salée. On la déguste avec des croûtons.",
     "video": "",
     "id": "brandade-de-morue-de-nimes"
   },
@@ -3476,7 +3476,7 @@ window.FULL_DATA = [
     "description": "Soupe corsée de poissons de roche servie avec rouille, croûtons et gruyère, en bocal pour retrouver le goût de la Méditerranée.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "La soupe de poissons est une soupe corsée préparée avec les poissons de roche de la Méditerranée, longuement mijotés puis mixés et passés. Servie bien chaude, elle s'accompagne de croûtons, de rouille (une sauce à l'ail et au safran) et de fromage râpé. Plus simple que la bouillabaisse, elle est un classique convivial des tables marseillaises.",
     "video": "",
     "id": "soupe-de-poissons-de-marseille"
   },
@@ -3490,7 +3490,7 @@ window.FULL_DATA = [
     "description": "Œufs d'esturgeon élevé en Gironde, le caviar français reconnu mondialement depuis les années 1990.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Le caviar d'Aquitaine est produit à partir d'œufs d'esturgeons élevés en Gironde, dans la région où l'esturgeon sauvage abondait autrefois. La France est devenue l'un des producteurs de référence de ce caviar d'élevage, aux grains fermes et au goût délicat de noisette et de beurre. Protégé par une IGP, il se déguste à la cuillère, frais, sans rien qui en masque la finesse.",
     "video": "",
     "id": "caviar-d-aquitaine"
   },
@@ -3504,7 +3504,7 @@ window.FULL_DATA = [
     "description": "Huître affinée en claires qui lui donnent sa chair fine et son reflet vert, premier bassin ostréicole français (IGP).",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "L'huître de Marennes-Oléron est affinée dans d'anciens bassins argileux, les « claires », où une micro-algue lui donne sa chair fine et son reflet verdâtre caractéristique — la fameuse « fine de claire » ou « pousse en claire ». Premier site ostréicole à avoir obtenu une IGP, le bassin produit des huîtres réputées pour leur finesse et leur goût équilibré.",
     "video": "",
     "id": "huitre-de-marennes-oleron"
   },
@@ -3518,7 +3518,7 @@ window.FULL_DATA = [
     "description": "Huître élevée dans le bassin d'Arcachon, charnue et iodée avec une légère note sucrée.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "L'huître d'Arcachon est élevée dans le bassin du même nom, entre océan et forêt landaise, où le mélange d'eau de mer et d'eau douce lui donne une chair charnue et un goût iodé légèrement sucré. Le bassin est aussi un grand centre de naissain, fournissant des huîtres aux autres bassins français. On la déguste crue, accompagnée d'un vin blanc sec.",
     "video": "",
     "id": "huitre-d-arcachon"
   },
@@ -3532,7 +3532,7 @@ window.FULL_DATA = [
     "description": "Tourte ronde garnie de poulpe et de seiche en sauce tomate relevée, héritée des pêcheurs italiens installés à Sète.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "La tielle sétoise est une petite tourte ronde à la pâte légèrement pimentée, garnie de poulpe (et de seiche) mijotés dans une sauce tomate relevée. Apportée par les immigrés italiens de Sète, elle est devenue l'emblème du port. Sa croûte dorée et sa garniture parfumée en font un en-cas savoureux, à déguster tiède ou froid.",
     "video": "",
     "id": "tielle-setoise"
   },
@@ -3546,7 +3546,7 @@ window.FULL_DATA = [
     "description": "Apéritif anisé emblématique du Midi, créé à Marseille dans les années 1930, à boire frais et allongé d'eau.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le pastis est l'apéritif anisé emblématique du Midi, créé à Marseille dans les années 1930. À base d'anis, de réglisse et de plantes aromatiques, il se boit allongé d'eau fraîche, qui le fait blanchir et libère ses arômes. Indissociable de l'art de vivre méridional, il se déguste à l'ombre des platanes, souvent avec une partie de pétanque.",
     "video": "",
     "id": "pastis-de-marseille"
   },
@@ -3560,7 +3560,7 @@ window.FULL_DATA = [
     "description": "Liqueur de plantes à la recette secrète élaborée par les moines chartreux depuis le XVIIIe siècle, verte ou jaune.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "La Chartreuse est une liqueur de plantes à la recette secrète, élaborée par les moines chartreux à partir de très nombreuses herbes et racines macérées et distillées. La verte, puissante et corsée, et la jaune, plus douce et miellée, sont les plus connues. Vieillie en fût, elle se déguste en digestif, en cocktail ou sur glace.",
     "video": "",
     "id": "chartreuse"
   },
@@ -3574,7 +3574,7 @@ window.FULL_DATA = [
     "description": "Liqueur de montagne distillée à partir de la plante de génépi, digestif traditionnel des Alpes.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le génépi est une liqueur de montagne distillée ou macérée à partir des petites plantes de génépi, des armoises qui poussent en altitude. Aromatique et légèrement amère, elle se déguste en digestif après un repas savoyard. C'est une tradition alpine, souvent préparée de façon artisanale selon la règle des « 40 brins, 40 morceaux de sucre, 40 jours ».",
     "video": "",
     "id": "genepi-des-alpes"
   },
@@ -3588,7 +3588,7 @@ window.FULL_DATA = [
     "description": "Liqueur de cassis intense et sucrée, base du kir, élaborée à partir du cassis noir de Bourgogne.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "La crème de cassis de Dijon est une liqueur intense et sucrée élaborée à partir du cassis noir de Bourgogne, fruit emblématique de la région. Riche et parfumée, elle est surtout connue comme base du kir, mélangée à un vin blanc aligoté, ou du kir royal au champagne. Elle entre aussi dans de nombreux desserts et cocktails.",
     "video": "",
     "id": "creme-de-cassis-de-dijon"
   },
@@ -3602,7 +3602,7 @@ window.FULL_DATA = [
     "description": "Mistelle obtenue en ajoutant du marc au jus de raisin de Champagne, apéritif doux et fruité.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le ratafia de Champagne est une mistelle obtenue en ajoutant de l'eau-de-vie au jus de raisin frais, ce qui stoppe la fermentation et conserve le sucre du raisin. Doux et fruité, il vieillit en fût avant d'être servi frais à l'apéritif ou avec un dessert. C'est une tradition des vignerons champenois, qui valorise les raisins de la région.",
     "video": "",
     "id": "ratafia-de-champagne"
   },
@@ -3616,7 +3616,7 @@ window.FULL_DATA = [
     "description": "Eau-de-vie distillée à partir des marcs de raisin de Champagne, vieillie en fût, puissante et parfumée.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le marc de Champagne est une eau-de-vie distillée à partir des marcs — peaux, pépins et pulpe — issus du pressurage des raisins de Champagne. Vieilli en fût, il développe des arômes puissants et boisés. On le déguste en digestif, et il sert aussi à parfumer certaines confiseries et des fromages affinés au marc.",
     "video": "",
     "id": "marc-de-champagne"
   },
@@ -3630,7 +3630,7 @@ window.FULL_DATA = [
     "description": "Apéritif charentais né du mariage du moût de raisin et du cognac, doux et rond, blanc ou rosé (AOC).",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le pineau des Charentes est un apéritif né du mariage de moût de raisin frais et de cognac, qui arrête la fermentation et conserve le sucre du raisin. Doux et fruité, blanc, rosé ou rouge, il vieillit en fût avant d'être commercialisé (AOC). On le sert frais à l'apéritif, ou pour accompagner un melon, un foie gras ou un dessert.",
     "video": "",
     "id": "pineau-des-charentes"
   },
@@ -3644,7 +3644,7 @@ window.FULL_DATA = [
     "description": "Apéritif gascon associant jus de raisin et armagnac, fruité et velouté, blanc ou rosé (AOC).",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "Le floc de Gascogne est un apéritif gascon obtenu en assemblant du jus de raisin frais et de l'armagnac, qui stoppe la fermentation et conserve le sucre du moût. Blanc ou rosé, doux et fruité, il bénéficie d'une AOC. On le sert frais à l'apéritif, ou pour accompagner un melon, un foie gras ou un dessert.",
     "video": "",
     "id": "floc-de-gascogne"
   },
@@ -3658,7 +3658,7 @@ window.FULL_DATA = [
     "description": "Eau-de-vie de fruit limpide au parfum intense de poire mûre, distillée dans les vergers d'Alsace.",
     "links": [],
     "category": "vins",
-    "detail": "",
+    "detail": "L'eau-de-vie de poire Williams est un alcool blanc obtenu par distillation de poires Williams parfaitement mûres, ce qui restitue un arôme de poire intense et net. Issue de la tradition distillatoire alsacienne, elle se sert très fraîche en digestif. Certaines bouteilles renferment même une poire entière, que l'on a fait grandir dans le flacon.",
     "video": "",
     "id": "eau-de-vie-de-poire-williams"
   },
@@ -3672,7 +3672,7 @@ window.FULL_DATA = [
     "description": "Poularde, poulet, chapon et dinde élevés en plein air dans la Bresse, seule volaille classée AOP en France.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "La volaille de Bresse — poularde, poulet, chapon ou dinde — est élevée en plein air sur les prairies de la Bresse, nourrie de maïs et de produits laitiers. Reconnaissable à sa crête rouge, son plumage blanc et ses pattes bleues (les couleurs nationales), elle offre une chair fine et persillée. Seule volaille AOP de France, elle est un sommet de l'élevage français.",
     "video": "",
     "id": "volaille-de-bresse"
   },
@@ -3686,7 +3686,7 @@ window.FULL_DATA = [
     "description": "Race bovine à viande tendre et persillée, fleuron de l'élevage du Charolais.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le charolais est une grande race bovine à robe blanche, originaire du Charolais-Brionnais, en Saône-et-Loire. Élevée pour sa viande, elle donne une chair tendre, persillée et savoureuse, très réputée. Symbole de l'élevage bourguignon, le bœuf charolais est aujourd'hui exporté dans le monde entier et bénéficie de signes de qualité.",
     "video": "",
     "id": "buf-charolais"
   },
@@ -3700,7 +3700,7 @@ window.FULL_DATA = [
     "description": "Bœuf gras du Bazadais, célébré chaque année lors de la fête des Bœufs gras à Bazas.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le bœuf de Bazas est un bœuf gras élevé dans le Bazadais, issu de la race bazadaise à robe grise. Sa viande persillée, tendre et savoureuse, est célébrée chaque année lors de la traditionnelle Fête des Bœufs Gras, où les bêtes parées défilent dans la ville avant le Carnaval. C'est une fierté de l'élevage girondin.",
     "video": "",
     "id": "buf-de-bazas"
   },
@@ -3714,7 +3714,7 @@ window.FULL_DATA = [
     "description": "Race bovine du Sud-Ouest à la viande maigre et savoureuse.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "La blonde d'Aquitaine est une grande race bovine du Sud-Ouest, à la robe claire, sélectionnée pour sa viande. Maigre, tendre et savoureuse, celle-ci est appréciée pour son rendement et sa qualité. Élevée en plein air sur les prairies de la région, la blonde d'Aquitaine s'est largement diffusée et reste un fleuron de l'élevage du Sud-Ouest.",
     "video": "",
     "id": "buf-blond-d-aquitaine"
   },
@@ -3728,7 +3728,7 @@ window.FULL_DATA = [
     "description": "Agneau de lait élevé dans le Médoc viticole, à la chair claire et délicate (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "L'agneau de Pauillac est un agneau de lait élevé dans le Médoc viticole, abattu jeune, ce qui lui donne une chair claire, tendre et délicate, peu grasse. Indissociable du pays des grands crus, il s'accorde traditionnellement avec les vins rouges du Médoc. Protégé par une IGP, il se prête au rôti et aux côtelettes.",
     "video": "",
     "id": "agneau-de-pauillac"
   },
@@ -3756,7 +3756,7 @@ window.FULL_DATA = [
     "description": "Agneau élevé sous la mère dans les Alpes du Sud, tendre et au goût doux (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "L'agneau de Sisteron est élevé sous la mère dans les Alpes du Sud, nourri au lait puis aux fourrages et céréales de la région. Sa chair claire, tendre et délicatement parfumée est très réputée. Protégé par une IGP, il met en valeur le pastoralisme des montagnes provençales et se prête au rôti comme aux côtelettes grillées aux herbes.",
     "video": "",
     "id": "agneau-de-sisteron"
   },
@@ -3770,7 +3770,7 @@ window.FULL_DATA = [
     "description": "Viande de taureau élevé en liberté dans les manades camarguaises (AOP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "La viande de taureau de Camargue provient des taureaux élevés en liberté dans les manades, au cœur des marais. Maigre, ferme et d'un goût prononcé, elle est protégée par une AOP. Elle se cuisine notamment en gardiane, une daube longuement mijotée au vin rouge, servie avec du riz de Camargue. C'est un produit profondément lié à la culture camarguaise.",
     "video": "",
     "id": "taureau-de-camargue"
   },
@@ -3784,7 +3784,7 @@ window.FULL_DATA = [
     "description": "Volaille fermière nourrie au maïs, à la peau jaune et à la chair ferme (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le poulet jaune des Landes est une volaille fermière élevée en plein air dans les pins, nourrie au maïs qui colore sa peau et sa chair de jaune. Élevé lentement, il offre une viande ferme et savoureuse. Premier poulet à avoir obtenu un Label Rouge, il symbolise l'aviculture fermière de qualité des Landes.",
     "video": "",
     "id": "poulet-jaune-des-landes"
   },
@@ -3826,7 +3826,7 @@ window.FULL_DATA = [
     "description": "Race bovine rustique des Deux-Sèvres, jadis à triple usage, aujourd'hui prisée pour sa viande.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le parthenais est une race bovine rustique des Deux-Sèvres, autrefois utilisée pour le travail, le lait et la viande. Recentré aujourd'hui sur la viande, il donne une chair persillée, tendre et savoureuse, appréciée des amateurs. Sa robe fauve et son élevage extensif en font une fierté du terroir poitevin.",
     "video": "",
     "id": "buf-parthenais"
   },
@@ -3840,7 +3840,7 @@ window.FULL_DATA = [
     "description": "Veau allaité exclusivement au lait maternel, à la chair claire et tendre (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le veau sous la mère est allaité exclusivement au lait maternel, ce qui lui donne une chair claire, fine et particulièrement tendre. Élevé dans le Limousin, région de grand élevage bovin, il représente une production traditionnelle et exigeante (Label Rouge). Sa viande délicate se prête aux escalopes, rôtis et côtes.",
     "video": "",
     "id": "veau-sous-la-mere-du-limousin"
   },
@@ -3854,7 +3854,7 @@ window.FULL_DATA = [
     "description": "Bœuf engraissé au foin de prairies d'altitude, à la viande persillée (AOP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le fin gras du Mézenc est un bœuf engraissé tout l'hiver au foin des prairies d'altitude du massif du Mézenc, riches en fleurs et en plantes aromatiques (dont la cistre). Cette alimentation donne une viande finement persillée, fondante et parfumée. Protégé par une AOP, il se déguste de l'hiver au printemps.",
     "video": "",
     "id": "buf-fin-gras-du-mezenc"
   },
@@ -3868,7 +3868,7 @@ window.FULL_DATA = [
     "description": "Génisse née de vache Aubrac, élevée sur les plateaux du même nom.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "La génisse Fleur d'Aubrac naît du croisement d'une vache de race Aubrac et d'un taureau charolais, et grandit sur les pâturages de l'Aubrac. Sa viande tendre, savoureuse et délicatement persillée, est très appréciée. Protégée par une IGP, elle illustre la qualité de l'élevage des hauts plateaux.",
     "video": "",
     "id": "genisse-fleur-d-aubrac"
   },
@@ -3882,7 +3882,7 @@ window.FULL_DATA = [
     "description": "Agneau élevé sous la mère dans le Lot, à la chair rosée (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "L'agneau du Quercy (« agneau fermier du Quercy ») est élevé sous la mère puis complété de céréales, sur les causses du Lot. Sa chair claire, tendre et savoureuse, peu grasse, est très réputée. Protégé par un Label Rouge et une IGP, il se prête au rôti et aux côtelettes, souvent relevés d'herbes de la garrigue.",
     "video": "",
     "id": "agneau-du-quercy"
   },
@@ -3896,7 +3896,7 @@ window.FULL_DATA = [
     "description": "Cochon rustique élevé en liberté en Gascogne, base des grandes charcuteries du Sud-Ouest.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le porc noir gascon est un cochon rustique à la robe noire, élevé en liberté en Gascogne, où il se nourrit notamment de glands et de châtaignes. Cette vie au grand air et cette alimentation donnent une viande persillée et goûteuse, base de charcuteries de qualité (jambon, saucisson). Sauvée de la disparition, la race fait l'objet d'une valorisation attentive.",
     "video": "",
     "id": "porc-noir-gascon"
   },
@@ -3910,7 +3910,7 @@ window.FULL_DATA = [
     "description": "Pigeon ramier chassé à l'automne dans les Landes, gibier emblématique de la région.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "La palombe est le pigeon ramier, chassé à l'automne dans les Landes lors de sa migration, une tradition très ancrée dans la région (la « chasse à la palombe »). Sa chair sombre et savoureuse, au goût de gibier, se cuisine en salmis, rôtie ou en civet. C'est un mets d'automne emblématique de la Gascogne.",
     "video": "",
     "id": "palombe-des-landes"
   },
@@ -3938,7 +3938,7 @@ window.FULL_DATA = [
     "description": "Coq braisé au vin rouge, lardons et champignons, grand classique de la cuisine française.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le coq au vin est un grand classique de la cuisine bourguignonne : un coq braisé longuement dans du vin rouge, avec des lardons, des oignons et des champignons. La cuisson lente attendrit la chair et donne une sauce profonde et savoureuse. On le sert avec des pommes de terre, des pâtes fraîches ou du pain pour saucer.",
     "video": "",
     "id": "coq-au-vin"
   },
@@ -3952,7 +3952,7 @@ window.FULL_DATA = [
     "description": "Œufs pochés nappés d'une sauce au vin rouge, lardons et oignons.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les œufs en meurette sont des œufs pochés nappés d'une « meurette », sauce au vin rouge de Bourgogne enrichie de lardons, d'oignons et de champignons, servie sur un croûton frotté d'ail. Réconfortant et typiquement bourguignon, ce plat se déguste en entrée chaude ou en plat léger, avec un verre du même vin.",
     "video": "",
     "id": "ufs-en-meurette"
   },
@@ -3966,7 +3966,7 @@ window.FULL_DATA = [
     "description": "Matelote de poissons d'eau douce au vin blanc, spécialité de la vallée de la Saône.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La pochouse (ou pauchouse) est une matelote de poissons d'eau douce — brochet, tanche, perche, anguille — mijotés dans du vin blanc de Bourgogne avec ail, oignons et lardons. Spécialité des bords de Saône et de Doubs, notamment de Verdun-sur-le-Doubs, elle se sert avec des croûtons. C'est en quelque sorte la bouillabaisse des rivières.",
     "video": "",
     "id": "pochouse"
   },
@@ -3980,7 +3980,7 @@ window.FULL_DATA = [
     "description": "Jambon en gelée persillée au vin blanc, traditionnellement préparé pour Pâques.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon persillé est une préparation en gelée où des morceaux de jambon sont pris dans une gelée au vin blanc parfumée d'une généreuse quantité de persil, donnant un bel aspect marbré vert et rose. Traditionnellement préparé pour Pâques, il se déguste frais, en tranches, à l'apéritif ou en entrée. C'est un classique des charcuteries bourguignonnes.",
     "video": "",
     "id": "jambon-persille-de-bourgogne"
   },
@@ -3994,7 +3994,7 @@ window.FULL_DATA = [
     "description": "Pot-au-feu de porc et légumes mijotés, plat paysan bourguignon.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La potée bourguignonne est un plat paysan mijoté réunissant du porc (frais, salé et fumé), du chou et des légumes d'hiver, longuement cuits ensemble. Rustique et généreuse, elle se sert en bouillon puis en assiette de viandes et de légumes. C'est un plat familial et réconfortant de la région.",
     "video": "",
     "id": "potee-bourguignonne"
   },
@@ -4008,7 +4008,7 @@ window.FULL_DATA = [
     "description": "Soupe épaisse de chou, légumes et confit, plat complet du Sud-Ouest.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La garbure est une soupe épaisse et nourrissante du Sud-Ouest, à base de chou, de légumes de saison, de haricots et de confit de canard ou d'oie. Véritable plat complet, elle mijote longtemps et se sert très chaude, parfois suivie du « goudale », où l'on verse un peu de vin rouge dans le fond de l'assiette. C'est un emblème de la cuisine béarnaise et gasconne.",
     "video": "",
     "id": "garbure"
   },
@@ -4022,7 +4022,7 @@ window.FULL_DATA = [
     "description": "Poule farcie pochée avec ses légumes, plat béarnais attribué au roi Henri IV.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La poule au pot est un plat béarnais que la tradition attribue au vœu d'Henri IV, souhaitant que chaque famille puisse en manger le dimanche. Une poule farcie d'une préparation au pain, au jambon et aux herbes est pochée avec des légumes dans son bouillon. Réconfortant et convivial, le plat se déguste en bouillon puis en assiette de viande et de légumes.",
     "video": "",
     "id": "poule-au-pot-henri-iv"
   },
@@ -4036,7 +4036,7 @@ window.FULL_DATA = [
     "description": "Soupe à l'ail et à l'œuf, réconfort paysan du Sud-Ouest.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le tourin (ou tourin) est une soupe à l'ail du Sud-Ouest, dans laquelle l'ail revenu dans la graisse est mouillé d'eau ou de bouillon, puis lié d'un œuf, parfois enrichi de vinaigre ou de fromage. Réconfort paysan d'autrefois, on le servait traditionnellement aux jeunes mariés. Simple et parfumé, il se déguste sur des tranches de pain.",
     "video": "",
     "id": "tourin-a-l-ail"
   },
@@ -4050,7 +4050,7 @@ window.FULL_DATA = [
     "description": "Bœuf mariné et mijoté au vin rouge avec olives et zeste d'orange.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La daube provençale est un mijoté de bœuf longuement braisé dans du vin rouge, avec des olives, des aromates et un zeste d'orange qui la parfume. Cuite lentement dans une « daubière », elle développe une sauce profonde et une viande fondante. Servie avec des pâtes ou des pommes de terre, elle est l'un des grands plats du dimanche en Provence.",
     "video": "",
     "id": "daube-provencale"
   },
@@ -4078,7 +4078,7 @@ window.FULL_DATA = [
     "description": "Émulsion d'ail et d'huile d'olive accompagnant morue et légumes pochés.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "L'aïoli désigne à la fois une émulsion d'ail pilé et d'huile d'olive, et le plat qu'elle accompagne : morue pochée, légumes cuits, œufs durs et bulots, le « grand aïoli ». Puissant et parfumé, c'est un plat de partage et de fête, traditionnellement servi le vendredi ou lors des grandes occasions en Provence.",
     "video": "",
     "id": "aioli"
   },
@@ -4092,7 +4092,7 @@ window.FULL_DATA = [
     "description": "Paquets de tripes de mouton et pieds mijotés en sauce tomate, spécialité marseillaise.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les pieds et paquets sont une spécialité marseillaise et sistéronnaise : des « paquets » de tripes de mouton farcies, mijotés avec des pieds de mouton dans une sauce au vin blanc et à la tomate, pendant de longues heures. Le résultat est fondant et parfumé. C'est un plat patient et rustique, emblème de la cuisine provençale d'autrefois.",
     "video": "",
     "id": "pieds-et-paquets"
   },
@@ -4106,7 +4106,7 @@ window.FULL_DATA = [
     "description": "Soupe de légumes d'été liée d'une purée de basilic, ail et huile d'olive.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La soupe au pistou est une soupe d'été de légumes (haricots, courgettes, tomates, pâtes ou pommes de terre), liée au dernier moment d'un « pistou » : une purée de basilic, d'ail et d'huile d'olive, parfois additionnée de fromage. Parfumée et réconfortante, elle célèbre les légumes du potager provençal et se déguste plutôt tiède.",
     "video": "",
     "id": "soupe-au-pistou"
   },
@@ -4134,7 +4134,7 @@ window.FULL_DATA = [
     "description": "Pain rond garni des ingrédients de la salade niçoise, imbibé d'huile d'olive.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le pan bagnat — « pain mouillé » en niçois — est un petit pain rond garni des ingrédients de la salade niçoise (tomate, œuf dur, anchois ou thon, olives, oignon) et imbibé d'huile d'olive. Sans aucun légume cuit selon la tradition, c'est le sandwich emblématique de Nice, à savourer frais, en pique-nique ou sur la plage.",
     "video": "",
     "id": "pan-bagnat"
   },
@@ -4148,7 +4148,7 @@ window.FULL_DATA = [
     "description": "Tarte d'oignons fondus, anchois et olives noires, spécialité niçoise.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La pissaladière est une tarte niçoise faite d'une pâte à pain garnie d'oignons longuement fondus, d'anchois et d'olives noires. Son nom vient du « pissalat », une purée d'anchois dont on la badigeonnait autrefois. Sucrée par les oignons et salée par les anchois, elle se déguste tiède, en apéritif ou en plat léger.",
     "video": "",
     "id": "pissaladiere"
   },
@@ -4162,7 +4162,7 @@ window.FULL_DATA = [
     "description": "Galette de farine de pois chiche cuite au four, mangée chaude dans les rues de Nice.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La socca est une grande galette de farine de pois chiche, d'eau et d'huile d'olive, cuite à four très chaud sur de larges plaques jusqu'à ce qu'elle soit dorée et moelleuse à cœur. Spécialité populaire de Nice, elle se déguste brûlante, poivrée, à même le papier, dans les rues et marchés de la vieille ville.",
     "video": "",
     "id": "socca"
   },
@@ -4190,7 +4190,7 @@ window.FULL_DATA = [
     "description": "Légumes du soleil disposés en rosace et cuits lentement au four.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le tian désigne à la fois un plat en terre cuite et la recette qui s'y prépare : des légumes du soleil (courgettes, tomates, aubergines) tranchés et disposés en rosace, arrosés d'huile d'olive et d'herbes, puis cuits lentement au four. Coloré et parfumé, il accompagne viandes et poissons, ou se suffit à lui-même.",
     "video": "",
     "id": "tian-provencal"
   },
@@ -4204,7 +4204,7 @@ window.FULL_DATA = [
     "description": "Soupe de poissons blancs liée à l'aïoli, spécialité du port de Sète.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La bourride sétoise est une soupe de poissons blancs (baudroie, par exemple) liée à l'aïoli, qui lui donne une texture onctueuse et un parfum d'ail prononcé. Spécialité du port de Sète, plus douce que la bouillabaisse, elle se sert sur des croûtons. C'est un plat généreux et raffiné du littoral languedocien.",
     "video": "",
     "id": "bourride-setoise"
   },
@@ -4218,7 +4218,7 @@ window.FULL_DATA = [
     "description": "Escargots grillés à la braise, convivialité catalane par excellence.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La cargolade est un grand moment de convivialité catalane : des escargots grillés à la braise (souvent de sarments de vigne), arrosés d'un peu de lard fondu, puis dégustés avec un aïoli. Plus qu'un plat, c'est un rituel de partage en plein air, typique des fêtes et des repas de famille en Roussillon.",
     "video": "",
     "id": "cargolade"
   },
@@ -4232,7 +4232,7 @@ window.FULL_DATA = [
     "description": "Boulettes de viande en sauce aux olives et haricots blancs, plat catalan.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les boles de picolat sont des boulettes de viande (porc et bœuf) mijotées dans une sauce tomate avec des olives vertes et des haricots blancs, parfois relevée de cèpes. Plat familial catalan par excellence, généreux et parfumé, il se sert avec du riz ou des haricots et incarne la cuisine domestique du Roussillon.",
     "video": "",
     "id": "boles-de-picolat"
   },
@@ -4246,7 +4246,7 @@ window.FULL_DATA = [
     "description": "Lièvre désossé, farci au foie gras et truffes, lié à son sang : sommet de la cuisine de gibier.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le lièvre à la royale est un sommet de la cuisine française : le lièvre est désossé, farci — souvent au foie gras et aux truffes —, longuement braisé puis servi avec une sauce liée à son sang et au vin. Préparation complexe et fastueuse, associée au Poitou, elle se réserve aux grandes tables et aux repas de fête.",
     "video": "",
     "id": "lievre-a-la-royale"
   },
@@ -4260,7 +4260,7 @@ window.FULL_DATA = [
     "description": "Chou fondu au beurre, garniture rustique de l'Ouest.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "L'embeurrée de chou est une garniture rustique de l'Ouest : un chou tendre cuit puis généreusement lié au beurre, jusqu'à devenir fondant et nappant. Simple et réconfortante, elle accompagne traditionnellement les viandes et le jambon, et illustre l'attachement de la région au bon beurre.",
     "video": "",
     "id": "embeurree-de-chou"
   },
@@ -4274,7 +4274,7 @@ window.FULL_DATA = [
     "description": "Soupe de petits poissons au vin blanc, plat de pêcheurs de la côte charentaise.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La chaudrée est une soupe de petits poissons mijotés au vin blanc, à l'ail et au beurre, héritée des pêcheurs de la côte charentaise qui cuisinaient leurs prises invendues. Onctueuse et parfumée, elle se sert bien chaude, parfois sur des tranches de pain. On la considère comme un ancêtre régional du « chowder » nord-américain.",
     "video": "",
     "id": "chaudree-charentaise"
   },
@@ -4288,7 +4288,7 @@ window.FULL_DATA = [
     "description": "Moules à la crème safranée et au vin blanc, spécialité du littoral charentais.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La mouclade est une préparation de moules nappées d'une sauce crémeuse au vin blanc, relevée d'une pointe de safran. Spécialité du littoral charentais et aunisien, elle met en valeur les moules de la région, notamment celles élevées sur bouchots. On la déguste volontiers avec du pain ou des frites.",
     "video": "",
     "id": "mouclade"
   },
@@ -4302,7 +4302,7 @@ window.FULL_DATA = [
     "description": "Moules cuites debout sous un feu d'aiguilles de pin, sur la côte atlantique.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "L'éclade — ou terrée — est une cuisson spectaculaire des moules : disposées debout, serrées sur une planche, elles sont recouvertes d'aiguilles de pin que l'on enflamme. La fumée et la chaleur les cuisent en quelques minutes en les parfumant. Conviviale et festive, c'est un grand classique des bords de mer charentais.",
     "video": "",
     "id": "eclade-de-moules"
   },
@@ -4316,7 +4316,7 @@ window.FULL_DATA = [
     "description": "Petits escargots gris mijotés à l'ail et au vin, emblème de la Charente.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les cagouilles sont les petits escargots gris des Charentes, dont les habitants sont d'ailleurs surnommés les « cagouillards ». On les prépare longuement mijotés à l'ail, aux aromates et au vin, parfois avec un peu de chair à saucisse. Plat convivial et patient, c'est un emblème de la cuisine charentaise.",
     "video": "",
     "id": "cagouilles-a-la-charentaise"
   },
@@ -4386,7 +4386,7 @@ window.FULL_DATA = [
     "description": "Bœuf mijoté à la bière brune et au pain d'épices, douceur du Nord.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La carbonnade flamande est un ragoût de bœuf mijoté longuement à la bière brune, avec des oignons et une tranche de pain d'épices moutardé qui épaissit et adoucit la sauce. Ce mariage sucré-salé, typique des Flandres, donne un plat fondant et réconfortant, servi avec des frites ou des pommes de terre vapeur.",
     "video": "",
     "id": "carbonnade-flamande"
   },
@@ -4400,7 +4400,7 @@ window.FULL_DATA = [
     "description": "Terrine froide en gelée de plusieurs viandes blanches, spécialité flamande.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le potjevleesch — « petit pot de viande » en flamand — est une terrine froide prise en gelée, réunissant plusieurs viandes blanches (lapin, poulet, veau, porc) cuites au vin blanc et aux aromates. Spécialité de la Flandre maritime, notamment de Dunkerque, il se déguste froid, accompagné de frites.",
     "video": "",
     "id": "potjevleesch"
   },
@@ -4414,7 +4414,7 @@ window.FULL_DATA = [
     "description": "Cheddar fondu à la bière sur du pain, nappant souvent un œuf et du jambon.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le welsh est un plat roboratif venu du Pays de Galles et adopté dans le Nord : du cheddar fondu à la bière, relevé de moutarde, nappant une tranche de pain, le tout souvent surmonté d'un œuf et accompagné de jambon et de frites. Généreux et réconfortant, il est devenu un incontournable des estaminets de la côte.",
     "video": "",
     "id": "welsh"
   },
@@ -4428,7 +4428,7 @@ window.FULL_DATA = [
     "description": "Pot-au-feu flamand de plusieurs viandes et légumes d'hiver.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le hochepot est un pot-au-feu flamand qui réunit plusieurs viandes (bœuf, mouton, porc, queue) et des légumes d'hiver, longuement mijotés. Plat d'autrefois, généreux et mijoté, il se sert en bouillon puis en assiette de viandes et légumes. C'est une tradition conviviale des Flandres.",
     "video": "",
     "id": "hochepot"
   },
@@ -4442,7 +4442,7 @@ window.FULL_DATA = [
     "description": "Crêpe roulée au jambon et champignons, gratinée à la crème.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La ficelle picarde est une crêpe salée roulée autour d'une garniture de jambon et de champignons à la crème, puis nappée de crème et gratinée au four. Née à Amiens, elle est devenue un classique des tables picardes, servie en entrée chaude ou en plat léger.",
     "video": "",
     "id": "ficelle-picarde"
   },
@@ -4456,7 +4456,7 @@ window.FULL_DATA = [
     "description": "Tourte fondante aux poireaux, spécialité picarde.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La flamiche est une tourte fondante garnie de poireaux liés à la crème et au beurre, enfermés dans une pâte. Spécialité picarde, elle met à l'honneur le poireau, légume de prédilection de la région. On la sert chaude, en entrée ou en plat, accompagnée d'une salade.",
     "video": "",
     "id": "flamiche-aux-poireaux"
   },
@@ -4470,7 +4470,7 @@ window.FULL_DATA = [
     "description": "Tarte au fromage de Maroilles fondu, incontournable de l'Avesnois.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La tarte au maroilles, ou « goyère », est une tarte garnie de maroilles fondu sur une pâte levée, parfois liée à la crème et aux œufs. Incontournable de l'Avesnois, elle exalte le caractère du fromage dans une préparation chaude et moelleuse. On la déguste en entrée ou en plat, avec une salade et une bière.",
     "video": "",
     "id": "tarte-au-maroilles"
   },
@@ -4484,7 +4484,7 @@ window.FULL_DATA = [
     "description": "Tronçons d'anguille mijotés dans une sauce d'herbes vertes.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "L'anguille au vert est un plat traditionnel des Flandres : des tronçons d'anguille mijotés dans une sauce verte abondante en herbes fraîches (oseille, persil, cerfeuil, épinard…). Servie tiède ou froide, elle marie la chair grasse du poisson à la fraîcheur acidulée des herbes. C'est une recette emblématique des cours d'eau du Nord.",
     "video": "",
     "id": "anguille-au-vert"
   },
@@ -4498,7 +4498,7 @@ window.FULL_DATA = [
     "description": "Potée de trois viandes marinées au vin blanc et pommes de terre, cuite en terrine.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le baeckeoffe — « four du boulanger » en alsacien — est une potée de trois viandes (bœuf, porc, mouton) marinées au vin blanc d'Alsace, disposées en couches avec des pommes de terre et des oignons, puis cuites longuement dans une terrine scellée. Autrefois confié au four du boulanger le jour de la lessive, c'est un plat mijoté généreux et parfumé.",
     "video": "",
     "id": "baeckeoffe"
   },
@@ -4512,7 +4512,7 @@ window.FULL_DATA = [
     "description": "Fine pâte garnie de crème, oignons et lardons, cuite au four très chaud.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La flammekueche, ou tarte flambée, est une fine pâte à pain étalée très mince, garnie de crème, de fromage blanc, d'oignons émincés et de lardons, puis cuite très vite au four à bois. Croustillante sur les bords et fondante au centre, elle se partage à plusieurs, découpée en morceaux, accompagnée d'un vin d'Alsace.",
     "video": "",
     "id": "flammekueche"
   },
@@ -4526,7 +4526,7 @@ window.FULL_DATA = [
     "description": "Chou fermenté braisé garni de charcuteries et pommes de terre.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La choucroute garnie est le grand plat alsacien : le chou fermenté est braisé au vin blanc et aux baies de genièvre, puis garni d'un assortiment de charcuteries — saucisses, lard, palette, knacks — et de pommes de terre. Généreuse et conviviale, elle se déguste en grande tablée, avec une bière ou un riesling.",
     "video": "",
     "id": "choucroute-garnie"
   },
@@ -4540,7 +4540,7 @@ window.FULL_DATA = [
     "description": "Coq mijoté au vin blanc d'Alsace, crème et champignons.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le coq au Riesling est un plat mijoté où le coq cuit doucement dans du vin blanc d'Alsace, avec des champignons et de la crème, qui forment une sauce onctueuse. Variante régionale du coq au vin, il met en valeur le riesling. On le sert traditionnellement avec des spätzle ou des nouilles.",
     "video": "",
     "id": "coq-au-riesling"
   },
@@ -4554,7 +4554,7 @@ window.FULL_DATA = [
     "description": "Tarte salée à la migaine d'œufs, crème et lardons fumés.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La quiche lorraine est une tarte salée garnie d'une « migaine » d'œufs battus et de crème, parsemée de lardons fumés, le tout cuit dans une pâte jusqu'à ce qu'elle gonfle et dore. La recette traditionnelle ne comporte ni fromage ni oignon. Servie tiède, en entrée ou en plat, elle est devenue un classique de toute la cuisine française.",
     "video": "",
     "id": "quiche-lorraine"
   },
@@ -4568,7 +4568,7 @@ window.FULL_DATA = [
     "description": "Potée de porc, chou et légumes, plat d'hiver lorrain.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La potée lorraine est un plat d'hiver mijoté réunissant du porc salé et fumé, du chou et divers légumes (pommes de terre, carottes, navets) longuement cuits ensemble. Rustique et réconfortante, elle se sert en bouillon puis en assiette de viandes et de légumes. C'est un plat familial emblématique de la Lorraine.",
     "video": "",
     "id": "potee-lorraine"
   },
@@ -4582,7 +4582,7 @@ window.FULL_DATA = [
     "description": "Volaille mijotée au vin jaune du Jura et aux morilles, sommet de la cuisine comtoise.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le coq au vin jaune et morilles est un sommet de la cuisine jurassienne : la volaille, souvent de Bresse, mijote dans une sauce crémeuse au vin jaune du Jura, parfumée de morilles. Le vin jaune, oxydatif et puissant, apporte des arômes de noix uniques. Plat de fête, il se sert avec du riz ou des pâtes.",
     "video": "",
     "id": "coq-au-vin-jaune-et-morilles"
   },
@@ -4596,7 +4596,7 @@ window.FULL_DATA = [
     "description": "Morilles à la crème servies sur un feuilleté, grand classique jurassien.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La croûte aux morilles est un grand classique des tables jurassiennes : des morilles mijotées dans une sauce à la crème, parfois relevée de vin jaune, servies sur un feuilleté ou une tranche de pain doré. Le parfum boisé et puissant des morilles en fait un plat délicat et raffiné.",
     "video": "",
     "id": "croute-aux-morilles"
   },
@@ -4610,7 +4610,7 @@ window.FULL_DATA = [
     "description": "Cuisses de grenouilles poêlées au beurre persillé.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les grenouilles à la comtoise sont des cuisses de grenouilles poêlées dans un beurre persillé et aillé, jusqu'à ce qu'elles soient dorées. Mets traditionnel des zones humides de Franche-Comté et de Bresse, elles se dégustent en entrée généreuse, et illustrent le goût régional pour cette spécialité.",
     "video": "",
     "id": "grenouilles-a-la-comtoise"
   },
@@ -4624,7 +4624,7 @@ window.FULL_DATA = [
     "description": "Bouillie de farine de maïs grillé, plat paysan comtois.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les gaudes sont une bouillie épaisse de farine de maïs préalablement grillé, ce qui leur donne un goût torréfié caractéristique. Plat paysan comtois et bressan, autrefois nourriture quotidienne, elles se mangent chaudes à la cuillère, ou refroidies, coupées en tranches puis poêlées. C'est un témoin de la cuisine rustique de la région.",
     "video": "",
     "id": "gaudes"
   },
@@ -4638,7 +4638,7 @@ window.FULL_DATA = [
     "description": "Pommes de terre cuites lentement au lait et à la crème, sans fromage à l'origine.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le gratin dauphinois est un plat de fines tranches de pommes de terre cuites lentement au four dans du lait et de la crème, parfumés d'ail et de muscade. La tradition dauphinoise n'y met pas de fromage. Fondant et réconfortant, il accompagne viandes et volailles, et fait partie des grands classiques de la cuisine française.",
     "video": "",
     "id": "gratin-dauphinois"
   },
@@ -4652,7 +4652,7 @@ window.FULL_DATA = [
     "description": "Pommes de terre gratinées au bouillon et au fromage de Savoie.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le gratin savoyard est la version montagnarde du gratin de pommes de terre : les tranches sont cuites au bouillon, avec du beurre et, contrairement au dauphinois, une généreuse couche de fromage râpé (beaufort ou comté). Gratiné et fondant, il accompagne les plats d'hiver de la Savoie.",
     "video": "",
     "id": "gratin-savoyard"
   },
@@ -4666,7 +4666,7 @@ window.FULL_DATA = [
     "description": "Fromages de Savoie fondus au vin blanc, partagés en trempant le pain.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La fondue savoyarde est un plat convivial où plusieurs fromages de Savoie (beaufort, comté, emmental, abondance…) sont fondus avec du vin blanc et une pointe d'ail, dans un caquelon. On y trempe des morceaux de pain au bout d'une longue fourchette. Chaleureuse et généreuse, elle est un emblème des soirées de montagne.",
     "video": "",
     "id": "fondue-savoyarde"
   },
@@ -4680,7 +4680,7 @@ window.FULL_DATA = [
     "description": "Gras-double pané et frit, spécialité des bouchons lyonnais.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le tablier de sapeur est une spécialité des bouchons lyonnais : un morceau de gras-double (estomac de bœuf) mariné, pané puis frit jusqu'à être doré et croustillant. Servi avec une sauce gribiche ou tartare, il doit son nom imagé à un maréchal lyonnais. C'est un plat canaille emblématique de la cuisine de Lyon.",
     "video": "",
     "id": "tablier-de-sapeur"
   },
@@ -4694,7 +4694,7 @@ window.FULL_DATA = [
     "description": "Fromage blanc battu aux herbes, ail et échalote, mâchon lyonnais.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La cervelle de canut est une préparation lyonnaise de fromage blanc battu, assaisonné d'herbes fraîches, d'ail, d'échalote, de sel, de poivre, d'huile et de vinaigre. Son nom rappelle les canuts, les ouvriers de la soie lyonnaise. Fraîche et relevée, elle se déguste sur du pain, en fin de repas ou à l'apéritif dans les bouchons.",
     "video": "",
     "id": "cervelle-de-canut"
   },
@@ -4708,7 +4708,7 @@ window.FULL_DATA = [
     "description": "Petits paquets de tripes de mouton mijotés, spécialité de l'Aveyron et du Cantal.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Les tripous (ou tripoux) sont de petits paquets de tripes de mouton (ou de veau) farcis, ficelés et longuement mijotés dans une sauce au vin blanc, à la tomate et aux aromates. Spécialité de l'Aubrac et du Rouergue, on les déguste traditionnellement le matin, bien chauds. C'est un plat patient et rustique de la cuisine de montagne.",
     "video": "",
     "id": "tripous"
   },
@@ -4722,7 +4722,7 @@ window.FULL_DATA = [
     "description": "Pommes de terre sautées liées à la tome fraîche du Cantal.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "La truffade est un plat auvergnat de pommes de terre sautées liées à la tome fraîche du Cantal, qui fond et file légèrement, relevée d'ail. Plus rustique et moins étirée que l'aligot, elle se sert souvent avec du jambon de pays et une salade. C'est un plat généreux et réconfortant de la montagne auvergnate.",
     "video": "",
     "id": "truffade"
   },
@@ -4736,7 +4736,7 @@ window.FULL_DATA = [
     "description": "Chou garni de viande et mijoté, plat roboratif des montagnes.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le chou farci auvergnat est un chou dont les feuilles enveloppent une farce de viande de porc et d'herbes, le tout ficelé puis longuement mijoté. Plat paysan roboratif, économique et parfumé, il se sert chaud, en plat unique. Il illustre la cuisine familiale et patiente de l'Auvergne.",
     "video": "",
     "id": "chou-farci-auvergnat"
   },
@@ -4750,7 +4750,7 @@ window.FULL_DATA = [
     "description": "Stockfisch (morue séchée) en purée à l'huile de noix, spécialité de la vallée du Lot.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "L'estofinado est un plat du bassin de Decazeville, dans l'Aveyron : du stockfish (morue séchée et réhydratée) travaillé en purée avec de l'huile de noix, des pommes de terre, des œufs et de l'ail. Né du commerce du poisson séché remontant le Lot, ce plat onctueux et parfumé est une curieuse rencontre entre la mer et la montagne.",
     "video": "",
     "id": "estofinado"
   },
@@ -4764,7 +4764,7 @@ window.FULL_DATA = [
     "description": "Pain de viande et blettes parsemé de pruneaux, entre salé et sucré, auvergnat.",
     "links": [],
     "category": "plat",
-    "detail": "",
+    "detail": "Le pounti est un pain de viande auvergnat mêlant chair de porc hachée et blettes (ou épinards), parsemé de pruneaux, le tout lié aux œufs et cuit au four. Sucré-salé et moelleux, il se déguste chaud ou froid, en entrée ou en plat. C'est une spécialité familiale typique du Cantal.",
     "video": "",
     "id": "pounti"
   },
@@ -4820,7 +4820,7 @@ window.FULL_DATA = [
     "description": "Asperge tendre poussée dans les sols sableux des Landes (IGP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'asperge des sables des Landes pousse dans les sols sableux et doux de la région, qui lui confèrent tendreté et finesse. Récoltée au printemps, elle est généralement blanche ou violette, à la chair fondante et au goût délicat. Protégée par une IGP, elle se déguste simplement vapeur, avec une vinaigrette ou une sauce mousseline.",
     "video": "",
     "id": "asperge-des-sables-des-landes"
   },
@@ -4834,7 +4834,7 @@ window.FULL_DATA = [
     "description": "Grosse tomate côtelée et charnue du Lot-et-Garonne.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La tomate de Marmande est une grosse tomate côtelée et charnue, cultivée dans la vallée de la Garonne, autour de Marmande, en Lot-et-Garonne. Juteuse, peu acide et parfumée, elle est idéale farcie, en salade ou cuisinée. Elle reste l'une des tomates de pleine terre les plus réputées de France.",
     "video": "",
     "id": "tomate-de-marmande"
   },
@@ -4848,7 +4848,7 @@ window.FULL_DATA = [
     "description": "Ail violet du Toulousain à la saveur prononcée (AOP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'ail violet de Cadours est un ail aux tuniques striées de violet, cultivé autour de ce village du Toulousain, à la frontière de la Haute-Garonne et du Tarn-et-Garonne. À la saveur prononcée et de bonne conservation, il a été le premier ail à obtenir une AOP en France. Il fait l'objet d'une foire réputée à l'automne.",
     "video": "",
     "id": "ail-violet-de-cadours"
   },
@@ -4862,7 +4862,7 @@ window.FULL_DATA = [
     "description": "Ail blanc séché de Gascogne, doux et parfumé (IGP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'ail blanc de Lomagne est un ail séché de Gascogne, cultivé sur les coteaux argilo-calcaires du Tarn-et-Garonne et du Gers. Doux, parfumé et d'excellente conservation, il est tressé en jolies « manouilles ». Protégé par une IGP, il est l'un des piliers aromatiques de la cuisine du Sud-Ouest.",
     "video": "",
     "id": "ail-blanc-de-lomagne"
   },
@@ -4904,7 +4904,7 @@ window.FULL_DATA = [
     "description": "Petite lentille verte cultivée en Berry, à la peau fine (IGP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La lentille verte du Berry est une petite légumineuse à la peau fine, cultivée sur les terres du Berry. Elle cuit rapidement, sans trempage, en gardant sa tenue tout en devenant fondante, avec un léger goût de noisette. Protégée par une IGP, elle accompagne aussi bien une salade qu'un petit salé ou des saucisses.",
     "video": "",
     "id": "lentille-verte-du-berry"
   },
@@ -4918,7 +4918,7 @@ window.FULL_DATA = [
     "description": "Salade d'hiver tendre, spécialité maraîchère du pays nantais.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La mâche nantaise est une petite salade d'hiver aux feuilles tendres réunies en rosette, au goût doux et légèrement noiseté. Le pays nantais en est le grand bassin de production, sur des sols sableux qui lui conviennent bien (IGP). Fragile, elle se déguste crue, juste assaisonnée, parfois relevée de noix ou de betteraves.",
     "video": "",
     "id": "mache-nantaise"
   },
@@ -4932,7 +4932,7 @@ window.FULL_DATA = [
     "description": "Échalote traditionnelle de la vallée de la Loire.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'échalote traditionnelle de la vallée de la Loire est cultivée de longue date dans les sols légers de l'Anjou. Plantée à partir de bulbes et non de graines, elle développe une saveur fine et parfumée, plus subtile que l'oignon. Elle est la base de nombreuses sauces et vinaigrettes de la cuisine française.",
     "video": "",
     "id": "echalote-d-anjou"
   },
@@ -4946,7 +4946,7 @@ window.FULL_DATA = [
     "description": "Melon charentais sucré et parfumé cultivé dans le Lot et le Tarn-et-Garonne (IGP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "Le melon du Quercy est un melon de type charentais cultivé sur les coteaux argilo-calcaires du Lot et du Tarn-et-Garonne, qui lui donnent sa chair orangée, sucrée et parfumée. Protégé par une IGP, il se récolte en été à pleine maturité. On le déguste nature, en entrée, ou avec un peu de jambon.",
     "video": "",
     "id": "melon-du-quercy"
   },
@@ -4960,7 +4960,7 @@ window.FULL_DATA = [
     "description": "Melon emblématique de la plaine du Comtat, juteux et sucré.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "Le melon de Cavaillon, cultivé dans la plaine du Comtat sous le soleil du Vaucluse, est réputé pour sa chair orangée, juteuse et très sucrée. Variété de type charentais, il a fait la renommée de la ville, qui lui consacre une fête. On le déguste nature, en entrée, parfois relevé d'un peu de porto ou accompagné de jambon cru.",
     "video": "",
     "id": "melon-de-cavaillon"
   },
@@ -4974,7 +4974,7 @@ window.FULL_DATA = [
     "description": "Fraise parfumée du Comtat Venaissin, l'une des premières de la saison.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La fraise de Carpentras est l'une des premières fraises de la saison, cultivée dans le Comtat Venaissin. Parfumée, sucrée et d'un beau rouge vif, elle annonce le printemps et fait l'objet d'une fête dédiée. On la savoure nature, juste sucrée, ou en tartes et confitures.",
     "video": "",
     "id": "fraise-de-carpentras"
   },
@@ -5002,7 +5002,7 @@ window.FULL_DATA = [
     "description": "Châtaigne douce de l'Ardèche, transformée en farine, crème ou marrons (AOP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La châtaigne d'Ardèche est une châtaigne douce et farineuse, fruit d'un terroir où le châtaignier — « l'arbre à pain » — a longtemps nourri les habitants. Protégée par une AOP, elle se déguise grillée, en farine, en crème, en confiserie ou en accompagnement. Elle est au cœur de l'identité gourmande de l'Ardèche.",
     "video": "",
     "id": "chataigne-d-ardeche"
   },
@@ -5016,7 +5016,7 @@ window.FULL_DATA = [
     "description": "Petite pomme de terre primeur fondante, parfumée par l'air marin (AOP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La pomme de terre primeur de l'île de Ré est récoltée jeune, à la chair fondante et à la peau si fine qu'on ne l'épluche pas. Cultivée dans des sols sableux balayés par l'air marin, elle développe une saveur délicate, parfois légèrement iodée. Première pomme de terre à avoir obtenu une AOP, elle se savoure simplement, vapeur ou rissolée.",
     "video": "",
     "id": "pomme-de-terre-de-l-ile-de-re"
   },
@@ -5030,7 +5030,7 @@ window.FULL_DATA = [
     "description": "Haricot blanc allongé et fondant cultivé dans la vallée de la Lys (IGP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "Le lingot du Nord est un haricot blanc sec, allongé et nacré, cultivé dans la vallée de la Lys. Récolté à maturité, il a une peau fine et une chair fondante après cuisson. Protégé par une IGP, il entre dans les soupes, les plats mijotés et accompagne volontiers les viandes.",
     "video": "",
     "id": "lingot-du-nord"
   },
@@ -5044,7 +5044,7 @@ window.FULL_DATA = [
     "description": "Chicon blanc forcé à l'obscurité, légume-phare des Hauts-de-France.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'endive — le « chicon » dans le Nord — est obtenue par forçage : la racine de chicorée est mise à pousser à l'obscurité, ce qui donne un bourgeon blanc, croquant et légèrement amer. Légume-phare des Hauts-de-France, elle se mange crue en salade ou cuite, braisée ou gratinée au jambon. On la surnomme parfois « l'or blanc » du Nord.",
     "video": "",
     "id": "endive-du-nord"
   },
@@ -5058,7 +5058,7 @@ window.FULL_DATA = [
     "description": "Petit pain creux cuit au four à bois, garni à table, spécialité de l'Anjou et de la Touraine.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "La fouée — ou fouace — est un petit pain rond et creux cuit très rapidement à four très chaud, ce qui le fait gonfler comme une bulle. On l'ouvre encore chaud pour le garnir à table de rillettes, de mogettes, de fromage ou de confiture. Spécialité conviviale de l'Anjou et de la Touraine, elle se déguste dans des restaurants dédiés, les « fouaceries ».",
     "video": "",
     "id": "fouee"
   },
@@ -5086,7 +5086,7 @@ window.FULL_DATA = [
     "description": "Brioche tressée et parfumée à l'eau-de-vie, spécialité de Vendée (IGP).",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "La brioche vendéenne est une brioche tressée, longue et dorée, à la mie filante, parfumée à l'eau-de-vie, à la fleur d'oranger ou à la vanille. Préparée traditionnellement pour les fêtes, notamment les mariages, elle bénéficie d'une IGP. Moelleuse et aromatique, elle se savoure au goûter ou au petit-déjeuner.",
     "video": "",
     "id": "brioche-vendeenne"
   },
@@ -5100,7 +5100,7 @@ window.FULL_DATA = [
     "description": "Pain brioché aux raisins secs du Nord.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "Le cramique est un pain brioché parsemé de raisins secs, traditionnel dans le Nord et en Belgique. Moelleux et légèrement sucré, il se déguste au petit-déjeuner ou au goûter, nature, beurré ou légèrement toasté. C'est une douceur familiale et réconfortante.",
     "video": "",
     "id": "cramique"
   },
@@ -5142,7 +5142,7 @@ window.FULL_DATA = [
     "description": "Galette briochée à l'huile d'olive et fleur d'oranger, un des treize desserts de Noël.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "La pompe à l'huile est une galette briochée à l'huile d'olive, parfumée à la fleur d'oranger, qui figure parmi les treize desserts de Noël provençaux. Moelleuse et dorée, elle se rompt à la main — et non au couteau, selon la tradition. On la déguste avec un vin cuit, en fin de repas de fête.",
     "video": "",
     "id": "pompe-a-l-huile"
   },
@@ -5156,7 +5156,7 @@ window.FULL_DATA = [
     "description": "Brioche moelleuse au sucre et à la fleur d'oranger, spécialité d'Aigues-Mortes.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "La fougasse d'Aigues-Mortes est une brioche moelleuse à l'huile d'olive, généreusement parsemée de sucre et parfumée à la fleur d'oranger. Différente de la fougasse-pain salée, elle est dorée et fondante. Spécialité de la cité médiévale camarguaise, elle se déguste au goûter ou au petit-déjeuner.",
     "video": "",
     "id": "fougasse-d-aigues-mortes"
   },
@@ -5170,7 +5170,7 @@ window.FULL_DATA = [
     "description": "Saucisse et saucisson secs du Tarn, réputés des monts de Lacaune (IGP).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "La saucisse et le saucisson secs de Lacaune sont des charcuteries réputées des monts de Lacaune, dans le Tarn, où le climat frais et sec favorise un affinage de qualité. À base de porc, maigres et parfumés, ils sont protégés par une IGP. On les tranche fin, à l'apéritif ou en casse-croûte.",
     "video": "",
     "id": "saucisse-de-lacaune"
   },
@@ -5184,7 +5184,7 @@ window.FULL_DATA = [
     "description": "Saucisson sec mêlant porc et bœuf, parfois âne, spécialité d'Arles.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le saucisson d'Arles est un saucisson sec mêlant du porc et du bœuf — et, dans la recette historique, parfois de la viande d'âne ou de taureau de Camargue —, assaisonné et longuement séché. Réputé depuis le XVIIIe siècle, il offre une chair ferme et un goût relevé. Il se déguste en fines tranches, à l'apéritif.",
     "video": "",
     "id": "saucisson-d-arles"
   },
@@ -5198,7 +5198,7 @@ window.FULL_DATA = [
     "description": "Andouille fumée du Pas-de-Calais.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "L'andouille d'Aire-sur-la-Lys est une charcuterie fumée du Pas-de-Calais, faite de morceaux de porc embossés puis fumés. Sa chair est plus grossière et son goût fumé marqué. Elle se déguste froide en tranches, à l'apéritif ou en entrée, et témoigne de la tradition charcutière de l'Artois.",
     "video": "",
     "id": "andouille-d-aire-sur-la-lys"
   },
@@ -5212,7 +5212,7 @@ window.FULL_DATA = [
     "description": "Boudin blanc fin et délicat, sans féculent, spécialité ardennaise (IGP).",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le boudin blanc de Rethel est un boudin fin et délicat, à base de viande blanche de porc et de lait, sans aucun féculent ni amidon — ce qui fait toute sa réputation. Protégé par une IGP, il offre une texture lisse et un goût subtil. On le poêle ou on le grille doucement, souvent accompagné de pommes.",
     "video": "",
     "id": "boudin-blanc-de-rethel"
   },
@@ -5240,7 +5240,7 @@ window.FULL_DATA = [
     "description": "Huître élevée en pleine eau dans l'étang de Thau, à la saveur charnue.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "L'huître de Bouzigues est élevée en pleine eau, suspendue à des tables dans l'étang de Thau, où les eaux riches en plancton lui donnent une croissance rapide et une chair charnue, au goût marqué et légèrement sucré. C'est l'huître emblématique du littoral languedocien, à déguster crue, face à l'étang.",
     "video": "",
     "id": "huitre-de-bouzigues"
   },
@@ -5268,7 +5268,7 @@ window.FULL_DATA = [
     "description": "Sardine pêchée et mise en boîte dans les conserveries bretonnes.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Saint-Gilles-Croix-de-Vie, en Vendée, est l'un des hauts lieux de la sardine en France : les poissons y sont pêchés à la bolinche puis mis en conserve dans des huiles soignées. Réputées pour leur fraîcheur et leur préparation à l'ancienne, ces sardines se dégustent sur du pain beurré. La ville célèbre chaque année ce produit emblématique de son port.",
     "video": "",
     "id": "sardine-de-saint-gilles"
   },
@@ -5282,7 +5282,7 @@ window.FULL_DATA = [
     "description": "Palourdes, tellines et moules récoltées dans la lagune de Thau.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "L'étang de Thau, vaste lagune languedocienne, est un haut lieu de la conchyliculture : on y récolte palourdes, tellines, moules et huîtres, élevées ou pêchées dans ses eaux saumâtres riches en nutriments. Ces coquillages, frais et iodés, sont au cœur de la cuisine de Sète et de Bouzigues, dégustés crus ou cuisinés.",
     "video": "",
     "id": "coquillages-de-l-etang-de-thau"
   },
@@ -5310,7 +5310,7 @@ window.FULL_DATA = [
     "description": "Bleu rare et fermier de haute montagne au persillage naturel et irrégulier.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le bleu de Termignon est un bleu rare et fermier de haute montagne, fabriqué l'été en très petite quantité dans le Parc de la Vanoise, en Savoie. Son bleu apparaît naturellement, sans ensemencement, ce qui le rend irrégulier et unique. À la pâte friable et au goût puissant, c'est l'un des fromages les plus confidentiels de France.",
     "video": "",
     "id": "bleu-de-termignon"
   },
@@ -5324,7 +5324,7 @@ window.FULL_DATA = [
     "description": "Tomme de montagne au lait de vache ou de brebis, à la croûte noire (IGP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "La tomme des Pyrénées est une tomme de montagne au lait de vache (parfois de brebis), à la pâte souple et au goût doux et lacté, reconnaissable à sa croûte noire ou dorée. Fabriquée dans tout le massif pyrénéen, elle bénéficie d'une IGP. Polyvalente, elle se déguste sur un plateau, en sandwich ou fondue.",
     "video": "",
     "id": "tomme-des-pyrenees"
   },
@@ -5338,7 +5338,7 @@ window.FULL_DATA = [
     "description": "Bâton de sucre cuit aromatisé, dérivé des pastilles thermales de Vichy.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le sucre d'orge de Vichy est un bâton de sucre cuit aromatisé, dérivé des sels de la source thermale, à la réputation adoucissante. Translucide et brillant, il prolonge la tradition confiseries de la ville d'eaux. On le suce lentement, comme un souvenir gourmand de Vichy.",
     "video": "",
     "id": "sucre-d-orge-de-vichy"
   },
@@ -5352,7 +5352,7 @@ window.FULL_DATA = [
     "description": "Brioche haute et aérée cuite dans un moule cannelé, spécialité de la Somme.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "Le gâteau battu est une brioche haute et aérienne, cuite dans un moule cannelé qui lui donne sa forme de toque. Riche en jaunes d'œufs et en beurre, sa pâte est longuement battue, d'où son nom et sa texture filante. Spécialité de la Picardie maritime, il se savoure au petit-déjeuner ou au goûter.",
     "video": "",
     "id": "gateau-battu-picard"
   },
@@ -5366,7 +5366,7 @@ window.FULL_DATA = [
     "description": "Pâte briochée nappée de cassonade fondue, douceur des Flandres.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "La tarte au sucre est une pâte briochée nappée de cassonade et de beurre qui fondent à la cuisson en formant un dessus caramélisé et moelleux. Douceur familiale des Flandres et du Nord, simple et généreuse, elle se déguste tiède au goûter, parfois avec une crème.",
     "video": "",
     "id": "tarte-au-sucre-du-nord"
   },
@@ -5380,7 +5380,7 @@ window.FULL_DATA = [
     "description": "Petit macaron moelleux aux amandes du Poitou.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le macaron de Lusignan est un petit macaron moelleux aux amandes, spécialité ancienne de cette commune du Poitou. Tendre à cœur et légèrement craquelé, il se présente souvent en chapelets sur une feuille de papier. C'est l'une des douceurs traditionnelles de la région, à déguster avec un café ou un thé.",
     "video": "",
     "id": "macaron-de-lusignan"
   },
@@ -5394,7 +5394,7 @@ window.FULL_DATA = [
     "description": "Galette feuilletée fourrée de crème d'amande, du nom de la ville du Loiret.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le pithiviers est une galette de pâte feuilletée dorée, fourrée d'une généreuse crème d'amande, du nom de la ville du Loiret dont elle est originaire. Proche de la galette des Rois, elle se reconnaît à ses stries rayonnantes et à sa surface glacée. Il existe aussi un « pithiviers fondant », gâteau d'amandes nappé d'un glaçage au sucre.",
     "video": "",
     "id": "pithiviers"
   },
@@ -5408,7 +5408,7 @@ window.FULL_DATA = [
     "description": "Flan corse au brocciu et au citron, sans pâte.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le fiadone est le dessert corse par excellence : un flan sans pâte à base de brocciu frais, d'œufs, de sucre et de zeste de citron, parfois relevé d'un trait d'eau-de-vie. Léger et parfumé, il met en valeur le fromage emblématique de l'île et se déguste tout simplement à la fin d'un repas.",
     "video": "",
     "id": "fiadone"
   },
@@ -5422,7 +5422,7 @@ window.FULL_DATA = [
     "description": "Gâteau de farine de châtaigne aux pignons et raisins, spécialité corse.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le castagnacciu est un gâteau dense à base de farine de châtaigne, agrémenté de pignons et de raisins secs. Peu sucré et moelleux, il célèbre la châtaigne, longtemps « l'arbre à pain » des Corses. Il se déguste en dessert ou au goûter, parfois accompagné de brocciu.",
     "video": "",
     "id": "castagnacciu"
   },
@@ -5450,7 +5450,7 @@ window.FULL_DATA = [
     "description": "Huile d'olive AOP issue de l'olive Picholine, ardente et herbacée.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'huile d'olive de Nîmes, AOP, est issue principalement de la Picholine, olive emblématique du Gard. Au fruité vert et ardent, avec des notes herbacées et une légère amertume, elle accompagne crudités, salades et grillades. La même olive donne aussi une olive de table verte croquante très appréciée.",
     "video": "",
     "id": "huile-d-olive-de-nimes"
   },
@@ -5464,7 +5464,7 @@ window.FULL_DATA = [
     "description": "Olive verte croquante en forme de croissant, douce et beurrée.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "L'olive de Lucques est une olive verte croquante, reconnaissable à sa forme allongée de croissant et à sa chair fine et douce, au léger goût de noisette et de beurre. Cultivée dans l'Hérault, elle est l'une des olives de table françaises les plus recherchées, à déguster à l'apéritif.",
     "video": "",
     "id": "olives-de-lucques"
   },
