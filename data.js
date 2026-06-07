@@ -98,20 +98,6 @@ window.FULL_DATA = [
     "id": "crepe-bretonne"
   },
   {
-    "name": "Cocos de Paimpol",
-    "region": "Bretagne",
-    "type": "salé",
-    "latitude": 48.77925,
-    "longitude": -3.045854,
-    "image": "cocos-de-paimpol.jpg",
-    "description": "Haricot semi-sec issu d'une variété de haricot commun, récolté exclusivement à la main avant maturité complète et vendu en cosse. AOC depuis 1998. Zone de production : 85 communes du Trégor (Côtes-d'Armor). Fondant, à la peau fine. Se cuisine simplement, à l'eau ou en sauce.",
-    "links": [],
-    "category": "épicerie",
-    "detail": "Le coco de Paimpol est un haricot blanc demi-sec cultivé sur la côte du Goëlo, autour de Paimpol, et écossé à la main. Première légumineuse à avoir obtenu une AOC, il offre une chair fondante et un goût fin, sans la peau coriace des haricots secs et sans trempage préalable. On le cuisine en accompagnement, en soupe ou avec des fruits de mer. Sa récolte d'automne donne lieu à une fête locale très suivie.",
-    "video": "",
-    "id": "cocos-de-paimpol"
-  },
-  {
     "name": "Sel de Guérande",
     "region": "Bretagne",
     "type": "salé",
@@ -461,20 +447,6 @@ window.FULL_DATA = [
     "detail": "Le thym de Provence est un thym sauvage qui pousse spontanément dans la garrigue, sous le soleil et au milieu des cailloux. Très parfumé, riche en huiles essentielles, il est l'une des herbes de Provence par excellence. Protégé par une IGP, il relève grillades, daubes, sauces et marinades, et embaume la cuisine méditerranéenne.",
     "video": "",
     "id": "thym-de-provence"
-  },
-  {
-    "name": "Ratatouille niçoise",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "type": "salé",
-    "latitude": 43.686067,
-    "longitude": 7.230159,
-    "image": "ratatouille-nicoise.jpg",
-    "description": "Spécialité niçoise et provençale : ragoût de légumes méditerranéens (aubergine, courgette, poivron, tomate, oignon) à l'huile d'olive et aux herbes. Secret de la version niçoise : chaque légume est cuit séparément avant d'être assemblé, pour préserver les textures. Se mange chaude ou froide.",
-    "links": [],
-    "category": "épicerie",
-    "detail": "La ratatouille est le grand plat de légumes du soleil de Nice et de Provence : courgettes, aubergines, poivrons, tomates et oignons cuits doucement à l'huile d'olive, parfumés d'ail et d'herbes. Les puristes cuisent chaque légume séparément avant de les réunir, pour préserver les saveurs. Servie chaude ou froide, en plat ou en accompagnement, elle résume toute la cuisine méditerranéenne.",
-    "video": "",
-    "id": "ratatouille-nicoise"
   },
   {
     "name": "Banon",
@@ -1957,20 +1929,6 @@ window.FULL_DATA = [
     "detail": "La France a produit du safran durant plusieurs siècles, et le Gâtinais en fut l'un des grands bassins. L'épice provient des stigmates rouges du crocus, cueillis et émondés à la main — un travail minutieux qui explique son prix. Après une longue éclipse, des producteurs ont relancé cette culture, retrouvant un safran local parfumé, aux notes de miel et de foin.",
     "video": "",
     "id": "safran-du-gatinais"
-  },
-  {
-    "name": "Lentilles vertes du Berry",
-    "region": "Centre-Val de Loire",
-    "type": "salé",
-    "latitude": 47.392932,
-    "longitude": 0.39251,
-    "image": "lentilles-vertes-du-berry.jpg",
-    "description": "Variété de lentille verte cultivée dans l'Indre et le Cher (Berry). Label Rouge depuis 1996. Confrérie des fins mangeux d'lentilles vertes du Berry. Peau fine, cuisson rapide, goût marqué. Tradition : avec un saucisson cuit ou un petit salé.",
-    "links": [],
-    "category": "épicerie",
-    "detail": "La lentille verte du Berry est cultivée dans l'Indre et le Cher, sur des terres qui lui conviennent particulièrement. Sa peau fine permet une cuisson rapide sans trempage, et elle garde une jolie tenue tout en restant fondante. Protégée par une IGP, elle se prête aux salades, aux plats mijotés et aux accompagnements de saucisses ou de petit salé.",
-    "video": "",
-    "id": "lentilles-vertes-du-berry"
   },
   {
     "name": "Sainte-Maure de Touraine",
@@ -11809,21 +11767,6 @@ window.FULL_DATA = [
     "id": "liqueur-de-myrte"
   },
   {
-    "name": "Bourride",
-    "region": "Provence",
-    "terroir": "Marseillais",
-    "type": "salé",
-    "latitude": 43.29,
-    "longitude": 5.37,
-    "image": "bourride.jpg",
-    "description": "Soupe de poisson provençale liée à l'aïoli, plus douce que la bouillabaisse.",
-    "links": [],
-    "category": "plat",
-    "detail": "La bourride est une soupe de poissons blancs (lotte, baudroie) provençale, dont le bouillon est lié à l'aïoli, ce qui lui donne une texture onctueuse et un goût d'ail prononcé. Servie sur des tranches de pain, plus douce et crémeuse que la bouillabaisse, c'est un grand classique de la cuisine de la côte provençale.",
-    "video": "",
-    "id": "bourride"
-  },
-  {
     "name": "Tarte tropézienne",
     "region": "Côte d'Azur",
     "terroir": "Maures",
@@ -12032,21 +11975,6 @@ window.FULL_DATA = [
     "detail": "Le jambon de Bayonne est un jambon cru de porc, frotté au sel des salines de Salies-de-Béarn puis séché plusieurs mois dans l'air du bassin de l'Adour. À la chair fondante, douce et délicatement salée, parfois frottée de piment d'Espelette, il bénéficie d'une IGP. Tranché fin, c'est l'un des grands jambons secs de France.",
     "video": "",
     "id": "jambon-de-bayonne"
-  },
-  {
-    "name": "Confit de canard",
-    "region": "Gascogne",
-    "terroir": "Gascogne",
-    "type": "salé",
-    "latitude": 43.65,
-    "longitude": 0.59,
-    "image": "confit-de-canard.jpg",
-    "description": "Cuisses de canard salées et cuites lentement dans leur graisse, base de la cuisine gasconne.",
-    "links": [],
-    "category": "charcuterie",
-    "detail": "Le confit de canard est une méthode de conservation ancestrale du Sud-Ouest : les cuisses de canard gras sont salées puis cuites très lentement et conservées dans leur propre graisse. Réchauffées jusqu'à ce que la peau soit croustillante, elles se servent avec des pommes sarladaises. C'est un pilier de la cuisine gasconne et un ingrédient du cassoulet.",
-    "video": "",
-    "id": "confit-de-canard"
   },
   {
     "name": "Magret de canard",
@@ -12332,21 +12260,6 @@ window.FULL_DATA = [
     "detail": "Le saint-émilion est l'un des grands vins rouges de Bordeaux, produit sur la rive droite de la Dordogne, autour de la cité médiévale classée de Saint-Émilion. Dominé par le merlot, souvent assemblé au cabernet franc, il est rond, fruité et velouté. Son vignoble, inscrit au patrimoine mondial, abrite des crus parmi les plus prestigieux.",
     "video": "",
     "id": "saint-emilion"
-  },
-  {
-    "name": "Aligot",
-    "region": "Occitanie",
-    "terroir": "Aubrac",
-    "type": "salé",
-    "latitude": 44.68,
-    "longitude": 2.85,
-    "image": "aligot.jpg",
-    "description": "Purée de pommes de terre filante liée à la tome fraîche de l'Aubrac et à l'ail.",
-    "links": [],
-    "category": "plat",
-    "detail": "L'aligot est le plat emblématique de l'Aubrac : une purée de pommes de terre dans laquelle on incorpore de la tome fraîche, de la crème et de l'ail, puis que l'on travaille longuement jusqu'à ce qu'elle file en longs rubans élastiques. Servi avec de la saucisse, c'est le plat convivial des burons et des fêtes du plateau de l'Aubrac.",
-    "video": "",
-    "id": "aligot"
   },
   {
     "name": "Petit pâté de Pézenas",
