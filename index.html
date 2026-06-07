@@ -265,6 +265,23 @@ body{
 .tag-pain{background:var(--cat-pain);color:var(--encre);}
 .tag-plat{background:var(--cat-plat);}
 
+.sheet-region-tag{
+  display:inline-block;
+  font-size:0.7rem;
+  font-weight:600;
+  letter-spacing:0.04em;
+  padding:0.25rem 0.7rem;
+  border-radius:4px;
+  margin:0 0 1rem 0.4rem;
+  color:var(--terre-fonce);
+  background:var(--creme-fonce);
+  text-decoration:none;
+  cursor:pointer;
+  transition:background .15s ease;
+}
+.sheet-region-tag:hover{background:var(--ocre-clair);}
+.sheet-region-tag::after{content:" →";}
+
 .sheet-description{
   font-size:0.98rem;
   line-height:1.6;
@@ -420,6 +437,7 @@ body{
     <div class="sheet-region" id="sheetRegion"></div>
     <h2 class="sheet-title" id="sheetTitle"></h2>
     <span class="sheet-cat-tag" id="sheetCatTag"></span>
+    <a class="sheet-region-tag" id="sheetRegionTag"></a>
     <p class="sheet-description" id="sheetDesc"></p>
     <p class="sheet-detail" id="sheetDetail"></p>
     <div class="sheet-video" id="sheetVideo"></div>
@@ -443,6 +461,48 @@ const CATEGORIES = {
   'legume':      { emoji: '🥬', label: 'Légumes & fruits' },
   'pain':        { emoji: '🥐', label: 'Pains & brioches' },
   'plat':        { emoji: '🍲', label: 'Plats & recettes' },
+};
+
+// ─── RÉGION → GUIDE (badge cliquable de la fiche) ───
+const REGION_GUIDE = {
+  "Nouvelle-Aquitaine":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Aquitaine":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Gascogne":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Béarn":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Pays basque":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Limousin":{slug:"/specialites-sud-ouest.html",label:"Spécialités du Sud-Ouest"},
+  "Poitou-Charentes":{slug:"/specialites-poitou-charentes.html",label:"Spécialités du Poitou-Charentes"},
+  "Occitanie":{slug:"/specialites-occitanie.html",label:"Spécialités d'Occitanie"},
+  "Midi-Pyrénées":{slug:"/specialites-occitanie.html",label:"Spécialités d'Occitanie"},
+  "Languedoc-Roussillon":{slug:"/specialites-occitanie.html",label:"Spécialités d'Occitanie"},
+  "Roussillon":{slug:"/specialites-occitanie.html",label:"Spécialités d'Occitanie"},
+  "Quercy":{slug:"/specialites-occitanie.html",label:"Spécialités d'Occitanie"},
+  "Provence":{slug:"/specialites-provence.html",label:"Spécialités de Provence"},
+  "Provence-Alpes-Côte d'Azur":{slug:"/specialites-provence.html",label:"Spécialités de Provence"},
+  "Côte d'Azur":{slug:"/specialites-provence.html",label:"Spécialités de Provence"},
+  "Auvergne-Rhône-Alpes":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Auvergne":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Lyonnais":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Dauphiné":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Savoie":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Ardèche":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Drôme":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Bresse":{slug:"/specialites-auvergne-rhone-alpes.html",label:"Spécialités d'Auvergne-Rhône-Alpes"},
+  "Bourgogne":{slug:"/specialites-bourgogne-franche-comte.html",label:"Spécialités de Bourgogne-Franche-Comté"},
+  "Bourgogne-Franche-Comté":{slug:"/specialites-bourgogne-franche-comte.html",label:"Spécialités de Bourgogne-Franche-Comté"},
+  "Franche-Comté":{slug:"/specialites-bourgogne-franche-comte.html",label:"Spécialités de Bourgogne-Franche-Comté"},
+  "Grand Est":{slug:"/specialites-grand-est.html",label:"Spécialités du Grand Est"},
+  "Alsace":{slug:"/specialites-grand-est.html",label:"Spécialités du Grand Est"},
+  "Lorraine":{slug:"/specialites-grand-est.html",label:"Spécialités du Grand Est"},
+  "Champagne-Ardenne":{slug:"/specialites-grand-est.html",label:"Spécialités du Grand Est"},
+  "Hauts-de-France":{slug:"/specialites-hauts-de-france.html",label:"Spécialités des Hauts-de-France"},
+  "Île-de-France":{slug:"/specialites-ile-de-france.html",label:"Spécialités d'Île-de-France"},
+  "Centre-Val de Loire":{slug:"/specialites-centre-val-de-loire.html",label:"Spécialités du Centre-Val de Loire"},
+  "Pays de la Loire":{slug:"/specialites-pays-de-la-loire.html",label:"Spécialités des Pays de la Loire"},
+  "Vendée":{slug:"/specialites-pays-de-la-loire.html",label:"Spécialités des Pays de la Loire"},
+  "Bretagne":{slug:"/specialites-bretagne.html",label:"Spécialités de Bretagne"},
+  "Normandie":{slug:"/specialites-normandie.html",label:"Spécialités de Normandie"},
+  "Corse":{slug:"/specialites-corse.html",label:"Spécialités de Corse"},
 };
 
 // ─── INIT MAP ───
@@ -521,6 +581,17 @@ function openSheet(item){
     catTag.style.display = 'inline-block';
   } else {
     catTag.style.display = 'none';
+  }
+
+  // Badge région cliquable → guide régional
+  const regionTag = document.getElementById('sheetRegionTag');
+  const guide = REGION_GUIDE[item.region];
+  if(guide){
+    regionTag.textContent = guide.label;
+    regionTag.href = guide.slug;
+    regionTag.style.display = 'inline-block';
+  } else {
+    regionTag.style.display = 'none';
   }
 
   document.getElementById('sheetDesc').textContent = item.description || '';
@@ -621,6 +692,17 @@ geoBtn.addEventListener('click', () => {
 
 // ─── INIT ───
 buildMarkers();
+
+// ─── DEEP-LINK depuis les guides : index.html?f=identifiant ouvre la fiche ───
+(function(){
+  const fid = new URLSearchParams(window.location.search).get('f');
+  if(!fid) return;
+  const item = data.find(d => d.id === fid);
+  if(!item) return;
+  map.setView([item.latitude, item.longitude], 11);
+  setTimeout(() => openSheet(item), 450);
+})();
+
 setTimeout(() => {
   document.getElementById('splash').classList.add('hide');
 }, 600);
