@@ -199,7 +199,12 @@ window.FULL_DATA = [
     "longitude": 5.448272,
     "image": "calisson-daix.jpg",
     "description": "1454, Aix-en-Provence : pour le mariage du roi René et de Jeanne de Laval, le confiseur de la cour aurait inventé cette douceur. Une dame de la cour s'exclame en provençal 'Di calin soun !' — 'Ce sont des câlins'. Le nom serait né là. Amandes, melon confit d'Apt, écorces d'orange, pain azyme et glaçage royal. IGP depuis 2016. Maisons phares : Béchard (1870), Léonard Parli (1874), Philippe Segond MOF, Le Roy René.",
-    "links": [],
+    "links": [
+      {
+        "text": "Maison Val Roubion",
+        "url": "https://lk.gt/a9ddf"
+      }
+    ],
     "category": "confiserie"
   },
   {
@@ -1170,7 +1175,12 @@ window.FULL_DATA = [
     "longitude": 4.748802,
     "image": "nougat-de-montelimar.jpg",
     "description": "IGP. Recette ancestrale : minimum 30 % d'amandes (ou 28 % + 2 % de pistaches), 25 % de miel de Provence, blanc d'œuf, sucre. Olivier de Serres planta les premiers amandiers vers 1600, la route N7 fit le succès commercial. Maisons emblématiques : Chabert & Guillot (1848), Val Roubion, L'Artisan Nougatier. Se conserve 6-8 mois — jamais au frigo.",
-    "links": [],
+    "links": [
+      {
+        "text": "Maison Val Roubion",
+        "url": "https://lk.gt/ao4qE"
+      }
+    ],
     "category": "confiserie"
   },
   {
