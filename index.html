@@ -418,15 +418,10 @@ const map = L.map('map', {
   preferCanvas: true
 }).setView([46.7, 2.3], 6);
 
-// Fond aquarelle Stamen — chaleureux, façon carte de terroir
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
-  attribution: '© Stadia Maps © Stamen Design © OpenStreetMap',
-  maxZoom: 16,
-  minZoom: 5
-}).addTo(map);
-// Calque de libellés (villes, régions) en français, par-dessus l'aquarelle
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_labels/{z}/{x}/{y}{r}.png?lang=fr', {
-  maxZoom: 16,
+// Fond Stadia Outdoors — coloré (verts, ocres), net, routes et libellés en français
+L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?lang=fr', {
+  attribution: '© Stadia Maps © OpenStreetMap',
+  maxZoom: 18,
   minZoom: 5
 }).addTo(map);
 
