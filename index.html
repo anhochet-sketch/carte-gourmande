@@ -569,7 +569,8 @@ const sheetClose = document.getElementById('sheetClose');
 function openSheet(item){
   document.getElementById('sheetImage').src = item.image;
   document.getElementById('sheetImage').alt = item.name;
-  document.getElementById('sheetRegion').textContent = item.region || '';
+  const _terroir = (item.terroir && item.terroir !== item.region) ? ' · ' + item.terroir : '';
+  document.getElementById('sheetRegion').textContent = (item.region || '') + _terroir;
   document.getElementById('sheetTitle').textContent = item.name;
 
   // Tag catégorie
