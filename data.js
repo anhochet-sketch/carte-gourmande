@@ -2632,7 +2632,12 @@ window.FULL_DATA = [
     "longitude": 0.08762,
     "image": "jambon-noir-de-bigorre.jpg",
     "description": "Jambon issu du porc noir gascon élevé en plein air, au gras fondant et au goût intense, affiné jusqu'à deux ans.",
-    "links": [],
+    "links": [
+       {
+        "text": "Maison Lascours",
+        "url": "https://lk.gt/ax8nN"
+      }
+    ],
     "category": "charcuterie",
     "detail": "Le jambon noir de Bigorre est issu du porc « Noir de Bigorre », élevé en plein air et nourri d'herbe, de glands et de châtaignes. Salé puis affiné très longuement, parfois plus de vingt mois, il offre une chair persillée, fondante et au goût profond. Protégé par une AOP, il compte parmi les grands jambons secs français.",
     "video": "",
@@ -2760,7 +2765,12 @@ window.FULL_DATA = [
     "longitude": 0.7212,
     "image": "pate-de-foie-gras-truffe-du-perigord.jpg",
     "description": "Foie gras de canard ou d'oie travaillé en bloc avec des éclats de truffe noire du Périgord, le grand luxe de la conserve périgourdine.",
-    "links": [],
+    "links": [
+       {
+        "text": "Maison Lascours",
+        "url": "https://lk.gt/aBFWi"
+      }
+    ],
     "category": "charcuterie",
     "detail": "Ce pâté associe le foie gras de canard ou d'oie à la truffe noire du Périgord, dans une préparation travaillée en bloc ou en terrine. Le mariage du foie gras fondant et du parfum puissant de la truffe en fait un mets de fête particulièrement raffiné, fleuron de la gastronomie périgourdine, à déguster sur un pain légèrement toasté.",
     "video": "",
@@ -3017,7 +3027,12 @@ window.FULL_DATA = [
     "longitude": 1.05,
     "image": "bethmale.jpg",
     "description": "Tomme de vache des Pyrénées ariégeoises à pâte souple percée de petits trous, au goût rustique de montagne.",
-    "links": [],
+    "links": [
+       {
+        "text": "Maison Lascours",
+        "url": "https://lk.gt/aszhu"
+      }
+    ],
     "category": "fromage",
     "detail": "Le bethmale est une tomme de vache des Pyrénées ariégeoises, à pâte souple et croûte lavée, parsemée de petites ouvertures. Au goût doux et fruité, parfois relevé après un long affinage, il vient de la vallée de Bethmale. C'est l'un des fromages emblématiques du pastoralisme pyrénéen ariégeois.",
     "video": "",
@@ -4346,7 +4361,12 @@ window.FULL_DATA = [
     "longitude": 7.24699,
     "image": "ratatouille.jpg",
     "description": "Mijoté de courgettes, aubergines, poivrons et tomates à l'huile d'olive.",
-    "links": [],
+    "links": [
+       {
+        "text": "Maison Lascours",
+        "url": "https://lk.gt/a6sDr"
+      }
+    ],
     "category": "plat",
     "detail": "La ratatouille est un mijoté de légumes du soleil — courgettes, aubergines, poivrons, tomates et oignons — cuits doucement à l'huile d'olive avec ail et herbes de Provence. Les puristes cuisent chaque légume séparément avant de les réunir, pour préserver les saveurs. Servie chaude ou froide, en accompagnement ou en plat, elle est l'une des recettes les plus emblématiques de la cuisine niçoise et provençale.",
     "video": "",
