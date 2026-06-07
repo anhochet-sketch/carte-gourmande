@@ -90,6 +90,15 @@ body{
   letter-spacing:0.04em;
   text-transform:uppercase;
 }
+.header-right{display:flex;align-items:center;gap:0.6rem;}
+.nav-guides{
+  font-family:'Inter',sans-serif;font-size:0.72rem;font-weight:600;
+  color:var(--terre-fonce);text-decoration:none;white-space:nowrap;
+  background:var(--creme);border:1px solid var(--creme-fonce);
+  padding:0.32rem 0.65rem;border-radius:999px;
+}
+.nav-guides:hover{background:var(--creme-fonce);}
+@media(max-width:520px){.count{display:none;}}
 
 /* ─── FILTERS ─── */
 .filters{
@@ -359,7 +368,10 @@ body{
 
 <header class="header">
   <a href="/" class="logo">Carte Gourmande</a>
-  <span class="count" id="count">— chargement —</span>
+  <div class="header-right">
+    <a href="/guides.html" class="nav-guides">Guides régionaux</a>
+    <span class="count" id="count">— chargement —</span>
+  </div>
 </header>
 
 <div class="filters" id="filters">
