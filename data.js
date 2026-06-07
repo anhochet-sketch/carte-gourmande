@@ -37,7 +37,7 @@ window.FULL_DATA = [
     "description": "Créé en 1920 par Alexis Le Villain, boulanger de Pont-Aven en Finistère, dans la lignée des sablés et galettes bretonnes. Pâte sablée au beurre demi-sel, jaune d'œuf, farine et sucre. Son nom vient du jeu breton du palet sur planche, dont les disques métalliques rappellent la forme du biscuit.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le palet breton est un biscuit épais et friable, riche en beurre demi-sel, qui fond en bouche en laissant une saveur lactée délicatement salée. Plus haut et plus sablé que la galette, il se reconnaît à ses cannelures et à sa belle couleur dorée. La biscuiterie de Pont-Aven, en Finistère, a beaucoup fait pour sa renommée. Il accompagne idéalement un café, un thé ou une compote, et se conserve longtemps dans sa boîte métallique.",
     "video": "",
     "id": "palet-breton-de-pont-aven"
   },
@@ -51,7 +51,7 @@ window.FULL_DATA = [
     "description": "Petit biscuit doré au beurre demi-sel, créé en 1890 par le boulanger Isidore Penven à Pont-Aven. À sa mort, sa veuve Francine épouse Alexis Le Villain, autre boulanger pont-avenais, qui créera ensuite le palet breton en 1920. Leurs descendants ont fondé la marque Traou Mad ('bonnes choses' en breton), aujourd'hui mythique.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La galette bretonne est un biscuit plat, fin et croquant, dont toute la saveur tient au beurre demi-sel de la région. Plus mince que le palet, elle offre un goût franc de beurre et une texture sablée qui croque délicatement. Traditionnellement vendue en boîte métallique, elle se déguste au goûter avec un café ou une bolée de cidre, et reste l'une des biscuiteries emblématiques de Bretagne.",
     "video": "",
     "id": "galette-sablee-bretonne"
   },
@@ -79,7 +79,7 @@ window.FULL_DATA = [
     "description": "Étêtées, vidées, cuites puis mises en boîte avec une huile végétale parfois aromatisée. Douarnenez est le berceau de la conserverie de sardines en France au XIXᵉ siècle. Les meilleures sont 'millésimées' : vieillies plusieurs années dans l'huile, leur chair s'attendrit et leurs arômes se développent. Une vraie spécialité gastronomique.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Douarnenez fut l'un des grands ports sardiniers de France, et la mise en conserve y est un art depuis le XIXe siècle. Les sardines y sont étêtées, parées, cuites puis rangées à la main dans des boîtes avec une huile choisie. Les meilleures, dites « millésimées », se bonifient avec le temps si on retourne la boîte régulièrement, comme on couche un grand vin. On les déguste simplement sur du pain beurré, en apéritif ou en entrée.",
     "video": "",
     "id": "sardines-en-boite-de-douarnenez"
   },
@@ -107,7 +107,7 @@ window.FULL_DATA = [
     "description": "Haricot semi-sec issu d'une variété de haricot commun, récolté exclusivement à la main avant maturité complète et vendu en cosse. AOC depuis 1998. Zone de production : 85 communes du Trégor (Côtes-d'Armor). Fondant, à la peau fine. Se cuisine simplement, à l'eau ou en sauce.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "Le coco de Paimpol est un haricot blanc demi-sec cultivé sur la côte du Goëlo, autour de Paimpol, et écossé à la main. Première légumineuse à avoir obtenu une AOC, il offre une chair fondante et un goût fin, sans la peau coriace des haricots secs et sans trempage préalable. On le cuisine en accompagnement, en soupe ou avec des fruits de mer. Sa récolte d'automne donne lieu à une fête locale très suivie.",
     "video": "",
     "id": "cocos-de-paimpol"
   },
@@ -1804,7 +1804,7 @@ window.FULL_DATA = [
     "description": "Confiserie rouge parfumée au coquelicot, fabriquée à Nemours (Seine-et-Marne) depuis 1870 par la Maison des Confiseries du Coquelicot. Pétales de coquelicot infusés dans le sucre. Très visuel, dans une jolie boîte ronde.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le coquelicot de Nemours est une confiserie d'un rouge éclatant parfumée au coquelicot, née au début du XXe siècle dans cette ville du Gâtinais. On la décline en bonbons, en berlingots, en sirop ou en pâtes de fruits. Sa couleur vive et son goût floral délicat en font une douceur singulière, devenue l'emblème sucré de Nemours, en Seine-et-Marne.",
     "video": "",
     "id": "coquelicot-de-nemours"
   },
@@ -1818,7 +1818,7 @@ window.FULL_DATA = [
     "description": "Petit gâteau ovale ou rectangulaire à base de poudre d'amande et de blancs d'œufs. Créé dans le quartier de la Bourse à Paris au XIXᵉ siècle (d'où le nom) — sa forme rectangulaire ressemble à un lingot d'or. Cousin de la visitandine et du friand.",
     "links": [],
     "category": "pâtisserie",
-    "detail": "",
+    "detail": "Le financier est un petit gâteau moelleux à base de poudre d'amande, de blancs d'œufs et de beurre noisette, qui lui donne son parfum caractéristique. Sa forme de petit lingot lui vaudrait son nom, popularisé par un pâtissier installé près de la Bourse de Paris. Doré à l'extérieur et fondant au cœur, il se déguste au goûter ou avec un café.",
     "video": "",
     "id": "financier"
   },
@@ -1832,7 +1832,7 @@ window.FULL_DATA = [
     "description": "Sacré 'roi des fromages' au Congrès de Vienne en 1815 par Talleyrand, qui en avait fait amener pour le servir aux diplomates européens. Pâte molle à croûte fleurie blanche, lait cru de vache, grande roue de 36 cm. AOP depuis 1980. Goût fruité, notes de noisette et de champignon. Servir avec un champagne brut.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le brie de Meaux est un grand fromage à pâte molle et croûte fleurie, au lait cru de vache, présenté en large meule. Surnommé le « roi des fromages », il aurait été distingué au Congrès de Vienne en 1815. Affiné quelques semaines, il offre une pâte souple et crémeuse aux arômes de champignon et de noisette. Il bénéficie d'une AOP et se déguste à parfaite maturité.",
     "video": "",
     "id": "brie-de-meaux"
   },
@@ -2272,7 +2272,7 @@ window.FULL_DATA = [
     "description": "Petit bâton de sucre cuit doré, à la recette gardée secrète depuis 1638 par les bénédictines de Moret-sur-Loing.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Le sucre d'orge de Moret-sur-Loing est un bonbon de sucre cuit doré, dont la recette serait gardée depuis le XVIIe siècle par des religieuses de la ville. Présenté en petits bâtons ou en berlingots translucides, il offre une saveur douce et une transparence ambrée. C'est l'une des plus anciennes confiseries conventuelles de France.",
     "video": "",
     "id": "sucre-d-orge-des-religieuses-de-moret"
   },
@@ -2426,7 +2426,7 @@ window.FULL_DATA = [
     "description": "Sucette de caramel mou au beurre salé, longue et fine, déclinée en dizaines de parfums sur la presqu'île de Quiberon depuis 1946.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "La niniche est une longue et fine sucette de caramel mou au beurre salé, devenue l'emblème sucré de la presqu'île de Quiberon. Fabriquée de façon artisanale, elle se décline en de très nombreux parfums, des plus classiques (caramel, chocolat) aux plus fruités. Tendre et parfumée, elle fait la joie des petits comme des grands sur les bords de mer bretons.",
     "video": "",
     "id": "niniche-de-quiberon"
   },
@@ -2440,7 +2440,7 @@ window.FULL_DATA = [
     "description": "Confiserie à la fraise de Plougastel, capitale historique de ce fruit en Bretagne, déclinée en pâtes de fruits et bonbons.",
     "links": [],
     "category": "confiserie",
-    "detail": "",
+    "detail": "Plougastel-Daoulas, presqu'île du Finistère, est le berceau historique de la culture de la fraise en France. Le cœur de Plougastel rend hommage à ce fruit emblématique sous la forme d'une confiserie parfumée à la fraise. Coloré et fondant, il prolonge en douceur la grande tradition fraisière de la commune, qui célèbre chaque année son fruit lors d'une fête dédiée.",
     "video": "",
     "id": "cur-de-plougastel"
   },
@@ -2636,7 +2636,7 @@ window.FULL_DATA = [
     "description": "Andouille reconnaissable à ses anneaux concentriques formés par les chaudins enroulés les uns dans les autres, fumée et séchée.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "L'andouille de Guéméné est une charcuterie unique, faite de chaudins (parties du gros intestin) de porc enfilés les uns dans les autres, puis fumés au bois. Une fois tranchée, elle révèle un dessin en anneaux concentriques très caractéristique. Originaire de Guéméné-sur-Scorff, dans le Morbihan, elle se déguste froide en entrée ou tiède avec une purée. Son goût fumé et sa présentation en cercles la distinguent des autres andouilles.",
     "video": "",
     "id": "andouille-de-guemene"
   },
@@ -2818,7 +2818,7 @@ window.FULL_DATA = [
     "description": "Fromage de vache à croûte fleurie, plus épais et plus petit que le brie, au cœur tendre et crémeux.",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le coulommiers est un fromage à pâte molle et croûte fleurie, proche du brie mais plus petit et plus épais. Au lait de vache, il développe une pâte onctueuse et un goût doux qui s'affirme avec l'affinage. Originaire de la Brie, il se déguste à température ambiante, sur un bon morceau de pain.",
     "video": "",
     "id": "coulommiers"
   },
@@ -2832,7 +2832,7 @@ window.FULL_DATA = [
     "description": "Brie au lait cru plus petit et plus corsé que celui de Meaux, à la pâte ferme et au goût prononcé (AOP).",
     "links": [],
     "category": "fromage",
-    "detail": "",
+    "detail": "Le brie de Melun est le frère plus corsé du brie de Meaux : plus petit, au lait cru et longuement affiné, il développe une pâte plus ferme et des arômes plus puissants. Sa fabrication, à coagulation lente, en fait l'un des plus anciens bries. Protégé par une AOP, il s'adresse aux amateurs de fromages au caractère affirmé.",
     "video": "",
     "id": "brie-de-melun"
   },
@@ -3056,7 +3056,7 @@ window.FULL_DATA = [
     "description": "Fine crêpe roulée en cigarette croustillante, inventée à Quimper en 1886, devenue la gavotte que l'on connaît.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "La crêpe dentelle est une très fine crêpe enroulée en cigarette, d'une légèreté et d'un croustillant remarquables. Inventée à Quimper à la fin du XIXe siècle, elle serait née d'une crêpe oubliée sur le billig puis repliée à la hâte. Délicate et friable, elle se déguste avec un café ou une glace, et demeure l'une des douceurs les plus fines de Bretagne.",
     "video": "",
     "id": "crepe-dentelle-de-quimper"
   },
@@ -3070,7 +3070,7 @@ window.FULL_DATA = [
     "description": "Gâteau dense au beurre salé composé à parts égales de beurre, sucre, œufs et farine, grand classique des goûters bretons.",
     "links": [],
     "category": "biscuiterie",
-    "detail": "",
+    "detail": "Le quatre-quarts tient son nom de sa recette : des parts égales de farine, de beurre, de sucre et d'œufs. En Bretagne, l'emploi du beurre demi-sel lui donne sa saveur caractéristique. Dense, moelleux et bien beurré, c'est un gâteau familial simple et réconfortant, parfait au goûter, nature ou accompagné d'une compote.",
     "video": "",
     "id": "quatre-quarts-breton"
   },
@@ -3112,7 +3112,7 @@ window.FULL_DATA = [
     "description": "Moutarde à l'ancienne aux grains concassés, à la fois douce et relevée, élaborée à Meaux depuis le XVIIIe siècle.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La moutarde de Meaux est une moutarde à l'ancienne, aux grains partiellement concassés qui lui donnent une texture granuleuse et une saveur à la fois douce et relevée. Sa recette, longtemps détenue par une même maison, est traditionnellement conditionnée dans un pot de grès cacheté à la cire. Elle accompagne viandes, charcuteries et vinaigrettes.",
     "video": "",
     "id": "moutarde-de-meaux"
   },
@@ -3420,7 +3420,7 @@ window.FULL_DATA = [
     "description": "Thon pêché en Atlantique et mis en conserve au naturel ou à l'huile dans les conserveries bretonnes de Concarneau.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Concarneau est l'un des grands ports thoniers français, où la conserverie perpétue un savoir-faire ancien. Le thon — souvent le germon, thon blanc de l'Atlantique — y est préparé au naturel ou à l'huile, avec une chair ferme et savoureuse. Il se déguste en salade, en rillettes ou simplement sur du pain, et illustre la richesse de la pêche bretonne.",
     "video": "",
     "id": "thon-de-concarneau"
   },
@@ -3434,7 +3434,7 @@ window.FULL_DATA = [
     "description": "Filets de maquereau préparés en conserve au vin blanc et aux aromates, classique des conserveries du Finistère.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Les filets de maquereau au vin blanc sont un grand classique des conserveries bretonnes. Le poisson est paré puis cuit dans une marinade de vin blanc, d'aromates et de légumes (carotte, oignon) qui adoucit sa chair et la parfume. Économiques et savoureux, ces filets se dégustent froids en entrée, sur du pain de campagne, et font partie du patrimoine de la conserve bretonne.",
     "video": "",
     "id": "maquereau-au-vin-blanc"
   },
@@ -3798,7 +3798,7 @@ window.FULL_DATA = [
     "description": "Vieille race de poule bretonne au plumage gris barré, à la chair fine.",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le coucou de Rennes est une ancienne race de poule bretonne, reconnaissable à son plumage gris barré qui rappelle l'oiseau du même nom. Presque disparue au XXe siècle, elle a été sauvée par des passionnés. Élevée en plein air et abattue tardivement, elle offre une chair ferme, fine et goûteuse, très appréciée des cuisiniers attachés aux races du terroir.",
     "video": "",
     "id": "poulet-coucou-de-rennes"
   },
@@ -3812,7 +3812,7 @@ window.FULL_DATA = [
     "description": "Volaille festive engraissée autour de Janzé, en Ille-et-Vilaine (IGP).",
     "links": [],
     "category": "viande",
-    "detail": "",
+    "detail": "Le chapon de Janzé est une volaille de fête engraissée autour de Janzé, en Ille-et-Vilaine, dans une zone réputée pour son aviculture de qualité (IGP). Élevé lentement et nourri de céréales, il offre une chair persillée, tendre et savoureuse, prisée pour les repas de fin d'année. C'est l'un des fleurons des volailles bretonnes.",
     "video": "",
     "id": "chapon-de-janze"
   },
@@ -4778,7 +4778,7 @@ window.FULL_DATA = [
     "description": "Oignon rosé doux et sucré, vendu en tresses, cultivé autour de Roscoff (AOP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "L'oignon de Roscoff est un oignon rosé, doux et légèrement sucré, cultivé sur la côte nord du Finistère et protégé par une AOP. Vendu en tresses, il se conserve bien et se prête aussi bien au cru qu'au cuit. C'est lui que les fameux « Johnnies » partaient vendre à vélo en Grande-Bretagne, contribuant à sa réputation au-delà des frontières.",
     "video": "",
     "id": "oignon-de-roscoff"
   },
@@ -4792,7 +4792,7 @@ window.FULL_DATA = [
     "description": "Gros artichaut camus cultivé sur la ceinture maraîchère du nord Finistère.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La Bretagne, en particulier la ceinture maraîchère du nord Finistère autour de Saint-Pol-de-Léon, est la première région productrice d'artichauts de France. Le gros « camus » breton, charnu et tendre, en est la variété emblématique, aux côtés du petit violet. On le déguste feuille à feuille, à la vinaigrette ou tiède, le cœur étant le morceau le plus recherché.",
     "video": "",
     "id": "artichaut-de-bretagne"
   },
@@ -4806,7 +4806,7 @@ window.FULL_DATA = [
     "description": "Haricot demi-sec à écosser, fondant, cultivé autour de Paimpol (AOP).",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "Le coco de Paimpol est un haricot blanc à écosser, récolté demi-sec autour de la baie de Paimpol, en Côtes-d'Armor. Première légumineuse française à avoir décroché une AOC, il se distingue par sa chair fondante et son goût délicat, sans trempage préalable. On le savoure en garniture, en soupe ou avec des coquillages. Sa récolte automnale, écossée à la main, est célébrée par une fête locale.",
     "video": "",
     "id": "coco-de-paimpol"
   },
@@ -4988,7 +4988,7 @@ window.FULL_DATA = [
     "description": "Fraise historique de Bretagne, cultivée près de Brest depuis le XVIIIe siècle.",
     "links": [],
     "category": "legume",
-    "detail": "",
+    "detail": "La fraise de Plougastel a fait la réputation de la presqu'île dès le XVIIIe siècle, lorsque la région devint l'un des premiers centres fraisiers de France. Parfumée et sucrée, elle a longtemps approvisionné Paris et l'Angleterre. Si la production a évolué depuis, la fraise reste l'emblème de Plougastel-Daoulas, qui lui consacre chaque année une fête et un musée.",
     "video": "",
     "id": "fraise-de-plougastel"
   },
@@ -5128,7 +5128,7 @@ window.FULL_DATA = [
     "description": "Pain breton roulé sur lui-même, à la croûte fine.",
     "links": [],
     "category": "pain",
-    "detail": "",
+    "detail": "Le pain plié est un pain breton traditionnel, façonné en étant replié sur lui-même, ce qui lui donne sa forme allongée caractéristique et sa croûte fine. Originaire de la région de Morlaix, il offre une mie moelleuse qui se prête bien aux tartines. C'est un beau témoin de la diversité des pains régionaux de Bretagne.",
     "video": "",
     "id": "pain-plie"
   },
@@ -5226,7 +5226,7 @@ window.FULL_DATA = [
     "description": "Jambon cuit à l'os, doux et moelleux, classique des comptoirs parisiens.",
     "links": [],
     "category": "charcuterie",
-    "detail": "",
+    "detail": "Le jambon de Paris est un jambon cuit, doux et moelleux, traditionnellement cuit à l'os dans un bouillon aromatisé puis légèrement pressé. Pâle et peu salé, c'est le jambon « blanc » des comptoirs et des sandwichs parisiens. Un bon jambon de Paris se reconnaît à sa tranche fine, sa tenue et son goût délicat.",
     "video": "",
     "id": "jambon-de-paris"
   },
@@ -5296,7 +5296,7 @@ window.FULL_DATA = [
     "description": "Homard breton flambé et mijoté à la tomate et au cognac.",
     "links": [],
     "category": "mer",
-    "detail": "",
+    "detail": "Le homard à l'armoricaine est un plat de fête où le homard, coupé et saisi, mijote dans une sauce à la tomate, au vin blanc, à l'ail et au cognac flambé. Le nom renvoie à l'Armorique, ancien nom de la Bretagne, même si l'origine exacte de la recette reste débattue — certains y voient une déformation d'« américaine ». Riche et parfumé, il met à l'honneur le homard breton, à la chair ferme et iodée.",
     "video": "",
     "id": "homard-a-l-armoricaine"
   },
@@ -5436,7 +5436,7 @@ window.FULL_DATA = [
     "description": "Moutarde aromatisée à la rose, spécialité de la cité médiévale de Provins.",
     "links": [],
     "category": "épicerie",
-    "detail": "",
+    "detail": "La moutarde à la rose de Provins marie la vivacité de la moutarde à la délicatesse de la rose, fleur emblématique de cette cité médiévale de Seine-et-Marne réputée pour ses roseraies depuis le Moyen Âge. Parfumée et originale, elle relève foie gras, viandes blanches et fromages d'une note florale inattendue.",
     "video": "",
     "id": "moutarde-a-la-rose-de-provins"
   },
