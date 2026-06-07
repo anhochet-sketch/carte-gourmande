@@ -266,11 +266,26 @@ body{
 .tag-plat{background:var(--cat-plat);}
 
 .sheet-description{
-  font-size:0.95rem;
-  line-height:1.65;
+  font-size:0.98rem;
+  line-height:1.6;
   color:var(--encre);
-  margin-bottom:1.4rem;
+  font-weight:500;
+  margin-bottom:0.8rem;
 }
+.sheet-detail{
+  font-size:0.92rem;
+  line-height:1.7;
+  color:var(--gris);
+  margin-bottom:1.2rem;
+  white-space:pre-line;
+}
+.sheet-detail:empty{display:none;}
+.sheet-video{
+  position:relative;width:100%;aspect-ratio:16/9;
+  border-radius:12px;overflow:hidden;margin-bottom:1.2rem;background:var(--creme-fonce);
+}
+.sheet-video:empty{display:none;}
+.sheet-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
 
 .sheet-actions{
   display:flex;flex-direction:column;gap:0.5rem;
@@ -406,6 +421,8 @@ body{
     <h2 class="sheet-title" id="sheetTitle"></h2>
     <span class="sheet-cat-tag" id="sheetCatTag"></span>
     <p class="sheet-description" id="sheetDesc"></p>
+    <p class="sheet-detail" id="sheetDetail"></p>
+    <div class="sheet-video" id="sheetVideo"></div>
     <div class="sheet-actions" id="sheetActions"></div>
   </div>
 </div>
@@ -506,7 +523,18 @@ function openSheet(item){
     catTag.style.display = 'none';
   }
 
-  document.getElementById('sheetDesc').textContent = item.description;
+  document.getElementById('sheetDesc').textContent = item.description || '';
+  document.getElementById('sheetDetail').textContent = item.detail || '';
+
+  // Vidéo (accepte une URL YouTube complète ou un identifiant)
+  const videoBox = document.getElementById('sheetVideo');
+  videoBox.innerHTML = '';
+  if(item.video){
+    let id = item.video;
+    const m = String(item.video).match(/(?:v=|youtu\.be\/|embed\/)([A-Za-z0-9_-]{11})/);
+    if(m) id = m[1];
+    videoBox.innerHTML = `<iframe src="https://www.youtube.com/embed/${id}" title="Vidéo" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>`;
+  }
 
   const actions = document.getElementById('sheetActions');
   actions.innerHTML = '';
