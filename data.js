@@ -1523,7 +1523,12 @@ window.FULL_DATA = [
     "longitude": 3.882732,
     "image": "lentille-verte-du-puy.jpg",
     "description": "Cultivée sur le plateau du Velay (Haute-Loire) depuis l'Antiquité romaine. AOC depuis 1996. Petite, verte marbrée, peau fine, goût légèrement sucré. Tient parfaitement à la cuisson — la lentille du saucisson-lentilles parfait.",
-    "links": [],
+    "links": [
+       {
+        "text": "Esprit Foie Gras",
+        "url": "https://lk.gt/ailLu"
+      }
+    ],
     "category": "épicerie",
     "detail": "La lentille verte du Puy est cultivée sur le plateau volcanique du Velay, en Haute-Loire, dont le sol et le climat lui donnent une peau fine et une saveur de noisette. Elle cuit rapidement sans trempage et garde sa tenue. Première légumineuse à avoir obtenu une AOP, elle se prête aux salades, aux plats mijotés et accompagne saucisses et petit salé.",
     "video": "",
@@ -2770,7 +2775,12 @@ window.FULL_DATA = [
     "longitude": 0.586,
     "image": "confit-de-canard-du-sud-ouest.jpg",
     "description": "Cuisses de canard cuites et conservées dans leur graisse, base de la cuisine du Sud-Ouest et du cassoulet.",
-    "links": [],
+    "links": [
+       {
+        "text": "Esprit Foie Gras",
+        "url": "https://lk.gt/aNg7e"
+      }
+    ],
     "category": "charcuterie",
     "detail": "Le confit est une méthode de conservation ancestrale : les cuisses ou manchons de canard sont salés puis cuits doucement dans leur propre graisse, où ils se conservent. Réchauffés et dorés à la poêle, ils offrent une chair fondante et une peau croustillante. Pilier de la cuisine du Sud-Ouest, le confit accompagne les pommes de terre sarladaises et entre dans le cassoulet.",
     "video": "",
@@ -4155,7 +4165,12 @@ window.FULL_DATA = [
     "longitude": -0.36117,
     "image": "garbure.jpg",
     "description": "Soupe épaisse de chou, légumes et confit, plat complet du Sud-Ouest.",
-    "links": [],
+    "links": [
+       {
+        "text": "Esprit Foie Gras",
+        "url": "https://lk.gt/aMkih"
+      }
+    ],
     "category": "plat",
     "detail": "La garbure est une soupe épaisse et nourrissante du Sud-Ouest, à base de chou, de légumes de saison, de haricots et de confit de canard ou d'oie. Véritable plat complet, elle mijote longtemps et se sert très chaude, parfois suivie du « goudale », où l'on verse un peu de vin rouge dans le fond de l'assiette. C'est un emblème de la cuisine béarnaise et gasconne.",
     "video": "",
