@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://carte-gourmande.pages.dev/sitemap.xml
+Sitemap: https://www.carte-gourmande.fr/sitemap.xml
