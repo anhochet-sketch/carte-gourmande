@@ -81,13 +81,13 @@ body{
   display:flex;align-items:center;gap:0.4rem;
   text-decoration:none;
 }
-.logo::before{
-  content:"";
-  width:8px;height:8px;
-  background:var(--terre);
-  border-radius:50%;
-  display:inline-block;
+.logo-mark{width:21px;height:21px;flex:none;display:block;}
+.nav-contact{
+  font-family:'Inter',sans-serif;font-size:0.72rem;font-weight:500;
+  color:var(--gris);text-decoration:none;white-space:nowrap;transition:color .2s;
 }
+.nav-contact:hover{color:var(--terre-fonce);}
+@media(max-width:520px){.nav-contact{display:none;}}
 .count{
   font-family:'Inter',sans-serif;
   font-size:0.7rem;
@@ -359,6 +359,11 @@ body{
   letter-spacing:0.05em;
   text-transform:uppercase;
 }
+.splash-mark{width:60px;height:60px;margin-bottom:0.85rem;animation:markIn .6s ease both;}
+.splash-logo{animation:fadeUp .6s .12s ease both;}
+.splash-sub{animation:fadeUp .6s .22s ease both;}
+@keyframes markIn{from{opacity:0;transform:translateY(10px) scale(.85);}to{opacity:1;transform:none;}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
 
 /* ─── DISCLAIMER FOOTER ─── */
 .disclaimer{
@@ -400,14 +405,16 @@ body{
 <body>
 
 <div class="splash" id="splash">
+  <svg class="splash-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#8b3a2c"/><circle cx="12" cy="9" r="3.3" fill="#f7f1e3"/></svg>
   <div class="splash-logo">Carte Gourmande</div>
   <div class="splash-sub">Les trésors du terroir français</div>
 </div>
 
 <header class="header">
-  <a href="/" class="logo">Carte Gourmande</a>
+  <a href="/" class="logo"><svg class="logo-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#8b3a2c"/><circle cx="12" cy="9" r="3.3" fill="#f7f1e3"/></svg>Carte Gourmande</a>
   <div class="header-right">
     <a href="/guides.html" class="nav-guides">Guides régionaux</a>
+    <a class="nav-contact" href="mailto:anhochet@gmail.com?subject=Carte%20Gourmande%20%E2%80%94%20Contact" title="Une erreur ? Un partenariat ?">Contact</a>
     <span class="count" id="count">— chargement —</span>
   </div>
 </header>
