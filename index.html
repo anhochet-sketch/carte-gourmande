@@ -68,7 +68,7 @@ body{
   background:var(--blanc);
   border-bottom:1px solid rgba(31,26,20,.08);
   padding:0.7rem 1rem;
-  display:flex;align-items:center;justify-content:space-between;
+  display:flex;align-items:center;justify-content:flex-start;
   gap:0.75rem;
 }
 .logo{
@@ -88,6 +88,8 @@ body{
 }
 .nav-contact:hover{color:var(--terre-fonce);}
 @media(max-width:520px){.nav-contact{display:none;}}
+.header-tagline{font-family:'Inter',sans-serif;font-weight:400;font-size:.8rem;color:var(--gris);white-space:nowrap;}
+@media(max-width:760px){.header-tagline{display:none;}}
 .count{
   font-family:'Inter',sans-serif;
   font-size:0.7rem;
@@ -96,7 +98,7 @@ body{
   letter-spacing:0.04em;
   text-transform:uppercase;
 }
-.header-right{display:flex;align-items:center;gap:0.6rem;}
+.header-right{display:flex;align-items:center;gap:0.6rem;margin-left:auto;}
 .nav-guides{
   font-family:'Inter',sans-serif;font-size:0.72rem;font-weight:600;
   color:var(--terre-fonce);text-decoration:none;white-space:nowrap;
@@ -407,11 +409,11 @@ body{
 <div class="splash" id="splash">
   <svg class="splash-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#8b3a2c"/><circle cx="12" cy="9" r="3.3" fill="#f7f1e3"/></svg>
   <div class="splash-logo">Carte Gourmande</div>
-  <div class="splash-sub">Les trésors du terroir français</div>
+  <div class="splash-sub">Les trésors du terroir français, pour tous les goûts</div>
 </div>
 
 <header class="header">
-  <a href="/" class="logo"><svg class="logo-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#8b3a2c"/><circle cx="12" cy="9" r="3.3" fill="#f7f1e3"/></svg>Carte Gourmande</a>
+  <a href="/" class="logo"><svg class="logo-mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#8b3a2c"/><circle cx="12" cy="9" r="3.3" fill="#f7f1e3"/></svg>Carte Gourmande</a><span class="header-tagline">Les trésors du terroir français, pour tous les goûts</span>
   <div class="header-right">
     <a href="/guides.html" class="nav-guides">Guides régionaux</a>
     <a class="nav-contact" href="mailto:anhochet@gmail.com?subject=Carte%20Gourmande%20%E2%80%94%20Contact" title="Une erreur ? Un partenariat ?">Contact</a>
