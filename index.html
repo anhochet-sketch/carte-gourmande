@@ -536,13 +536,15 @@ const CG_STYLE = {
   glyphs: "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   sources: {
     ofm: { type: "vector", url: "https://tiles.openfreemap.org/planet",
-      attribution: '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &middot; &copy; OpenStreetMap' }
+      attribution: '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &middot; &copy; OpenStreetMap' },
+    fr_shape: { type: "geojson", data: { type: "Feature", properties: {}, geometry: FR_POLY } }
   },
   layers: [
     { id: "land", type: "background", paint: { "background-color": "#f4eee2" } },
+    { id: "france-fill", type: "fill", source: "fr_shape", paint: { "fill-color": "#d9e4c2" } },
     { id: "water", type: "fill", source: "ofm", "source-layer": "water",
       filter: ["all", ["match", ["geometry-type"], ["Polygon","MultiPolygon"], true, false], ["!=", ["get","brunnel"], "tunnel"]],
-      paint: { "fill-color": "#d9e0dd" } },
+      paint: { "fill-color": "#bdd4e1" } },
     { id: "road-fr", type: "line", source: "ofm", "source-layer": "transportation", minzoom: 6,
       filter: ["all", ["within", FR_POLY], ["match", ["get","class"], ["motorway","trunk","primary"], true, false]],
       layout: { "line-cap": "round", "line-join": "round" },
