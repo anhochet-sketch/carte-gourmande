@@ -28,14 +28,14 @@
 :root{
   --terre:#8b3a2c;
   --terre-fonce:#5c2419;
-  --ocre:#c89651;
-  --ocre-clair:#e9c585;
-  --olive:#4a5a3a;
-  --creme:#f7f1e3;
-  --creme-fonce:#ede4cc;
-  --encre:#1f1a14;
-  --gris:#6e6557;
-  --blanc:#fdfaf3;
+  --ocre:#a9803f;
+  --ocre-clair:#c6a262;
+  --olive:#4f5a39;
+  --creme:#f3ede1;
+  --creme-fonce:#e9dec9;
+  --encre:#2a221d;
+  --gris:#8a7c69;
+  --blanc:#fbf8f0;
   /* Couleurs par catégorie */
   --cat-fromage:#e8b95a;
   --cat-charcuterie:#8b3a2c;
@@ -183,6 +183,7 @@ body{
   filter:drop-shadow(0 1px 1.5px rgba(0,0,0,0.45)) drop-shadow(0 0 2px rgba(255,255,255,0.95));
 }
 .pin:hover{transform:scale(1.2);}
+.leaflet-tile-pane{filter:sepia(.14) saturate(.92) brightness(1.03) contrast(.97);}
 
 /* ─── BOTTOM SHEET ─── */
 .sheet{
@@ -228,13 +229,13 @@ body{
 .sheet-body{padding:1.2rem 1.3rem 2rem;}
 
 .sheet-region{
-  font-family:'Inter',sans-serif;
-  font-size:0.7rem;
+  font-family:'Spectral',serif;
+  font-size:0.66rem;
   font-weight:600;
-  letter-spacing:0.12em;
+  letter-spacing:0.14em;
   text-transform:uppercase;
-  color:var(--terre);
-  margin-bottom:0.3rem;
+  color:var(--ocre);
+  margin-bottom:0.35rem;
 }
 .sheet-region::before{content:"📍 ";}
 
@@ -339,7 +340,7 @@ body{
 /* ─── SPLASH ─── */
 .splash{
   position:fixed;inset:0;
-  background:var(--blanc);
+  background-color:var(--blanc);background-image:url('/paper-texture.png');
   z-index:9999;
   display:flex;align-items:center;justify-content:center;
   flex-direction:column;
@@ -526,7 +527,7 @@ const map = L.map('map', {
 }).setView([46.7, 2.3], 6);
 
 // Fond Stadia Outdoors — coloré (verts, ocres), net, routes et libellés en français
-L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?lang=fr', {
+L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
   attribution: '© Stadia Maps © OpenStreetMap',
   maxZoom: 18,
   minZoom: 5
