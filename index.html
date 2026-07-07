@@ -45,18 +45,18 @@
   --gris:#8a7c69;
   --blanc:#fbf8f0;
   /* Couleurs par catégorie */
-  --cat-fromage:#e8b95a;
-  --cat-charcuterie:#8b3a2c;
-  --cat-patisserie:#d88a9e;
-  --cat-confiserie:#c89651;
-  --cat-biscuiterie:#b88a52;
-  --cat-vins:#722f37;
-  --cat-epicerie:#4a5a3a;
-  --cat-mer:#2c5a8b;
-  --cat-viande:#a14536;
-  --cat-legume:#6b8e3d;
-  --cat-pain:#d6a85c;
-  --cat-plat:#9c6b3f;
+  --cat-fromage:#d1a24f;
+  --cat-charcuterie:#a24b3a;
+  --cat-patisserie:#c68a86;
+  --cat-confiserie:#c8795c;
+  --cat-biscuiterie:#a9855e;
+  --cat-vins:#7d3a43;
+  --cat-epicerie:#b06a42;
+  --cat-mer:#6d8a90;
+  --cat-viande:#9e5244;
+  --cat-legume:#7f8a51;
+  --cat-pain:#cba766;
+  --cat-plat:#94694a;
 }
 
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -180,16 +180,14 @@ body{
 /* Pin : icône seule, sans bulle */
 .pin{
   display:flex;align-items:center;justify-content:center;
-  width:34px;height:34px;
+  width:30px;height:30px;
+  border-radius:50%;
+  border:2px solid #f4eee2;
+  box-shadow:0 1px 3px rgba(0,0,0,0.28);
   cursor:pointer;
   transition:transform 0.2s ease;
 }
-.pin span{
-  font-size:27px;
-  line-height:1;
-  /* halo discret pour détacher l'émoji du fond clair de la carte */
-  filter:drop-shadow(0 1px 1.5px rgba(0,0,0,0.45)) drop-shadow(0 0 2px rgba(255,255,255,0.95));
-}
+.pin svg{width:100%;height:100%;display:block;}
 .pin:hover{transform:scale(1.2);}
 
 /* ─── BOTTOM SHEET ─── */
@@ -471,18 +469,18 @@ body{
 <script>
 // ─── CATÉGORIES : émoji + libellé ───
 const CATEGORIES = {
-  'fromage':     { emoji: '🧀', label: 'Fromage' },
-  'charcuterie': { emoji: '🥓', label: 'Charcuterie' },
-  'pâtisserie':  { emoji: '🍰', label: 'Pâtisserie' },
-  'confiserie':  { emoji: '🍬', label: 'Confiserie' },
-  'biscuiterie': { emoji: '🍪', label: 'Biscuiterie' },
-  'vins':        { emoji: '🍷', label: 'Vins & spiritueux' },
-  'épicerie':    { emoji: '🌶️', label: 'Épicerie' },
-  'mer':         { emoji: '🐟', label: 'Mer & poisson' },
-  'viande':      { emoji: '🥩', label: 'Viandes & volailles' },
-  'legume':      { emoji: '🥬', label: 'Légumes & fruits' },
-  'pain':        { emoji: '🥐', label: 'Pains & brioches' },
-  'plat':        { emoji: '🍲', label: 'Plats & recettes' },
+  'fromage':     { color:'#d1a24f', label:'Fromage', svg:'<polygon points="30,60 70,42 70,60 30,68" fill="#ffffff"/><circle cx="44" cy="56" r="3" fill="#d1a24f"/><circle cx="56" cy="51" r="3.5" fill="#d1a24f"/><circle cx="62" cy="57" r="2.5" fill="#d1a24f"/>' },
+  'charcuterie': { color:'#a24b3a', label:'Charcuterie', svg:'<g transform="rotate(-28 50 50)"><rect x="27" y="43" width="46" height="14" rx="7" fill="#ffffff"/><line x1="38" y1="43" x2="38" y2="57" stroke="#a24b3a" stroke-width="2"/><line x1="62" y1="43" x2="62" y2="57" stroke="#a24b3a" stroke-width="2"/></g><circle cx="72" cy="34" r="3.5" fill="none" stroke="#ffffff" stroke-width="2.5"/>' },
+  'pâtisserie':  { color:'#c68a86', label:'Pâtisserie', svg:'<path d="M38,52 Q50,33 62,52 Z" fill="#ffffff"/><polygon points="39,52 61,52 57,68 43,68" fill="#ffffff"/><circle cx="50" cy="40" r="3" fill="#c68a86"/>' },
+  'confiserie':  { color:'#c8795c', label:'Confiserie', svg:'<circle cx="50" cy="50" r="8" fill="#ffffff"/><polygon points="42,50 32,43 32,57" fill="#ffffff"/><polygon points="58,50 68,43 68,57" fill="#ffffff"/>' },
+  'biscuiterie': { color:'#a9855e', label:'Biscuiterie', svg:'<circle cx="50" cy="50" r="15" fill="#ffffff"/><circle cx="45" cy="46" r="2.2" fill="#a9855e"/><circle cx="56" cy="47" r="2.2" fill="#a9855e"/><circle cx="50" cy="56" r="2.2" fill="#a9855e"/><circle cx="44" cy="55" r="2.2" fill="#a9855e"/><circle cx="57" cy="55" r="2.2" fill="#a9855e"/>' },
+  'vins':        { color:'#7d3a43', label:'Vins & spiritueux', svg:'<path d="M40,36 A10,9 0 0 0 60,36 L54,52 L46,52 Z" fill="#ffffff"/><rect x="49" y="52" width="2" height="12" fill="#ffffff"/><rect x="42" y="64" width="16" height="2.6" rx="1" fill="#ffffff"/>' },
+  'épicerie':    { color:'#b06a42', label:'Épicerie', svg:'<rect x="39" y="45" width="22" height="23" rx="3" fill="#ffffff"/><rect x="41" y="36" width="18" height="8" rx="2" fill="#ffffff"/><rect x="43" y="52" width="14" height="8" fill="#b06a42"/>' },
+  'mer':         { color:'#6d8a90', label:'Mer & poisson', svg:'<ellipse cx="48" cy="50" rx="14" ry="8" fill="#ffffff"/><polygon points="61,50 72,42 72,58" fill="#ffffff"/><circle cx="42" cy="48" r="2" fill="#6d8a90"/>' },
+  'viande':      { color:'#9e5244', label:'Viandes & volailles', svg:'<circle cx="44" cy="54" r="11" fill="#ffffff"/><rect x="50" y="42" width="16" height="6" rx="3" transform="rotate(-30 58 45)" fill="#ffffff"/><circle cx="67" cy="39" r="4" fill="#ffffff"/><circle cx="63" cy="44" r="4" fill="#ffffff"/>' },
+  'legume':      { color:'#7f8a51', label:'Légumes & fruits', svg:'<g transform="rotate(-38 50 50)"><rect x="42" y="32" width="16" height="38" rx="8" fill="#ffffff"/><rect x="47" y="26" width="6" height="9" rx="2.5" fill="#ffffff"/></g>' },
+  'pain':        { color:'#cba766', label:'Pains & brioches', svg:'<ellipse cx="50" cy="52" rx="16" ry="9" fill="#ffffff"/><path d="M40,46 L44,58" stroke="#cba766" stroke-width="2" stroke-linecap="round"/><path d="M47,46 L51,58" stroke="#cba766" stroke-width="2" stroke-linecap="round"/><path d="M54,46 L58,58" stroke="#cba766" stroke-width="2" stroke-linecap="round"/>' },
+  'plat':        { color:'#94694a', label:'Plats & recettes', svg:'<path d="M33,58 A17,15 0 0 1 67,58 Z" fill="#ffffff"/><rect x="31" y="58" width="38" height="3" rx="1.5" fill="#ffffff"/><circle cx="50" cy="41" r="3" fill="#ffffff"/>' },
 };
 
 // ─── RÉGION → GUIDE (badge cliquable de la fiche) ───
@@ -603,12 +601,11 @@ function buildMarkers(){
     : data.filter(d => d.category === currentFilter);
 
   filtered.forEach(item => {
-    const cat = CATEGORIES[item.category] || { emoji: '🍴', label: 'Autre' };
-    const emoji = cat.emoji;
+    const cat = CATEGORIES[item.category] || { color: '#8b3a2c', label: 'Autre', svg: '' };
 
     const icon = L.divIcon({
       className: '',
-      html: `<div class="pin"><span>${emoji}</span></div>`,
+      html: `<div class="pin" style="background:${cat.color}"><svg viewBox="0 0 100 100">${cat.svg}</svg></div>`,
       iconSize: [34, 34],
       iconAnchor: [17, 17],
       popupAnchor: [0, -16]
@@ -643,7 +640,7 @@ function openSheet(item){
   const catTag = document.getElementById('sheetCatTag');
   const cat = CATEGORIES[item.category];
   if(cat){
-    catTag.textContent = `${cat.emoji} ${cat.label}`;
+    catTag.textContent = cat.label;
     catTag.className = `sheet-cat-tag tag-${item.category}`;
     catTag.style.display = 'inline-block';
   } else {
@@ -741,7 +738,7 @@ geoBtn.addEventListener('click', () => {
       if(userMarker) map.removeLayer(userMarker);
       userMarker = L.circleMarker([latitude, longitude], {
         radius: 9,
-        fillColor: '#3b82f6',
+        fillColor: '#6d8a90',
         color: '#fff',
         weight: 3,
         fillOpacity: 1
