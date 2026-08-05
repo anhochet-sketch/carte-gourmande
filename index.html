@@ -341,6 +341,12 @@ body{
   color:var(--creme);
 }
 .btn-primary:hover{background:var(--terre-fonce);}
+.btn-secondary{
+  background:transparent;
+  color:var(--encre);
+  border:1px solid var(--encre);
+}
+.btn-secondary:hover{background:var(--encre);color:var(--creme);}
 
 /* ─── SPLASH ─── */
 .splash{
@@ -699,11 +705,22 @@ function openSheet(item){
     actions.appendChild(a);
   });
 
+  // Lien vers la fiche HTML complete (SEO + partage)
+  if(item.id){
+    const fa = document.createElement('a');
+    fa.href = '/fiches/' + item.id;
+    fa.className = 'btn btn-secondary';
+    fa.innerHTML = '\u{1F4D6} Voir la fiche compl\u00e8te';
+    actions.appendChild(fa);
+    try { history.replaceState(null, '', '/?f=' + item.id); } catch(e){}
+  }
+
   sheet.classList.add('open');
 }
 
 function closeSheet(){
   sheet.classList.remove('open');
+  try { history.replaceState(null, '', '/'); } catch(e){}
 }
 
 sheetClose.addEventListener('click', closeSheet);
