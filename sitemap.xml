@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://carte-gourmande.fr/</loc><lastmod>2026-06-26</lastmod><priority>1.0</priority></url>
   <url><loc>https://carte-gourmande.fr/fiches/</loc><lastmod>2026-06-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/guides</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-bretagne</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-normandie</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-hauts-de-france</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-ile-de-france</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-grand-est</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-bourgogne-franche-comte</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-centre-val-de-loire</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-pays-de-la-loire</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-poitou-charentes</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-sud-ouest</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-occitanie</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-provence</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-auvergne-rhone-alpes</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://carte-gourmande.fr/specialites-corse</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
   <url><loc>https://carte-gourmande.fr/fiches/kouign-amann</loc><lastmod>2026-06-26</lastmod><priority>0.8</priority></url>
   <url><loc>https://carte-gourmande.fr/fiches/caramel-au-beurre-sale</loc><lastmod>2026-06-26</lastmod><priority>0.8</priority></url>
   <url><loc>https://carte-gourmande.fr/fiches/palet-breton-de-pont-aven</loc><lastmod>2026-06-26</lastmod><priority>0.8</priority></url>
